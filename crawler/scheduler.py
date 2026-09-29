@@ -42,7 +42,7 @@ def run(label: str) -> None:
         fh.write(f"\n===== {ts} {label} =====\n")
         fh.flush()
         for cmd in (
-            [sys.executable, "crawler/scrape.py", "--enrich"],
+            [sys.executable, "crawler/scrape.py"],
             [sys.executable, "web/build.py"],
         ):
             subprocess.run(cmd, cwd=ROOT, stdout=fh, stderr=subprocess.STDOUT)
