@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>音乐剧 · 话剧 演出速览</title>
+<meta name="description" content="每天 08:00 与 16:00 自动更新的音乐剧、话剧演出信息，含档期、场馆与购票入口。">
+<style>
+  :root{
+    --bg:#0f1115; --card:#171a21; --line:#252a34; --fg:#e8eaed; --dim:#9aa3b2;
+    --musical:#e0729a; --drama:#6aa6e8; --new:#5ecf9e; --warn:#e8b45a;
+    --r:14px;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#f6f7f9; --card:#fff; --line:#e3e6ea; --fg:#1a1d22; --dim:#6b7381; }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font:15px/1.6 -apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    padding:0 0 60px;
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:0 14px}
+  header{padding:22px 0 10px}
+  h1{margin:0;font-size:20px;letter-spacing:.5px}
+  .sub{color:var(--dim);font-size:12.5px;margin-top:6px;display:flex;flex-wrap:wrap;gap:10px}
+  .sub b{color:var(--fg);font-weight:600}
+  .warnbar{
+    margin-top:10px;padding:9px 12px;border:1px solid var(--warn);border-radius:10px;
+    color:var(--warn);font-size:12.5px;background:rgba(232,180,90,.08);display:none
+  }
+  .stats{display:flex;gap:8px;margin:14px 0 10px}
+  .stat{flex:1;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:10px 12px}
+  .stat .n{font-size:22px;font-weight:700;line-height:1.2}
+  .stat .l{font-size:11.5px;color:var(--dim)}
+  .stat.m .n{color:var(--musical)} .stat.d .n{color:var(--drama)}
+  .controls{position:sticky;top:0;z-index:5;background:var(--bg);padding:8px 0 10px;
+    display:flex;flex-wrap:wrap;gap:8px;align-items:center;border-bottom:1px solid var(--line)}
+  .seg{display:flex;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:3px}
+  .seg button{border:0;background:transparent;color:var(--dim);padding:6px 14px;border-radius:999px;
+    font:inherit;font-size:13px;cursor:pointer}
+  .seg button[aria-pressed=true]{background:var(--fg);color:var(--bg);font-weight:600}
+  select,input[type=search]{
+    background:var(--card);color:var(--fg);border:1px solid var(--line);border-radius:999px;
+    padding:7px 12px;font:inherit;font-size:13px;outline:none;max-width:130px}
+  input[type=search]{flex:1;min-width:120px;max-width:none}
+  .list{display:flex;flex-direction:column;gap:10px;margin-top:14px}
+  .item{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:13px 14px;
+    display:block;text-decoration:none;color:inherit;transition:border-color .15s}
+  .item:hover{border-color:var(--dim)}
+  .item.new{border-left:3px solid var(--new)}
+  .top{display:flex;gap:8px;align-items:center;margin-bottom:5px;flex-wrap:wrap}
+  .tag{font-size:11px;padding:2px 8px;border-radius:6px;border:1px solid;font-weight:600}
+  .tag.音乐剧{color:var(--musical);border-color:var(--musical);background:rgba(224,114,154,.1)}
+  .tag.话剧{color:var(--drama);border-color:var(--drama);background:rgba(106,166,232,.1)}
+  .pill{font-size:11px;color:var(--dim);border:1px solid var(--line);border-radius:6px;padding:2px 7px}
+  .pill.new{color:var(--new);border-color:var(--new)}
+  .pill.soon{color:var(--warn);border-color:var(--warn)}
+  .t{font-size:15.5px;font-weight:600;line-height:1.45}
+  .meta{color:var(--dim);font-size:12.5px;margin-top:5px;display:flex;flex-wrap:wrap;gap:4px 12px}
+  .date{font-variant-numeric:tabular-nums}
+  .empty{color:var(--dim);text-align:center;padding:50px 0;font-size:13.5px}
+  footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--line);
+    color:var(--dim);font-size:11.5px;line-height:1.8}
+  footer a{color:var(--dim)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>音乐剧 · 话剧 演出速览</h1>
+    <div class="sub">
+      <span>更新 <b id="updated">—</b></span>
+      <span>覆盖 <b id="scope">—</b></span>
+      <span>来源 <b id="src">—</b></span>
+      <span><a href="calendar.ics" id="ics" style="color:var(--dim)">订阅日历 .ics</a></span>
+    </div>
+    <div class="warnbar" id="warnbar"></div>
+  </header>
+
+  <div class="stats">
+    <div class="stat m"><div class="n" id="c-musical">0</div><div class="l">音乐剧</div></div>
+    <div class="stat d"><div class="n" id="c-drama">0</div><div class="l">话剧</div></div>
+    <div class="stat"><div class="n" id="c-new">0</div><div class="l">本轮新上架</div></div>
+  </div>
+
+  <div class="controls">
+    <div class="seg" role="group" aria-label="按类型筛选">
+      <button data-kind="" aria-pressed="true">全部</button>
+      <button data-kind="音乐剧" aria-pressed="false">音乐剧</button>
+      <button data-kind="话剧" aria-pressed="false">话剧</button>
+    </div>
+    <div class="seg" role="group" aria-label="按时间筛选">
+      <button data-when="" aria-pressed="true">不限</button>
+      <button data-when="7" aria-pressed="false">一周内</button>
+      <button data-when="30" aria-pressed="false">一月内</button>
+    </div>
+    <select id="city" aria-label="按城市筛选"><option value="">全部城市</option></select>
+    <input type="search" id="q" placeholder="搜索剧名 / 场馆" aria-label="搜索">
+  </div>
+
+  <div class="list" id="list"></div>
+  <div class="empty" id="empty" hidden>没有匹配的演出</div>
+
+  <footer>
+    <div>数据由自动脚本每天 08:00、16:00（北京时间）抓取一次，仅聚合公开演出信息用于个人查询，
+      档期与票务以源站为准。点击任意条目跳转源站详情页。</div>
+    <div id="src-line"></div>
+  </footer>
+</div>
+
+<!-- 构建脚本会替换这里的数据快照 -->
+<script id="snapshot" type="application/json">{"source":"格瓦拉生活网","source_url":"https://show.maoyan.com/","city":"上海","updated_at":"2026-09-29 14:25 CST","updated_ts":1790663144,"stale":false,"note":"","counts":{"total":18,"音乐剧":11,"话剧":7,"new":1},"shows":[{"id":"495526","kind":"音乐剧","title":"音乐剧《风声》","venue":"上海西岸大剧院(龙腾大道2290号)","city":"上海","date_text":"2026.09.29 - 10.11","date":"2026-09-29","date_end":"2026-10-11","days":0,"status":"在售中","section":"热门话剧/歌剧","url":"https://show.maoyan.com/detail/495526","first_seen":"2026-09-29","is_new":false},{"id":"504483","kind":"话剧","title":"【中秋国庆】开心麻花王牌喜剧《乌龙山伯爵》","venue":"上海艺海剧院(江宁路街道江宁路466号(近武定路))","city":"上海","date_text":"2026.09.30 - 10.07","date":"2026-09-30","date_end":"2026-10-07","days":1,"status":"在售中","section":"热门话剧/歌剧","url":"https://show.maoyan.com/detail/504483","first_seen":"2026-09-29","is_new":false},{"id":"503042","kind":"话剧","title":"开心麻花惊怂悬疑喜剧《出马》特别版","venue":"虹桥艺术中心(天山路888号(娄山关路地铁站3号口步行110米))","city":"上海","date_text":"2026.09.30 - 10.07","date":"2026-09-30","date_end":"2026-10-07","days":1,"status":"在售中","section":"热门话剧/歌剧","url":"https://show.maoyan.com/detail/503042","first_seen":"2026-09-29","is_new":false},{"id":"497233","kind":"音乐剧","title":"音乐剧《四大美女》","venue":"黄浦剧场·中剧场(北京东路780号)","city":"上海","date_text":"2026.09.30 - 10.07","date":"2026-09-30","date_end":"2026-10-07","days":1,"status":"在售中","section":"热门话剧/歌剧","url":"https://show.maoyan.com/detail/497233","first_seen":"2026-09-29","is_new":false},{"id":"416087","kind":"音乐剧","title":"音乐剧《狂炎奏鸣曲》","venue":"上海共舞台(延安东路433号)","city":"上海","date_text":"2026.09.30 - 10.11","date":"2026-09-30","date_end":"2026-10-11","days":1,"status":"在售中","section":"热门话剧/歌剧","url":"https://show.maoyan.com/detail/416087","first_seen":"2026-09-29","is_new":false},{"id":"509552","kind":"话剧","title":"惊悚心理悬疑剧《维罗妮卡的房间》","venue":"星空间32号·犯罪现场(南京东路829号世茂广场东区L7星空间32号)","city":"上海","date_text":"2026.10.02 - 10.31","date":"2026-10-02","date_end":"2026-10-31","days":3,"status":"在售中","section":"热门话剧/歌剧","url":"https://show.maoyan.com/detail/509552","first_seen":"2026-09-29","is_new":false},{"id":"510035","kind":"音乐剧","title":"“光明如实”第五届上海音乐学院国际音乐剧周——产教融合小剧场实践剧目音乐剧《如果》","venue":"上音歌剧院(汾阳路6号)","city":"上海","date_text":"2026.10.02 - 10.06","date":"2026-10-02","date_end":"2026-10-06","days":3,"status":"即将开售","section":"热门话剧/歌剧","url":"https://show.maoyan.com/detail/510035","first_seen":"2026-09-29","is_new":false},{"id":"509716","kind":"音乐剧","title":"FLY PLAN 2026新音乐剧孵化计划SHOWCASE","venue":"上海西岸大剧院(龙腾大道2290号)","city":"上海","date_text":"2026.10.11 / 10.14","date":"2026-10-11","date_end":"2026-10-14","days":12,"status":"在售中","section":"热门话剧/歌剧","url":"https://show.maoyan.com/detail/509716","first_seen":"2026-09-29","is_new":false},{"id":"510384","kind":"话剧","title":"开心麻花惊怂悬疑喜剧《出马》","venue":"","city":"上海","date_text":"2026.10.14 - 11.01","date":"2026-10-14","date_end":"2026-11-01","days":15,"status":"","section":"热门话剧/歌剧","url":"https://show.maoyan.com/detail/510384","first_seen":"2026-09-29","is_new":true},{"id":"509626","kind":"音乐剧","title":"原创音乐剧《海的那边还是海》","venue":"大上海新空间(中华路980号5层)","city":"上海","date_text":"2026.10.23 - 10.25","date":"2026-10-23","date_end":"2026-10-25","days":24,"status":"在售中","section":"热门话剧/歌剧","url":"https://show.maoyan.com/detail/509626","first_seen":"2026-09-29","is_new":false},{"id":"509542","kind":"话剧","title":"创意肢体剧《世界 真奇妙》","venue":"荣威•上海儿童艺术剧场(苗江路800号原世博园E片区通用汽车馆（近西藏南路）)","city":"上海","date_text":"2026.10.24 / 10.25","date":"2026-10-24","date_end":"2026-10-25","days":25,"status":"在售中","section":"热门亲子演出","url":"https://show.maoyan.com/detail/509542","first_seen":"2026-09-29","is_new":false},{"id":"508024","kind":"音乐剧","title":"百老汇英文原版音乐剧《芝加哥》30周年纪念版","venue":"美琪大戏院(石门二路街道江宁路66号(近奉贤路))","city":"上海","date_text":"2026.11.05 - 11.08","date":"2026-11-05","date_end":"2026-11-08","days":37,"status":"在售中","section":"热门话剧/歌剧","url":"https://show.maoyan.com/detail/508024","first_seen":"2026-09-29","is_new":false},{"id":"510063","kind":"话剧","title":"蒋易主演 爱丁堡艺穗节获奖剧作《驯鹿宝贝》","venue":"北外滩友邦大剧院(东大名路889号)","city":"上海","date_text":"2026.11.07 / 11.08","date":"2026-11-07","date_end":"2026-11-08","days":39,"status":"即将开售","section":"热门话剧/歌剧","url":"https://show.maoyan.com/detail/510063","first_seen":"2026-09-29","is_new":false},{"id":"509894","kind":"音乐剧","title":"第五届长三角城市戏剧季-音乐剧《长安十二时辰》","venue":"黄浦文化中心·大上海剧场(中华路968号)","city":"上海","date_text":"2026.11.13 - 11.15","date":"2026-11-13","date_end":"2026-11-15","days":45,"status":"即将开售","section":"热门话剧/歌剧","url":"https://show.maoyan.com/detail/509894","first_seen":"2026-09-29","is_new":false},{"id":"507883","kind":"音乐剧","title":"中文原创音乐剧《人间失格》 A Ranspace Musical - No Longer Human","venue":"上海西岸大剧院(龙腾大道2290号)","city":"上海","date_text":"2026.11.19 - 11.22","date":"2026-11-19","date_end":"2026-11-22","days":51,"status":"在售中","section":"热门话剧/歌剧","url":"https://show.maoyan.com/detail/507883","first_seen":"2026-09-29","is_new":false},{"id":"506557","kind":"音乐剧","title":"中文原创音乐剧《海上钢琴师》","venue":"上海文化广场(复兴中路597号)","city":"上海","date_text":"2026.11.27 - 11.29","date":"2026-11-27","date_end":"2026-11-29","days":59,"status":"在售中","section":"热门话剧/歌剧","url":"https://show.maoyan.com/detail/506557","first_seen":"2026-09-29","is_new":false},{"id":"509943","kind":"话剧","title":"沉浸式海洋科学与幻想之旅舞台剧《海底两万里》","venue":"上海保利云间剧院(人民南路6弄69号-1,地铁9号线醉白池2号出口)","city":"上海","date_text":"2026.12.27 14:00 周日","date":"2026-12-27","date_end":"2026-12-27","days":89,"status":"在售中","section":"热门亲子演出","url":"https://show.maoyan.com/detail/509943","first_seen":"2026-09-29","is_new":false},{"id":"509787","kind":"音乐剧","title":"中文原创音乐剧《狂飙》Chinese Original Musical <The Knockout>","venue":"上海西岸大剧院(龙腾大道2290号)","city":"上海","date_text":"2026.12.31 - 2027.01.07","date":"2026-12-31","date_end":"2027-01-07","days":93,"status":"在售中","section":"热门话剧/歌剧","url":"https://show.maoyan.com/detail/509787","first_seen":"2026-09-29","is_new":false}]}</script>
+<script>
+(function(){
+  var DATA = null;
+  var el = document.getElementById('snapshot');
+  try { DATA = JSON.parse(el.textContent); } catch(e) { DATA = {shows:[]}; }
+
+  var state = {kind:'', when:'', city:'', q:''};
+  var $ = function(id){ return document.getElementById(id); };
+  var list = $('list');
+
+  function esc(s){ return String(s).replace(/[&<>"]/g, function(c){
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+
+  function applyFilters(){
+    var rows = (DATA.shows || []).filter(function(s){
+      if(state.kind && s.kind !== state.kind) return false;
+      if(state.city && s.city !== state.city) return false;
+      if(state.when){
+        if(s.days === null || s.days === undefined) return false;
+        if(!(s.days >= 0 && s.days <= Number(state.when))) return false;
+      }
+      if(state.q){
+        var hay = (s.title + ' ' + s.venue).toLowerCase();
+        if(hay.indexOf(state.q.toLowerCase()) === -1) return false;
+      }
+      return true;
+    });
+    return rows;
+  }
+
+  function whenLabel(s){
+    if(s.days === null || s.days === undefined) return '';
+    if(s.days < 0) return '已结束';
+    if(s.days === 0) return '今天开演';
+    if(s.days === 1) return '明天开演';
+    if(s.days <= 7) return s.days + ' 天后';
+    return '';
+  }
+
+  function render(){
+    var rows = applyFilters();
+    list.innerHTML = '';
+    $('empty').hidden = rows.length > 0;
+    rows.forEach(function(s){
+      var a = document.createElement('a');
+      a.className = 'item' + (s.is_new ? ' new' : '');
+      a.href = s.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
+      var w = whenLabel(s), wl = '';
+      if(w){ wl = '<span class="pill' + (s.days <= 7 ? ' soon' : '') + '">' + esc(w) + '</span>'; }
+      a.innerHTML =
+        '<div class="top"><span class="tag ' + esc(s.kind) + '">' + esc(s.kind) + '</span>' +
+          wl + (s.is_new ? '<span class="pill new">NEW</span>' : '') +
+          (s.status ? '<span class="pill">' + esc(s.status) + '</span>' : '') +
+        '</div>' +
+        '<div class="t">' + esc(s.title) + '</div>' +
+        '<div class="meta"><span class="date">' + esc(s.date_text || s.date || '档期待定') + '</span>' +
+          (s.venue ? '<span>' + esc(s.venue) + '</span>' : '') +
+          (s.city ? '<span>' + esc(s.city) + '</span>' : '') +
+        '</div>';
+      list.appendChild(a);
+    });
+  }
+
+  function fillCities(){
+    var seen = {}, sel = $('city'), cur = sel.value;
+    (DATA.shows || []).forEach(function(s){ if(s.city) seen[s.city] = 1; });
+    Object.keys(seen).sort().forEach(function(c){
+      var o = document.createElement('option'); o.value = c; o.textContent = c; sel.appendChild(o);
+    });
+    sel.value = cur;
+  }
+
+  function paint(){
+    var c = DATA.counts || {};
+    $('c-musical').textContent = c['音乐剧'] || 0;
+    $('c-drama').textContent = c['话剧'] || 0;
+    $('c-new').textContent = c.new || 0;
+    $('updated').textContent = DATA.updated_at || '—';
+    var cities = [];
+    (DATA.shows || []).forEach(function(s){ if(s.city && cities.indexOf(s.city) === -1) cities.push(s.city); });
+    $('scope').textContent = cities.length ? cities.join('、') : (DATA.city || '全国');
+    $('src').textContent = DATA.source || '—';
+    $('src-line').innerHTML = '数据来源：<a href="' + esc(DATA.source_url || '#') +
+      '" target="_blank" rel="noopener noreferrer">' + esc(DATA.source || '—') + '</a>';
+    var wb = $('warnbar');
+    if(DATA.stale){
+      wb.style.display = 'block';
+      wb.textContent = '最近一次自动抓取未成功，当前展示的是上一次成功抓取的数据（' +
+        (DATA.updated_at || '') + '）。';
+    }
+    document.title = '音乐剧·话剧 演出速览（' + (c.total || 0) + ' 场）';
+  }
+
+  document.querySelectorAll('.seg button').forEach(function(b){
+    b.addEventListener('click', function(){
+      var grp = b.parentElement;
+      grp.querySelectorAll('button').forEach(function(x){ x.setAttribute('aria-pressed','false'); });
+      b.setAttribute('aria-pressed','true');
+      if(b.dataset.kind !== undefined) state.kind = b.dataset.kind;
+      if(b.dataset.when !== undefined) state.when = b.dataset.when;
+      render();
+    });
+  });
+  $('city').addEventListener('change', function(e){ state.city = e.target.value; render(); });
+  $('q').addEventListener('input', function(e){ state.q = e.target.value.trim(); render(); });
+
+  function hydrate(next){
+    if(!next || !next.shows) return;
+    DATA = next; fillCities(); paint(); render();
+  }
+
+  fillCities(); paint(); render();
+
+  // 有独立 data.json 时优先取最新（GitHub Actions 每轮提交）
+  fetch('data.json', {cache:'no-store'}).then(function(r){
+    if(!r.ok) return;
+    return r.json();
+  }).then(hydrate).catch(function(){});
+
+  // 每 10 分钟静默刷新一次
+  setInterval(function(){
+    fetch('data.json?ts=' + Date.now(), {cache:'no-store'})
+      .then(function(r){ return r.ok ? r.json() : null; }).then(hydrate).catch(function(){});
+  }, 600000);
+})();
+</script>
+</body>
+</html>
