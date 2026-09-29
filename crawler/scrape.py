@@ -498,7 +498,7 @@ def main() -> int:
     ap.add_argument("--max-enrich", type=int, help=argparse.SUPPRESS)
     args = ap.parse_args()
 
-    # 探针开关：仓库里存在 crawler/PROBE.flag 时，顺带打印各候选信源在本机出口 IP
+    # 探针开关（v2）：仓库里存在 crawler/PROBE.flag 时，顺带打印各候选信源在本机出口 IP
     # 上的可达性（Actions runner 与开发沙箱出口 IP 段不同，跑一次即可判断谁值得接）。
     if (BASE_DIR / "crawler" / "PROBE.flag").exists() and not args.offline:
         try:
