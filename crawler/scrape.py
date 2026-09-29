@@ -446,6 +446,9 @@ def main() -> int:
     ap.add_argument("--cities", help="逗号分隔的城市名，默认江浙沪主要城市")
     ap.add_argument("--offline", action="store_true", help="只用缓存重建")
     ap.add_argument("--stdout", action="store_true", help="只打印不落盘")
+    # 列表页 JSON 已含全部字段，详情页抓取不再需要；保留参数兼容旧工作流。
+    ap.add_argument("--enrich", action="store_true", help=argparse.SUPPRESS)
+    ap.add_argument("--max-enrich", type=int, help=argparse.SUPPRESS)
     args = ap.parse_args()
 
     cities = ([c.strip() for c in args.cities.split(",") if c.strip()]
@@ -495,3 +498,5 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
+
+# 2026-09-29: 城市清单扩展至江浙沪 16 城
