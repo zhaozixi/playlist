@@ -6,8 +6,9 @@
 ## 目录结构
 
 ```
-crawler/scrape.py          抓取 + 解析 + 分类 + 增量对比
-web/index.html             页面（含筛选、搜索、日历订阅）
+crawler/scrape.py          格瓦拉抓取 + 解析 + 分类 + 双源合并 + 增量对比
+crawler/damai.py           大麦（mtop）信源适配：签名协议、类目过滤、城市 ID
+web/index.html             页面（含筛选、搜索、多源购票入口、日历订阅）
 web/build.py               把数据内联进 HTML，产出单文件版与 .ics
 web/data.json              结构化数据
 data/shows.json            上一轮结果，用于判断「新上架 / 已下架」
@@ -19,25 +20,36 @@ deploy/Dockerfile          自建服务器方案（cron + 静态服务）
 
 ## 数据源
 
-主源为 **格瓦拉生活网（show.maoyan.com）** 首页。选它的原因：该页分类区块是服务端
-渲染的，直接解析 HTML 即可拿到演出标题、场馆、档期，不需要浏览器、不需要签名接口，
-也不碰大麦/猫眼的风控（实测沙箱 IP 访问大麦搜索接口会返回 `cloud_ip_bl` 拦截页）。
+两个相互独立的平台，同一演出会合并成一条、分别给出购票入口：
 
-抓取范围 = 源站首页当前显示的城市（页面右上角那个城市，脚本会读取并记录）。
-要换城市需在源站切换后重新抓取，或改用 `deploy/` 自建方案带 Cookie 请求。
+- **格瓦拉生活网（show.maoyan.com，美团系）** — 走其列表页前端调用的 JSON 接口
+  `m.dianping.com/myshow/ajax/performances/4;…;p={页};s=100`，单页 100 条、可翻页；
+  接口不通时回退 SSR 页面 `__NEXT_DATA__`（只给前 10 条）。城市靠 `currentCity` cookie 切换。
+- **大麦（mtop.damai.cn，阿里系）** — 淘系 mtop 签名协议
+  `sign = md5(_m_h5_tk 前半段 & t & appKey & data)`，首次请求无令牌会回 ERR_TOKEN 并下发
+  cookie，复用同一 cookiejar 重签即可。类目用 `groupId=2333`（话剧歌剧）＋
+  `currentCityId`，接口 `mtop.damai.wireless.search.project.classify`，单页最多 100 条。
 
-详情页（`/detail/{id}`）用于补全完整场馆地址、精确档期区间和「在售中 / 即将开售」状态。
-`--enrich` 会访问详情页，代价是请求数翻倍；不带该参数时沿用上一轮已补全的字段。
+大麦的搜索类接口（`search.search`）与 `search.damai.cn` 在云出口 IP 上会被风控拦
+（`RGV587` / `cloud_ip_bl`），但 `project.classify` 实测可正常返回，因此列表抓取走后者。
+两套平台的城市 ID 完全不同，各自固化在 `scrape.py::CITIES` 与 `damai.py::CITY_IDS`。
+大麦会把昆山/常熟/张家港等县级市单独标名但 cityId 仍属苏州，记录统一归到所查地级市，
+县级市信息保留在场馆名里。
 
-抓取节奏做了限流（默认间隔 1.5s，可用 `TW_REQUEST_INTERVAL` 调整），失败时保留上一次
-数据并在页面顶部标注 stale，不会把站点刷成空白。
+合并键为 `(剧名核心, 城市, 开演日)` —— 日期必须参与，否则同一剧目的巡演不同站次会被并成一条。
+主 id 优先取格瓦拉的纯数字 id，保证历史 `shows.json` 能接上，不会整批误判为新上架。
+
+抓取范围 = 22 个江浙沪地级市（可用 `--cities` 覆盖）。限流默认 1.2s/请求
+（`TW_REQUEST_INTERVAL`），任一城市失败则退回该城缓存并整轮标注 stale，不会把站点刷成空白。
 
 ## 本地运行
 
 ```bash
 pip install -r requirements.txt
 
-python3 crawler/scrape.py --enrich   # 抓取并补全详情
+python3 crawler/scrape.py            # 抓取两源并合并
+python3 crawler/scrape.py --cities 上海,杭州
+python3 crawler/scrape.py --no-damai # 本轮只抓格瓦拉
 python3 web/build.py                 # 构建 dist/ 与内联快照
 
 python3 -m http.server 8000 -d web   # 本地预览
@@ -73,8 +85,9 @@ docker run -d --name theatre-watch -p 8080:8080 --restart unless-stopped theatre
 ## 页面功能
 
 - 按类型（音乐剧 / 话剧）、时间窗（一周内 / 一月内）、城市、关键词筛选
+- 卡片显示海报、档期、场馆、票价区间与来源平台
+- 同一演出在两平台都在售时给出多个「购票 ·」入口
 - 新上架条目带绿色 NEW 标记，近 7 天开演有高亮
-- 点击任意条目跳转源站详情页购票
 - `calendar.ics` 可导入手机日历，或作为订阅地址；每天更新后事件同步刷新
 
 ## 合规说明
