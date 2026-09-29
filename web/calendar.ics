@@ -5,236 +5,906 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:音乐剧·话剧演出
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
-UID:theatrewatch-509462@local
-DTSTAMP:20260929T153051Z
-DTSTART;VALUE=DATE:20260929
-DTEND;VALUE=DATE:20261002
-SUMMARY:【话剧】环人广｜悬疑互动经典IP《孤岛逃生》十
- 周年上海站｜沉浸式推理｜观众投票抉择式互动剧场｜
- 南京路步行街
-DESCRIPTION:话剧｜咯吱喜剧商店(南京东路街道南京东路635
- 号永安百货3楼后区B15)｜2026.9.29 - 2026.10.1
-LOCATION:咯吱喜剧商店(南京东路街道南京东路635号永安百
- 货3楼后区B15)
-URL:https://show.maoyan.com/detail/509462
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:theatrewatch-495526@local
-DTSTAMP:20260929T153051Z
+DTSTAMP:20260929T155449Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20261012
 SUMMARY:【音乐剧】音乐剧《风声》
 DESCRIPTION:音乐剧｜上海西岸大剧院(龙腾大道2290号)｜2026
- .9.29 - 2026.10.11
+ .09.29 - 10.11
 LOCATION:上海西岸大剧院(龙腾大道2290号)
 URL:https://show.maoyan.com/detail/495526
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-504483@local
-DTSTAMP:20260929T153051Z
-DTSTART;VALUE=DATE:20260930
-DTEND;VALUE=DATE:20261008
-SUMMARY:【话剧】【中秋国庆】开心麻花王牌喜剧《乌龙
- 山伯爵》
-DESCRIPTION:话剧｜上海艺海剧院(江宁路街道江宁路466号(
- 近武定路))｜2026.9.30 - 2026.10.7
-LOCATION:上海艺海剧院(江宁路街道江宁路466号(近武定路))
-URL:https://show.maoyan.com/detail/504483
+UID:theatrewatch-498461@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20261101
+SUMMARY:【话剧】玄武湖精品互动戏剧《无人生还》｜悬
+ 疑惊悚｜百老汇经典戏剧
+DESCRIPTION:话剧｜沉浸式金牌剧场(湖南路街道中央路201号
+ 金茂览秀城四层L412铺)｜2026.09.29 - 2026.10.31
+LOCATION:沉浸式金牌剧场(湖南路街道中央路201号金茂览秀
+ 城四层L412铺)
+URL:https://show.maoyan.com/detail/498461
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-503042@local
-DTSTAMP:20260929T153051Z
-DTSTART;VALUE=DATE:20260930
-DTEND;VALUE=DATE:20261008
-SUMMARY:【话剧】开心麻花惊怂悬疑喜剧《出马》特别版
-DESCRIPTION:话剧｜虹桥艺术中心(天山路888号(娄山关路地
- 铁站3号口步行110米))｜2026.9.30 - 2026.10.7
-LOCATION:虹桥艺术中心(天山路888号(娄山关路地铁站3号口
- 步行110米))
-URL:https://show.maoyan.com/detail/503042
+UID:theatrewatch-463111@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20261101
+SUMMARY:【话剧】《南城奇遇记》【秦淮有戏】古建特殊
+ 场域戏剧-南京必打卡
+DESCRIPTION:话剧｜金陵往事-南城奇遇记(金沙井36号)｜2026.
+ 09.29 - 2026.10.31
+LOCATION:金陵往事-南城奇遇记(金沙井36号)
+URL:https://show.maoyan.com/detail/463111
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-418764@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20261101
+SUMMARY:【话剧】大型原创沉浸式舞台剧《梦寻西施》
+DESCRIPTION:话剧｜梦寻西施(苎罗东路2号西施故里郑氏宗
+ 祠内)｜2026.09.29 - 10.31
+LOCATION:梦寻西施(苎罗东路2号西施故里郑氏宗祠内)
+URL:https://show.maoyan.com/detail/418764
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-497233@local
-DTSTAMP:20260929T153051Z
+DTSTAMP:20260929T155449Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261008
 SUMMARY:【音乐剧】音乐剧《四大美女》
 DESCRIPTION:音乐剧｜黄浦剧场·中剧场(北京东路780号)｜202
- 6.9.30 - 2026.10.7
+ 6.09.30 - 10.07
 LOCATION:黄浦剧场·中剧场(北京东路780号)
 URL:https://show.maoyan.com/detail/497233
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-416087@local
-DTSTAMP:20260929T153051Z
+DTSTAMP:20260929T155449Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261012
 SUMMARY:【音乐剧】音乐剧《狂炎奏鸣曲》
-DESCRIPTION:音乐剧｜上海共舞台(延安东路433号)｜2026.9.30 -
-  2026.10.11
+DESCRIPTION:音乐剧｜上海共舞台(延安东路433号)｜2026.09.30 
+ - 10.11
 LOCATION:上海共舞台(延安东路433号)
 URL:https://show.maoyan.com/detail/416087
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-509552@local
-DTSTAMP:20260929T153051Z
-DTSTART;VALUE=DATE:20261002
-DTEND;VALUE=DATE:20261101
-SUMMARY:【话剧】惊悚心理悬疑剧《维罗妮卡的房间》
-DESCRIPTION:话剧｜星空间32号·犯罪现场(南京东路829号世
- 茂广场东区L7星空间32号)｜2026.10.2 - 2026.10.31
-LOCATION:星空间32号·犯罪现场(南京东路829号世茂广场东
- 区L7星空间32号)
-URL:https://show.maoyan.com/detail/509552
+UID:theatrewatch-502963@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261002
+SUMMARY:【音乐剧】音乐剧《我的遗愿清单》
+DESCRIPTION:音乐剧｜南通大剧院(湖东路68号)｜2026.09.30 / 10
+ .01
+LOCATION:南通大剧院(湖东路68号)
+URL:https://show.maoyan.com/detail/502963
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-510035@local
-DTSTAMP:20260929T153051Z
+UID:theatrewatch-491631@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261031
+SUMMARY:【话剧】汐空间出品 爆笑沉浸式悬疑互动戏剧杀
+ 《富尔摩斯之消失的遗嘱》
+DESCRIPTION:话剧｜酹江月沉浸空间(百货大楼五楼)｜2026.09.
+ 30 - 2026.10.30
+LOCATION:酹江月沉浸空间(百货大楼五楼)
+URL:https://show.maoyan.com/detail/491631
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-417457@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261008
+SUMMARY:【话剧】《推理俱乐部》推理喜剧|反转|烧脑互动
+ |悬疑推理|小剧场2.0版本
+DESCRIPTION:话剧｜All in空间·小剧场(五马街道墨池公园吟
+ 谭楼一楼)｜2026.09.30 - 2026.10.07
+LOCATION:All in空间·小剧场(五马街道墨池公园吟谭楼一楼)
+URL:https://show.maoyan.com/detail/417457
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-487267@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:【话剧】明代卷王教你摆脱内卷！大型治愈系话
+ 剧《心光 - 王阳明传奇》龙场悟道
+DESCRIPTION:话剧｜义乌文化广场剧院(新科路2号义乌市文
+ 化广场2楼)｜2026.09.30 19:28 周三
+LOCATION:义乌文化广场剧院(新科路2号义乌市文化广场2楼)
+URL:https://show.maoyan.com/detail/487267
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-461300@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261026
+SUMMARY:【音乐剧】【南京】沉浸式悬疑音乐剧《THRILL ME
+ 》中文驻场版
+DESCRIPTION:音乐剧｜缪时客小剧场(新街口街道长江路101号
+ 二楼西侧2室)｜2026.10.01 - 10.25
+LOCATION:缪时客小剧场(新街口街道长江路101号二楼西侧2
+ 室)
+URL:https://show.maoyan.com/detail/461300
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-449425@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261031
+SUMMARY:【话剧】川流有戏丨徐州小剧场丨沉浸观剧丨中
+ 秋国庆双节特别企划
+DESCRIPTION:话剧｜川流艺术空间(淮海东104号老东门今雨天
+ 地2号副楼川流艺术空间)｜2026.10.01 - 2026.10.30
+LOCATION:川流艺术空间(淮海东104号老东门今雨天地2号副
+ 楼川流艺术空间)
+URL:https://show.maoyan.com/detail/449425
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-505921@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261004
+SUMMARY:【话剧】「5折早鸟」| 戏剧节特邀剧目 | 都市浪
+ 漫治愈沉浸式互动剧《樱桃园量子日记》俄罗斯“红发
+ 小丑”最佳导演作品
+DESCRIPTION:话剧｜相信有戏小剧场(天水街道武林广场11号B
+ 1层B155)｜2026.10.01 - 10.03
+LOCATION:相信有戏小剧场(天水街道武林广场11号B1层B155)
+URL:https://show.maoyan.com/detail/505921
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-446322@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261008
+SUMMARY:【音乐剧】海外爆款「治愈都市中的你」超嗨解
+ 压live house音乐剧《六点下班》沉浸式互动音乐喜剧6点
+ 下班
+DESCRIPTION:音乐剧｜相信有戏小剧场(天水街道武林广场11
+ 号B1层B155)｜2026.10.01 - 10.07
+LOCATION:相信有戏小剧场(天水街道武林广场11号B1层B155)
+URL:https://show.maoyan.com/detail/446322
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-479798@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261005
+SUMMARY:【话剧】[国庆收官特惠] 环境式悬疑戏剧杀《切
+ 西娅》
+DESCRIPTION:话剧｜苏州文化艺术中心-7#悬疑剧场(观枫街1
+ 号苏艺演艺文化集聚区3F)｜2026.10.01 - 10.04
+LOCATION:苏州文化艺术中心-7#悬疑剧场(观枫街1号苏艺演
+ 艺文化集聚区3F)
+URL:https://show.maoyan.com/detail/479798
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-478779@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261012
+SUMMARY:【音乐剧】原版音乐剧《SIX》苏州站
+DESCRIPTION:音乐剧｜苏州湾大剧院(东太湖大道12000号)｜202
+ 6.10.01 - 10.11
+LOCATION:苏州湾大剧院(东太湖大道12000号)
+URL:https://show.maoyan.com/detail/478779
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-461075@local
+DTSTAMP:20260929T155449Z
 DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261006
+SUMMARY:【话剧】《聊斋·兰若》中式惊悚爆笑戏剧丨“伶
+ 人咒”前篇丨方寸万相
+DESCRIPTION:话剧｜川流艺术空间(淮海东104号老东门今雨天
+ 地2号副楼川流艺术空间)｜2026.10.02 / 10.05
+LOCATION:川流艺术空间(淮海东104号老东门今雨天地2号副
+ 楼川流艺术空间)
+URL:https://show.maoyan.com/detail/461075
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-502046@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261007
-SUMMARY:【音乐剧】“光明如实”第五届上海音乐学院国
- 际音乐剧周——产教融合小剧场实践剧目音乐剧《如果
+SUMMARY:【话剧】《聊斋·伶人咒》中式惊悚爆笑戏剧丨徐
+ 州首演上新丨方寸万相
+DESCRIPTION:话剧｜川流艺术空间(淮海东104号老东门今雨天
+ 地2号副楼川流艺术空间)｜2026.10.03 / 10.06
+LOCATION:川流艺术空间(淮海东104号老东门今雨天地2号副
+ 楼川流艺术空间)
+URL:https://show.maoyan.com/detail/502046
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-508507@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261012
+SUMMARY:【话剧】富尔摩斯之《消失的遗嘱》爆笑沉浸式
+ 悬疑互动戏剧杀
+DESCRIPTION:话剧｜WOOBOX艺术空间(崇安寺街道八佰伴七楼)
+ ｜2026.10.03 - 10.11
+LOCATION:WOOBOX艺术空间(崇安寺街道八佰伴七楼)
+URL:https://show.maoyan.com/detail/508507
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-500518@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261006
+SUMMARY:【话剧】开心麻花经典爆笑舞台剧《乌龙山伯爵
  》
-DESCRIPTION:音乐剧｜上音歌剧院(汾阳路6号)｜2026.10.2 - 2026
- .10.6
-LOCATION:上音歌剧院(汾阳路6号)
-URL:https://show.maoyan.com/detail/510035
+DESCRIPTION:话剧｜紫金大剧院(洪武路街道小火瓦巷20号(户
+ 部街与火瓦巷岔路口))｜2026.10.04 / 10.05
+LOCATION:紫金大剧院(洪武路街道小火瓦巷20号(户部街与火
+ 瓦巷岔路口))
+URL:https://show.maoyan.com/detail/500518
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-509716@local
-DTSTAMP:20260929T153051Z
-DTSTART;VALUE=DATE:20261011
-DTEND;VALUE=DATE:20261015
-SUMMARY:【音乐剧】FLY PLAN 2026新音乐剧孵化计划SHOWCASE
-DESCRIPTION:音乐剧｜上海西岸大剧院(龙腾大道2290号)｜2026
- .10.11 / 10.14
-LOCATION:上海西岸大剧院(龙腾大道2290号)
-URL:https://show.maoyan.com/detail/509716
+UID:theatrewatch-502033@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261025
+SUMMARY:【话剧】国风幽默剧《阎王烦死了》徐州站丨轻
+ 松爆笑丨双人特惠
+DESCRIPTION:话剧｜川流艺术空间(淮海东104号老东门今雨天
+ 地2号副楼川流艺术空间)｜2026.10.04 / 10.24
+LOCATION:川流艺术空间(淮海东104号老东门今雨天地2号副
+ 楼川流艺术空间)
+URL:https://show.maoyan.com/detail/502033
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-510384@local
-DTSTAMP:20260929T153051Z
-DTSTART;VALUE=DATE:20261014
-DTEND;VALUE=DATE:20261102
-SUMMARY:【话剧】开心麻花惊怂悬疑喜剧《出马》
-DESCRIPTION:话剧｜上海艺海剧院(江宁路街道江宁路466号(
- 近武定路))｜2026.10.14 - 2026.11.1
-LOCATION:上海艺海剧院(江宁路街道江宁路466号(近武定路))
-URL:https://show.maoyan.com/detail/510384
+UID:theatrewatch-472868@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261101
+SUMMARY:【话剧】[苏州必看演出]《美猴王丨一念齐天》影
+ 秀剧｜全景沉浸式舞台剧
+DESCRIPTION:话剧｜橙天嘉禾剧场(引黛街9号)｜2026.10.04 - 202
+ 6.10.31
+LOCATION:橙天嘉禾剧场(引黛街9号)
+URL:https://show.maoyan.com/detail/472868
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-509626@local
-DTSTAMP:20260929T153051Z
+UID:theatrewatch-506631@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261008
+SUMMARY:【话剧】北仑有戏 | 松天硕导演作品｜京话剧《
+ 戏悟》
+DESCRIPTION:话剧｜北仑文化中心大剧院(新碶街道长江路111
+ 1号)｜2026.10.06 / 10.07
+LOCATION:北仑文化中心大剧院(新碶街道长江路1111号)
+URL:https://show.maoyan.com/detail/506631
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-496663@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:【话剧】鲁迅原著改编话剧《呐喊1911》
+DESCRIPTION:话剧｜靖江大剧院(靖城街道文化中心)｜2026.10.
+ 06 19:30 周二
+LOCATION:靖江大剧院(靖城街道文化中心)
+URL:https://show.maoyan.com/detail/496663
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-507432@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:【话剧】国民现象级IP改编——话剧《父母爱情》
+ ——2026紫金文化艺术节舞台艺术作品展演（无锡站合
+ 作）
+DESCRIPTION:话剧｜无锡大剧院(大剧院（蠡湖大道金石路口
+ ）)｜2026.10.08 19:30 周四
+LOCATION:无锡大剧院(大剧院（蠡湖大道金石路口）)
+URL:https://show.maoyan.com/detail/507432
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-494103@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261012
+SUMMARY:【音乐剧】【青年舞蹈戏剧节】音乐剧《女巫》
+DESCRIPTION:音乐剧｜义乌文化广场剧院(新科路2号义乌市
+ 文化广场2楼)｜2026.10.10 / 10.11
+LOCATION:义乌文化广场剧院(新科路2号义乌市文化广场2楼)
+URL:https://show.maoyan.com/detail/494103
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-498652@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:【话剧】老舍传世经典话剧《茶馆》传承版
+DESCRIPTION:话剧｜嘉兴大剧院·大剧场(南湖大道1号（中环
+ 南路苏家桥东南角）)｜2026.10.16 19:30 周五
+LOCATION:嘉兴大剧院·大剧场(南湖大道1号（中环南路苏家
+ 桥东南角）)
+URL:https://show.maoyan.com/detail/498652
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-475090@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261018
+SUMMARY:【话剧】互动悬疑话剧《消失的X》
+DESCRIPTION:话剧｜扬州运河大剧院(国展路与杨柳青路交叉
+ 路口往东约200米)｜2026.10.16 / 10.17
+LOCATION:扬州运河大剧院(国展路与杨柳青路交叉路口往东
+ 约200米)
+URL:https://show.maoyan.com/detail/475090
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-507436@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:【话剧】大型话剧《红色觉醒年代之新青年》-海
+ 安站
+DESCRIPTION:话剧｜海安文化艺术中心(长江中路81号)｜2026.1
+ 0.17 19:00 周六
+LOCATION:海安文化艺术中心(长江中路81号)
+URL:https://show.maoyan.com/detail/507436
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-500034@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261019
+SUMMARY:【音乐剧】音乐剧《奇美拉》
+DESCRIPTION:音乐剧｜温州高新文化广场(龙祥路1111号)｜2026
+ .10.17 / 10.18
+LOCATION:温州高新文化广场(龙祥路1111号)
+URL:https://show.maoyan.com/detail/500034
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-506090@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:【音乐剧】大型民族歌剧《江姐》
+DESCRIPTION:音乐剧｜泰州大剧院(海陵南路300号)｜2026.10.18 
+ 19:30 周日
+LOCATION:泰州大剧院(海陵南路300号)
+URL:https://show.maoyan.com/detail/506090
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-510084@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:【话剧】2026紫金文化艺术节—话剧《丝路连云》
+DESCRIPTION:话剧｜句容大剧院(华阳镇崇明东路与肖杆路交
+ 汇处)｜2026.10.21 14:30 周三
+LOCATION:句容大剧院(华阳镇崇明东路与肖杆路交汇处)
+URL:https://show.maoyan.com/detail/510084
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-506630@local
+DTSTAMP:20260929T155449Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261026
-SUMMARY:【音乐剧】原创音乐剧《海的那边还是海》
-DESCRIPTION:音乐剧｜大上海新空间(中华路980号5层)｜2026.10
- .23 - 2026.10.25
-LOCATION:大上海新空间(中华路980号5层)
-URL:https://show.maoyan.com/detail/509626
+SUMMARY:【话剧】温州实景沉浸丨《宋美龄耳环丢了》行
+ 进式悬疑话剧
+DESCRIPTION:话剧｜吴家老宅庭院剧场(纱帽河与解放街交叉
+ 口西140米)｜2026.10.23 - 10.25
+LOCATION:吴家老宅庭院剧场(纱帽河与解放街交叉口西140米
+ )
+URL:https://show.maoyan.com/detail/506630
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-509542@local
-DTSTAMP:20260929T153051Z
+UID:theatrewatch-500853@local
+DTSTAMP:20260929T155449Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261026
-SUMMARY:【话剧】创意肢体剧《世界 真奇妙》
-DESCRIPTION:话剧｜荣威•上海儿童艺术剧场(苗江路800号原
- 世博园E片区通用汽车馆（近西藏南路）)｜2026.10.24 / 10.
- 25
-LOCATION:荣威•上海儿童艺术剧场(苗江路800号原世博园E
- 片区通用汽车馆（近西藏南路）)
-URL:https://show.maoyan.com/detail/509542
+SUMMARY:【话剧】国民现象级IP改编 话剧《父母爱情》-嘉
+ 兴站
+DESCRIPTION:话剧｜秀湖音乐厅(秀洲大道870号嘉兴市文化艺
+ 术中心)｜2026.10.24 / 10.25
+LOCATION:秀湖音乐厅(秀洲大道870号嘉兴市文化艺术中心)
+URL:https://show.maoyan.com/detail/500853
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-504978@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261101
+SUMMARY:【话剧】中国国家话剧院 话剧《青蛇》——2026太
+ 湖文化艺术季（无锡站）
+DESCRIPTION:话剧｜无锡大剧院(大剧院（蠡湖大道金石路口
+ ）)｜2026.10.30 / 10.31
+LOCATION:无锡大剧院(大剧院（蠡湖大道金石路口）)
+URL:https://show.maoyan.com/detail/504978
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-506506@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261101
+SUMMARY:【话剧】杨婷执导 黄磊、何炅领衔主演 话剧《农
+ 庄馆客人》
+DESCRIPTION:话剧｜苏州湾大剧院(东太湖大道12000号)｜2026.1
+ 0.30 / 10.31
+LOCATION:苏州湾大剧院(东太湖大道12000号)
+URL:https://show.maoyan.com/detail/506506
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-506412@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:【话剧】第三届中吴文化戏剧演出季-国际经典剧
+ 目正版授权女性独角戏《坠落者独白》
+DESCRIPTION:话剧｜常州工人文化宫剧场(延陵西路2号工人
+ 文化宫2楼)｜2026.10.31 19:30 周六
+LOCATION:常州工人文化宫剧场(延陵西路2号工人文化宫2楼)
+URL:https://show.maoyan.com/detail/506412
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-504386@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:【话剧】姚晨领衔主演话剧《非穷尽列举》温州
+ 站
+DESCRIPTION:话剧｜温州高新文化广场(龙祥路1111号)｜2026.10
+ .31 / 11.01
+LOCATION:温州高新文化广场(龙祥路1111号)
+URL:https://show.maoyan.com/detail/504386
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-504591@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:【话剧】【青年舞蹈戏剧节】武汉人艺 曹禺经典
+ 话剧《日出》
+DESCRIPTION:话剧｜义乌文化广场剧院(新科路2号义乌市文
+ 化广场2楼)｜2026.10.31 19:30 周六
+LOCATION:义乌文化广场剧院(新科路2号义乌市文化广场2楼)
+URL:https://show.maoyan.com/detail/504591
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-491712@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:【话剧】正版国漫2.5次元真人舞台剧《一人之下
+ 》第一部
+DESCRIPTION:话剧｜天然舞台(甬港南路245号)｜2026.11.01 15:30 
+ 周日
+LOCATION:天然舞台(甬港南路245号)
+URL:https://show.maoyan.com/detail/491712
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-507293@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:【话剧】第三届中吴文化戏剧演出季-千禧悬疑轻
+ 喜剧《查无此人》
+DESCRIPTION:话剧｜常州工人文化宫剧场(延陵西路2号工人
+ 文化宫2楼)｜2026.11.01 15:00 周日
+LOCATION:常州工人文化宫剧场(延陵西路2号工人文化宫2楼)
+URL:https://show.maoyan.com/detail/507293
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-504970@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:【话剧】曹禺经典话剧《日出》
+DESCRIPTION:话剧｜温州大剧院(府东路466号)｜2026.11.01 19:30 
+ 周日
+LOCATION:温州大剧院(府东路466号)
+URL:https://show.maoyan.com/detail/504970
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-508024@local
-DTSTAMP:20260929T153051Z
+DTSTAMP:20260929T155449Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261109
 SUMMARY:【音乐剧】百老汇英文原版音乐剧《芝加哥》30周
  年纪念版
 DESCRIPTION:音乐剧｜美琪大戏院(石门二路街道江宁路66号(
- 近奉贤路))｜2026.11.5 - 2026.11.8
+ 近奉贤路))｜2026.11.05 - 11.08
 LOCATION:美琪大戏院(石门二路街道江宁路66号(近奉贤路))
 URL:https://show.maoyan.com/detail/508024
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-510063@local
-DTSTAMP:20260929T153051Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261109
-SUMMARY:【话剧】蒋易主演 爱丁堡艺穗节获奖剧作《驯鹿
- 宝贝》
-DESCRIPTION:话剧｜北外滩友邦大剧院(东大名路889号)｜2026.
- 11.7 / 11.8
-LOCATION:北外滩友邦大剧院(东大名路889号)
-URL:https://show.maoyan.com/detail/510063
+UID:theatrewatch-507406@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261108
+SUMMARY:【话剧】姚晨领衔话剧《非穷尽列举》中文版·宁
+ 波站
+DESCRIPTION:话剧｜宁波大剧院(大闸路1号(近永丰北路))｜20
+ 26.11.06 / 11.07
+LOCATION:宁波大剧院(大闸路1号(近永丰北路))
+URL:https://show.maoyan.com/detail/507406
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-509894@local
-DTSTAMP:20260929T153051Z
-DTSTART;VALUE=DATE:20261113
+UID:theatrewatch-507297@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:【话剧】第三届中吴文化戏剧演出季-莎士比亚经
+ 典剧目——话剧《哈姆雷特》女角版
+DESCRIPTION:话剧｜常州工人文化宫剧场(延陵西路2号工人
+ 文化宫2楼)｜2026.11.07 19:30 周六
+LOCATION:常州工人文化宫剧场(延陵西路2号工人文化宫2楼)
+URL:https://show.maoyan.com/detail/507297
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-506001@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:【音乐剧】中文原创音乐剧《简·爱》——2026太
+ 湖文化艺术季暨第25届中国上海国际艺术节无锡分会场
+ （无锡站）
+DESCRIPTION:音乐剧｜无锡大剧院(大剧院（蠡湖大道金石路
+ 口）)｜2026.11.11 19:30 周三
+LOCATION:无锡大剧院(大剧院（蠡湖大道金石路口）)
+URL:https://show.maoyan.com/detail/506001
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-480687@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261116
-SUMMARY:【音乐剧】第五届长三角城市戏剧季-音乐剧《长
- 安十二时辰》
-DESCRIPTION:音乐剧｜黄浦文化中心·大上海剧场(中华路968
- 号)｜2026.11.13 - 2026.11.15
-LOCATION:黄浦文化中心·大上海剧场(中华路968号)
-URL:https://show.maoyan.com/detail/509894
+SUMMARY:【音乐剧】【2026“茧·声”演出季】现象级原版
+ 音乐剧《SIX》
+DESCRIPTION:音乐剧｜宁波文化广场大剧院(宁穿路1900号)｜2
+ 026.11.12 - 11.15
+LOCATION:宁波文化广场大剧院(宁穿路1900号)
+URL:https://show.maoyan.com/detail/480687
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-507883@local
-DTSTAMP:20260929T153051Z
+DTSTAMP:20260929T155449Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261123
 SUMMARY:【音乐剧】中文原创音乐剧《人间失格》 A Ranspace
   Musical - No Longer Human
 DESCRIPTION:音乐剧｜上海西岸大剧院(龙腾大道2290号)｜2026
- .11.19 - 2026.11.22
+ .11.19 - 11.22
 LOCATION:上海西岸大剧院(龙腾大道2290号)
 URL:https://show.maoyan.com/detail/507883
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-509943@local
-DTSTAMP:20260929T153051Z
-DTSTART;VALUE=DATE:20261227
-DTEND;VALUE=DATE:20261228
-SUMMARY:【话剧】沉浸式海洋科学与幻想之旅舞台剧《海
- 底两万里》
-DESCRIPTION:话剧｜上海保利云间剧院(人民南路6弄69号-1\,
- 地铁9号线醉白池2号出口)｜2026.12.27 14:00 周日
-LOCATION:上海保利云间剧院(人民南路6弄69号-1\,地铁9号线
- 醉白池2号出口)
-URL:https://show.maoyan.com/detail/509943
+UID:theatrewatch-508075@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261123
+SUMMARY:【话剧】沉浸式民国悬疑话剧《宋美龄耳环丢了
+ 》
+DESCRIPTION:话剧｜南通大剧院(湖东路68号)｜2026.11.20 - 11.22
+LOCATION:南通大剧院(湖东路68号)
+URL:https://show.maoyan.com/detail/508075
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-509787@local
-DTSTAMP:20260929T153051Z
-DTSTART;VALUE=DATE:20261231
-DTEND;VALUE=DATE:20270108
-SUMMARY:【音乐剧】中文原创音乐剧《狂飙》Chinese Original 
- Musical <The Knockout>
-DESCRIPTION:音乐剧｜上海西岸大剧院(龙腾大道2290号)｜2026
- .12.31 - 2027.1.7
-LOCATION:上海西岸大剧院(龙腾大道2290号)
-URL:https://show.maoyan.com/detail/509787
+UID:theatrewatch-507597@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261122
+SUMMARY:【音乐剧】第三届钱塘国际戏剧嘉年华 |  音乐剧
+ 《阴天》中文版
+DESCRIPTION:音乐剧｜金沙湖大剧院(金沙大道与怀柔巷交叉
+ 口)｜2026.11.20 / 11.21
+LOCATION:金沙湖大剧院(金沙大道与怀柔巷交叉口)
+URL:https://show.maoyan.com/detail/507597
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-503052@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:【话剧】老舍经典巅峰之作 京味儿大戏话剧《茶
+ 馆》
+DESCRIPTION:话剧｜温州大剧院(府东路466号)｜2026.11.20 19:30 
+ 周五
+LOCATION:温州大剧院(府东路466号)
+URL:https://show.maoyan.com/detail/503052
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-504056@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:【话剧】第三届中吴文化戏剧演出季-超互动荒诞
+ 爆笑喜剧《黄牛狂想曲》
+DESCRIPTION:话剧｜常州工人文化宫剧场(延陵西路2号工人
+ 文化宫2楼)｜2026.11.21 19:30 周六
+LOCATION:常州工人文化宫剧场(延陵西路2号工人文化宫2楼)
+URL:https://show.maoyan.com/detail/504056
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-508645@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261123
+SUMMARY:【话剧】话剧九人年度新作《三妇志异》
+DESCRIPTION:话剧｜杭州东坡大剧院(湖滨街道东坡路10号(近
+ 平海路))｜2026.11.21 / 11.22
+LOCATION:杭州东坡大剧院(湖滨街道东坡路10号(近平海路))
+URL:https://show.maoyan.com/detail/508645
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-509843@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:【话剧】话剧《长安第二碗》
+DESCRIPTION:话剧｜温州大剧院(府东路466号)｜2026.11.21 19:30 
+ 周六
+LOCATION:温州大剧院(府东路466号)
+URL:https://show.maoyan.com/detail/509843
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-508000@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:【话剧】北仑有戏 | 悬疑话剧《米歇尔的幽魂》
+DESCRIPTION:话剧｜北仑文化中心大剧院(新碶街道长江路111
+ 1号)｜2026.11.22 15:00 周日
+LOCATION:北仑文化中心大剧院(新碶街道长江路1111号)
+URL:https://show.maoyan.com/detail/508000
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-501396@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:【话剧】正版国漫首部2.5次元真人舞台剧《狐妖
+ 小红娘》第二部
+DESCRIPTION:话剧｜温州大剧院(府东路466号)｜2026.11.22 15:30 
+ 周日
+LOCATION:温州大剧院(府东路466号)
+URL:https://show.maoyan.com/detail/501396
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-506557@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261130
+SUMMARY:【音乐剧】中文原创音乐剧《海上钢琴师》
+DESCRIPTION:音乐剧｜上海文化广场(复兴中路597号)｜2026.11.
+ 27 - 11.29
+LOCATION:上海文化广场(复兴中路597号)
+URL:https://show.maoyan.com/detail/506557
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-504308@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261129
+SUMMARY:【音乐剧】粤语音乐剧《边城》 BORDER TOWN The Musica
+ l——2026太湖文化艺术季暨第25届中国上海国际艺术节
+ 无锡分会场（无锡站）
+DESCRIPTION:音乐剧｜无锡大剧院(大剧院（蠡湖大道金石路
+ 口）)｜2026.11.27 / 11.28
+LOCATION:无锡大剧院(大剧院（蠡湖大道金石路口）)
+URL:https://show.maoyan.com/detail/504308
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-502842@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:【话剧】话剧《茶馆》
+DESCRIPTION:话剧｜金柯桥大剧院(群贤路1799号（与笛扬路
+ 交叉口）)｜2026.11.27 19:30 周五
+LOCATION:金柯桥大剧院(群贤路1799号（与笛扬路交叉口）)
+URL:https://show.maoyan.com/detail/502842
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-486481@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:【话剧】[无锡]年度京味大戏·老舍经典话剧《茶
+ 馆》专属版
+DESCRIPTION:话剧｜无锡市人民大会堂(永和路2号)｜2026.11.29
+  19:30 周日
+LOCATION:无锡市人民大会堂(永和路2号)
+URL:https://show.maoyan.com/detail/486481
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-508326@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261207
+SUMMARY:【音乐剧】2026·南京音乐剧节·“新·国风”音乐
+ 剧《锦衣卫之刀与花》
+DESCRIPTION:音乐剧｜南京保利大剧院(邺城路6号(近青奥文
+ 化体育公园))｜2026.12.04 - 12.06
+LOCATION:南京保利大剧院(邺城路6号(近青奥文化体育公园)
+ )
+URL:https://show.maoyan.com/detail/508326
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-507817@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261206
+SUMMARY:【话剧】某某某领衔主演舞台剧《大话西游》
+DESCRIPTION:话剧｜宁波文化广场大剧院(宁穿路1900号)｜2026
+ .12.04 / 12.05
+LOCATION:宁波文化广场大剧院(宁穿路1900号)
+URL:https://show.maoyan.com/detail/507817
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-506288@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:【话剧】古典新绎话剧《红楼梦》
+DESCRIPTION:话剧｜温州高新文化广场(龙祥路1111号)｜2026.12
+ .05 19:30 周六
+LOCATION:温州高新文化广场(龙祥路1111号)
+URL:https://show.maoyan.com/detail/506288
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-507974@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:【话剧】【青年舞蹈戏剧节】古典新绎‌话剧《
+ 红楼梦》
+DESCRIPTION:话剧｜义乌文化广场剧院(新科路2号义乌市文
+ 化广场2楼)｜2026.12.06 19:30 周日
+LOCATION:义乌文化广场剧院(新科路2号义乌市文化广场2楼)
+URL:https://show.maoyan.com/detail/507974
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-490901@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:【话剧】老舍经典话剧《茶馆》-”年度京味儿大
+ 戏”[常州站]
+DESCRIPTION:话剧｜常州工人文化宫剧场(延陵西路2号工人
+ 文化宫2楼)｜2026.12.11 19:30 周五
+LOCATION:常州工人文化宫剧场(延陵西路2号工人文化宫2楼)
+URL:https://show.maoyan.com/detail/490901
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-508246@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261213
+SUMMARY:【音乐剧】“新·国风” 音乐剧《锦衣卫之刀与
+ 花》
+DESCRIPTION:音乐剧｜苏州湾大剧院(东太湖大道12000号)｜202
+ 6.12.11 / 12.12
+LOCATION:苏州湾大剧院(东太湖大道12000号)
+URL:https://show.maoyan.com/detail/508246
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-506481@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:【话剧】老舍经典话剧《茶馆》-”年度京味儿大
+ 戏”｜海安站
+DESCRIPTION:话剧｜海安文化艺术中心(长江中路81号)｜2026.1
+ 2.12 19:00 周六
+LOCATION:海安文化艺术中心(长江中路81号)
+URL:https://show.maoyan.com/detail/506481
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-496034@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:【话剧】正版国漫2.5次舞台剧《一人之下》第一
+ 部元真人
+DESCRIPTION:话剧｜徐州音乐厅(湖中路滨湖公园7号)｜2026.12
+ .20 15:30 周日
+LOCATION:徐州音乐厅(湖中路滨湖公园7号)
+URL:https://show.maoyan.com/detail/496034
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-506358@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261226
+SUMMARY:【音乐剧】女性反乌托邦音乐剧《奇美拉》
+DESCRIPTION:音乐剧｜杭州东坡大剧院(湖滨街道东坡路10号(
+ 近平海路))｜2026.12.24 / 12.25
+LOCATION:杭州东坡大剧院(湖滨街道东坡路10号(近平海路))
+URL:https://show.maoyan.com/detail/506358
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-508080@local
+DTSTAMP:20260929T155449Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:【话剧】老舍经典话剧《骆驼祥子》
+DESCRIPTION:话剧｜南通大剧院(湖东路68号)｜2027.01.29 19:30 
+ 周五
+LOCATION:南通大剧院(湖东路68号)
+URL:https://show.maoyan.com/detail/508080
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
