@@ -7,10 +7,10 @@ on:
     - cron: "0 0,8 * * *"
   workflow_dispatch:
     inputs:
-      enrich:
-        description: "访问详情页补全场馆/档期（较慢，请求数翻倍）"
-        type: boolean
-        default: true
+      cities:
+        description: "要抓取的城市（逗号分隔，留空用默认江浙沪清单）"
+        required: false
+        default: ""
   push:
     branches: [main]
     # 只监听代码变更。web/index.html、web/data.json 由机器人提交，
@@ -40,20 +40,20 @@ jobs:
         with:
           python-version: "3.12"
 
-      - run: pip install --quiet requests beautifulsoup4 lxml
+      - run: pip install --quiet requests
 
       # 抓取失败不中断后续步骤：仓库里已有上一次提交的 data.json，
       # 照常部署，站点会保留旧数据而不是 500/白屏。
       - name: 抓取演出信息
         continue-on-error: true
         env:
-          TW_REQUEST_INTERVAL: "2"
-          TW_MAX_ENRICH: "60"
+          TW_REQUEST_INTERVAL: "1"
+          TW_CITIES: "${{ inputs.cities }}"
         run: |
-          if [ "${{ inputs.enrich }}" = "false" ]; then
-            python crawler/scrape.py
+          if [ -n "$TW_CITIES" ]; then
+            python crawler/scrape.py --cities "$TW_CITIES"
           else
-            python crawler/scrape.py --enrich
+            python crawler/scrape.py
           fi
 
       - name: 构建页面与日历
@@ -79,7 +79,11 @@ jobs:
       name: github-pages
       url: ${{ steps.out.outputs.page_url }}
     steps:
+      # 必须显式取 main：scrape 作业会把新快照提交到 main，
+      # 默认 checkout 拿的是触发本次运行的旧提交，页面会滞后一轮。
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/configure-pages@v4
       - uses: actions/upload-pages-artifact@v3
         with:
