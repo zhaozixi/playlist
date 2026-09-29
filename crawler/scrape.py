@@ -498,6 +498,15 @@ def main() -> int:
     ap.add_argument("--max-enrich", type=int, help=argparse.SUPPRESS)
     args = ap.parse_args()
 
+    # 探针开关：仓库里存在 crawler/PROBE.flag 时，顺带打印各候选信源在本机出口 IP
+    # 上的可达性（Actions runner 与开发沙箱出口 IP 段不同，跑一次即可判断谁值得接）。
+    if (BASE_DIR / "crawler" / "PROBE.flag").exists() and not args.offline:
+        try:
+            import probe_sources
+            probe_sources.run_all()
+        except Exception as e:  # noqa: BLE001 - 探针失败不能影响主抓取
+            log(f"[probe] 探针异常 {type(e).__name__}: {e}")
+
     cities = ([c.strip() for c in args.cities.split(",") if c.strip()]
               if args.cities else list(DEFAULT_CITIES))
     unknown = [c for c in cities if c not in CITIES]
