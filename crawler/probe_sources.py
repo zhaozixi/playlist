@@ -1,18 +1,21 @@
 #!/usr/bin/env python3
-"""候选信源可达性探针（v2）。
-
-只往 stdout 打日志，不参与抓取、不落盘、不影响 data.json。
+"""大麦 mtop 接口探针。
 
 为什么要跑在 GitHub Actions 上：开发沙箱的出口 IP 被阿里风控整段拉黑
-（RGV587_ERROR / cloud_ip_bl），而 runner 是另一段 IP。同一个请求两边各跑
-一次，就能区分「协议不对」和「IP 被拉黑」，避免把接不进来的源写进主线代码。
+（RGV587_ERROR / cloud_ip_bl），而 runner 是另一段 IP。同一个签名请求两边
+各跑一次，就能区分「协议不对」和「IP 被拉黑」，避免把接不进来的源写进主线。
+
+请求参数是从大麦 H5 前端包里逆向出来的：
+  https://g.alicdn.com/alipay-movie-client/show-h5-next/<版本>/*.js
+  调用点形如 {cityId, distanceCityId, pageIndex, pageSize, sortType,
+              categoryId, dateType, option: 31, sourceType: 21, returnItemOption: 4}
+只往 stdout 打日志，不落盘、不影响正式抓取。
 """
 from __future__ import annotations
 
 import hashlib
 import http.cookiejar
 import json
-import re
 import time
 import urllib.parse
 import urllib.request
@@ -22,144 +25,128 @@ UA = ("Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.
 
 # 阿里风控页特征，命中即判定为被封而非网络故障
 BLOCK_SIGNS = ("rgv587", "punish", "bixi.alicdn.com", "unusual traffic",
-               "x5secdata", "_____tmd_____", "captcha", "哎哟喂")
+               "x5secdata", "_____tmd_____", "哎哟喂")
 
-# (名称, URL, 期望出现的字段/文本片段)
-TARGETS = [
-    (" damai m站搜索壳", "https://m.damai.cn/search.html?keyword=%E9%9F%B3%E4%B9%90%E5%89%A7", "data-"),
-    ("damai m站搜索页2", "https://m.damai.cn/shows/pages/search.html?keyword=%E9%9F%B3%E4%B9%90%E5%89%A7", "data-"),
-    ("damai searchajax", "https://search.damai.cn/searchajax.html?keyword=%E9%9F%B3%E4%B9%90%E5%89%A7"
-                         "&currPage=1&pageSize=30&order=1", "noJSONp"),
-    ("聚橙 项目列表 ", "https://api.juooo.com/project/list?page=1&rows=10&city_id=1", "code"),
-    ("聚橙 分类接口 ", "https://api.juooo.com/project/category?caid=37&page=1&rows=10", "code"),
-    ("聚橙 首页接口 ", "https://api.juooo.com/index/projectList?city_id=1", "code"),
-    ("秀动 演出列表 ", "https://api.showstart.com/event/list?page=1&rows=10", "state"),
-    ("秀动 演出API2 ", "https://showstart.com/api/event/list?page=1", "state"),
-    ("摩天轮 域名   ", "https://www.motianlun.com/", "html"),
-    ("摩天轮 www    ", "https://motianlun.com/", "html"),
-    ("保利剧院列表  ", "https://www.polytheatre.com/polytheatre/index", "html"),
-    ("上海文化行政  ", "http://wglj.sh.gov.cn/", "html"),
-    ("文旅部演出   ", "https://yyfw.mct.gov.cn/", "html"),
-]
+SEARCH_API = "mtop.damai.wireless.search.search"
+CITIES_API = "mtop.damai.wireless.cities.query"
 
 
-def describe(text: str) -> str:
-    """把响应压缩成一行可判读的证据。"""
-    titles = re.findall(r"《[^》]{2,24}》", text)[:4]
-    if titles:
-        return f"titles={titles}"
-    head = text[:400].lower()
-    if "<!doctype html" in head or "<div" in head or "<html" in head:
-        return f"html shell, len={len(text)}"
+def get(url: str, opener=None, headers=None) -> str:
     try:
-        d = json.loads(text)
-    except (json.JSONDecodeError, ValueError):
-        return f"len={len(text)} head={text[:70]!r}"
-    if isinstance(d, dict):
-        body = d.get("data")
-        n = len(body) if isinstance(body, list) else (
-            len(body.get("list") or body.get("rows") or []) if isinstance(body, dict) else 0)
-        return f"json keys={list(d)[:5]} items={n} msg={str(d.get('msg') or d.get('message'))[:20]}"
-    return f"json len={len(text)}"
-
-
-def get(url: str, opener=None, headers=None) -> str | None:
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*",
-                                                   "Accept-Language": "zh-CN", **(headers or {})})
+        req = urllib.request.Request(
+            url, headers={"User-Agent": UA, "Accept": "*/*",
+                          "Accept-Language": "zh-CN", **(headers or {})})
         with (opener.open if opener else urllib.request.urlopen)(req, timeout=25) as r:
-            return r.read(500_000).decode("utf-8", "ignore")
-    except Exception as e:  # noqa: BLE001 - 探针不能抛错
+            return r.read(800_000).decode("utf-8", "ignore")
+    except Exception as e:  # noqa: BLE001 - 探针不能抛错影响主抓取
         return f"__ERR__{type(e).__name__}: {e}"
 
 
-def probe(name: str, url: str) -> None:
-    text = get(url)
-    if text is None:  # pragma: no cover
-        return
-    if text.startswith("__ERR__"):
-        print(f"[probe] {name} ERROR   {text[7:]}", flush=True)
-        return
-    hit = next((s for s in BLOCK_SIGNS if s in text.lower()), None)
-    tag = f"BLOCKED({hit})" if hit else "OPEN"
-    print(f"[probe] {name} {tag:16s} {describe(text)}", flush=True)
+class Mtop:
+    """大麦/淘系 mtop 签名客户端。
+
+    握手：首次请求没有 _m_h5_tk，服务端回 ERR_TOKEN_* 并下发 cookie；
+    带 token 重新签名即成功。同一个实例复用 cookiejar，因此只握手一次。
+    """
+
+    APPKEY = "12574478"
+
+    def __init__(self) -> None:
+        self.cj = http.cookiejar.CookieJar()
+        self.opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(self.cj))
+
+    def token(self) -> str:
+        for c in self.cj:
+            if c.name == "_m_h5_tk":
+                return c.value.split("_")[0]
+        return ""
+
+    def call(self, api: str, data: dict, ver: str = "1.0"):
+        """返回 (ret 文案, 解析后的 JSON 或 None, 原始文本)。"""
+        body = json.dumps(data, separators=(",", ":"))
+        ret, text, parsed = "", "", None
+        for _ in range(4):
+            t = str(int(time.time() * 1000))
+            sign = hashlib.md5(f"{self.token()}&{t}&{self.APPKEY}&{body}".encode()).hexdigest()
+            qs = urllib.parse.urlencode({
+                "jsv": "2.6.1", "appKey": self.APPKEY, "t": t, "sign": sign,
+                "api": api, "v": ver, "type": "originaljson", "dataType": "json", "data": body})
+            text = get(f"https://mtop.damai.cn/h5/{api.lower()}/{ver}/?{qs}",
+                       self.opener, {"Referer": "https://m.damai.cn/"}) or ""
+            if text.startswith("__ERR__"):
+                return text[7:], None, text
+            hit = next((s for s in BLOCK_SIGNS if s in text.lower()), None)
+            if hit:
+                return f"BLOCKED({hit})", None, text
+            try:
+                parsed = json.loads(text)
+                ret = str((parsed.get("ret") or [""])[0])
+            except (json.JSONDecodeError, ValueError):
+                parsed, ret = None, text[:80]
+            if "SUCCESS" in ret:
+                return ret, parsed, text
+            time.sleep(0.8)
+        return ret, None, text
 
 
 def dump(obj, depth: int = 0, maxd: int = 3) -> str:
-    """把 JSON 结构压成几行，用来看成功响应里到底装了什么。"""
+    """把 JSON 结构压成几行，看成功响应里到底装了什么。"""
     pad = "  " * depth
     if depth >= maxd:
         return f"{pad}…{type(obj).__name__}"
     if isinstance(obj, dict):
-        out = []
-        for k, v in list(obj.items())[:14]:
+        lines = []
+        for k, v in list(obj.items())[:16]:
             if isinstance(v, (dict, list)):
-                out.append(f"{pad}{k}: {dump(v, depth + 1, maxd)}")
+                lines.append(f"{pad}{k}: {dump(v, depth + 1, maxd)}")
             else:
-                out.append(f"{pad}{k}={str(v)[:44]}")
-        return "\n" + "\n".join(out) if out else f"{pad}{{}}"
+                lines.append(f"{pad}{k}={str(v)[:40]}")
+        return "\n" + "\n".join(lines) if lines else f"{pad}{{}}"
     if isinstance(obj, list):
-        head = f"{pad}[{len(obj)}]"
+        out = f"{pad}[{len(obj)}]"
         if obj:
-            head += " first=" + dump(obj[0], depth + 1, maxd)
-        return head
+            out += " first=" + dump(obj[0], depth + 1, maxd)
+        return out
     return f"{pad}{str(obj)[:60]}"
 
 
-def mtop(api: str, data: dict, ver: str = "1.0", label: str = "") -> None:
-    """大麦/淘系 mtop 签名请求：验证出口 IP 能否过阿里网关并拿到数据。"""
-    cj = http.cookiejar.CookieJar()
-    opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
-    appkey = "12574478"
-    body = json.dumps(data, separators=(",", ":"))
-    last = ""
-    for _ in range(3):
-        token = ""
-        for c in cj:
-            if c.name == "_m_h5_tk":
-                token = c.value.split("_")[0]
-        t = str(int(time.time() * 1000))
-        sign = hashlib.md5(f"{token}&{t}&{appkey}&{body}".encode()).hexdigest()
-        qs = urllib.parse.urlencode({"jsv": "2.6.1", "appKey": appkey, "t": t, "sign": sign,
-                                     "api": api, "v": ver, "type": "originaljson",
-                                     "dataType": "json", "data": body})
-        url = f"https://mtop.damai.cn/h5/{api.lower()}/{ver}/?{qs}"
-        text = get(url, opener, {"Referer": "https://m.damai.cn/"}) or ""
-        hit = next((s for s in BLOCK_SIGNS if s in text.lower()), None)
-        try:
-            j = json.loads(text)
-            ret = (j.get("ret") or [""])[0]
-        except (json.JSONDecodeError, ValueError):
-            j, ret = None, text[:60]
-        ok = "SUCCESS" in str(ret)
-        last = f"ret={ret!r} blocked={hit or '-'}"
-        if ok and j is not None:
-            print(f"[probe] mtop {label or api} {last}", flush=True)
-            print(dump(j.get("data", {}), maxd=4), flush=True)
-            return
-        time.sleep(1)
-    print(f"[probe] mtop {label or api} {last}", flush=True)
+def probe_search(m: Mtop, city: int, cate: int, label: str) -> None:
+    data = {"cityId": city, "distanceCityId": city, "pageIndex": 1, "pageSize": 15,
+            "sortType": 3, "categoryId": cate, "dateType": 0,
+            "option": 31, "sourceType": 21, "returnItemOption": 4}
+    ret, j, raw = m.call(SEARCH_API, data)
+    print(f"[probe] damai {label} city={city} cate={cate} -> {ret!r}", flush=True)
+    if not j:
+        print("   raw:", (raw or "")[:200], flush=True)
+        return
+    d = j.get("data") or {}
+    print(dump(d, maxd=3), flush=True)
+    items = d.get("projectInfo") or []
+    if items:
+        it = items[0]
+        print("[probe] 首条字段:", sorted(it)[:30], flush=True)
+        for x in items[:4]:
+            print(f"   · {str(x.get('name'))[:30]} | {x.get('cityName')} | "
+                  f"{x.get('venueName')} | {x.get('showTime')}", flush=True)
 
 
 def run_all() -> None:
     eip = get("https://api.ipify.org?format=json") or "?"
-    print(f"[probe] === 出口 IP {eip[:60]}", flush=True)
-    for n, u, _ in TARGETS:
-        probe(n, u)
-    variants = [
-        ("search.search kw", "mtop.damai.wireless.search.search",
-         {"keyword": "音乐剧", "pageNum": "1", "pageSize": "12"}),
-        ("search.search msg", "mtop.damai.wireless.search.search",
-         {"msg": "音乐剧", "type": "1", "pageSize": "10", "currentPage": "1"}),
-        ("search.search 上海", "mtop.damai.wireless.search.search",
-         {"keyword": "音乐剧", "cityId": "888", "pageNum": "1", "pageSize": "12"}),
-        ("project.search", "mtop.damai.wireless.project.search",
-         {"keyword": "音乐剧", "pageSize": "12", "pageNum": "1"}),
-    ]
-    for label, api, data in variants:
-        mtop(api, data, label=label)
-    print("[probe] === 探针结束 ===", flush=True)
+    print(f"[probe] === 出口 IP {str(eip)[:60]}", flush=True)
+    m = Mtop()
 
+    # 先取城市 ID 表，上海在美团系是 10，大麦体系另有一套
+    ret, j, raw = m.call(CITIES_API, {})
+    print(f"[probe] cities.query -> {ret!r}", flush=True)
+    if j:
+        print(dump(j.get("data") or {}, maxd=3)[:1400], flush=True)
+    else:
+        print("   raw:", (raw or "")[:300], flush=True)
+
+    for cate in (0, 3, 4, 5, 6):
+        probe_search(m, 888, cate, f"cate{cate}")
+
+    print("[probe] === 探针结束 ===", flush=True)
 
 
 if __name__ == "__main__":
