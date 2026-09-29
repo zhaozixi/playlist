@@ -85,8 +85,29 @@ def probe(name: str, url: str) -> None:
     print(f"[probe] {name} {tag:16s} {describe(text)}", flush=True)
 
 
-def mtop(api: str, data: dict, ver: str = "1.0") -> None:
-    """大麦/淘系 mtop 签名请求：验证 runner 出口能否过阿里网关。"""
+def dump(obj, depth: int = 0, maxd: int = 3) -> str:
+    """把 JSON 结构压成几行，用来看成功响应里到底装了什么。"""
+    pad = "  " * depth
+    if depth >= maxd:
+        return f"{pad}…{type(obj).__name__}"
+    if isinstance(obj, dict):
+        out = []
+        for k, v in list(obj.items())[:14]:
+            if isinstance(v, (dict, list)):
+                out.append(f"{pad}{k}: {dump(v, depth + 1, maxd)}")
+            else:
+                out.append(f"{pad}{k}={str(v)[:44]}")
+        return "\n" + "\n".join(out) if out else f"{pad}{{}}"
+    if isinstance(obj, list):
+        head = f"{pad}[{len(obj)}]"
+        if obj:
+            head += " first=" + dump(obj[0], depth + 1, maxd)
+        return head
+    return f"{pad}{str(obj)[:60]}"
+
+
+def mtop(api: str, data: dict, ver: str = "1.0", label: str = "") -> None:
+    """大麦/淘系 mtop 签名请求：验证出口 IP 能否过阿里网关并拿到数据。"""
     cj = http.cookiejar.CookieJar()
     opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
     appkey = "12574478"
@@ -109,12 +130,15 @@ def mtop(api: str, data: dict, ver: str = "1.0") -> None:
             j = json.loads(text)
             ret = (j.get("ret") or [""])[0]
         except (json.JSONDecodeError, ValueError):
-            ret = text[:60]
-        last = f"ret={ret!r} blocked={hit or '-'} {describe(text) if not hit else ''}"
-        if "SUCCESS" in str(ret):
-            break
+            j, ret = None, text[:60]
+        ok = "SUCCESS" in str(ret)
+        last = f"ret={ret!r} blocked={hit or '-'}"
+        if ok and j is not None:
+            print(f"[probe] mtop {label or api} {last}", flush=True)
+            print(dump(j.get("data", {}), maxd=4), flush=True)
+            return
         time.sleep(1)
-    print(f"[probe] mtop {api[:34]:34s} {last[:150]}", flush=True)
+    print(f"[probe] mtop {label or api} {last}", flush=True)
 
 
 def run_all() -> None:
@@ -122,12 +146,20 @@ def run_all() -> None:
     print(f"[probe] === 出口 IP {eip[:60]}", flush=True)
     for n, u, _ in TARGETS:
         probe(n, u)
-    kw = {"keyword": "音乐剧", "pageNum": "1", "pageSize": "12"}
-    for api in ("mtop.damai.wireless.search.search",
-                "mtop.damai.wireless.project.searchProject",
-                "mtop.damai.search.ticket.get"):
-        mtop(api, kw)
+    variants = [
+        ("search.search kw", "mtop.damai.wireless.search.search",
+         {"keyword": "音乐剧", "pageNum": "1", "pageSize": "12"}),
+        ("search.search msg", "mtop.damai.wireless.search.search",
+         {"msg": "音乐剧", "type": "1", "pageSize": "10", "currentPage": "1"}),
+        ("search.search 上海", "mtop.damai.wireless.search.search",
+         {"keyword": "音乐剧", "cityId": "888", "pageNum": "1", "pageSize": "12"}),
+        ("project.search", "mtop.damai.wireless.project.search",
+         {"keyword": "音乐剧", "pageSize": "12", "pageNum": "1"}),
+    ]
+    for label, api, data in variants:
+        mtop(api, data, label=label)
     print("[probe] === 探针结束 ===", flush=True)
+
 
 
 if __name__ == "__main__":
