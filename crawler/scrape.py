@@ -1,20 +1,22 @@
 #!/usr/bin/env python3
 """
-音乐剧 / 话剧 演出信息抓取（江浙沪多城市）
+音乐剧 / 话剧 演出信息抓取（江浙沪 22 城，双信源）
 
-数据源：格瓦拉生活网（show.maoyan.com）的 /list/{categoryId} 页面。
-该页面是 Next.js 服务端渲染，__NEXT_DATA__ 里带有结构化 JSON，
-因此无需浏览器、无需签名接口即可拿到演出标题、场馆、地址、档期、
-票价区间、销售状态和海报。
+信源一：格瓦拉生活网（show.maoyan.com，美团系）
+  * 列表页 JSON 接口 m.dianping.com/myshow/ajax/performances，真分页（单页 100）
+  * 接口不通时回退 SSR 页面 __NEXT_DATA__（只给前 10 条）
+  * 城市切换靠 currentCity cookie，不带时源站固定返回上海
 
-城市切换：SSR 读取 currentCity cookie（值为 JSON 字符串），
-    currentCity={"id": 50, "nm": "杭州", "py": "hangzhou"}
-不带该 cookie 时源站固定返回上海。
+信源二：大麦（mtop.damai.cn，阿里系，见 damai.py）
+  * 与格瓦拉是两家独立平台，标题重合约三成，能明显扩盘
+
+两源结果按 (剧名核心, 城市, 开演日) 合并，同一条演出保留各平台购票入口（links）。
 
 用法：
     python3 scrape.py                 # 抓取全部城市并更新 web/data.json
     python3 scrape.py --cities 上海,杭州
     python3 scrape.py --offline       # 不发请求，用缓存重建
+    python3 scrape.py --no-damai      # 本轮只抓格瓦拉
     python3 scrape.py --stdout        # 打印摘要，不落盘
 
 设计约束：
