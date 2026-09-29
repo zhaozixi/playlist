@@ -341,6 +341,7 @@ def normalize(raw: dict, requested_city: str) -> dict | None:
 
     return {
         "id": pid,
+        "source": "格瓦拉",
         "kind": kind,
         "title": title,
         "venue": venue,
@@ -354,6 +355,7 @@ def normalize(raw: dict, requested_city: str) -> dict | None:
         "poster": (raw.get("posterUrl") or "").strip(),
         "price": str(price) if price else (str(lowest) if lowest else ""),
         "tags": [t for t in (raw.get("normalTags") or []) if isinstance(t, str)][:3],
+        "url": DETAIL_URL.format(id=pid),
     }
 
 
@@ -369,6 +371,45 @@ def dedupe(records: list[dict]) -> list[dict]:
             if len(str(r.get(f) or "")) > len(str(cur.get(f) or "")):
                 cur[f] = r[f]
     return list(merged.values())
+
+
+def title_core(title: str) -> str:
+    """取书名号里的剧名做跨源比对；没有书名号时退化为去噪后的全名。"""
+    m = re.findall(r"《([^》]{1,24})》", title)
+    if m:
+        return m[0].strip().lower()
+    s = re.sub(r"[【\[（(][^】\])）]{0,24}[】\])）]", "", title)
+    s = re.sub(r"[\s|｜·\-—,，。.]+", "", s)
+    return s.lower()
+
+
+def merge_sources(records: list[dict]) -> list[dict]:
+    """把不同信源里的同一场演出合成一条，保留各源购票入口。
+
+    键用 (剧名核心, 城市, 开演日)：同城同名但不同日期是巡演的不同站次
+    （例如《呐喊1911》9/30 在宁海、10/2 在余姚），必须分开保留。
+    主 id 优先用格瓦拉的纯数字 id，这样历史 shows.json 能接上，
+    不会整批被判成「新上架」。
+    """
+    grouped: dict[tuple[str, str, str], dict] = {}
+    for r in records:
+        key = (title_core(r["title"]), r["city"], r.get("date") or r.get("date_text") or "")
+        cur = grouped.get(key)
+        if cur is None:
+            item = dict(r)
+            item["links"] = [{"source": r.get("source") or SOURCE_NAME, "url": r["url"]}]
+            grouped[key] = item
+            continue
+        link = {"source": r.get("source") or SOURCE_NAME, "url": r["url"]}
+        if link not in cur["links"]:
+            cur["links"].append(link)
+        # 补齐更完整字段，并让格瓦拉 id 作为主 id 以保持历史连续
+        for f in ("venue", "date_text", "status", "poster", "price", "shop"):
+            if len(str(r.get(f) or "")) > len(str(cur.get(f) or "")):
+                cur[f] = r[f]
+        if str(cur["id"]).startswith("dm") and str(r["id"]).isdigit():
+            cur["id"], cur["url"] = r["id"], r["url"]
+    return list(grouped.values())
 
 
 def load_json(path: Path, default):
@@ -414,13 +455,19 @@ def build(shows: list[dict], stale: bool, cities: list[str], note: str = "") -> 
                 pass
         item = dict(s)
         item["days"] = days_left(s.get("date", ""))
-        item["url"] = DETAIL_URL.format(id=s["id"])
+        # url 由各源适配器自己给出（格瓦拉/大麦详情页不同），这里只兜底
+        item["url"] = s.get("url") or DETAIL_URL.format(id=s["id"])
         out.append(item)
 
     out.sort(key=lambda x: (x["date"] or "9999-12-31", x["city"], x["kind"]))
+    srcs = sorted({x.get("source") or SOURCE_NAME for x in out})
+    home = {"格瓦拉": ("格瓦拉生活网", LIST_URL.format(cat=DRAMA_CATEGORY)),
+            "大麦": ("大麦", "https://m.damai.cn/")}
+    source_urls = [dict(zip(("name", "url"), home[s])) for s in srcs if s in home]
     return {
-        "source": SOURCE_NAME,
+        "source": "＋".join(srcs) if srcs else SOURCE_NAME,
         "source_url": LIST_URL.format(cat=DRAMA_CATEGORY),
+        "source_urls": source_urls,
         "updated_at": now.strftime("%Y-%m-%d %H:%M CST"),
         "updated_ts": int(now.timestamp()),
         "stale": stale,
@@ -493,19 +540,11 @@ def main() -> int:
     ap.add_argument("--cities", help="逗号分隔的城市名，默认江浙沪主要城市")
     ap.add_argument("--offline", action="store_true", help="只用缓存重建")
     ap.add_argument("--stdout", action="store_true", help="只打印不落盘")
+    ap.add_argument("--no-damai", action="store_true", help="本轮不抓大麦，只用格瓦拉")
     # 列表页 JSON 已含全部字段，详情页抓取不再需要；保留参数兼容旧工作流。
     ap.add_argument("--enrich", action="store_true", help=argparse.SUPPRESS)
     ap.add_argument("--max-enrich", type=int, help=argparse.SUPPRESS)
     args = ap.parse_args()
-
-    # 探针开关（v3）：仓库里存在 crawler/PROBE.flag 时，顺带打印各候选信源在本机出口 IP
-    # 上的可达性（Actions runner 与开发沙箱出口 IP 段不同，跑一次即可判断谁值得接）。
-    if (BASE_DIR / "crawler" / "PROBE.flag").exists() and not args.offline:
-        try:
-            import probe_sources
-            probe_sources.run_all()
-        except Exception as e:  # noqa: BLE001 - 探针失败不能影响主抓取
-            log(f"[probe] 探针异常 {type(e).__name__}: {e}")
 
     cities = ([c.strip() for c in args.cities.split(",") if c.strip()]
               if args.cities else list(DEFAULT_CITIES))
@@ -519,8 +558,19 @@ def main() -> int:
 
     log(f"抓取 {len(cities)} 个城市：{'、'.join(cities)}")
     records, degraded = scrape_cities(cities, args.offline)
+    gw_n = len(records)
 
-    shows = dedupe(records)
+    if not args.no_damai:
+        try:
+            import damai
+            dm_recs, dm_bad = damai.scrape(cities, CACHE_DIR, log, args.offline)
+            records += dm_recs
+            degraded = degraded or dm_bad
+            log(f"大麦补充 {len(dm_recs)} 条（格瓦拉 {gw_n} 条）")
+        except Exception as e:  # noqa: BLE001 - 单源失败不能拖垮整轮抓取
+            log(f"大麦抓取失败：{type(e).__name__}: {e}")
+
+    shows = merge_sources(dedupe(records))
     log(f"合并去重后 {len(shows)} 条")
 
     previous = load_json(SHOWS_FILE, {"shows": []})
