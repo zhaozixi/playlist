@@ -47,6 +47,17 @@ OUT_FILE = WEB_DIR / "data.json"
 SOURCE_NAME = "格瓦拉生活网"
 DETAIL_URL = "https://show.maoyan.com/detail/{id}"
 LIST_URL = "https://show.maoyan.com/list/{cat}"
+# 源站前端（m.dianping.com/myshow）调用的结构化接口，支持真分页，
+# 比 SSR 页面稳定：SSR 无论怎么传 page 参数都只给前 10 条。
+API_URL = ("https://m.dianping.com/myshow/ajax/performances/{cat}"
+           ";st={sort};p={page};s={size};tft=0?cityId={cid}&sellChannel=7")
+API_HEADERS = {
+    "Accept": "application/json",
+    "Referer": "https://m.dianping.com/",
+    "Origin": "https://m.dianping.com",
+}
+API_PAGE_SIZE = 100      # 实测 <=100 有效，>100 会被服务端压回 20
+API_MAX_PAGES = 5        # 单城最多 500 条，上海全量约 240
 UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
@@ -87,6 +98,7 @@ CITIES = {
 DEFAULT_CITIES = [
     "上海", "杭州", "宁波", "苏州", "南京", "无锡", "常州", "南通",
     "嘉兴", "绍兴", "金华", "温州", "扬州", "镇江", "泰州", "徐州",
+    "湖州", "盐城", "衢州", "舟山", "台州", "丽水",
 ]
 
 # 销售状态码 → 文案（取自源站前端映射）
@@ -96,21 +108,17 @@ TICKET_STATUS = {
 }
 
 MUSICAL_WORDS = ("音乐剧", "歌舞剧", "musical", "轻歌剧", "歌剧", "音乐剧场")
-DRAMA_WORDS = (
-    "话剧", "舞台剧", "戏剧", "独角戏", "默剧", "肢体剧",
-    "环境戏剧", "先锋剧", "读剧本", "剧社", "小剧场",
-)
-# 硬噪声：脱口秀、魔术秀、VR 体验、演唱会、游戏剧场等
+# 硬噪声：脱口秀、魔术秀、VR 体验、演唱会、景点门票等
 STRONG_NOISE = (
     "脱口秀", "漫才", "魔术", "VR", "剧本杀", "密室", "演唱会", "音乐会",
-    "音乐节", "livehouse", "相声", "评弹", "鼓书", "杂技", "马戏",
-    "展览", "市集", "工作坊", "体验", "通票", "游园", "电竞", "游戏",
+    "音乐节", "livehouse", "live house", "相声", "评弹", "鼓书", "杂技", "马戏",
+    "展览", "市集", "工作坊", "体验", "通票", "游园", "电竞", "游戏", "门票",
+    "身份证入场", "千古情", "实景演出", "演艺秀", "表演秀",
     "高清放映", "影院直播", "影像放映",
 )
 # 戏曲、芭蕾等属其它舞台门类，本次只做音乐剧/话剧
 OTHER_STAGE = ("京剧", "昆曲", "越剧", "豫剧", "黄梅戏", "评剧", "川剧", "沪剧",
                "粤剧", "秦腔", "梆子", "梨园", "戏曲", "芭蕾", "室内乐")
-ORCHESTRA_NOISE = ("乐团", "协奏曲", "交响", "独奏", "钢琴", "小提琴")
 
 
 def log(msg: str) -> None:
@@ -151,6 +159,40 @@ def fetch(url: str, session: requests.Session, city_id: int | None = None,
             log(f"  请求异常 {type(e).__name__}: {e}，重试 {attempt}/{retries}")
         time.sleep(REQUEST_INTERVAL * attempt)
     return None
+
+
+def fetch_city_api(city_id: int, session: requests.Session) -> list[dict] | None:
+    """翻页拉取某城类目 4 的全量条目；失败返回 None（区别于返回空列表）。"""
+    items: list[dict] = []
+    for page in range(1, API_MAX_PAGES + 1):
+        url = API_URL.format(cat=DRAMA_CATEGORY, sort=0, page=page,
+                             size=API_PAGE_SIZE, cid=city_id)
+        payload = None
+        for attempt in range(1, 4):
+            try:
+                r = session.get(url, timeout=25, headers=API_HEADERS)
+                if "rgv587" in r.text or "punish" in r.url:
+                    log(f"  被风控拦截: {url}")
+                    return None
+                if r.status_code == 200:
+                    body = r.json()
+                    if body.get("code") == 200 or body.get("success"):
+                        payload = body
+                        break
+                log(f"  HTTP {r.status_code} / {len(r.text)}b，重试 {attempt}/3")
+            except (requests.RequestException, ValueError) as e:
+                log(f"  请求异常 {type(e).__name__}: {e}，重试 {attempt}/3")
+            time.sleep(REQUEST_INTERVAL * attempt)
+        if payload is None:
+            return None if page == 1 else items
+
+        batch = payload.get("data") or []
+        items.extend(batch)
+        paging = payload.get("paging") or {}
+        if not paging.get("hasMore") or not batch:
+            break
+        time.sleep(REQUEST_INTERVAL)
+    return items
 
 
 def extract_next_data(html: str) -> dict | None:
@@ -208,27 +250,24 @@ def parse_list_page(html: str) -> list[dict]:
 
 
 def classify(title: str) -> str | None:
-    """判定门类，返回 '音乐剧' / '话剧' / None（不相关）。"""
-    low = title.lower()
+    """判定门类，返回 '音乐剧' / '话剧' / None（不相关）。
 
-    has_opera = "歌剧" in low and "歌剧院" not in low
-    explicit_musical = ("音乐剧" in low) or has_opera or ("歌舞剧" in low)
-    explicit_drama = any(w in low for w in ("话剧", "舞台剧", "独角戏", "肢体剧", "环境戏剧"))
+    源站类目 4 本身就是「话剧音乐剧」，因此这里默认收录：
+    命中音乐剧字样判音乐剧，命中噪声词判不相关，其余算话剧。
+    早先按关键词白名单收，会漏掉《暗恋桃花源》《乌龙山伯爵》这类标题不带你字样的剧目。
+    """
+    low = title.lower()
 
     if any(w.lower() in low for w in STRONG_NOISE):
         return None
     if any(w in low for w in OTHER_STAGE):
         return None
-    # 标题带「××歌剧院」的古典乐团巡演不算歌剧
-    if any(w in low for w in ORCHESTRA_NOISE) and not (explicit_musical or explicit_drama):
+    # 舞剧/儿童剧单独门类，除非标题同时点明是音乐剧
+    if "舞剧" in low and "音乐剧" not in low:
         return None
-    if "舞剧" in low and not explicit_musical:
-        return None
-    if explicit_musical:
+    if any(w in low for w in MUSICAL_WORDS):
         return "音乐剧"
-    if explicit_drama or any(w in low for w in DRAMA_WORDS):
-        return "话剧"
-    return None
+    return "话剧"
 
 
 def parse_dates(text: str) -> tuple[str, str]:
@@ -399,7 +438,10 @@ def build(shows: list[dict], stale: bool, cities: list[str], note: str = "") -> 
 
 
 def scrape_cities(cities: list[str], offline: bool) -> tuple[list[dict], bool]:
-    """逐城抓取。返回 (记录列表, 是否降级为缓存)。"""
+    """逐城抓取。优先走可分页的 JSON 接口，失败回退 SSR 页面，再退缓存。
+
+    返回 (记录列表, 是否有城市降级到缓存)。
+    """
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
     session = make_session()
     records: list[dict] = []
@@ -407,22 +449,27 @@ def scrape_cities(cities: list[str], offline: bool) -> tuple[list[dict], bool]:
 
     for i, name in enumerate(cities):
         cid = CITIES[name]
-        url = LIST_URL.format(cat=DRAMA_CATEGORY)
         cache = CACHE_DIR / f"{name}.json"
 
-        html = None
+        raw = None
         if not offline:
-            html = fetch(url, session, city_id=cid, city_name=name)
-        if html:
-            raw = parse_list_page(html)
-            cache.write_text(json.dumps(raw, ensure_ascii=False), encoding="utf-8")
-        elif cache.exists():
+            raw = fetch_city_api(cid, session)
+            if raw is None:
+                # 接口不通时退回 SSR 首页（只有 10 条，但不至于全丢）
+                html = fetch(LIST_URL.format(cat=DRAMA_CATEGORY), session,
+                             city_id=cid, city_name=name)
+                raw = parse_list_page(html) if html else None
+            if raw:
+                cache.write_text(json.dumps(raw, ensure_ascii=False), encoding="utf-8")
+        if raw is None and cache.exists():
             raw = json.loads(cache.read_text(encoding="utf-8"))
-            log(f"  {name}：抓取失败，改用缓存 {len(raw)} 条")
-            failed += 1
-        else:
+            if not offline:
+                log(f"  {name}：抓取失败，改用缓存 {len(raw)} 条")
+                failed += 1
+        elif raw is None:
             log(f"  {name}：抓取失败且无缓存")
-            failed += 1
+            if not offline:
+                failed += 1
             raw = []
 
         hits = 0
