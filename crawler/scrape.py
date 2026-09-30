@@ -47,6 +47,9 @@ CHANGELOG_FILE = DATA_DIR / "changelog.json"
 OUT_FILE = WEB_DIR / "data.json"
 
 SOURCE_NAME = "格瓦拉生活网"
+SRC_SHORT = "格瓦拉"
+# 页面与卡片上的来源顺序：主源在前，别用字典序
+SRC_ORDER = (SRC_SHORT, "大麦")
 DETAIL_URL = "https://show.maoyan.com/detail/{id}"
 LIST_URL = "https://show.maoyan.com/list/{cat}"
 # 源站前端（m.dianping.com/myshow）调用的结构化接口，支持真分页，
@@ -447,6 +450,7 @@ def build(shows: list[dict], stale: bool, cities: list[str], note: str = "") -> 
     now = datetime.now(CST)
     today = now.date()
     out = []
+    src_seen: set[str] = set()
     for s in shows:
         # 过滤已闭幕（结束日早于今天）
         if s.get("date_end"):
@@ -459,17 +463,22 @@ def build(shows: list[dict], stale: bool, cities: list[str], note: str = "") -> 
         item["days"] = days_left(s.get("date", ""))
         # url 由各源适配器自己给出（格瓦拉/大麦详情页不同），这里只兜底
         item["url"] = s.get("url") or DETAIL_URL.format(id=s["id"])
+        # 卡片上的来源要跟购票入口一致：两源在售就写两个，别只显示主 id 那一家
+        present = {l.get("source") or SRC_SHORT for l in (s.get("links") or [])}
+        present.add(s.get("source") or SRC_SHORT)
+        src_seen |= present
+        item["source"] = "＋".join(x for x in SRC_ORDER if x in present)
         out.append(item)
 
     out.sort(key=lambda x: (x["date"] or "9999-12-31", x["city"], x["kind"]))
-    srcs = sorted({x.get("source") or SOURCE_NAME for x in out})
-    home = {"格瓦拉": ("格瓦拉生活网", LIST_URL.format(cat=DRAMA_CATEGORY)),
-            "大麦": ("大麦", "https://m.damai.cn/")}
-    source_urls = [dict(zip(("name", "url"), home[s])) for s in srcs if s in home]
+    # 展示顺序按主源优先，不用 sorted() 的字典序（否则「大麦」会排在「格瓦拉」前面）
+    srcs = [s for s in SRC_ORDER if s in src_seen]
+    homes = {SRC_SHORT: (SOURCE_NAME, LIST_URL.format(cat=DRAMA_CATEGORY)),
+             "大麦": ("大麦", "https://m.damai.cn/")}
     return {
-        "source": "＋".join(srcs) if srcs else SOURCE_NAME,
+        "source": "＋".join(homes[s][0] for s in srcs) or SOURCE_NAME,
         "source_url": LIST_URL.format(cat=DRAMA_CATEGORY),
-        "source_urls": source_urls,
+        "source_urls": [{"name": homes[s][0], "url": homes[s][1]} for s in srcs],
         "updated_at": now.strftime("%Y-%m-%d %H:%M CST"),
         "updated_ts": int(now.timestamp()),
         "stale": stale,
