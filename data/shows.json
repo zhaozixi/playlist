@@ -1091,36 +1091,6 @@
    "is_new": false
   },
   {
-   "id": "374137",
-   "source": "格瓦拉",
-   "kind": "话剧",
-   "title": "沉浸式悬念剧场《9号秘事》",
-   "venue": "上海大剧院-9号空间(五楼小剧场)(上海市黄浦区人民大道300号)",
-   "shop": "上海大剧院-9号空间(五楼小剧场)",
-   "city": "上海",
-   "city_id": 1,
-   "date_text": "2026.10.02 - 11.15",
-   "date": "2026-10-02",
-   "date_end": "2026-11-15",
-   "status": "在售中",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01l0uJr5inpbE0gnh0_!!2251059038.png",
-   "price": "239-589",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/374137",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/374137"
-    },
-    {
-     "source": "大麦",
-     "url": "https://m.damai.cn/shows/item.html?id=865167106719"
-    }
-   ],
-   "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
    "id": "507841",
    "source": "格瓦拉",
    "kind": "话剧",
@@ -1145,6 +1115,36 @@
     {
      "source": "大麦",
      "url": "https://m.damai.cn/shows/item.html?id=1083060183911"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
+   "id": "374137",
+   "source": "格瓦拉",
+   "kind": "话剧",
+   "title": "沉浸式悬念剧场《9号秘事》",
+   "venue": "上海大剧院-9号空间(五楼小剧场)(上海市黄浦区人民大道300号)",
+   "shop": "上海大剧院-9号空间(五楼小剧场)",
+   "city": "上海",
+   "city_id": 1,
+   "date_text": "2026.10.02 - 11.15",
+   "date": "2026-10-02",
+   "date_end": "2026-11-15",
+   "status": "在售中",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01l0uJr5inpbE0gnh0_!!2251059038.png",
+   "price": "239-589",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/374137",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/374137"
+    },
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=865167106719"
     }
    ],
    "first_seen": "2026-09-29",
@@ -14478,31 +14478,6 @@
    "is_new": false
   },
   {
-   "id": "dm1086657204524",
-   "source": "大麦",
-   "kind": "话剧",
-   "title": "肆漫新喜剧【特邀荒岛人气王 | 郭特特 | 顿珠 |  代鹏飞】即兴专场｜肆笑@北外滩来福士店",
-   "venue": "肆笑喜剧脱口秀北外滩来福士店(上海市虹口区东大名路999号北外滩来福士b1-42/43)",
-   "shop": "肆笑喜剧脱口秀北外滩来福士店",
-   "city": "上海",
-   "date_text": "2026.10.05 周一 19:30",
-   "date": "2026-10-05",
-   "date_end": "2026-10-05",
-   "status": "去购票",
-   "poster": "https://img.alicdn.com/bao/uploaded/i2/2251059038/O1CN01kRDbuqILSMG24P50_!!4611686018427383646-0-item_pic.jpg",
-   "price": "120-198",
-   "tags": [],
-   "url": "https://m.damai.cn/shows/item.html?id=1086657204524",
-   "links": [
-    {
-     "source": "大麦",
-     "url": "https://m.damai.cn/shows/item.html?id=1086657204524"
-    }
-   ],
-   "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
    "id": "dm861997457644",
    "source": "大麦",
    "kind": "话剧",
@@ -14522,6 +14497,31 @@
     {
      "source": "大麦",
      "url": "https://m.damai.cn/shows/item.html?id=861997457644"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
+   "id": "dm1086657204524",
+   "source": "大麦",
+   "kind": "话剧",
+   "title": "肆漫新喜剧【特邀荒岛人气王 | 郭特特 | 顿珠 |  代鹏飞】即兴专场｜肆笑@北外滩来福士店",
+   "venue": "肆笑喜剧脱口秀北外滩来福士店(上海市虹口区东大名路999号北外滩来福士b1-42/43)",
+   "shop": "肆笑喜剧脱口秀北外滩来福士店",
+   "city": "上海",
+   "date_text": "2026.10.05 周一 19:30",
+   "date": "2026-10-05",
+   "date_end": "2026-10-05",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/i2/2251059038/O1CN01kRDbuqILSMG24P50_!!4611686018427383646-0-item_pic.jpg",
+   "price": "120-198",
+   "tags": [],
+   "url": "https://m.damai.cn/shows/item.html?id=1086657204524",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=1086657204524"
     }
    ],
    "first_seen": "2026-09-29",
@@ -15325,7 +15325,7 @@
     }
    ],
    "first_seen": "2026-09-30",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "dm1078963654910",
@@ -15528,31 +15528,6 @@
    "is_new": false
   },
   {
-   "id": "dm1086642232330",
-   "source": "大麦",
-   "kind": "话剧",
-   "title": "悬疑推理极速反转《夏洛克请别说谎》爆笑大戏｜国际喜剧节剧目",
-   "venue": "萧山剧院(杭州市萧山区市心中路918号)",
-   "shop": "萧山剧院",
-   "city": "杭州",
-   "date_text": "2026.12.11 周五 19:30",
-   "date": "2026-12-11",
-   "date_end": "2026-12-11",
-   "status": "去购票",
-   "poster": "https://img.alicdn.com/bao/uploaded/i4/2251059038/O1CN01QDW5FordpoE24P4m_!!4611686018427383646-0-item_pic.jpg",
-   "price": "68-220",
-   "tags": [],
-   "url": "https://m.damai.cn/shows/item.html?id=1086642232330",
-   "links": [
-    {
-     "source": "大麦",
-     "url": "https://m.damai.cn/shows/item.html?id=1086642232330"
-    }
-   ],
-   "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
    "id": "dm1080028515876",
    "source": "大麦",
    "kind": "话剧",
@@ -15597,6 +15572,31 @@
     {
      "source": "大麦",
      "url": "https://m.damai.cn/shows/item.html?id=1005155654982"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
+   "id": "dm1086642232330",
+   "source": "大麦",
+   "kind": "话剧",
+   "title": "悬疑推理极速反转《夏洛克请别说谎》爆笑大戏｜国际喜剧节剧目",
+   "venue": "萧山剧院(杭州市萧山区市心中路918号)",
+   "shop": "萧山剧院",
+   "city": "杭州",
+   "date_text": "2026.12.11 周五 19:30",
+   "date": "2026-12-11",
+   "date_end": "2026-12-11",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/i4/2251059038/O1CN01QDW5FordpoE24P4m_!!4611686018427383646-0-item_pic.jpg",
+   "price": "68-220",
+   "tags": [],
+   "url": "https://m.damai.cn/shows/item.html?id=1086642232330",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=1086642232330"
     }
    ],
    "first_seen": "2026-09-29",
@@ -15853,31 +15853,6 @@
    "is_new": false
   },
   {
-   "id": "dm1075828442059",
-   "source": "大麦",
-   "kind": "话剧",
-   "title": "天津人艺版曹禺经典话剧《日出》",
-   "venue": "慈溪大剧院-大剧场(剧院路与滨河北路交叉口西南150米)",
-   "shop": "慈溪大剧院-大剧场",
-   "city": "宁波",
-   "date_text": "2026.10.25 周日 19:30",
-   "date": "2026-10-25",
-   "date_end": "2026-10-25",
-   "status": "去购票",
-   "poster": "https://img.alicdn.com/bao/uploaded/i1/2251059038/O1CN01u1pVs6SMVeF0gnh0_!!4611686018427383646-2-item_pic.png",
-   "price": "50-280",
-   "tags": [],
-   "url": "https://m.damai.cn/shows/item.html?id=1075828442059",
-   "links": [
-    {
-     "source": "大麦",
-     "url": "https://m.damai.cn/shows/item.html?id=1075828442059"
-    }
-   ],
-   "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
    "id": "dm1081736938278",
    "source": "大麦",
    "kind": "话剧",
@@ -15897,6 +15872,31 @@
     {
      "source": "大麦",
      "url": "https://m.damai.cn/shows/item.html?id=1081736938278"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
+   "id": "dm1075828442059",
+   "source": "大麦",
+   "kind": "话剧",
+   "title": "天津人艺版曹禺经典话剧《日出》",
+   "venue": "慈溪大剧院-大剧场(剧院路与滨河北路交叉口西南150米)",
+   "shop": "慈溪大剧院-大剧场",
+   "city": "宁波",
+   "date_text": "2026.10.25 周日 19:30",
+   "date": "2026-10-25",
+   "date_end": "2026-10-25",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/i1/2251059038/O1CN01u1pVs6SMVeF0gnh0_!!4611686018427383646-2-item_pic.png",
+   "price": "50-280",
+   "tags": [],
+   "url": "https://m.damai.cn/shows/item.html?id=1075828442059",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=1075828442059"
     }
    ],
    "first_seen": "2026-09-29",
