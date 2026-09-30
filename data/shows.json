@@ -2065,36 +2065,6 @@
    "is_new": false
   },
   {
-   "id": "425406",
-   "source": "格瓦拉",
-   "kind": "话剧",
-   "title": "必看!恐怖!解压!《片场 3.0》声光电全沉浸戏剧|大型机关",
-   "venue": "《片场》-沉浸式恐怖解压剧(四川北路939号滨港商业中心5层1518-1519单元)",
-   "shop": "滨港商业中心5楼-喜梦盒剧场上海店",
-   "city": "上海",
-   "city_id": 1,
-   "date_text": "2026.09.30 - 10.31",
-   "date": "2026-09-30",
-   "date_end": "2026-10-31",
-   "status": "在售中",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01K8fpL72GdSnKqA4PY_!!2251059038.jpg",
-   "price": "198-668",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/425406",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/425406"
-    },
-    {
-     "source": "大麦",
-     "url": "https://m.damai.cn/shows/item.html?id=962380211177"
-    }
-   ],
-   "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
    "id": "501598",
    "source": "格瓦拉",
    "kind": "音乐剧",
@@ -2119,6 +2089,36 @@
     {
      "source": "大麦",
      "url": "https://m.damai.cn/shows/item.html?id=1078291213476"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
+   "id": "425406",
+   "source": "格瓦拉",
+   "kind": "话剧",
+   "title": "必看!恐怖!解压!《片场 3.0》声光电全沉浸戏剧|大型机关",
+   "venue": "《片场》-沉浸式恐怖解压剧(四川北路939号滨港商业中心5层1518-1519单元)",
+   "shop": "滨港商业中心5楼-喜梦盒剧场上海店",
+   "city": "上海",
+   "city_id": 1,
+   "date_text": "2026.09.30 - 10.31",
+   "date": "2026-09-30",
+   "date_end": "2026-10-31",
+   "status": "在售中",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01K8fpL72GdSnKqA4PY_!!2251059038.jpg",
+   "price": "198-668",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/425406",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/425406"
+    },
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=962380211177"
     }
    ],
    "first_seen": "2026-09-29",
@@ -14785,7 +14785,7 @@
    "venue": "爪马空间3号剧场(上海市虹口区公平路209号友邦金融中心商场L4层L401单元·爪马空间3号剧场)",
    "shop": "爪马空间3号剧场",
    "city": "上海",
-   "date_text": "2026.10.01-10.31",
+   "date_text": "2026.10.01-10.11",
    "date": "2026-10-01",
    "date_end": "2026-10-01",
    "status": "去购票",
