@@ -8,6 +8,7 @@
 ```
 crawler/scrape.py          格瓦拉抓取 + 解析 + 分类 + 双源合并 + 增量对比
 crawler/damai.py           大麦（mtop）信源适配：签名协议、类目过滤、城市 ID
+crawler/gate.py            排程补漏闸门：判断最近一个整点槽是否已有数据
 web/index.html             页面（含筛选、搜索、多源购票入口、日历订阅）
 web/build.py               把数据内联进 HTML，产出单文件版与 .ics
 web/data.json              结构化数据
@@ -17,6 +18,20 @@ dist/                      构建产物（单文件版，双击即可打开）
 .github/workflows/scrape.yml  定时任务 + Pages 发布
 deploy/Dockerfile          自建服务器方案（cron + 静态服务）
 ```
+
+## 更新为什么不是「准点」跑
+
+GitHub Actions 的 `schedule` 是尽力而为，不保证到点必跑：实测 2026-09-29 的 16:00
+（北京）槽位拖到 22:42 才执行，次日 08:00 那一槽干脆没出现。所以工作流排成
+**每 2 小时醒一次**（`cron: "0 */2 * * *"`，正好覆盖 CST 08:00 与 16:00），
+由 `crawler/gate.py` 决定这轮要不要真抓：
+
+- CST 08:00 / 16:00 的整点 → 直接抓
+- 其它时段 → 只有该槽漏跑才补，数据已新鲜就在几秒内退出（不重复抓、不重复部署）
+- `push` / `workflow_dispatch` 触发 → 一律抓，另有 `force` 输入可强制
+
+页面头部也会提示：数据落后于最近一个排程槽时标橙，超过一天标红，
+避免把「Actions 没跑」看成「今天没有新演出」。
 
 ## 数据源
 
