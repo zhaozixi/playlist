@@ -19,7 +19,7 @@ from pathlib import Path
 
 CST = timezone(timedelta(hours=8))
 DATA_FILE = Path(__file__).resolve().parent.parent / "web" / "data.json"
-SLOTS = (8, 16)          # 北京时间整点
+SLOTS = (8, 16)          # 北京时间排程整点
 GRACE_MIN = 45           # 补跑槽位判定「正点已过」的余量，避开同一槽的并发重复
 DEFAULT_SKEW_MIN = 5     # runner 时钟/提交延迟容忍
 
