@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>音乐剧 · 话剧 演出速览</title>
-<meta name="description" content="每天 08:00 与 16:00 自动更新的音乐剧、话剧演出信息，含档期、场馆与购票入口。">
+<title>江浙沪-音乐剧·话剧-速览</title>
+<meta name="description" content="每天 08:00 与 16:00 自动更新的江浙沪音乐剧、话剧演出信息，含档期、场馆与双平台购票入口。">
 <style>
   :root{
     --bg:#0f1115; --card:#171a21; --line:#252a34; --fg:#e8eaed; --dim:#9aa3b2;
@@ -81,7 +81,7 @@
 <body>
 <div class="wrap">
   <header>
-    <h1>音乐剧 · 话剧 演出速览</h1>
+    <h1>江浙沪-音乐剧·话剧-速览</h1>
     <div class="sub">
       <span>更新 <b id="updated">—</b></span>
       <span>覆盖 <b id="scope">—</b></span>
@@ -264,7 +264,7 @@
       wb.textContent = '最近一次自动抓取未成功，当前展示的是上一次成功抓取的数据（' +
         (DATA.updated_at || '') + '）。';
     }
-    document.title = '音乐剧·话剧 演出速览（' + (c.total || 0) + ' 场）';
+    document.title = '江浙沪-音乐剧·话剧-速览（' + (c.total || 0) + ' 场）';
   }
 
   document.querySelectorAll('.seg button').forEach(function(b){
