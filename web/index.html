@@ -149,14 +149,25 @@
   function esc(s){ return String(s).replace(/[&<>"]/g, function(c){
     return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
 
-  function iso(s){ return s ? Date.parse(s + 'T00:00:00+08:00') : null; }
+  var DAY = 86400000;
+
+  function iso(s){
+    if(!s || !/^\d{4}-\d{2}-\d{2}$/.test(s)) return null;
+    return Date.parse(s + 'T00:00:00+08:00');
+  }
+
+  // 天数一律按北京时间「日历天」相减：闭幕日 00:00 减今天 00:00。
+  // 之前是拿 Date.now() 做减法再四舍五入，过了中午 12 点全站就少算一天——
+  // 明天闭幕的展被标成「今天闭幕」，今天闭幕的被标成「已闭幕」。
+  function dayDiff(t){
+    if(t === null) return null;
+    var b = new Date(Date.now() + 8 * 3600000);
+    var midnight = Date.UTC(b.getUTCFullYear(), b.getUTCMonth(), b.getUTCDate()) - 8 * 3600000;
+    return Math.round((t - midnight) / DAY);
+  }
 
   // 展览按闭幕日算剩余天数；演出仍按开演日算
-  function endDays(s){
-    var t = iso(s.date_end || s.date);
-    if(t === null) return null;
-    return Math.round((t - Date.now()) / 86400000);
-  }
+  function endDays(s){ return dayDiff(iso(s.date_end || s.date)); }
 
   function museumCities(){
     var mc = DATA.museum_cities || [];
@@ -178,7 +189,11 @@
           if(e === null || e < 0 || e > n) return false;
         } else {
           if(s.days === null || s.days === undefined) return false;
-          if(!(s.days >= 0 && s.days <= n)) return false;
+          if(s.days < 0){
+            // 仍在演期内的驻演，任何「未来 N 天」都算有得看
+            var e2 = endDays(s);
+            if(e2 === null || e2 < 0) return false;
+          } else if(!(s.days >= 0 && s.days <= n)) return false;
         }
       }
       if(state.q){
@@ -218,7 +233,11 @@
       return '';
     }
     if(s.days === null || s.days === undefined) return '';
-    if(s.days < 0) return '已结束';
+    if(s.days < 0){
+      // 开演日已过、闭幕日还没到 —— 驻演/连演，还在演，不是结束
+      var run = endDays(s);
+      return (run !== null && run >= 0) ? '演出中' : '已结束';
+    }
     if(s.days === 0) return '今天开演';
     if(s.days === 1) return '明天开演';
     if(s.days <= 7) return s.days + ' 天后';
@@ -241,7 +260,7 @@
       d.className = 'item' + (s.is_new ? ' new' : '');
       var expo = !!EXPO_KINDS[s.kind];
       var w = whenLabel(s), wl = '';
-      var soonN = expo ? endDays(s) : s.days;
+      var soonN = (expo || s.days < 0) ? endDays(s) : s.days;
       if(w){ wl = '<span class="pill' + (soonN <= 7 ? ' soon' : '') + '">' + esc(w) + '</span>'; }
       var links = (s.links && s.links.length) ? s.links : [{source: s.source || '源站', url: s.url}];
       var seen = {}, buy = '', n = 0;
