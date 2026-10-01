@@ -478,6 +478,8 @@ def build(shows: list[dict], stale: bool, cities: list[str], note: str = "") -> 
             except ValueError:
                 pass
         item = dict(s)
+        # days = 距开演日的日历天数（可为负：驻演开演日已过但仍在演期）。
+        # 页面标签按北京时间日历天相减，别改成时间戳差值，否则中午以后全站少算一天。
         item["days"] = days_left(s.get("date", ""))
         # url 由各源适配器自己给出（格瓦拉/大麦详情页不同），这里只兜底
         item["url"] = s.get("url") or DETAIL_URL.format(id=s["id"])
