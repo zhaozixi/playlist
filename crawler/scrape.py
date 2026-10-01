@@ -396,6 +396,12 @@ def title_core(title: str) -> str:
     return s.lower()
 
 
+def merge_key(r: dict) -> tuple[str, str, str]:
+    """同一场演出在不同信源里的对齐键，和 merge_sources 保持一致。"""
+    return (title_core(r["title"]), r["city"],
+            r.get("date") or r.get("date_text") or "")
+
+
 def merge_sources(records: list[dict]) -> list[dict]:
     """把不同信源里的同一场演出合成一条，保留各源购票入口。
 
@@ -406,7 +412,7 @@ def merge_sources(records: list[dict]) -> list[dict]:
     """
     grouped: dict[tuple[str, str, str], dict] = {}
     for r in records:
-        key = (title_core(r["title"]), r["city"], r.get("date") or r.get("date_text") or "")
+        key = merge_key(r)
         cur = grouped.get(key)
         if cur is None:
             item = dict(r)
@@ -570,30 +576,34 @@ def scrape_cities(cities: list[str], offline: bool) -> tuple[list[dict], bool]:
 
 
 def backfill_from_history(rows: list[dict], previous: dict, kinds: set[str],
-                          log, skip_ids: set[str] = frozenset()) -> tuple[list[dict], int]:
+                          log, skip_keys: set[tuple] = frozenset()) -> tuple[list[dict], int]:
     """某一路线上失败时，用上一轮 shows.json 里同类、且还没闭幕的条目补位。
 
     data/pages/ 是 gitignore 的，Actions 每轮都是干净 checkout，缓存兜底在 CI 里
     其实不存在；但 data/shows.json 每轮都会提交，它就是最可靠的上一轮快照。
 
-    skip_ids 是本轮别的线已经收到的 id，避免馆方展讯刚抓全、又被展览线
-    当成「补位」重复捞一遍，把提示吵响。
+    skip_keys 是本轮其他线已经收到的条目（按 merge_key 对齐）：馆方源挂了，
+    可同一批特展格瓦拉/大麦本轮照常抓到了，就不算「沿用上一轮」，别补也别吵。
 
     返回 (rows, 补位条数)：只有真的沿用了上一轮数据才值得在页面上提示，
     常年 0 条的源（比如徐州）挂了就不吵。
     """
-    cur_ids = {r["id"] for r in rows} | set(skip_ids)
+    cur_ids = {r["id"] for r in rows}
+    cur_keys = {merge_key(r) for r in rows} | set(skip_keys)
     today = datetime.now(CST).strftime("%Y-%m-%d")
     added = 0
     for s in previous.get("shows", []):
         if s.get("kind") not in kinds or s["id"] in cur_ids:
             continue
+        if merge_key(s) in cur_keys:
+            continue                       # 本轮别的源已经收到了，不是补位
         if (s.get("date_end") or s.get("date") or "9999-12-31") < today:
             continue                       # 已闭幕/已结束的别捞回来
         item = dict(s)
         item["is_backfill"] = True
         rows.append(item)
         cur_ids.add(s["id"])
+        cur_keys.add(merge_key(s))
         added += 1
     if added:
         log(f"  用上一轮数据补位 {added} 条（{'、'.join(sorted(kinds))}）")
@@ -646,24 +656,26 @@ def main() -> int:
 
     extra: list[dict] = []
     notes: list[str] = []
+    need_mu = need_ex = False          # 这一轮展讯/展览线没跑全，需要补位
+    mu_crashed = ex_crashed = False    # 整条线抛异常，措辞更重
     museum_covered = MUSEUM_COVERED
     if not args.no_museum:
         try:
             import museum
             mu_recs, mu_bad = museum.scrape(CACHE_DIR, log, args.offline)
-            if mu_bad or not mu_recs:
-                mu_recs, mu_add = backfill_from_history(mu_recs, previous, {"博物馆"}, log)
-                if mu_add or not mu_recs:
-                    notes.append("博物馆展讯源本轮未完全更新")
+            need_mu = mu_bad or not mu_recs
             extra += mu_recs
             museum_covered = MUSEUM_COVERED & {r["city"] for r in mu_recs if r["kind"] == "博物馆"}
             log(f"博物馆展讯 {len(mu_recs)} 条（成表城市：{'、'.join(sorted(museum_covered))}）")
         except Exception as e:  # noqa: BLE001 - 单源失败不能拖垮整轮抓取
             log(f"博物馆展讯抓取失败：{type(e).__name__}: {e}")
-            mu_recs, mu_add = backfill_from_history([], previous, {"博物馆"}, log)
-            if mu_add or not mu_recs:
-                notes.append("博物馆展讯源整体失败")
-            extra += mu_recs
+            need_mu = mu_crashed = True
+
+    # 展讯线本轮整条没跑出来：展览分类还得知道哪些城市有博物馆栏，
+    # 先用上一轮成表的城市顶着，别让一个挂掉的页面把同城特展挤进「展览」。
+    if need_mu and not museum_covered:
+        museum_covered = MUSEUM_COVERED & {
+            r["city"] for r in previous.get("shows", []) if r.get("kind") == "博物馆"}
 
     if not args.no_expo:
         try:
@@ -672,21 +684,28 @@ def main() -> int:
                                               log, args.offline,
                                               interval=REQUEST_INTERVAL,
                                               museum_cities=museum_covered)
-            if ex_bad or not ex_recs:
-                ex_recs, ex_add = backfill_from_history(
-                    ex_recs, previous, {"展览", "博物馆"}, log,
-                    skip_ids={r["id"] for r in extra})
-                if ex_add:
-                    notes.append("展览类目源本轮未完全更新")
+            need_ex = ex_bad or not ex_recs
             extra += ex_recs
             log(f"展览类目 {len(ex_recs)} 条")
         except Exception as e:  # noqa: BLE001
             log(f"展览类目抓取失败：{type(e).__name__}: {e}")
-            ex_recs, ex_add = backfill_from_history(
-                [], previous, {"展览"}, log, skip_ids={r["id"] for r in extra})
-            if ex_add or not ex_recs:
-                notes.append("展览类目源整体失败")
-            extra += ex_recs
+            need_ex = ex_crashed = True
+
+    # 补位放在两条展线都跑完之后：这时才知道本轮到底收到了哪些条目。
+    # 同一批特展格瓦拉/大麦本轮抓到了，就只是馆方页面挂了，既不用补也不该吵；
+    # 真的靠上一轮撑住栏位，才值得在页面上留一句。
+    if need_mu:
+        extra, mu_add = backfill_from_history(
+            extra, previous, {"博物馆"}, log,
+            skip_keys={merge_key(r) for r in shows + extra})
+        if mu_add or not any(r["kind"] == "博物馆" for r in extra):
+            notes.append("博物馆展讯源整体失败" if mu_crashed else "博物馆展讯源本轮未完全更新")
+    if need_ex:
+        extra, ex_add = backfill_from_history(
+            extra, previous, {"展览", "博物馆"}, log,
+            skip_keys={merge_key(r) for r in shows + extra})
+        if ex_add or not any(r["kind"] == "展览" for r in extra):
+            notes.append("展览类目源整体失败" if ex_crashed else "展览类目源本轮未完全更新")
 
     if extra:
         # 馆方免费展与票务平台的同一特展合成一条，保留两个入口
