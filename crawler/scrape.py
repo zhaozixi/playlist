@@ -570,13 +570,19 @@ def scrape_cities(cities: list[str], offline: bool) -> tuple[list[dict], bool]:
 
 
 def backfill_from_history(rows: list[dict], previous: dict, kinds: set[str],
-                          log) -> list[dict]:
+                          log, skip_ids: set[str] = frozenset()) -> tuple[list[dict], int]:
     """某一路线上失败时，用上一轮 shows.json 里同类、且还没闭幕的条目补位。
 
     data/pages/ 是 gitignore 的，Actions 每轮都是干净 checkout，缓存兜底在 CI 里
     其实不存在；但 data/shows.json 每轮都会提交，它就是最可靠的上一轮快照。
+
+    skip_ids 是本轮别的线已经收到的 id，避免馆方展讯刚抓全、又被展览线
+    当成「补位」重复捞一遍，把提示吵响。
+
+    返回 (rows, 补位条数)：只有真的沿用了上一轮数据才值得在页面上提示，
+    常年 0 条的源（比如徐州）挂了就不吵。
     """
-    cur_ids = {r["id"] for r in rows}
+    cur_ids = {r["id"] for r in rows} | set(skip_ids)
     today = datetime.now(CST).strftime("%Y-%m-%d")
     added = 0
     for s in previous.get("shows", []):
@@ -591,7 +597,7 @@ def backfill_from_history(rows: list[dict], previous: dict, kinds: set[str],
         added += 1
     if added:
         log(f"  用上一轮数据补位 {added} 条（{'、'.join(sorted(kinds))}）")
-    return rows
+    return rows, added
 
 
 def main() -> int:
@@ -646,15 +652,18 @@ def main() -> int:
             import museum
             mu_recs, mu_bad = museum.scrape(CACHE_DIR, log, args.offline)
             if mu_bad or not mu_recs:
-                notes.append("博物馆展讯源本轮未完全更新")
-                mu_recs = backfill_from_history(mu_recs, previous, {"博物馆"}, log)
+                mu_recs, mu_add = backfill_from_history(mu_recs, previous, {"博物馆"}, log)
+                if mu_add or not mu_recs:
+                    notes.append("博物馆展讯源本轮未完全更新")
             extra += mu_recs
             museum_covered = MUSEUM_COVERED & {r["city"] for r in mu_recs if r["kind"] == "博物馆"}
             log(f"博物馆展讯 {len(mu_recs)} 条（成表城市：{'、'.join(sorted(museum_covered))}）")
         except Exception as e:  # noqa: BLE001 - 单源失败不能拖垮整轮抓取
             log(f"博物馆展讯抓取失败：{type(e).__name__}: {e}")
-            notes.append("博物馆展讯源整体失败")
-            extra += backfill_from_history([], previous, {"博物馆"}, log)
+            mu_recs, mu_add = backfill_from_history([], previous, {"博物馆"}, log)
+            if mu_add or not mu_recs:
+                notes.append("博物馆展讯源整体失败")
+            extra += mu_recs
 
     if not args.no_expo:
         try:
@@ -664,14 +673,20 @@ def main() -> int:
                                               interval=REQUEST_INTERVAL,
                                               museum_cities=museum_covered)
             if ex_bad or not ex_recs:
-                notes.append("展览类目源本轮未完全更新")
-                ex_recs = backfill_from_history(ex_recs, previous, {"展览", "博物馆"}, log)
+                ex_recs, ex_add = backfill_from_history(
+                    ex_recs, previous, {"展览", "博物馆"}, log,
+                    skip_ids={r["id"] for r in extra})
+                if ex_add:
+                    notes.append("展览类目源本轮未完全更新")
             extra += ex_recs
             log(f"展览类目 {len(ex_recs)} 条")
         except Exception as e:  # noqa: BLE001
             log(f"展览类目抓取失败：{type(e).__name__}: {e}")
-            notes.append("展览类目源整体失败")
-            extra += backfill_from_history([], previous, {"展览"}, log)
+            ex_recs, ex_add = backfill_from_history(
+                [], previous, {"展览"}, log, skip_ids={r["id"] for r in extra})
+            if ex_add or not ex_recs:
+                notes.append("展览类目源整体失败")
+            extra += ex_recs
 
     if extra:
         # 馆方免费展与票务平台的同一特展合成一条，保留两个入口
