@@ -1,1 +1,318 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiLjgIzlsZXop4jjgI3moI/vvJrnpajliqHlj4zmupDnmoTlsZXop4jnsbvnm64gKyDliKTnsbvjgIIKCuS/oea6kOS4jua8lOWHuuagj+WQjOaXj++8jOWPquaYr+aNouexu+ebru+8mgogICog5qC855Om5ouJ55Sf5rS7572RICBjYXQ9OeOAjOS8kemXsuWxleiniOOAjQogICog5aSn6bqmICAgICAgICAgIGdyb3VwSWQ9MjM3MOOAjOWxleiniOOAje+8iOiJuuacr+WxlS/lsZXop4jmtLvliqgv5LqM5qyh5YWDL+mbhuW4guW/q+mXqi/lrp7mma/kupLliqjmt7foo4XvvIkKCuS4pOa6kOmHjOWPquacieWNluelqOWxle+8jOWFjei0ueWNmueJqemmhuWxlei1sCBtdXNldW0ucHnjgIIKCuWIpOexu+WPo+W+hO+8iOS4jueUqOaIt+ehruiupOi/h++8ie+8mgogICogVlIvWFLjgIHmsonmtbjlvI/jgIHmlbDlrZflhYnlvbHjgIFJUC/kuozmrKHlhYPjgIHmva7mtYHoibrmnK/nsbsg4oaSIOWxleiniO+8iOacrOaooeWdl++8iQogICog56Gu5a6e5Y+R55Sf5Zyo5Y2a54mp6aaGL+e6quW/temmhumHjOeahOeJueWxleS4tOWxlSDihpIg5Y2a54mp6aaG77yM5LiU5Y+q5Zyo44CM6K+l5Z+O5pyJ6aaG5pa55bGV6K6v5rqQ44CN5pe2CiAgICDmiY3lvZLov4fljrvvvIzlkKbliJnnlZnlnKjlsZXop4jmoI/vvIjmsqHmnInlhY3otLnlsZXmupDnmoTln47luILmnKzmnJ/kuI3ljZXni6zmiJDooajvvInjgIIKICAqIOmbhuW4guW/q+mXquOAgeeglOWtpuOAgeWoseS5kOS8kemXsuOAgeWEv+erpeS6suWtkOOAgeihjOS4muWxlei/meexu+S4jeaYr+OAjOWxleOAjeeahOa0u+WKqOebtOaOpeWJlOmZpOOAggoiIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IGpzb24KaW1wb3J0IHJlCmltcG9ydCB0aW1lCmZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGUKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgppbXBvcnQgZGFtYWkKaW1wb3J0IG11c2V1bQoKU09VUkNFX0dXID0gIuagvOeTpuaLiSIKU09VUkNFX0RNID0gIuWkp+m6piIKR1dfQ0FURUdPUlkgPSA5ICAgICAgICAgICAgICAgICAgICAgICMg5qC855Om5ouJ44CM5LyR6Zey5bGV6KeI44CNCkRFVEFJTF9VUkwgPSAiaHR0cHM6Ly9zaG93Lm1hb3lhbi5jb20vZGV0YWlsL3tpZH0iCgojIOWkp+m6pi/moLznk6bmi4nlsZXop4jnsbvnm67ph4znmoTpnZ7lsZXop4jmtLvliqgKTk9JU0VfU1VCUyA9ICgi6ZuG5biC5b+r6ZeqIiwgIueglOWtpiIsICLlqLHkuZDkvJHpl7IiLCAi5YS/56ul5Lqy5a2QIiwgIuihjOS4muWxlSIsICLoioLml6XluoblhbgiLCAi5peF5ri4IikKIyDmmI7mmL7mmK8gRElZL+aRiuS9jS/lpJzlnLrnpajkuIDnsbvvvIzmoIfpopjlsYLlho3mi6bkuIDpgZMKTk9JU0VfVElUTEUgPSAoIuaRiuS9jSIsICLmi5vllYYiLCAi5biC6ZuG5oub5YufIiwgIuW/l+aEv+iAhSIsICLmi5vogZgiLCAi5Zy65Zyw56ef6LWBIiwKICAgICAgICAgICAgICAgIueglOWtpiIsICLnsr7orrIiLCAi5a+86KeIIiwgIuiusuinoyIsICLor77nqIsiLCAi5aSP5Luk6JClIiwgIuWGrOS7pOiQpSIpCgojIOWGheWuueWei+WxleiniO+8muWNs+S9v+W8gOWcqOWNmueJqemmhumHjOS5n+W9kuOAjOWxleiniOOAjeagj+OAggojIOOAjOeJueWxlS/lpKflsZXjgI3kuI3lnKjlhbbkuK3igJTigJTpgqPmmK/ppobmlrnnibnlsZXvvIzmjInnlKjmiLflj6PlvoTlvZLljZrnianppobmoI/jgIIKVlJJU0ggPSBtdXNldW0uVlJfV09SRFMgKyAoIuiJuuacr+WxlSIsICLnvo7mnK/lsZUiLCAi55S75bGVIiwgIuW9seWDj+WxlSIsICLmkYTlvbHlsZUiLCAi6KOF572uIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIuayiea1uCIsICLkvZPpqozppoYiLCAi6Im65pyv5aSn6LWPIikKCk1VU0VVTV9XT1JEUyA9ICgi5Y2a54mp6aaGIiwgIuWNmueJqemZoiIsICLnuqrlv7XppoYiKQoKCmRlZiBjbGFzc2lmeSh0aXRsZTogc3RyLCB2ZW51ZTogc3RyKSAtPiBzdHI6CiAgICAiIiLliKTjgIzljZrnianppobjgI3ov5jmmK/jgIzlsZXop4jjgI3jgIIKCiAgICDnpajliqHmupDmnaHnm67opoHlvZLjgIzljZrnianppobjgI3moI/vvIzpobvlkIzml7bmu6HotrPvvJoKICAgICAgKiDlnLrppobmmK/ljZrnianppoYv5Y2a54mp6ZmiL+e6quW/temmhu+8iOe+juacr+mmhuaMieeUqOaIt+WPo+W+hOeul+iJuuacr+WxlSDihpIg5bGV6KeI5qCP77yJCiAgICAgICog56Gu5a6e5piv5bGV6KeI6ICM6Z2e6aaG5YaF5YW25a6D5pyN5Yqh77ya5qCH6aKY5bim44CM5bGV44CN5oiW44CM6ZmI5YiX44CNCiAgICAgICog5LiN5pivIFZSL+ayiea1uC/mlbDlrZfov5nnsbvlhoXlrrnlnovlsZXop4jvvIzkuZ/kuI3mmK/luLjorr7lsZXvvIjluLjorr7lsZXkuI3ljZXliJfvvIkKICAgIOWFtuS9meWFqOmDqOi/m+WxleiniOagj+OAggogICAgIiIiCiAgICBoYXkgPSBmInt0aXRsZX0ge3ZlbnVlfSIKICAgIGlmIGFueSh3IGluIGhheSBmb3IgdyBpbiBWUklTSCk6CiAgICAgICAgcmV0dXJuICLlsZXop4giCiAgICBpZiBhbnkodyBpbiB0aXRsZSBmb3IgdyBpbiBtdXNldW0uUEVSTUFORU5UX1dPUkRTKToKICAgICAgICByZXR1cm4gIuWxleiniCIKICAgIGlmIGFueSh3IGluIHZlbnVlIGZvciB3IGluIE1VU0VVTV9XT1JEUyk6CiAgICAgICAgaWYgIuWxlSIgaW4gdGl0bGUgb3IgIumZiOWIlyIgaW4gdGl0bGU6CiAgICAgICAgICAgIHJldHVybiAi5Y2a54mp6aaGIgogICAgcmV0dXJuICLlsZXop4giCgoKZGVmIGd3X25vcm1hbGl6ZShyYXc6IGRpY3QsIHJlcXVlc3RlZF9jaXR5OiBzdHIpIC0+IGRpY3QgfCBOb25lOgogICAgIiIi5qC855Om5ouJIGNhdD05IOadoeebriDihpIg5pys56uZ6K6w5b2V44CCIiIiCiAgICB0aXRsZSA9IChyYXcuZ2V0KCJuYW1lIikgb3IgIiIpLnN0cmlwKCkKICAgIHBpZCA9IHJhdy5nZXQoInBlcmZvcm1hbmNlSWQiKQogICAgaWYgbm90IHRpdGxlIG9yIHBpZCBpcyBOb25lOgogICAgICAgIHJldHVybiBOb25lCiAgICBhY3R1YWwgPSAocmF3LmdldCgiY2l0eU5hbWUiKSBvciAiIikuc3RyaXAoKQogICAgaWYgcmF3LmdldCgiaXNDdXJyZW50Q2l0eSIpIG5vdCBpbiAoMSwgTm9uZSkgYW5kIGFjdHVhbCBhbmQgYWN0dWFsICE9IHJlcXVlc3RlZF9jaXR5OgogICAgICAgIHJldHVybiBOb25lCiAgICBzdWIgPSAocmF3LmdldCgiY2F0ZWdvcnlOYW1lIikgb3IgIiIpLnN0cmlwKCkKICAgIGlmIHN1YiBpbiBOT0lTRV9TVUJTIG9yIGFueSh3IGluIHRpdGxlIGZvciB3IGluIE5PSVNFX1RJVExFKToKICAgICAgICByZXR1cm4gTm9uZQoKICAgIGRhdGVfdGV4dCA9IChyYXcuZ2V0KCJzaG93VGltZVJhbmdlIikgb3IgIiIpLnN0cmlwKCkKICAgIHN0YXJ0LCBlbmQgPSBtdXNldW0ucGFyc2VfcmFuZ2UoZGF0ZV90ZXh0KQogICAgaWYgbm90IHN0YXJ0OgogICAgICAgIHN0ID0gKHJhdy5nZXQoInByb2plY3RTdGFydFRpbWUiKSBvciAiIilbOjEwXQogICAgICAgIGVuID0gKHJhdy5nZXQoInByb2plY3RFbmRUaW1lIikgb3IgIiIpWzoxMF0KICAgICAgICBzdGFydCA9IHN0IGlmIHJlLm1hdGNoKHIiXlxkezR9LVxkezJ9LVxkezJ9JCIsIHN0KSBlbHNlICIiCiAgICAgICAgZW5kID0gZW4gaWYgcmUubWF0Y2gociJeXGR7NH0tXGR7Mn0tXGR7Mn0kIiwgZW4pIGVsc2Ugc3RhcnQKICAgIGlmIG5vdCBzdGFydDoKICAgICAgICByZXR1cm4gTm9uZQoKICAgIHNob3AgPSAocmF3LmdldCgic2hvcE5hbWUiKSBvciAiIikuc3RyaXAoKQogICAgYWRkciA9IChyYXcuZ2V0KCJhZGRyZXNzIikgb3IgIiIpLnN0cmlwKCkKICAgIHZlbnVlID0gZiJ7c2hvcH0oe2FkZHJ9KSIgaWYgc2hvcCBhbmQgYWRkciBhbmQgYWRkciBub3QgaW4gc2hvcCBlbHNlIChzaG9wIG9yIGFkZHIpCiAgICBwcmljZSA9IHJhdy5nZXQoInByaWNlUmFuZ2UiKSBvciAiIgogICAgbG93ZXN0ID0gcmF3LmdldCgibG93ZXN0UHJpY2UiKQogICAgcmV0dXJuIHsKICAgICAgICAiaWQiOiBzdHIocGlkKSwKICAgICAgICAic291cmNlIjogU09VUkNFX0dXLAogICAgICAgICJraW5kIjogY2xhc3NpZnkodGl0bGUsIHZlbnVlKSwKICAgICAgICAidGl0bGUiOiB0aXRsZSwKICAgICAgICAidmVudWUiOiB2ZW51ZSwKICAgICAgICAic2hvcCI6IHNob3Agb3IgdmVudWUsCiAgICAgICAgInBsYWNlIjogIiIsCiAgICAgICAgImNpdHkiOiBhY3R1YWwgb3IgcmVxdWVzdGVkX2NpdHksCiAgICAgICAgImRhdGVfdGV4dCI6IGRhdGVfdGV4dCBvciAoZiJ7c3RhcnR9IC0ge2VuZH0iIGlmIGVuZCBhbmQgZW5kICE9IHN0YXJ0IGVsc2Ugc3RhcnQpLAogICAgICAgICJkYXRlIjogc3RhcnQsCiAgICAgICAgImRhdGVfZW5kIjogZW5kIG9yIHN0YXJ0LAogICAgICAgICJzdGF0dXMiOiAiIiwKICAgICAgICAicG9zdGVyIjogKHJhdy5nZXQoInBvc3RlclVybCIpIG9yICIiKS5zdHJpcCgpLAogICAgICAgICJwcmljZSI6IHN0cihwcmljZSkgaWYgcHJpY2UgZWxzZSAoc3RyKGxvd2VzdCkgaWYgbG93ZXN0IGVsc2UgIiIpLAogICAgICAgICJ0YWdzIjogW3N1Yl0gaWYgc3ViIGVsc2UgW10sCiAgICAgICAgInVybCI6IERFVEFJTF9VUkwuZm9ybWF0KGlkPXBpZCksCiAgICAgICAgImxpbmtzIjogW3sic291cmNlIjogU09VUkNFX0dXLCAidXJsIjogREVUQUlMX1VSTC5mb3JtYXQoaWQ9cGlkKX1dLAogICAgfQoKCmRlZiBkbV9ub3JtYWxpemUocmF3OiBkaWN0LCByZXF1ZXN0ZWRfY2l0eTogc3RyKSAtPiBkaWN0IHwgTm9uZToKICAgICIiIuWkp+m6piAyMzcwIOadoeebriDihpIg5pys56uZ6K6w5b2V77yb5LiN5aSN55SoIGRhbWFpLm5vcm1hbGl6Ze+8jOWboOS4uumCo+i+ueWPquaUtuivneWJp+atjOWJp+OAgiIiIgogICAgdGl0bGUgPSAocmF3LmdldCgibmFtZSIpIG9yICIiKS5zdHJpcCgpCiAgICBwaWQgPSByYXcuZ2V0KCJpZCIpCiAgICBpZiBub3QgdGl0bGUgb3IgcGlkIGlzIE5vbmU6CiAgICAgICAgcmV0dXJuIE5vbmUKICAgIHN1YiA9IChyYXcuZ2V0KCJndWlkZVN1YkNhdGVnb3J5TmFtZSIpIG9yICIiKS5zdHJpcCgpCiAgICBpZiBzdWIgaW4gTk9JU0VfU1VCUyBvciBhbnkodyBpbiB0aXRsZSBmb3IgdyBpbiBOT0lTRV9USVRMRSk6CiAgICAgICAgcmV0dXJuIE5vbmUKICAgIGNpdHkgPSByZXF1ZXN0ZWRfY2l0eSBvciAocmF3LmdldCgiY2l0eU5hbWUiKSBvciAiIikuc3RyaXAoKQogICAgZGF0ZV90ZXh0ID0gKHJhdy5nZXQoInNob3dUaW1lIikgb3IgIiIpLnN0cmlwKCkKICAgIHN0YXJ0LCBlbmQgPSBtdXNldW0ucGFyc2VfcmFuZ2UoZGF0ZV90ZXh0KQogICAgaWYgbm90IHN0YXJ0OgogICAgICAgIG1zID0gcmF3LmdldCgibmVhcmVzdFBlcmZvcm1UaW1lIikKICAgICAgICBpZiBpc2luc3RhbmNlKG1zLCAoaW50LCBmbG9hdCkpIGFuZCBtcyA+IDA6CiAgICAgICAgICAgIHN0YXJ0ID0gdGltZS5zdHJmdGltZSgiJVktJW0tJWQiLCB0aW1lLmxvY2FsdGltZShtcyAvIDEwMDApKQogICAgICAgICAgICBlbmQgPSBzdGFydAogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHJldHVybiBOb25lCiAgICB2ZW51ZSA9IChyYXcuZ2V0KCJ2ZW51ZU5hbWUiKSBvciAiIikuc3RyaXAoKQogICAgYWRkciA9IChyYXcuZ2V0KCJsb2dpY0FkZHJlc3MiKSBvciAiIikuc3RyaXAoKQogICAgdXJsID0gZGFtYWkuREVUQUlMX1VSTC5mb3JtYXQocGlkKQogICAgcmV0dXJuIHsKICAgICAgICAiaWQiOiBmImRte3BpZH0iLAogICAgICAgICJzb3VyY2UiOiBTT1VSQ0VfRE0sCiAgICAgICAgImtpbmQiOiBjbGFzc2lmeSh0aXRsZSwgdmVudWUpLAogICAgICAgICJ0aXRsZSI6IHRpdGxlLAogICAgICAgICJ2ZW51ZSI6IGYie3ZlbnVlfSh7YWRkcn0pIiBpZiB2ZW51ZSBhbmQgYWRkciBhbmQgYWRkciBub3QgaW4gdmVudWUgZWxzZSAodmVudWUgb3IgYWRkciksCiAgICAgICAgInNob3AiOiB2ZW51ZSwKICAgICAgICAicGxhY2UiOiAiIiwKICAgICAgICAiY2l0eSI6IGNpdHksCiAgICAgICAgImRhdGVfdGV4dCI6IGRhdGVfdGV4dCwKICAgICAgICAiZGF0ZSI6IHN0YXJ0LAogICAgICAgICJkYXRlX2VuZCI6IGVuZCBvciBzdGFydCwKICAgICAgICAic3RhdHVzIjogKHJhdy5nZXQoInNob3dTdGF0dXMiKSBvciB7fSkuZ2V0KCJkZXNjIikgb3IgIiIsCiAgICAgICAgInBvc3RlciI6IGRhbWFpLnBpY191cmwocmF3LmdldCgidmVydGljYWxQaWMiKSBvciAiIiksCiAgICAgICAgInByaWNlIjogKHJhdy5nZXQoInByaWNlU3RyIikgb3IgIiIpLnN0cmlwKCksCiAgICAgICAgInRhZ3MiOiBbc3ViXSBpZiBzdWIgZWxzZSBbXSwKICAgICAgICAidXJsIjogdXJsLAogICAgICAgICJsaW5rcyI6IFt7InNvdXJjZSI6IFNPVVJDRV9ETSwgInVybCI6IHVybH1dLAogICAgfQoKCmRlZiBjb3JlKHRpdGxlOiBzdHIpIC0+IHN0cjoKICAgICIiIui3qOa6kOavlOWvueeUqOeahOWxleWQjeaguOW/g+OAgiIiIgogICAgbSA9IHJlLmZpbmRhbGwociJb44CK4oCcXCInXShbXuOAi+KAnVwiJ117MSwyNn0pW+OAi+KAnVwiJ10iLCB0aXRsZSkKICAgIGlmIG06CiAgICAgICAgcmV0dXJuIG1bMF0uc3RyaXAoKS5sb3dlcigpCiAgICBzID0gcmUuc3ViKHIiW+OAkFxb77yIKF1bXuOAkVxdKe+8iV17MCwyMn1b44CRXF0p77yJXSIsICIiLCB0aXRsZSkKICAgIHMgPSByZS5zdWIociJbXHN8772cwrdcLeKAlCzvvIzjgIIu44CQ44CRXSsiLCAiIiwgcykKICAgIHJldHVybiBzLmxvd2VyKClbOjIwXQoKCmRlZiBtZXJnZShyb3dzOiBsaXN0W2RpY3RdKSAtPiBsaXN0W2RpY3RdOgogICAgIiIi5ZCM5Z+O5ZCM5ZCN5ZCM6LW35aeL5pel5ZCI5oiQ5LiA5p2h77yM5L+d55WZ5ZCE5rqQ5YWl5Y+j44CCIiIiCiAgICBncm91cGVkOiBkaWN0W3R1cGxlW3N0ciwgc3RyLCBzdHJdLCBkaWN0XSA9IHt9CiAgICBmb3IgciBpbiByb3dzOgogICAgICAgIGtleSA9IChjb3JlKHJbInRpdGxlIl0pLCByWyJjaXR5Il0sIHIuZ2V0KCJkYXRlIikgb3IgIiIpCiAgICAgICAgY3VyID0gZ3JvdXBlZC5nZXQoa2V5KQogICAgICAgIGlmIGN1ciBpcyBOb25lOgogICAgICAgICAgICBpdGVtID0gZGljdChyKQogICAgICAgICAgICBpdGVtWyJsaW5rcyJdID0gbGlzdChyLmdldCgibGlua3MiKSBvciBbeyJzb3VyY2UiOiByWyJzb3VyY2UiXSwgInVybCI6IHJbInVybCJdfV0pCiAgICAgICAgICAgIGdyb3VwZWRba2V5XSA9IGl0ZW0KICAgICAgICAgICAgY29udGludWUKICAgICAgICBmb3IgbCBpbiAoci5nZXQoImxpbmtzIikgb3IgW3sic291cmNlIjogclsic291cmNlIl0sICJ1cmwiOiByWyJ1cmwiXX1dKToKICAgICAgICAgICAgaWYgbCBub3QgaW4gY3VyWyJsaW5rcyJdOgogICAgICAgICAgICAgICAgY3VyWyJsaW5rcyJdLmFwcGVuZChsKQogICAgICAgICMg56Wo5Yqh5bmz5Y+w55qE56Wo5Lu3L+a1t+aKpeS/oeaBr+abtOi2s++8jOmmhuaWueiusOW9leayoeaciea1t+aKpeaXtuihpeS4igogICAgICAgIGZvciBmIGluICgidmVudWUiLCAiZGF0ZV90ZXh0IiwgInN0YXR1cyIsICJwcmljZSIsICJzaG9wIiwgInBsYWNlIik6CiAgICAgICAgICAgIGlmIGxlbihzdHIoci5nZXQoZikgb3IgIiIpKSA+IGxlbihzdHIoY3VyLmdldChmKSBvciAiIikpOgogICAgICAgICAgICAgICAgY3VyW2ZdID0gcltmXQogICAgICAgIGlmIG5vdCBjdXIuZ2V0KCJwb3N0ZXIiKSBhbmQgci5nZXQoInBvc3RlciIpOgogICAgICAgICAgICBjdXJbInBvc3RlciJdID0gclsicG9zdGVyIl0KICAgICAgICAjIOS4pOadoemDveeul+aVsOaXtuS7peOAjOWNmueJqemmhuOAjeS4uuWHhu+8jOWIq+iuqeS4gOS4quWUruelqOWxleaKiuWFjei0ueeJueWxleaMpOWIsOWxleiniOagjwogICAgICAgIGlmIHIuZ2V0KCJraW5kIikgPT0gIuWNmueJqemmhiIgYW5kIGN1ci5nZXQoImtpbmQiKSAhPSAi5Y2a54mp6aaGIjoKICAgICAgICAgICAgY3VyWyJraW5kIl0gPSAi5Y2a54mp6aaGIgogICAgcmV0dXJuIGxpc3QoZ3JvdXBlZC52YWx1ZXMoKSkKCgpkZWYgZ3dfZmV0Y2hfY2l0eShjaXR5OiBzdHIsIGNpdHlfaWQ6IGludCwgc2Vzc2lvbiwgbG9nLCBpbnRlcnZhbDogZmxvYXQsCiAgICAgICAgICAgICAgICAgIG1heF9wYWdlczogaW50ID0gNCkgLT4gbGlzdFtkaWN0XSB8IE5vbmU6CiAgICAiIiLmoLznk6bmi4nmn5Dln47lsZXop4jnsbvnm67nv7vpobXjgIIiIiIKICAgIGZyb20gc2NyYXBlIGltcG9ydCBBUElfVVJMLCBBUElfSEVBREVSUywgQVBJX1BBR0VfU0laRSAgIyDlpI3nlKjlkIzkuIDlpZfmjqXlj6PnuqblrpoKICAgIGl0ZW1zOiBsaXN0W2RpY3RdID0gW10KICAgIGZvciBwYWdlIGluIHJhbmdlKDEsIG1heF9wYWdlcyArIDEpOgogICAgICAgIHVybCA9IEFQSV9VUkwuZm9ybWF0KGNhdD1HV19DQVRFR09SWSwgc29ydD0wLCBwYWdlPXBhZ2UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2l6ZT1BUElfUEFHRV9TSVpFLCBjaWQ9Y2l0eV9pZCkKICAgICAgICBwYXlsb2FkID0gTm9uZQogICAgICAgIGZvciBhdHRlbXB0IGluIHJhbmdlKDEsIDQpOgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICByID0gc2Vzc2lvbi5nZXQodXJsLCB0aW1lb3V0PTI1LCBoZWFkZXJzPUFQSV9IRUFERVJTKQogICAgICAgICAgICAgICAgaWYgInJndjU4NyIgaW4gci50ZXh0IG9yICJwdW5pc2giIGluIHIudXJsOgogICAgICAgICAgICAgICAgICAgIGxvZyhmIiAg5qC855Om5ouJwrd7Y2l0eX3vvJrooqvpo47mjqfmi6bmiKoiKQogICAgICAgICAgICAgICAgICAgIHJldHVybiBOb25lCiAgICAgICAgICAgICAgICBpZiByLnN0YXR1c19jb2RlID09IDIwMDoKICAgICAgICAgICAgICAgICAgICBib2R5ID0gci5qc29uKCkKICAgICAgICAgICAgICAgICAgICBpZiBib2R5LmdldCgiY29kZSIpID09IDIwMCBvciBib2R5LmdldCgic3VjY2VzcyIpOgogICAgICAgICAgICAgICAgICAgICAgICBwYXlsb2FkID0gYm9keQogICAgICAgICAgICAgICAgICAgICAgICBicmVhawogICAgICAgICAgICBleGNlcHQgRXhjZXB0aW9uOiAgIyBub3FhOiBCTEUwMDEKICAgICAgICAgICAgICAgIHBhc3MKICAgICAgICAgICAgdGltZS5zbGVlcChpbnRlcnZhbCAqIGF0dGVtcHQpCiAgICAgICAgaWYgcGF5bG9hZCBpcyBOb25lOgogICAgICAgICAgICByZXR1cm4gTm9uZSBpZiBwYWdlID09IDEgZWxzZSBpdGVtcwogICAgICAgIGJhdGNoID0gcGF5bG9hZC5nZXQoImRhdGEiKSBvciBbXQogICAgICAgIGl0ZW1zICs9IGJhdGNoCiAgICAgICAgaWYgbm90IChwYXlsb2FkLmdldCgicGFnaW5nIikgb3Ige30pLmdldCgiaGFzTW9yZSIpIG9yIG5vdCBiYXRjaDoKICAgICAgICAgICAgYnJlYWsKICAgICAgICB0aW1lLnNsZWVwKGludGVydmFsKQogICAgcmV0dXJuIGl0ZW1zCgoKZGVmIHNjcmFwZShjaXRpZXM6IGxpc3Rbc3RyXSwgY2l0eV9pZHM6IGRpY3Rbc3RyLCBpbnRdLCBzZXNzaW9uLCBjYWNoZV9kaXI6IFBhdGgsCiAgICAgICAgICBsb2c9bGFtYmRhICpfOiBOb25lLCBvZmZsaW5lOiBib29sID0gRmFsc2UsCiAgICAgICAgICBpbnRlcnZhbDogZmxvYXQgPSAxLjAsIG11c2V1bV9jaXRpZXM6IHNldFtzdHJdIHwgTm9uZSA9IE5vbmUpIC0+IHR1cGxlW2xpc3RbZGljdF0sIGJvb2xdOgogICAgIiIi5oqT5Lik5rqQ5bGV6KeI57G755uu5bm25Yik57G744CC6L+U5ZueICjorrDlvZUsIOaYr+WQpuaciea6kOWksei0pSnjgIIKCiAgICBtdXNldW1fY2l0aWVz77ya5pyJ6aaG5pa55bGV6K6v5rqQ55qE5Z+O5biC44CC6JC95Zyo6L+Z5Lqb5Z+O5biC55qE5Y2a54mp6aaG5ZSu56Wo5bGV5b2S44CM5Y2a54mp6aaG44CN5qCP77yMCiAgICDlhbbkvZnln47luILnmoTlsZXop4jkuIDlvovnlZnlnKjjgIzlsZXop4jjgI3moI/jgIIKICAgICIiIgogICAgY2FjaGVfZGlyLm1rZGlyKHBhcmVudHM9VHJ1ZSwgZXhpc3Rfb2s9VHJ1ZSkKICAgIHJvd3M6IGxpc3RbZGljdF0gPSBbXQogICAgZmFpbGVkID0gRmFsc2UKCiAgICBmb3IgaSwgbmFtZSBpbiBlbnVtZXJhdGUoY2l0aWVzKToKICAgICAgICBjaWQgPSBjaXR5X2lkcy5nZXQobmFtZSkKICAgICAgICBpZiBub3QgY2lkOgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIGNhY2hlID0gY2FjaGVfZGlyIC8gZiJleHBvX2d3X3tuYW1lfS5qc29uIgogICAgICAgIHJhdyA9IE5vbmUKICAgICAgICBpZiBub3Qgb2ZmbGluZToKICAgICAgICAgICAgcmF3ID0gZ3dfZmV0Y2hfY2l0eShuYW1lLCBjaWQsIHNlc3Npb24sIGxvZywgaW50ZXJ2YWwpCiAgICAgICAgICAgIGlmIHJhdzoKICAgICAgICAgICAgICAgIGNhY2hlLndyaXRlX3RleHQoanNvbi5kdW1wcyhyYXcsIGVuc3VyZV9hc2NpaT1GYWxzZSksIGVuY29kaW5nPSJ1dGYtOCIpCiAgICAgICAgaWYgcmF3IGlzIE5vbmU6CiAgICAgICAgICAgIGlmIGNhY2hlLmV4aXN0cygpOgogICAgICAgICAgICAgICAgcmF3ID0ganNvbi5sb2FkcyhjYWNoZS5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04IikpCiAgICAgICAgICAgICAgICBpZiBub3Qgb2ZmbGluZToKICAgICAgICAgICAgICAgICAgICBsb2coZiIgIOagvOeTpuaLicK3e25hbWV977ya5oqT5Y+W5aSx6LSl77yM5pS555So57yT5a2YIHtsZW4ocmF3KX0g5p2hIikKICAgICAgICAgICAgICAgICAgICBmYWlsZWQgPSBUcnVlCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBpZiBub3Qgb2ZmbGluZToKICAgICAgICAgICAgICAgICAgICBsb2coZiIgIOagvOeTpuaLicK3e25hbWV977ya5oqT5Y+W5aSx6LSl5LiU5peg57yT5a2YIikKICAgICAgICAgICAgICAgICAgICBmYWlsZWQgPSBUcnVlCiAgICAgICAgICAgICAgICByYXcgPSBbXQogICAgICAgIGhpdHMgPSAwCiAgICAgICAgZm9yIGl0ZW0gaW4gcmF3OgogICAgICAgICAgICBpZiBpdGVtLmdldCgiaXNDdXJyZW50Q2l0eSIpIGlzIE5vbmU6CiAgICAgICAgICAgICAgICBpdGVtID0geyoqaXRlbSwgImNpdHlOYW1lIjogaXRlbS5nZXQoImNpdHlOYW1lIikgb3IgbmFtZX0KICAgICAgICAgICAgcmVjID0gZ3dfbm9ybWFsaXplKGl0ZW0sIG5hbWUpCiAgICAgICAgICAgIGlmIHJlYzoKICAgICAgICAgICAgICAgIHJvd3MuYXBwZW5kKHJlYykKICAgICAgICAgICAgICAgIGhpdHMgKz0gMQogICAgICAgIGxvZyhmIiAg5qC855Om5ouJwrflsZXop4jCt3tuYW1lfe+8mntsZW4ocmF3KX0g5p2hIOKGkiDmlLblvZUge2hpdHN9IOadoSIpCiAgICAgICAgaWYgbm90IG9mZmxpbmUgYW5kIGkgPCBsZW4oY2l0aWVzKSAtIDE6CiAgICAgICAgICAgIHRpbWUuc2xlZXAoaW50ZXJ2YWwpCgogICAgbSA9IGRhbWFpLk10b3AoaW50ZXJ2YWw9bWluKDAuOCwgaW50ZXJ2YWwpKQogICAgZm9yIG5hbWUgaW4gY2l0aWVzOgogICAgICAgIGNhY2hlID0gY2FjaGVfZGlyIC8gZiJleHBvX2RtX3tuYW1lfS5qc29uIgogICAgICAgIHJhdyA9IE5vbmUKICAgICAgICBpZiBub3Qgb2ZmbGluZToKICAgICAgICAgICAgcmF3ID0gZGFtYWkuZmV0Y2hfY2l0eShuYW1lLCBtLCBsb2csIGdyb3VwPWRhbWFpLkVYUE9fR1JPVVApCiAgICAgICAgICAgIGlmIHJhdzoKICAgICAgICAgICAgICAgIGNhY2hlLndyaXRlX3RleHQoanNvbi5kdW1wcyhyYXcsIGVuc3VyZV9hc2NpaT1GYWxzZSksIGVuY29kaW5nPSJ1dGYtOCIpCiAgICAgICAgaWYgcmF3IGlzIE5vbmU6CiAgICAgICAgICAgIGlmIGNhY2hlLmV4aXN0cygpOgogICAgICAgICAgICAgICAgcmF3ID0ganNvbi5sb2FkcyhjYWNoZS5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04IikpCiAgICAgICAgICAgICAgICBpZiBub3Qgb2ZmbGluZToKICAgICAgICAgICAgICAgICAgICBsb2coZiIgIOWkp+m6psK35bGV6KeIwrd7bmFtZX3vvJrmipPlj5blpLHotKXvvIzmlLnnlKjnvJPlrZgge2xlbihyYXcpfSDmnaEiKQogICAgICAgICAgICAgICAgICAgIGZhaWxlZCA9IFRydWUKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIGlmIG5vdCBvZmZsaW5lOgogICAgICAgICAgICAgICAgICAgIGxvZyhmIiAg5aSn6bqmwrflsZXop4jCt3tuYW1lfe+8muaKk+WPluWksei0peS4lOaXoOe8k+WtmCIpCiAgICAgICAgICAgICAgICAgICAgZmFpbGVkID0gVHJ1ZQogICAgICAgICAgICAgICAgcmF3ID0gW10KICAgICAgICBoaXRzID0gMAogICAgICAgIGZvciBpdGVtIGluIHJhdzoKICAgICAgICAgICAgcmVjID0gZG1fbm9ybWFsaXplKGl0ZW0sIG5hbWUpCiAgICAgICAgICAgIGlmIHJlYzoKICAgICAgICAgICAgICAgIHJvd3MuYXBwZW5kKHJlYykKICAgICAgICAgICAgICAgIGhpdHMgKz0gMQogICAgICAgIGxvZyhmIiAg5aSn6bqmwrflsZXop4jCt3tuYW1lfe+8mntsZW4ocmF3KX0g5p2hIOKGkiDmlLblvZUge2hpdHN9IOadoSIpCgogICAgbWVyZ2VkID0gbWVyZ2Uocm93cykKICAgIGNvdmVyZWQgPSBtdXNldW1fY2l0aWVzIG9yIHNldCgpCiAgICBmb3IgciBpbiBtZXJnZWQ6CiAgICAgICAgaWYgclsia2luZCJdID09ICLljZrnianppoYiIGFuZCByWyJjaXR5Il0gbm90IGluIGNvdmVyZWQ6CiAgICAgICAgICAgIHJbImtpbmQiXSA9ICLlsZXop4giICAgICAgICAjIOivpeWfjuayoeaciemmhuaWueWxleiur+a6kO+8jOS4jeWNleWIl+WNmueJqemmhuagjwogICAgcmV0dXJuIG1lcmdlZCwgZmFpbGVkCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIGltcG9ydCBzY3JhcGUgYXMgc2MKCiAgICBsb2cgPSBsYW1iZGEgKmE6IHByaW50KCphLCBmbHVzaD1UcnVlKQogICAgcyA9IHNjLm1ha2Vfc2Vzc2lvbigpCiAgICByZWNzLCBiYWQgPSBzY3JhcGUoc2MuREVGQVVMVF9DSVRJRVMsIHNjLkNJVElFUywgcywKICAgICAgICAgICAgICAgICAgICAgICBQYXRoKF9fZmlsZV9fKS5yZXNvbHZlKCkucGFyZW50LnBhcmVudCAvICJkYXRhIiAvICJwYWdlcyIsIGxvZywKICAgICAgICAgICAgICAgICAgICAgICBpbnRlcnZhbD0wLjYsIG11c2V1bV9jaXRpZXM9eyLljZfkuqwiLCAi5LiK5rW3IiwgIuiLj+W3niIsICLmiazlt54iLCAi5b6Q5beeIiwgIuadreW3niJ9KQogICAgcHJpbnQoZiLlsZXop4jmoI/lkIjorqEge2xlbihyZWNzKX0g5p2h77yM5aSx6LSlPXtiYWR9IikKICAgIGZvciByIGluIHNvcnRlZChyZWNzLCBrZXk9bGFtYmRhIHg6ICh4WyJraW5kIl0sIHhbImNpdHkiXSkpWzoxMF06CiAgICAgICAgcHJpbnQoZiIgIHtyWydraW5kJ119IHtyWydjaXR5J119IHwge3JbJ3RpdGxlJ11bOjI2XX0gfCB7clsndmVudWUnXVs6MThdfSAiCiAgICAgICAgICAgICAgZiJ8IHtyWydkYXRlX3RleHQnXVs6MjJdfSB8IMKle3JbJ3ByaWNlJ119IHwge2xlbihyWydsaW5rcyddKX3mupAiKQo=
+#!/usr/bin/env python3
+"""「展览」栏：票务双源的展览类目 + 判类。
+
+信源与演出栏同族，只是换类目：
+  * 格瓦拉生活网  cat=9「休闲展览」
+  * 大麦          groupId=2370「展览」（艺术展/展览活动/二次元/集市快闪/实景互动混装）
+
+两源里只有卖票展，免费博物馆展走 museum.py。
+
+判类口径（与用户确认过）：
+  * VR/XR、沉浸式、数字光影、IP/二次元、潮流艺术类 → 展览（本模块）
+  * 确实发生在博物馆/纪念馆里的特展临展 → 博物馆，且只在「该城有馆方展讯源」时
+    才归过去，否则留在展览栏（没有免费展源的城市本期不单独成表）。
+  * 集市快闪、研学、娱乐休闲、儿童亲子、行业展这类不是「展」的活动直接剔除。
+"""
+from __future__ import annotations
+
+import json
+import re
+import time
+from datetime import date
+from pathlib import Path
+
+import damai
+import museum
+
+SOURCE_GW = "格瓦拉"
+SOURCE_DM = "大麦"
+GW_CATEGORY = 9                      # 格瓦拉「休闲展览」
+DETAIL_URL = "https://show.maoyan.com/detail/{id}"
+
+# 大麦/格瓦拉展览类目里的非展览活动
+NOISE_SUBS = ("集市快闪", "研学", "娱乐休闲", "儿童亲子", "行业展", "节日庆典", "旅游")
+# 明显是 DIY/摊位/夜场票一类，标题层再拦一道
+NOISE_TITLE = ("摊位", "招商", "市集招募", "志愿者", "招聘", "场地租赁",
+               "研学", "精讲", "导览", "讲解", "课程", "夏令营", "冬令营")
+
+# 内容型展览：即使开在博物馆里也归「展览」栏。
+# 「特展/大展」不在其中——那是馆方特展，按用户口径归博物馆栏。
+VRISH = museum.VR_WORDS + ("艺术展", "美术展", "画展", "影像展", "摄影展", "装置",
+                           "沉浸", "体验馆", "艺术大赏")
+
+MUSEUM_WORDS = ("博物馆", "博物院", "纪念馆")
+
+
+def classify(title: str, venue: str) -> str:
+    """判「博物馆」还是「展览」。
+
+    票务源条目要归「博物馆」栏，须同时满足：
+      * 场馆是博物馆/博物院/纪念馆（美术馆按用户口径算艺术展 → 展览栏）
+      * 确实是展览而非馆内其它服务：标题带「展」或「陈列」
+      * 不是 VR/沉浸/数字这类内容型展览，也不是常设展（常设展不单列）
+    其余全部进展览栏。
+    """
+    hay = f"{title} {venue}"
+    if any(w in hay for w in VRISH):
+        return "展览"
+    if any(w in title for w in museum.PERMANENT_WORDS):
+        return "展览"
+    if any(w in venue for w in MUSEUM_WORDS):
+        if "展" in title or "陈列" in title:
+            return "博物馆"
+    return "展览"
+
+
+def gw_normalize(raw: dict, requested_city: str) -> dict | None:
+    """格瓦拉 cat=9 条目 → 本站记录。"""
+    title = (raw.get("name") or "").strip()
+    pid = raw.get("performanceId")
+    if not title or pid is None:
+        return None
+    actual = (raw.get("cityName") or "").strip()
+    if raw.get("isCurrentCity") not in (1, None) and actual and actual != requested_city:
+        return None
+    sub = (raw.get("categoryName") or "").strip()
+    if sub in NOISE_SUBS or any(w in title for w in NOISE_TITLE):
+        return None
+
+    date_text = (raw.get("showTimeRange") or "").strip()
+    start, end = museum.parse_range(date_text)
+    if not start:
+        st = (raw.get("projectStartTime") or "")[:10]
+        en = (raw.get("projectEndTime") or "")[:10]
+        start = st if re.match(r"^\d{4}-\d{2}-\d{2}$", st) else ""
+        end = en if re.match(r"^\d{4}-\d{2}-\d{2}$", en) else start
+    if not start:
+        return None
+
+    shop = (raw.get("shopName") or "").strip()
+    addr = (raw.get("address") or "").strip()
+    venue = f"{shop}({addr})" if shop and addr and addr not in shop else (shop or addr)
+    price = raw.get("priceRange") or ""
+    lowest = raw.get("lowestPrice")
+    return {
+        "id": str(pid),
+        "source": SOURCE_GW,
+        "kind": classify(title, venue),
+        "title": title,
+        "venue": venue,
+        "shop": shop or venue,
+        "place": "",
+        "city": actual or requested_city,
+        "date_text": date_text or (f"{start} - {end}" if end and end != start else start),
+        "date": start,
+        "date_end": end or start,
+        "status": "",
+        "poster": (raw.get("posterUrl") or "").strip(),
+        "price": str(price) if price else (str(lowest) if lowest else ""),
+        "tags": [sub] if sub else [],
+        "url": DETAIL_URL.format(id=pid),
+        "links": [{"source": SOURCE_GW, "url": DETAIL_URL.format(id=pid)}],
+    }
+
+
+def dm_normalize(raw: dict, requested_city: str) -> dict | None:
+    """大麦 2370 条目 → 本站记录；不复用 damai.normalize，因为那边只收话剧歌剧。"""
+    title = (raw.get("name") or "").strip()
+    pid = raw.get("id")
+    if not title or pid is None:
+        return None
+    sub = (raw.get("guideSubCategoryName") or "").strip()
+    if sub in NOISE_SUBS or any(w in title for w in NOISE_TITLE):
+        return None
+    city = requested_city or (raw.get("cityName") or "").strip()
+    date_text = (raw.get("showTime") or "").strip()
+    start, end = museum.parse_range(date_text)
+    if not start:
+        ms = raw.get("nearestPerformTime")
+        if isinstance(ms, (int, float)) and ms > 0:
+            start = time.strftime("%Y-%m-%d", time.localtime(ms / 1000))
+            end = start
+        else:
+            return None
+    venue = (raw.get("venueName") or "").strip()
+    addr = (raw.get("logicAddress") or "").strip()
+    url = damai.DETAIL_URL.format(pid)
+    return {
+        "id": f"dm{pid}",
+        "source": SOURCE_DM,
+        "kind": classify(title, venue),
+        "title": title,
+        "venue": f"{venue}({addr})" if venue and addr and addr not in venue else (venue or addr),
+        "shop": venue,
+        "place": "",
+        "city": city,
+        "date_text": date_text,
+        "date": start,
+        "date_end": end or start,
+        "status": (raw.get("showStatus") or {}).get("desc") or "",
+        "poster": damai.pic_url(raw.get("verticalPic") or ""),
+        "price": (raw.get("priceStr") or "").strip(),
+        "tags": [sub] if sub else [],
+        "url": url,
+        "links": [{"source": SOURCE_DM, "url": url}],
+    }
+
+
+def core(title: str) -> str:
+    """跨源比对用的展名核心。"""
+    m = re.findall(r"[《“\"']([^》”\"']{1,26})[》”\"']", title)
+    if m:
+        return m[0].strip().lower()
+    s = re.sub(r"[【\[（(][^】\])）]{0,22}[】\])）]", "", title)
+    s = re.sub(r"[\s|｜·\-—,，。.【】]+", "", s)
+    return s.lower()[:20]
+
+
+def merge(rows: list[dict]) -> list[dict]:
+    """同城同名同起始日合成一条，保留各源入口。"""
+    grouped: dict[tuple[str, str, str], dict] = {}
+    for r in rows:
+        key = (core(r["title"]), r["city"], r.get("date") or "")
+        cur = grouped.get(key)
+        if cur is None:
+            item = dict(r)
+            item["links"] = list(r.get("links") or [{"source": r["source"], "url": r["url"]}])
+            grouped[key] = item
+            continue
+        for l in (r.get("links") or [{"source": r["source"], "url": r["url"]}]):
+            if l not in cur["links"]:
+                cur["links"].append(l)
+        # 票务平台的票价/海报信息更足，馆方记录没有海报时补上
+        for f in ("venue", "date_text", "status", "price", "shop", "place"):
+            if len(str(r.get(f) or "")) > len(str(cur.get(f) or "")):
+                cur[f] = r[f]
+        if not cur.get("poster") and r.get("poster"):
+            cur["poster"] = r["poster"]
+        # 两条都算数时以「博物馆」为准，别让一个售票展把免费特展挤到展览栏
+        if r.get("kind") == "博物馆" and cur.get("kind") != "博物馆":
+            cur["kind"] = "博物馆"
+    return list(grouped.values())
+
+
+def gw_fetch_city(city: str, city_id: int, session, log, interval: float,
+                  max_pages: int = 4) -> list[dict] | None:
+    """格瓦拉某城展览类目翻页。"""
+    from scrape import API_URL, API_HEADERS, API_PAGE_SIZE  # 复用同一套接口约定
+    items: list[dict] = []
+    for page in range(1, max_pages + 1):
+        url = API_URL.format(cat=GW_CATEGORY, sort=0, page=page,
+                             size=API_PAGE_SIZE, cid=city_id)
+        payload = None
+        for attempt in range(1, 4):
+            try:
+                r = session.get(url, timeout=25, headers=API_HEADERS)
+                if "rgv587" in r.text or "punish" in r.url:
+                    log(f"  格瓦拉·{city}：被风控拦截")
+                    return None
+                if r.status_code == 200:
+                    body = r.json()
+                    if body.get("code") == 200 or body.get("success"):
+                        payload = body
+                        break
+            except Exception:  # noqa: BLE001
+                pass
+            time.sleep(interval * attempt)
+        if payload is None:
+            return None if page == 1 else items
+        batch = payload.get("data") or []
+        items += batch
+        if not (payload.get("paging") or {}).get("hasMore") or not batch:
+            break
+        time.sleep(interval)
+    return items
+
+
+def scrape(cities: list[str], city_ids: dict[str, int], session, cache_dir: Path,
+          log=lambda *_: None, offline: bool = False,
+          interval: float = 1.0, museum_cities: set[str] | None = None) -> tuple[list[dict], bool]:
+    """抓两源展览类目并判类。返回 (记录, 是否有源失败)。
+
+    museum_cities：有馆方展讯源的城市。落在这些城市的博物馆售票展归「博物馆」栏，
+    其余城市的展览一律留在「展览」栏。
+    """
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    rows: list[dict] = []
+    failed = False
+
+    for i, name in enumerate(cities):
+        cid = city_ids.get(name)
+        if not cid:
+            continue
+        cache = cache_dir / f"expo_gw_{name}.json"
+        raw = None
+        if not offline:
+            raw = gw_fetch_city(name, cid, session, log, interval)
+            if raw:
+                cache.write_text(json.dumps(raw, ensure_ascii=False), encoding="utf-8")
+        if raw is None:
+            if cache.exists():
+                raw = json.loads(cache.read_text(encoding="utf-8"))
+                if not offline:
+                    log(f"  格瓦拉·{name}：抓取失败，改用缓存 {len(raw)} 条")
+                    failed = True
+            else:
+                if not offline:
+                    log(f"  格瓦拉·{name}：抓取失败且无缓存")
+                    failed = True
+                raw = []
+        hits = 0
+        for item in raw:
+            if item.get("isCurrentCity") is None:
+                item = {**item, "cityName": item.get("cityName") or name}
+            rec = gw_normalize(item, name)
+            if rec:
+                rows.append(rec)
+                hits += 1
+        log(f"  格瓦拉·展览·{name}：{len(raw)} 条 → 收录 {hits} 条")
+        if not offline and i < len(cities) - 1:
+            time.sleep(interval)
+
+    m = damai.Mtop(interval=min(0.8, interval))
+    for name in cities:
+        cache = cache_dir / f"expo_dm_{name}.json"
+        raw = None
+        if not offline:
+            raw = damai.fetch_city(name, m, log, group=damai.EXPO_GROUP)
+            if raw:
+                cache.write_text(json.dumps(raw, ensure_ascii=False), encoding="utf-8")
+        if raw is None:
+            if cache.exists():
+                raw = json.loads(cache.read_text(encoding="utf-8"))
+                if not offline:
+                    log(f"  大麦·展览·{name}：抓取失败，改用缓存 {len(raw)} 条")
+                    failed = True
+            else:
+                if not offline:
+                    log(f"  大麦·展览·{name}：抓取失败且无缓存")
+                    failed = True
+                raw = []
+        hits = 0
+        for item in raw:
+            rec = dm_normalize(item, name)
+            if rec:
+                rows.append(rec)
+                hits += 1
+        log(f"  大麦·展览·{name}：{len(raw)} 条 → 收录 {hits} 条")
+
+    merged = merge(rows)
+    covered = museum_cities or set()
+    for r in merged:
+        if r["kind"] == "博物馆" and r["city"] not in covered:
+            r["kind"] = "展览"        # 该城没有馆方展讯源，不单列博物馆栏
+    return merged, failed
+
+
+if __name__ == "__main__":
+    import scrape as sc
+
+    log = lambda *a: print(*a, flush=True)
+    s = sc.make_session()
+    recs, bad = scrape(sc.DEFAULT_CITIES, sc.CITIES, s,
+                       Path(__file__).resolve().parent.parent / "data" / "pages", log,
+                       interval=0.6, museum_cities={"南京", "上海", "苏州", "扬州", "徐州", "杭州"})
+    print(f"展览栏合计 {len(recs)} 条，失败={bad}")
+    for r in sorted(recs, key=lambda x: (x["kind"], x["city"]))[:10]:
+        print(f"  {r['kind']} {r['city']} | {r['title'][:26]} | {r['venue'][:18]} "
+              f"| {r['date_text'][:22]} | ¥{r['price']} | {len(r['links'])}源")

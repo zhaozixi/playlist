@@ -1,1 +1,79 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiLmjpLnqIvooaXmvI/pl7jpl6jvvJrliKTmlq3jgIzov5nkuKrljJfkuqzml7bpl7TmlbTngrnvvIzmnKzova7mipPlj5bmmK/lkKblt7Lnu4/miJDlip/okL3nm5jjgI3jgIIKCuiDjOaZr++8mkFjdGlvbnMg55qEIHNjaGVkdWxlIOaYr+WwveWKm+iAjOS4uu+8jOWunua1i+S8muiiq+W7tui/n+aVsOWwj+aXtueUmuiHs+aVtOanvei3s+i/hwrvvIgyMDI2LTA5LTI5IOeahCAxNjowMCBDU1Qg5qe95L2N5a6e6ZmFIDIyOjQyIOaJjei3ke+8jDA5LTMwIDA4OjAwIOmCo+S4gOanveWOi+agueayoeWHuueOsO+8ieOAggrmiYDku6Xlt6XkvZzmtYHph4zpmaTkuoYgMDA6MDAvMDg6MDAgVVRDIOS4pOS4quato+eCue+8jOi/mOaMgiArMWgvKzJoIOeahOihpei3keanveS9je+8mwrooaXot5Hmp73kvY3ov5vmnaXlhYjpl67ov5nph4zvvJrmraPngrnpgqPova7opoHmmK/lt7Lnu4/miJDlip/ov4fvvIzlsLHnm7TmjqXot7Pov4fvvIzkuI3ph43lpI3mipPjgIIKCui+k+WHuu+8muWQkSBzdGRvdXQg5omTIGB5ZXNg77yI6K+l5oqT77yJ5oiWIGBub2DvvIjlt7LmlrDpspzvvIzot7Pov4fvvInvvJsK5bimIC0tZXhwbGFpbiDml7bpop3lpJbmiZPkuIDooYzljp/lm6DliLAgc3RkZXJy77yM5L6/5LqO5Zyo5pel5b+X6YeM5o6S5p+l44CCCiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgYXJncGFyc2UKaW1wb3J0IGpzb24KaW1wb3J0IHN5cwpmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRldGltZSwgdGltZWRlbHRhLCB0aW1lem9uZQpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKCkNTVCA9IHRpbWV6b25lKHRpbWVkZWx0YShob3Vycz04KSkKREFUQV9GSUxFID0gUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudC5wYXJlbnQgLyAid2ViIiAvICJkYXRhLmpzb24iClNMT1RTID0gKDgsIDE2KSAgICAgICAgICAjIOWMl+S6rOaXtumXtOaOkueoi+aVtOeCuQpHUkFDRV9NSU4gPSA0NSAgICAgICAgICAgIyDooaXot5Hmp73kvY3liKTlrprjgIzmraPngrnlt7Lov4fjgI3nmoTkvZnph4/vvIzpgb/lvIDlkIzkuIDmp73nmoTlubblj5Hph43lpI0KREVGQVVMVF9TS0VXX01JTiA9IDUgICAgICMgcnVubmVyIOaXtumSny/mj5DkuqTlu7bov5/lrrnlv40KCgpkZWYgY3VycmVudF9zbG90KG5vdzogZGF0ZXRpbWUsIHNsb3RzPVNMT1RTKSAtPiBkYXRldGltZSB8IE5vbmU6CiAgICAiIiLov5Tlm54gbm93IOS5i+WJje+8iOWQq+atpOWIu++8ieacgOi/keeahOaOkueoi+anveS9je+8m+W9k+Wkqei/mOayoeWIsOesrOS4gOanveWImeWPluaYqOWkqeacgOWQjuS4gOanveOAgiIiIgogICAgZGF5cyA9IFtub3cuZGF0ZSgpLCBub3cuZGF0ZSgpIC0gdGltZWRlbHRhKGRheXM9MSldCiAgICBjYW5kcyA9IFtkYXRldGltZS5jb21iaW5lKGQsIGRhdGV0aW1lLm1pbi50aW1lKCkpCiAgICAgICAgICAgICAgICAgLnJlcGxhY2UoaG91cj1oLCB0emluZm89Q1NUKSBmb3IgZCBpbiBkYXlzIGZvciBoIGluIHNsb3RzXQogICAgcGFzdCA9IFtjIGZvciBjIGluIGNhbmRzIGlmIGMgPD0gbm93XQogICAgcmV0dXJuIG1heChwYXN0KSBpZiBwYXN0IGVsc2UgTm9uZQoKCmRlZiBuZWVkc19zY3JhcGUoZGF0YTogZGljdCwgbm93OiBkYXRldGltZSwgZ3JhY2VfbWluOiBpbnQgPSBHUkFDRV9NSU4sCiAgICAgICAgICAgICAgICAgc2tld19taW46IGludCA9IERFRkFVTFRfU0tFV19NSU4pIC0+IHR1cGxlW2Jvb2wsIHN0cl06CiAgICBzbG90ID0gY3VycmVudF9zbG90KG5vdykKICAgIGlmIHNsb3QgaXMgTm9uZToKICAgICAgICByZXR1cm4gVHJ1ZSwgIuaXoOazleehruWumuanveS9je+8jOeFp+W4uOaKk+WPliIKICAgICMg5q2j54K56YKj6L2u6Ieq5bex5Lmf5bGe5LqO44CM5bey6L+H44CN77yM55SoIGdyYWNlIOaKiuWug+aOkumZpOaOie+8mgogICAgIyDlj6rmnInov4fkuoYgc2xvdCtncmFjZSDov5jmsqHmlbDmja7vvIzmiY3orqTkuLrmmK/mvI/ot5HvvIzpnIDopoHooaXjgIIKICAgIGR1ZSA9IHNsb3QgKyB0aW1lZGVsdGEobWludXRlcz1ncmFjZV9taW4pCiAgICBpZiBub3cgPCBkdWU6CiAgICAgICAgcmV0dXJuIFRydWUsIGYi5q2j54K55qe95L2NIHtzbG90OiVIOiVNfe+8jOato+W4uOaKk+WPliIKICAgIHRzID0gZGF0YS5nZXQoInVwZGF0ZWRfdHMiKQogICAgaWYgbm90IGlzaW5zdGFuY2UodHMsIChpbnQsIGZsb2F0KSk6CiAgICAgICAgcmV0dXJuIFRydWUsICJkYXRhLmpzb24g5rKh5pyJIHVwZGF0ZWRfdHPvvIzpnIDmipPlj5YiCiAgICBmcmVzaF9mcm9tID0gc2xvdCAtIHRpbWVkZWx0YShtaW51dGVzPXNrZXdfbWluKQogICAgaWYgdHMgPj0gZnJlc2hfZnJvbS50aW1lc3RhbXAoKToKICAgICAgICBhZ2VfbWluID0gKG5vdyAtIGRhdGV0aW1lLmZyb210aW1lc3RhbXAodHMsIENTVCkpLnRvdGFsX3NlY29uZHMoKSAvIDYwCiAgICAgICAgcmV0dXJuIEZhbHNlLCAoZiLmp73kvY0ge3Nsb3Q6JUg6JU19IOW3suacieaVsOaNru+8iHthZ2VfbWluOi4wZn0g5YiG6ZKf5YmN5pu05paw77yJ77yM6Lez6L+HIikKICAgIHJldHVybiBUcnVlLCBmIuanveS9jSB7c2xvdDolSDolTX0g55qE5pWw5o2u57y65aSx77yIdXBkYXRlZF90cz17dHN977yJ77yM6KGl6LeRIgoKCmRlZiBtYWluKCkgLT4gaW50OgogICAgYXAgPSBhcmdwYXJzZS5Bcmd1bWVudFBhcnNlcigpCiAgICBhcC5hZGRfYXJndW1lbnQoIi0tZXhwbGFpbiIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIsIGhlbHA9IumineWkluaJk+WNsOWIpOaWreWOn+WboCIpCiAgICBhcC5hZGRfYXJndW1lbnQoIi0tbm93IiwgaGVscD0i6KaG55uW5b2T5YmN5pe26Ze077yISVNP77yM5rWL6K+V55So77yJIikKICAgIGFwLmFkZF9hcmd1bWVudCgiLS1kYXRhIiwgaGVscD0iZGF0YS5qc29uIOi3r+W+hO+8jOm7mOiupCB3ZWIvZGF0YS5qc29uIikKICAgIGFyZ3MgPSBhcC5wYXJzZV9hcmdzKCkKCiAgICBub3cgPSBkYXRldGltZS5mcm9taXNvZm9ybWF0KGFyZ3Mubm93KS5hc3RpbWV6b25lKENTVCkgXAogICAgICAgIGlmIGFyZ3Mubm93IGVsc2UgZGF0ZXRpbWUubm93KENTVCkKICAgIHBhdGggPSBQYXRoKGFyZ3MuZGF0YSkgaWYgYXJncy5kYXRhIGVsc2UgREFUQV9GSUxFCiAgICB0cnk6CiAgICAgICAgZGF0YSA9IGpzb24ubG9hZHMocGF0aC5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04IikpCiAgICBleGNlcHQgKEZpbGVOb3RGb3VuZEVycm9yLCBqc29uLkpTT05EZWNvZGVFcnJvcik6CiAgICAgICAgZGF0YSA9IHt9CgogICAgcnVuLCByZWFzb24gPSBuZWVkc19zY3JhcGUoZGF0YSwgbm93KQogICAgaWYgYXJncy5leHBsYWluOgogICAgICAgIHByaW50KGYiW2dhdGVdIHtub3c6JW0tJWQgJUg6JU0gQ1NUfSDihpIge3JlYXNvbn0iLCBmaWxlPXN5cy5zdGRlcnIpCiAgICBwcmludCgieWVzIiBpZiBydW4gZWxzZSAibm8iKQogICAgcmV0dXJuIDAKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgc3lzLmV4aXQobWFpbigpKQo=
+#!/usr/bin/env python3
+"""排程补漏闸门：判断「这个北京时间整点，本轮抓取是否已经成功落盘」。
+
+背景：Actions 的 schedule 是尽力而为，实测会被延迟数小时甚至整槽跳过
+（2026-09-29 的 16:00 CST 槽位实际 22:42 才跑，09-30 08:00 那一槽压根没出现）。
+所以工作流里除了 00:00/08:00 UTC 两个正点，还挂 +1h/+2h 的补跑槽位；
+补跑槽位进来先问这里：正点那轮要是已经成功过，就直接跳过，不重复抓。
+
+输出：向 stdout 打 `yes`（该抓）或 `no`（已新鲜，跳过）；
+带 --explain 时额外打一行原因到 stderr，便于在日志里排查。
+"""
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+
+CST = timezone(timedelta(hours=8))
+DATA_FILE = Path(__file__).resolve().parent.parent / "web" / "data.json"
+SLOTS = (8, 16)          # 北京时间排程整点
+GRACE_MIN = 45           # 补跑槽位判定「正点已过」的余量，避开同一槽的并发重复
+DEFAULT_SKEW_MIN = 5     # runner 时钟/提交延迟容忍
+
+
+def current_slot(now: datetime, slots=SLOTS) -> datetime | None:
+    """返回 now 之前（含此刻）最近的排程槽位；当天还没到第一槽则取昨天最后一槽。"""
+    days = [now.date(), now.date() - timedelta(days=1)]
+    cands = [datetime.combine(d, datetime.min.time())
+                 .replace(hour=h, tzinfo=CST) for d in days for h in slots]
+    past = [c for c in cands if c <= now]
+    return max(past) if past else None
+
+
+def needs_scrape(data: dict, now: datetime, grace_min: int = GRACE_MIN,
+                 skew_min: int = DEFAULT_SKEW_MIN) -> tuple[bool, str]:
+    slot = current_slot(now)
+    if slot is None:
+        return True, "无法确定槽位，照常抓取"
+    # 正点那轮自己也属于「已过」，用 grace 把它排除掉：
+    # 只有过了 slot+grace 还没数据，才认为是漏跑，需要补。
+    due = slot + timedelta(minutes=grace_min)
+    if now < due:
+        return True, f"正点槽位 {slot:%H:%M}，正常抓取"
+    ts = data.get("updated_ts")
+    if not isinstance(ts, (int, float)):
+        return True, "data.json 没有 updated_ts，需抓取"
+    fresh_from = slot - timedelta(minutes=skew_min)
+    if ts >= fresh_from.timestamp():
+        age_min = (now - datetime.fromtimestamp(ts, CST)).total_seconds() / 60
+        return False, (f"槽位 {slot:%H:%M} 已有数据（{age_min:.0f} 分钟前更新），跳过")
+    return True, f"槽位 {slot:%H:%M} 的数据缺失（updated_ts={ts}），补跑"
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--explain", action="store_true", help="额外打印判断原因")
+    ap.add_argument("--now", help="覆盖当前时间（ISO，测试用）")
+    ap.add_argument("--data", help="data.json 路径，默认 web/data.json")
+    args = ap.parse_args()
+
+    now = datetime.fromisoformat(args.now).astimezone(CST) \
+        if args.now else datetime.now(CST)
+    path = Path(args.data) if args.data else DATA_FILE
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        data = {}
+
+    run, reason = needs_scrape(data, now)
+    if args.explain:
+        print(f"[gate] {now:%m-%d %H:%M CST} → {reason}", file=sys.stderr)
+    print("yes" if run else "no")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
