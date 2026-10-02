@@ -493,7 +493,13 @@ def build(shows: list[dict], stale: bool, cities: list[str], note: str = "") -> 
         item["source"] = "＋".join(known + extras) or (s.get("source") or SRC_SHORT)
         out.append(item)
 
-    out.sort(key=lambda x: (x["date"] or "9999-12-31", x["city"], x["kind"]))
+    # data.json 的数组顺序就是页面「全部」tab 的展示顺序（博物馆/展览 tab 前端另排）。
+    # 按「有效起始日」排：已经开演/开展的（含 2022 年就开张的长销展、无日期的驻演）
+    # 一律按今天算，和今天开演的演出混在同一组里，未开演的按实际日期往后排；
+    # 同组内谁先闭幕谁在前。之前直接按原始 date 升序，最早开张的展常年霸占第一屏。
+    today_s = today.strftime("%Y-%m-%d")
+    out.sort(key=lambda x: (max(x["date"] or "", today_s),
+                            x["date_end"] or "9999-12-31", x["city"], x["kind"]))
     # 展示顺序按主源优先，不用 sorted() 的字典序（否则「大麦」会排在「格瓦拉」前面）
     srcs = [s for s in SRC_ORDER if s in src_seen]
     homes = {SRC_SHORT: (SOURCE_NAME, LIST_URL.format(cat=DRAMA_CATEGORY)),
