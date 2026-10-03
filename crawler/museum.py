@@ -180,6 +180,17 @@ def _decode(raw: bytes) -> str:
     return raw.decode("utf-8", "ignore")
 
 
+def _probe_connect(host: str, port: int, ip: str, timeout: int = 8) -> str:
+    """失败时补一行底层证据：光有 URLError 分不清是断不动还是站点不回。"""
+    t = time.time()
+    try:
+        s = socket.create_connection((ip, port), timeout=timeout)
+        s.close()
+        return f"{ip}:{port} 可连({time.time() - t:.1f}s)"
+    except Exception as e:  # noqa: BLE001
+        return f"{ip}:{port} {type(e).__name__}({time.time() - t:.1f}s)"
+
+
 def fetch(url: str, referer: str = "", ajax: bool = False, retries: int = 3) -> str | None:
     headers = {"User-Agent": UA_TEXT, "Accept-Language": "zh-CN,zh;q=0.9"}
     if referer:
@@ -210,8 +221,14 @@ def fetch(url: str, referer: str = "", ajax: bool = False, retries: int = 3) -> 
                         host, 443, type=socket.SOCK_STREAM)}))
                 except Exception as e2:  # noqa: BLE001
                     fams = f"getaddrinfo失败{type(e2).__name__}"
+                ips = _doh_ipv4s(host)
+                # 再往下探一层：徐州、上海历博在沙箱里秒开，runner 上却是
+                # timed out（不是 unreachable），像是站点对境外 IP 直接不回。
+                # 光看 URLError 分不清该重试、该换端口，还是这根本接不住。
+                probe = (_probe_connect(host, 443, ips[0]) + " / "
+                         + _probe_connect(host, 80, ips[0])) if ips else "无A记录"
                 print(f"    {host} 抓取失败 {type(e).__name__}: {e} "
-                      f"[本地解析{fams or '无'} / DoH {(_doh_ipv4s(host) or ['无'])[:2]}]",
+                      f"[本地解析{fams or '无'} / DoH {ips[:2]} / {probe}]",
                       flush=True)
                 return None
             time.sleep(INTERVAL * attempt)
