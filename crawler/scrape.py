@@ -57,7 +57,8 @@ SRC_SHORT = "格瓦拉"
 # 页面与卡片上的来源顺序：主源在前，别用字典序
 SRC_ORDER = (SRC_SHORT, "大麦")
 # 与 museum.COVERED_CITIES 保持一致：博物馆栏只在这些有馆方展讯源的城市成表
-MUSEUM_COVERED = {"南京", "上海", "苏州", "扬州", "徐州", "杭州", "温州", "宁波"}
+MUSEUM_COVERED = {"南京", "上海", "苏州", "扬州", "徐州", "杭州",
+                  "温州", "宁波", "无锡"}
 DETAIL_URL = "https://show.maoyan.com/detail/{id}"
 LIST_URL = "https://show.maoyan.com/list/{cat}"
 # 源站前端（m.dianping.com/myshow）调用的结构化接口，支持真分页，
