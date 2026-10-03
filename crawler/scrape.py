@@ -606,6 +606,12 @@ def backfill_from_history(rows: list[dict], previous: dict, kinds: set[str],
             continue
         if merge_key(s) in cur_keys:
             continue                       # 本轮别的源已经收到了，不是补位
+        if not (s.get("date_end") or s.get("date")):
+            # 没有展期的条目（宁波、江苏这类只有栏目清单的馆）不补位：
+            # 它没有闭幕日可供判断时效，一旦进了历史就会被无限复活。
+            # 踩过的坑：宁波首页轮播误收了 5 个已闭展的展，之后任何一轮
+            # 别的馆失败，都会把这 5 条从上一轮捞回来。
+            continue
         if (s.get("date_end") or s.get("date") or "9999-12-31") < today:
             continue                       # 已闭幕/已结束的别捞回来
         item = dict(s)
