@@ -7,7 +7,9 @@ name: scrape-and-deploy
 # 排程小时用 UTC 表达（北京时间 = UTC+8）：
 #   0-8        → CST 08:00~16:00 每小时醒一次，抓取窗口内加密盯梢
 #   10-22/2    → 其余时段每 2 小时一次，兜住夜间漏跑
-# 合成一条 cron（写成两条会在重合的整点排队重复触发）：
+# 合成一条 cron（写成两条会在重合的整点排队重复触发）。
+# 另配站外闹钟（cron-job.org）每小时 :45 POST workflow_dispatch（external=true）：
+# GitHub 调度器实测会整批停摆（10-02、10-03 连发），心跳走同一个闸门，漏跑必补。
 on:
   schedule:
     - cron: "0 0-8,10-22/2 * * *"
@@ -21,6 +23,10 @@ on:
         description: "忽略新鲜度闸门，强制抓一轮"
         type: boolean
         default: false
+      external:
+        description: "外部闹钟心跳请填 true（交给闸门判断是否漏跑）；手动点按钮留空即直接抓"
+        required: false
+        default: ""
   push:
     branches: [main]
     # 只监听代码变更。web/index.html、web/data.json 由机器人提交，
@@ -61,11 +67,13 @@ jobs:
         env:
           EVENT: ${{ github.event_name }}
           FORCE: ${{ inputs.force }}
+          EXTERNAL: ${{ inputs.external }}
         run: |
-          # 手动触发与代码推送一律抓；定时任务问闸门。
+          # 内置定时任务、以及外部闹钟心跳（external=true）问闸门；
+          # 代码 push、人在 UI 上手动 Run、force=true 一律直接抓。
           # 闸门本身出问题（脚本缺失/报错）时按「该抓」处理，宁可多跑一轮也不能漏。
-          if [ "$EVENT" != "schedule" ] || [ "$FORCE" = "true" ]; then
-            echo "外部触发（$EVENT）或 force=$FORCE，直接抓"
+          if [ "$FORCE" = "true" ] || { [ "$EVENT" != "schedule" ] && [ "$EXTERNAL" != "true" ]; }; then
+            echo "触发方式 $EVENT / force=$FORCE / external=$EXTERNAL，直接抓"
             echo "run=yes" >> "$GITHUB_OUTPUT"
           elif [ ! -f crawler/gate.py ]; then
             echo "缺少 crawler/gate.py，保守起见照常抓"
