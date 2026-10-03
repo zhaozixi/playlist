@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>江浙沪-音乐剧·话剧·博物馆·展览-速览</title>
+<title>江浙沪-音乐剧·话剧·博物馆·展览</title>
 <meta name="description" content="每天 08:00 与 16:00 自动更新的江浙沪音乐剧、话剧、博物馆特展与展览信息，含档期、场馆与购票/预约入口。">
 <style>
   :root{
@@ -82,12 +82,13 @@
   footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--line);
     color:var(--dim);font-size:11.5px;line-height:1.8}
   footer a{color:var(--dim)}
+  .legal{color:var(--dim);font-size:11.5px;line-height:1.8;margin-top:10px}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <h1>江浙沪-音乐剧·话剧·博物馆·展览-速览</h1>
+    <h1>江浙沪-音乐剧·话剧·博物馆·展览</h1>
     <div class="sub">
       <span>更新 <b id="updated">—</b></span>
       <span>覆盖 <b id="scope">—</b></span>
@@ -129,6 +130,12 @@
     <div>数据由自动脚本每天 08:00、16:00（北京时间）抓取一次，仅聚合公开演出与展览信息用于个人查询，
       档期与票务以源站为准。同一内容在不同平台在售时会给出多个入口。
       「博物馆」栏只收录有官网展讯源的城市（特展/临展，常设展不显示）；VR、数字、艺术展等按内容归「展览」栏。</div>
+    <div class="legal">免责声明：本站为个人非商业项目，信息来自第三方平台的公开页面，仅作低频聚合，
+      不保证准确与及时；购票、预约请务必经页面入口跳转源站完成，本站不代售、不代收、不参与任何交易，
+      对交易纠纷不承担责任。展览演出名称、海报等权利归权利人所有，海报均为源站外链、本站不存储；
+      数据版权归源站。如主办方、场馆或权利人认为收录不当，请经
+      <a href="https://github.com/zhaozixi/playlist/issues" target="_blank" rel="noopener noreferrer">GitHub Issues</a>
+      告知，核实后将在第一时间删除对应信息或整站下线。</div>
     <div id="src-line"></div>
   </footer>
 </div>
@@ -355,7 +362,7 @@
       wb.textContent = (DATA.stale ? '最近一次自动抓取未成功，当前展示的是上一次成功抓取的数据（' +
         (DATA.updated_at || '') + '）。' : '') + (DATA.note || '');
     }
-    document.title = '江浙沪-音乐剧·话剧·博物馆·展览-速览（' + (c.total || 0) + ' 场）';
+    document.title = '江浙沪-音乐剧·话剧·博物馆·展览（' + (c.total || 0) + ' 场）';
   }
 
   document.querySelectorAll('.seg button').forEach(function(b){

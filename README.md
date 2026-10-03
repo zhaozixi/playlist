@@ -1,4 +1,4 @@
-# 江浙沪-音乐剧·话剧·博物馆·展览-速览
+# 江浙沪-音乐剧·话剧·博物馆·展览
 
 一个**个人向**的公开信息聚合页面：定时抓取江浙沪 22 个城市在演/待演的音乐剧、
 话剧、博物馆特展/临展和商业展览，汇成手机端友好的静态页，可订阅日历。
@@ -21,8 +21,6 @@ web/build.py                  把 data.json 内联进 HTML，产出 dist/ 单文
 web/data.json                 页面数据
 data/shows.json               上一轮结果：判断「新上架/已下架」，也是单源失败时的补位快照
 data/changelog.json           每轮变更记录
-deploy/Dockerfile             自建服务器备选（容器内 cron 08:00/16:00，功能为早期版本）
-deploy/tunnel-keepalive.sh    早期开发期临时公网隧道脚本，与线上部署无关
 .github/workflows/scrape.yml  定时抓取 + 数据提交 + Pages 发布
 ```
 
@@ -103,22 +101,12 @@ python3 -m http.server 8000 -d web       # 本地预览
 一轮完整抓取（演出双源 + 6 馆 + 展览双源）约 100 秒。
 `data/pages/` 为页面缓存（gitignore），CI 干净环境下不存在，属正常。
 
-## 部署
+## 部署（GitHub Actions + Pages，零成本）
 
-### A. GitHub Actions + Pages（线上正在用，零成本）
 
 推送本仓库到 GitHub → Settings → Pages 选 **GitHub Actions** 即可，
 `scrape.yml` 会完成抓取、提交快照、部署。机器人提交的数据快照带
 `[skip ci]` 且不触发路径过滤，不会自举循环。
-
-### B. 自建服务器（备选，功能为早期版本）
-
-```bash
-docker build -f deploy/Dockerfile -t theatre-watch .
-docker run -d --name theatre-watch -p 8080:8080 --restart unless-stopped theatre-watch
-```
-
-容器内 cron 固定北京时间 08:00/16:00 执行，无闸门与心跳机制；公网建议前置反代加 HTTPS。
 
 ## 免责声明
 

@@ -55,7 +55,7 @@ def build_ics(data: dict) -> str:
         "VERSION:2.0",
         "PRODID:-//theatre-watch//music-theatre//CN",
         "CALSCALE:GREGORIAN",
-        "X-WR-CALNAME:江浙沪-音乐剧·话剧·博物馆·展览-速览",
+        "X-WR-CALNAME:江浙沪-音乐剧·话剧·博物馆·展览",
         f"X-WR-TIMEZONE:Asia/Shanghai",
     ]
     for s in data.get("shows", []):
@@ -120,7 +120,7 @@ def main() -> int:
     (WEB / "calendar.ics").write_text(build_ics(data), encoding="utf-8")
     n = len(data.get("shows", []))
     (DIST / "README.txt").write_text(
-        "江浙沪-音乐剧·话剧·博物馆·展览-速览\n\n"
+        "江浙沪-音乐剧·话剧·博物馆·展览\n\n"
         f"本轮收录 {n} 场，数据更新于 {data.get('updated_at','?')}。\n\n"
         "index.html   单文件版，直接双击或本地打开即可，无需服务器\n"
         "data.json    结构化数据\n"
