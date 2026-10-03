@@ -44,16 +44,18 @@
 """
 from __future__ import annotations
 
+import contextlib
 import hashlib
 import json
 import random
 import re
+import socket
 import time
 import urllib.request
 from datetime import date, timedelta
 from html import unescape
 from pathlib import Path
-from urllib.parse import quote, urlencode
+from urllib.parse import quote, urlencode, urlsplit
 
 SOURCE = "馆方官网"
 NCHA_SOURCE = "文物局展讯"
@@ -122,26 +124,95 @@ PERMANENT_WORDS = ("常设", "基本陈列", "固定陈列", "常驻")
 ART_VENUE_WORDS = ("美术馆", "艺术馆", "画院")
 
 
+DOH_SERVERS = ("https://223.5.5.5/resolve?name={host}&type=A",
+               "https://120.53.53.53/resolve?name={host}&type=A")
+_doh_cache: dict[str, list[str]] = {}
+
+
+def _doh_ipv4s(host: str) -> list[str]:
+    """用 DoH 向公共 DNS 要 A 记录。
+
+    CI runner 上个别国内馆的域名只解析得出 IPv6，而 runner 没有 IPv6 出口，
+    表现就是 [Errno 101] Network is unreachable（上海市历史博物馆、徐州博物馆
+    都这样，沙箱里两条都有所以本地怎么都测不出来）。DoH 请求发的是 IP 字面量，
+    本身不再依赖本地解析。Status=3 才是真的没有这个域名。
+    """
+    if host in _doh_cache:
+        return _doh_cache[host]
+    ips: list[str] = []
+    for tpl in DOH_SERVERS:
+        try:
+            req = urllib.request.Request(tpl.format(host=host), headers={"User-Agent": UA_TEXT})
+            with urllib.request.urlopen(req, timeout=10) as r:
+                data = json.loads(r.read().decode("utf-8", "ignore"))
+            got = [a.get("data", "") for a in data.get("Answer") or [] if a.get("type") == 1]
+            if got:
+                ips = [ip for ip in got if ip]
+                break
+        except Exception:  # noqa: BLE001 - DoH 挂了就算了，下面照常报错
+            continue
+    _doh_cache[host] = ips
+    return ips
+
+
+@contextlib.contextmanager
+def _pin_host(host: str, ips: list[str]):
+    old = socket.getaddrinfo
+
+    def patched(name, port, *a, **kw):
+        if name == host and ips:
+            return [(socket.AF_INET, socket.SOCK_STREAM, 6, "", (ip, port)) for ip in ips]
+        return old(name, port, *a, **kw)
+
+    socket.getaddrinfo = patched
+    try:
+        yield
+    finally:
+        socket.getaddrinfo = old
+
+
+def _decode(raw: bytes) -> str:
+    for enc in ("utf-8", "gbk"):
+        try:
+            return raw.decode(enc)
+        except UnicodeDecodeError:
+            continue
+    return raw.decode("utf-8", "ignore")
+
+
 def fetch(url: str, referer: str = "", ajax: bool = False, retries: int = 3) -> str | None:
     headers = {"User-Agent": UA_TEXT, "Accept-Language": "zh-CN,zh;q=0.9"}
     if referer:
         headers["Referer"] = referer
     if ajax:
         headers.update(AJAX_HEADERS)
+    host = urlsplit(url).hostname or ""
     for attempt in range(1, retries + 1):
+        # 第 1 次按系统解析；之后改用 DoH 查到的 A 记录硬连。
+        # 系统解析若同时给了 v6/v4，socket.create_connection 会自己往下试到 IPv4，
+        # 所以真救不了的是 runner 只解析出 AAAA 那一种——只能绕过本地 DNS。
+        if attempt == 1:
+            ctx = contextlib.nullcontext()
+        else:
+            ips = _doh_ipv4s(host)
+            ctx = _pin_host(host, ips) if ips else contextlib.nullcontext()
         try:
             req = urllib.request.Request(url, headers=headers)
-            with urllib.request.urlopen(req, timeout=20) as r:
-                raw = r.read(3_000_000)
-            for enc in ("utf-8", "gbk"):
-                try:
-                    return raw.decode(enc)
-                except UnicodeDecodeError:
-                    continue
-            return raw.decode("utf-8", "ignore")
+            with ctx:
+                with urllib.request.urlopen(req, timeout=20) as r:
+                    raw = r.read(3_000_000)
+            return _decode(raw)
         except Exception as e:  # noqa: BLE001 - 单馆失败不能拖垮整轮
             if attempt == retries:
-                print(f"    {url.split('/')[2]} 抓取失败 {type(e).__name__}: {e}", flush=True)
+                fams = ""
+                try:                     # 留一行证据：到底是只有 AAAA 还是两条都有
+                    fams = "/".join(sorted({i[0].name for i in socket.getaddrinfo(
+                        host, 443, type=socket.SOCK_STREAM)}))
+                except Exception as e2:  # noqa: BLE001
+                    fams = f"getaddrinfo失败{type(e2).__name__}"
+                print(f"    {host} 抓取失败 {type(e).__name__}: {e} "
+                      f"[本地解析{fams or '无'} / DoH {(_doh_ipv4s(host) or ['无'])[:2]}]",
+                      flush=True)
                 return None
             time.sleep(INTERVAL * attempt)
     return None
