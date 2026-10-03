@@ -80,6 +80,13 @@ Run workflow、或带 `force=true` 的 dispatch，都会跳过闸门立即全量
   微信公众号；青浦可爬但 HTTP-only，奉贤在展信息主要在微信文章。唯一干净的静态源
   是市级的上海市历史博物馆，它的 `/upload/image/` 全部 302 到一个 Windows 本地路径
   （`D:/Myeclipse-workspace/.../page404.html`），浏览器里也加载不出来 → 条目同样不带海报。
+  徐州博物馆、上海市历史博物馆这两个域名对境外出口不回包：GitHub runner 上
+  443 和 80 端口都是 8 秒连不上，同一地址在沙箱里 0.5 秒 200（`fetch()` 失败日志
+  会把两端的解析和 TCP 结果一起打出来）。抓取失败会走「用上一轮数据补位」，
+  不会静默清空栏目，但线上新展要靠有国内出口的环境才能进来。
+  顺带说明这不是 DNS 问题：本地解析在 runner 上同样给出 AF_INET/AF_INET6，
+  所以 DoH 兜底（解析异常时用公共 DNS 的 A 记录硬连）救不了这类站点，只留着
+  兜真正的解析异常。
   找馆方官网时别按「城市拼音 + museum」猜域名，猜出来的 NXDOMAIN 会被误记成
   「沙箱访问不了国内站」：无锡博物院是 `wxmuseum.cn`（`wuximuseum.*` 不存在），
   良渚博物院是 `lzmuseum.cn`（`lzmu.cn` 不存在），江苏省美术馆已从 `jsmsg.com`
