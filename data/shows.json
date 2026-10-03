@@ -1610,7 +1610,7 @@
     }
    ],
    "first_seen": "2026-10-03",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "507214",
@@ -1769,32 +1769,6 @@
    "is_new": false
   },
   {
-   "id": "381094",
-   "source": "格瓦拉",
-   "kind": "音乐剧",
-   "title": "环境式驻演原创音乐剧《#0528》",
-   "venue": "《#0528》原创音乐剧(汉口路650亚洲大厦5楼星空间28号·好好有戏小剧场)",
-   "shop": "星空间28号·好好有戏小剧场",
-   "city": "上海",
-   "city_id": 1,
-   "date_text": "2026.10.04 - 11.01",
-   "date": "2026-10-04",
-   "date_end": "2026-11-01",
-   "status": "在售中",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01AaYO4Z2GdSX4saO0n_!!2251059038.png",
-   "price": "199-399",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/381094",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/381094"
-    }
-   ],
-   "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
    "id": "508483",
    "source": "格瓦拉",
    "kind": "音乐剧",
@@ -1815,6 +1789,32 @@
     {
      "source": "格瓦拉",
      "url": "https://show.maoyan.com/detail/508483"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
+   "id": "381094",
+   "source": "格瓦拉",
+   "kind": "音乐剧",
+   "title": "环境式驻演原创音乐剧《#0528》",
+   "venue": "《#0528》原创音乐剧(汉口路650亚洲大厦5楼星空间28号·好好有戏小剧场)",
+   "shop": "星空间28号·好好有戏小剧场",
+   "city": "上海",
+   "city_id": 1,
+   "date_text": "2026.10.04 - 11.01",
+   "date": "2026-10-04",
+   "date_end": "2026-11-01",
+   "status": "在售中",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01AaYO4Z2GdSX4saO0n_!!2251059038.png",
+   "price": "199-399",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/381094",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/381094"
     }
    ],
    "first_seen": "2026-09-29",
@@ -9105,32 +9105,6 @@
    "is_new": false
   },
   {
-   "id": "506562",
-   "source": "格瓦拉",
-   "kind": "音乐剧",
-   "title": "南京市文旅消费政府补贴剧目·2026·南京音乐剧节·法语原版音乐剧《茶花女》",
-   "venue": "南京保利大剧院大剧场(南京市建邺区邺城路6号（南京国际青年文化中心）)",
-   "shop": "南京保利大剧院大剧场",
-   "city": "南京",
-   "city_id": 5,
-   "date_text": "2026.11.20 - 11.22",
-   "date": "2026-11-20",
-   "date_end": "2026-11-22",
-   "status": "在售中",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01RfX8mxTwB4F2R3zP_!!2251059038.jpg",
-   "price": "180-980",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/506562",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/506562"
-    }
-   ],
-   "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
    "id": "510612",
    "source": "格瓦拉",
    "kind": "话剧",
@@ -9154,6 +9128,32 @@
     }
    ],
    "first_seen": "2026-10-01",
+   "is_new": false
+  },
+  {
+   "id": "506562",
+   "source": "格瓦拉",
+   "kind": "音乐剧",
+   "title": "南京市文旅消费政府补贴剧目·2026·南京音乐剧节·法语原版音乐剧《茶花女》",
+   "venue": "南京保利大剧院大剧场(南京市建邺区邺城路6号（南京国际青年文化中心）)",
+   "shop": "南京保利大剧院大剧场",
+   "city": "南京",
+   "city_id": 5,
+   "date_text": "2026.11.20 - 11.22",
+   "date": "2026-11-20",
+   "date_end": "2026-11-22",
+   "status": "在售中",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01RfX8mxTwB4F2R3zP_!!2251059038.jpg",
+   "price": "180-980",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/506562",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/506562"
+    }
+   ],
+   "first_seen": "2026-09-29",
    "is_new": false
   },
   {
@@ -14651,31 +14651,6 @@
    "is_new": false
   },
   {
-   "id": "dm882579750038",
-   "source": "大麦",
-   "kind": "话剧",
-   "title": "《大梦·红楼》全感官浸入式展演",
-   "venue": "江宁织造博物馆(江苏省南京市玄武区长江路123号)",
-   "shop": "江宁织造博物馆",
-   "city": "南京",
-   "date_text": "2026.10.03-10.07",
-   "date": "2026-10-03",
-   "date_end": "2026-10-03",
-   "status": "去购票",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01v9komg2GdSdBo0mbw_!!2251059038.png",
-   "price": "158-358",
-   "tags": [],
-   "url": "https://m.damai.cn/shows/item.html?id=882579750038",
-   "links": [
-    {
-     "source": "大麦",
-     "url": "https://m.damai.cn/shows/item.html?id=882579750038"
-    }
-   ],
-   "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
    "id": "dm1069215546675",
    "source": "大麦",
    "kind": "话剧",
@@ -14695,6 +14670,31 @@
     {
      "source": "大麦",
      "url": "https://m.damai.cn/shows/item.html?id=1069215546675"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
+   "id": "dm882579750038",
+   "source": "大麦",
+   "kind": "话剧",
+   "title": "《大梦·红楼》全感官浸入式展演",
+   "venue": "江宁织造博物馆(江苏省南京市玄武区长江路123号)",
+   "shop": "江宁织造博物馆",
+   "city": "南京",
+   "date_text": "2026.10.03-10.07",
+   "date": "2026-10-03",
+   "date_end": "2026-10-03",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01v9komg2GdSdBo0mbw_!!2251059038.png",
+   "price": "158-358",
+   "tags": [],
+   "url": "https://m.damai.cn/shows/item.html?id=882579750038",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=882579750038"
     }
    ],
    "first_seen": "2026-09-29",
@@ -16903,186 +16903,56 @@
    "is_new": false
   },
   {
-   "id": "mu638116b6c7",
-   "source": "馆方官网",
-   "kind": "展览",
-   "title": "江苏水印木刻实践与研究特展",
-   "venue": "江苏省美术馆",
-   "shop": "江苏省美术馆",
-   "place": "江苏省美术馆",
-   "city": "南京",
-   "date_text": "2026-02-12 开展",
-   "date": "",
-   "date_end": "",
-   "status": "",
-   "poster": "https://www.jssmsg.cn/UploadFile/20260212100011.jpg",
-   "price": "免费需预约",
-   "tags": [],
-   "url": "https://mp.weixin.qq.com/s/y6-vvcQB_1PlCDxZmruSdw",
-   "links": [
-    {
-     "source": "馆方官网",
-     "url": "https://mp.weixin.qq.com/s/y6-vvcQB_1PlCDxZmruSdw"
-    }
-   ],
-   "first_seen": "2026-10-03",
-   "is_new": false
-  },
-  {
-   "id": "muf90e70e1a0",
-   "source": "馆方官网",
-   "kind": "展览",
-   "title": "花间逐影——沉浸式艺术体验空间",
-   "venue": "江苏省美术馆",
-   "shop": "江苏省美术馆",
-   "place": "江苏省美术馆",
-   "city": "南京",
-   "date_text": "2026-02-12 开展",
-   "date": "",
-   "date_end": "",
-   "status": "",
-   "poster": "https://www.jssmsg.cn/UploadFile/20260212094747.jpg",
-   "price": "免费需预约",
-   "tags": [],
-   "url": "https://mp.weixin.qq.com/s/GhamC408bMkh-NDCpmu9bw",
-   "links": [
-    {
-     "source": "馆方官网",
-     "url": "https://mp.weixin.qq.com/s/GhamC408bMkh-NDCpmu9bw"
-    }
-   ],
-   "first_seen": "2026-10-03",
-   "is_new": false
-  },
-  {
-   "id": "mu9e2cee70f8",
+   "id": "mu71cf407ec1",
    "source": "馆方官网",
    "kind": "博物馆",
-   "title": "初渡行记——策彦周良笔下的港城宁波",
+   "title": "仰望星空——天文主题系列展",
    "venue": "宁波博物院",
    "shop": "宁波博物院",
    "place": "宁波博物院",
    "city": "宁波",
-   "date_text": "展期以馆方为准",
+   "date_text": "2026-07-06 开展",
    "date": "",
    "date_end": "",
    "status": "",
-   "poster": "https://www.nbmuseum.cn/picture/0/10db2fcd82954d009445002c2ad16210.jpg",
+   "poster": "https://www.nbmuseum.cn/picture/0/eb0e237f11b7423ba2ebee0dcb018685.jpg",
    "price": "免费需预约",
    "tags": [],
-   "url": "https://www.nbmuseum.cn/art/2026/1/15/art_20679_209.html",
+   "url": "https://www.nbmuseum.cn/art/2026/7/6/art_20679_213.html",
    "links": [
     {
      "source": "馆方官网",
-     "url": "https://www.nbmuseum.cn/art/2026/1/15/art_20679_209.html"
+     "url": "https://www.nbmuseum.cn/art/2026/7/6/art_20679_213.html"
     }
    ],
    "first_seen": "2026-10-03",
-   "is_new": false
+   "is_new": true
   },
   {
-   "id": "mue34c9eeb3a",
+   "id": "mu22a3772a3b",
    "source": "馆方官网",
    "kind": "博物馆",
-   "title": "从紫禁韶华到莫奈之诗",
+   "title": "简述中国——甘肃出土汉简精品展",
    "venue": "宁波博物院",
    "shop": "宁波博物院",
    "place": "宁波博物院",
    "city": "宁波",
-   "date_text": "展期以馆方为准",
+   "date_text": "2026-06-29 开展",
    "date": "",
    "date_end": "",
    "status": "",
-   "poster": "https://www.nbmuseum.cn/picture/0/2faa4ecf8c1744b790abe24e8ba4ddda.png",
+   "poster": "https://www.nbmuseum.cn/picture/0/04bcdc2ae5614115b4a5d04293cf85d1.jpg",
    "price": "免费需预约",
    "tags": [],
-   "url": "https://www.nbmuseum.cn/col/col20679/index.html",
+   "url": "https://www.nbmuseum.cn/art/2026/6/29/art_20679_212.html",
    "links": [
     {
      "source": "馆方官网",
-     "url": "https://www.nbmuseum.cn/col/col20679/index.html"
+     "url": "https://www.nbmuseum.cn/art/2026/6/29/art_20679_212.html"
     }
    ],
    "first_seen": "2026-10-03",
-   "is_new": false
-  },
-  {
-   "id": "muc922716a2f",
-   "source": "馆方官网",
-   "kind": "博物馆",
-   "title": "吉金万里 ——中国西南地区青铜文明特展",
-   "venue": "宁波博物院",
-   "shop": "宁波博物院",
-   "place": "宁波博物院",
-   "city": "宁波",
-   "date_text": "展期以馆方为准",
-   "date": "",
-   "date_end": "",
-   "status": "",
-   "poster": "https://www.nbmuseum.cn/picture/0/c687b6a02aef453899d0155e86847e5f.jpg",
-   "price": "免费需预约",
-   "tags": [],
-   "url": "https://www.nbmuseum.cn/art/2026/1/15/art_20679_206.html",
-   "links": [
-    {
-     "source": "馆方官网",
-     "url": "https://www.nbmuseum.cn/art/2026/1/15/art_20679_206.html"
-    }
-   ],
-   "first_seen": "2026-10-03",
-   "is_new": false
-  },
-  {
-   "id": "mue754c60a6f",
-   "source": "馆方官网",
-   "kind": "博物馆",
-   "title": "玉见五千年——良渚文化特展",
-   "venue": "宁波博物院",
-   "shop": "宁波博物院",
-   "place": "宁波博物院",
-   "city": "宁波",
-   "date_text": "展期以馆方为准",
-   "date": "",
-   "date_end": "",
-   "status": "",
-   "poster": "https://www.nbmuseum.cn/picture/0/682e9fb4c82c45b989ff541ace0b25de.jpg",
-   "price": "免费需预约",
-   "tags": [],
-   "url": "https://www.nbmuseum.cn/art/2026/1/15/art_20679_205.html",
-   "links": [
-    {
-     "source": "馆方官网",
-     "url": "https://www.nbmuseum.cn/art/2026/1/15/art_20679_205.html"
-    }
-   ],
-   "first_seen": "2026-10-03",
-   "is_new": false
-  },
-  {
-   "id": "mue9340cdf59",
-   "source": "馆方官网",
-   "kind": "博物馆",
-   "title": "源同流异——清代外销艺术品",
-   "venue": "宁波博物院",
-   "shop": "宁波博物院",
-   "place": "宁波博物院",
-   "city": "宁波",
-   "date_text": "展期以馆方为准",
-   "date": "",
-   "date_end": "",
-   "status": "",
-   "poster": "https://www.nbmuseum.cn/picture/0/cb1d72e80ea347ddaf667ba55425397b.jpg",
-   "price": "免费需预约",
-   "tags": [],
-   "url": "https://www.nbmuseum.cn/art/2026/1/15/art_20679_204.html",
-   "links": [
-    {
-     "source": "馆方官网",
-     "url": "https://www.nbmuseum.cn/art/2026/1/15/art_20679_204.html"
-    }
-   ],
-   "first_seen": "2026-10-03",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "mu05570b55ea",
@@ -17108,7 +16978,7 @@
     }
    ],
    "first_seen": "2026-10-03",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "mu18a101c211",
@@ -17134,7 +17004,7 @@
     }
    ],
    "first_seen": "2026-10-03",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "mucfe5726712",
@@ -17160,7 +17030,7 @@
     }
    ],
    "first_seen": "2026-10-03",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "mu5f7b37dad9",
@@ -17873,9 +17743,9 @@
    "shop": "ALIGHT ROOM 拉法耶文化艺术中心",
    "place": "",
    "city": "上海",
-   "date_text": "2026.07.18 - 2026.10.07",
+   "date_text": "2026.07.18 - 2026.10.15",
    "date": "2026-07-18",
-   "date_end": "2026-10-07",
+   "date_end": "2026-10-15",
    "status": "去购票",
    "poster": "https://p0.meituan.net/myvideodistribute/17d3dfd6f653fbb9871e488d7ea398971902255.png",
    "price": "19.9-98",
@@ -24399,34 +24269,6 @@
    "is_new": false
   },
   {
-   "id": "dm958595277988",
-   "source": "大麦",
-   "kind": "展览",
-   "title": "「要塞1304：卡尔卡松的荣耀」沉浸式探索体验（兴业太古汇）",
-   "venue": "博新全宇宙The VERS沉浸式探索中心(静安区南京西路789号兴业太古汇LG2层LG216)",
-   "shop": "博新全宇宙The VERS沉浸式探索中心",
-   "place": "",
-   "city": "上海",
-   "date_text": "2025.08.01-2027.05.31",
-   "date": "2025-08-01",
-   "date_end": "2027-05-31",
-   "status": "去购票",
-   "poster": "https://img.alicdn.com/bao/uploaded/i1/2251059038/O1CN01O0tv1T2GdSmxxZEnO_!!4611686018427383646-2-item_pic.png",
-   "price": "198-558",
-   "tags": [
-    "展览活动"
-   ],
-   "url": "https://m.damai.cn/shows/item.html?id=958595277988",
-   "links": [
-    {
-     "source": "大麦",
-     "url": "https://m.damai.cn/shows/item.html?id=958595277988"
-    }
-   ],
-   "first_seen": "2026-10-01",
-   "is_new": false
-  },
-  {
    "id": "dm1044967839998",
    "source": "大麦",
    "kind": "展览",
@@ -24449,6 +24291,34 @@
     {
      "source": "大麦",
      "url": "https://m.damai.cn/shows/item.html?id=1044967839998"
+    }
+   ],
+   "first_seen": "2026-10-01",
+   "is_new": false
+  },
+  {
+   "id": "dm958595277988",
+   "source": "大麦",
+   "kind": "展览",
+   "title": "「要塞1304：卡尔卡松的荣耀」沉浸式探索体验（兴业太古汇）",
+   "venue": "博新全宇宙The VERS沉浸式探索中心(静安区南京西路789号兴业太古汇LG2层LG216)",
+   "shop": "博新全宇宙The VERS沉浸式探索中心",
+   "place": "",
+   "city": "上海",
+   "date_text": "2025.08.01-2027.05.31",
+   "date": "2025-08-01",
+   "date_end": "2027-05-31",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/i1/2251059038/O1CN01O0tv1T2GdSmxxZEnO_!!4611686018427383646-2-item_pic.png",
+   "price": "198-558",
+   "tags": [
+    "展览活动"
+   ],
+   "url": "https://m.damai.cn/shows/item.html?id=958595277988",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=958595277988"
     }
    ],
    "first_seen": "2026-10-01",
@@ -25712,7 +25582,7 @@
     }
    ],
    "first_seen": "2026-10-03",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "dm1074267280619",
@@ -26525,6 +26395,141 @@
    ],
    "first_seen": "2026-10-01",
    "is_new": false
+  },
+  {
+   "id": "mu9e2cee70f8",
+   "source": "馆方官网",
+   "kind": "博物馆",
+   "title": "初渡行记——策彦周良笔下的港城宁波",
+   "venue": "宁波博物院",
+   "shop": "宁波博物院",
+   "place": "宁波博物院",
+   "city": "宁波",
+   "date_text": "展期以馆方为准",
+   "date": "",
+   "date_end": "",
+   "status": "",
+   "poster": "https://www.nbmuseum.cn/picture/0/10db2fcd82954d009445002c2ad16210.jpg",
+   "price": "免费需预约",
+   "tags": [],
+   "url": "https://www.nbmuseum.cn/art/2026/1/15/art_20679_209.html",
+   "links": [
+    {
+     "source": "馆方官网",
+     "url": "https://www.nbmuseum.cn/art/2026/1/15/art_20679_209.html"
+    }
+   ],
+   "first_seen": "2026-10-03",
+   "is_new": false,
+   "is_backfill": true
+  },
+  {
+   "id": "mue34c9eeb3a",
+   "source": "馆方官网",
+   "kind": "博物馆",
+   "title": "从紫禁韶华到莫奈之诗",
+   "venue": "宁波博物院",
+   "shop": "宁波博物院",
+   "place": "宁波博物院",
+   "city": "宁波",
+   "date_text": "展期以馆方为准",
+   "date": "",
+   "date_end": "",
+   "status": "",
+   "poster": "https://www.nbmuseum.cn/picture/0/2faa4ecf8c1744b790abe24e8ba4ddda.png",
+   "price": "免费需预约",
+   "tags": [],
+   "url": "https://www.nbmuseum.cn/col/col20679/index.html",
+   "links": [
+    {
+     "source": "馆方官网",
+     "url": "https://www.nbmuseum.cn/col/col20679/index.html"
+    }
+   ],
+   "first_seen": "2026-10-03",
+   "is_new": false,
+   "is_backfill": true
+  },
+  {
+   "id": "muc922716a2f",
+   "source": "馆方官网",
+   "kind": "博物馆",
+   "title": "吉金万里 ——中国西南地区青铜文明特展",
+   "venue": "宁波博物院",
+   "shop": "宁波博物院",
+   "place": "宁波博物院",
+   "city": "宁波",
+   "date_text": "展期以馆方为准",
+   "date": "",
+   "date_end": "",
+   "status": "",
+   "poster": "https://www.nbmuseum.cn/picture/0/c687b6a02aef453899d0155e86847e5f.jpg",
+   "price": "免费需预约",
+   "tags": [],
+   "url": "https://www.nbmuseum.cn/art/2026/1/15/art_20679_206.html",
+   "links": [
+    {
+     "source": "馆方官网",
+     "url": "https://www.nbmuseum.cn/art/2026/1/15/art_20679_206.html"
+    }
+   ],
+   "first_seen": "2026-10-03",
+   "is_new": false,
+   "is_backfill": true
+  },
+  {
+   "id": "mue754c60a6f",
+   "source": "馆方官网",
+   "kind": "博物馆",
+   "title": "玉见五千年——良渚文化特展",
+   "venue": "宁波博物院",
+   "shop": "宁波博物院",
+   "place": "宁波博物院",
+   "city": "宁波",
+   "date_text": "展期以馆方为准",
+   "date": "",
+   "date_end": "",
+   "status": "",
+   "poster": "https://www.nbmuseum.cn/picture/0/682e9fb4c82c45b989ff541ace0b25de.jpg",
+   "price": "免费需预约",
+   "tags": [],
+   "url": "https://www.nbmuseum.cn/art/2026/1/15/art_20679_205.html",
+   "links": [
+    {
+     "source": "馆方官网",
+     "url": "https://www.nbmuseum.cn/art/2026/1/15/art_20679_205.html"
+    }
+   ],
+   "first_seen": "2026-10-03",
+   "is_new": false,
+   "is_backfill": true
+  },
+  {
+   "id": "mue9340cdf59",
+   "source": "馆方官网",
+   "kind": "博物馆",
+   "title": "源同流异——清代外销艺术品",
+   "venue": "宁波博物院",
+   "shop": "宁波博物院",
+   "place": "宁波博物院",
+   "city": "宁波",
+   "date_text": "展期以馆方为准",
+   "date": "",
+   "date_end": "",
+   "status": "",
+   "poster": "https://www.nbmuseum.cn/picture/0/cb1d72e80ea347ddaf667ba55425397b.jpg",
+   "price": "免费需预约",
+   "tags": [],
+   "url": "https://www.nbmuseum.cn/art/2026/1/15/art_20679_204.html",
+   "links": [
+    {
+     "source": "馆方官网",
+     "url": "https://www.nbmuseum.cn/art/2026/1/15/art_20679_204.html"
+    }
+   ],
+   "first_seen": "2026-10-03",
+   "is_new": false,
+   "is_backfill": true
   }
  ]
 }
