@@ -14,13 +14,16 @@
   江苏省美术馆    HTML  https://www.jssmsg.cn/Home/exhibit「现时」栏
                       老域名 jsmsg.com 已 302 到新域名。列表只给发布日，详情页是空壳，
                       拿不到展期 → date 留空，靠「馆方自己列为现时」这条口径判断在展
-  宁波博物院      HTML  首页「特别展览」轮播 = 馆方认定的在展清单，配合
-                      /col/col20679/index.html 的静态 JS 数据取海报和规范链接
+  宁波博物院      HTML  /col/col20679/index.html「特别展览」栏目，按发布日筛
+                      首页轮播不能当在展清单（海报上是往年展期），展期在图里、
+                      详情页没有 → 条目日期留空
   无锡博物院      HTML  /Exhibition/Temporary/TemporaryExhibition
                       静态展期+地点+海报，写法与苏博同款；域名是 wxmuseum.cn
+  良渚博物院      HTML  /YinJinZhanLan/index.html「临展」栏，详情页有「展期」行
+                      域名是 lzmuseum.cn（调研时猜的 lzmu.cn 不存在）
 
 外加国家文物局「看展览｜博物馆展讯速览」做补录源：结构最规整但约每月一期，
-用来兜住那些没有临展接口的馆（例如良渚博物院的特展只出现在新闻稿里）。
+用来兜住那些没有临展接口的馆。
 
 口径（与用户确认过）：
   * 常设展 / 基本陈列一律不收；已闭幕的不收。
@@ -62,6 +65,8 @@ NB_HOME = "https://www.nbmuseum.cn"
 NB_LIST = NB_HOME + "/col/col20679/index.html"     # 宁波博物院「特别展览」栏目
 WX_HOME = "https://www.wxmuseum.cn"                # 无锡博物院（不是 wuximuseum.*，那些域名不存在）
 WX_LIST = WX_HOME + "/Exhibition/Temporary/TemporaryExhibition"
+LZ_HOME = "https://www.lzmuseum.cn"                # 良渚博物院（调研里猜的 lzmu.cn 不存在）
+LZ_LIST = LZ_HOME + "/YinJinZhanLan/index.html"    # 「临展」栏，倒序静态列表
 
 # 江苏 / 浙江 / 上海 的地级市名，用于从聚合源的文本里认城市
 JZH_CITIES = ("上海", "南京", "苏州", "无锡", "常州", "南通", "扬州", "镇江", "泰州",
@@ -567,11 +572,76 @@ def wx_museum(log) -> list[dict]:
     return out
 
 
+def lz_museum(log) -> list[dict]:
+    """良渚博物院：「临展」栏 /YinJinZhanLan/ 静态列表 + 详情页里的「展期」行。
+
+    官网域名是 lzmuseum.cn（调研时按惯例猜的 lzmu.cn 根本不存在，属于同一类
+    「域名猜错」的假失败）。这一栏挂的是新闻稿而不是展览条目表，所以：
+      * 标题从详情页的「展览名称：…」取，取不到再用 <title> 前缀；
+      * 展期从「展期 / 展览时间 / 展览档期」行里 parse_range，拿不到就丢——
+        新闻稿没有统一字段，编不出来也不编；
+      * 列表缩略图 /upload/image/YYYYMMDD/s_xxx.jpg 只有 20KB 左右，直接热链。
+
+    默认年份用发布日期而不是今年，否则 2024 年那批「8月30日至9月17日」这种
+    不写年份的展期会被补成 2026，把闭展的展复活。再加一道 start 与发布日
+    相差 30 天内的校验，认不出年份的一律丢。
+    """
+    body = fetch(LZ_LIST, referer=LZ_HOME)
+    if not body:
+        return None
+    today = date.today().strftime("%Y-%m-%d")
+    items = re.findall(r'<a href="(/YinJinZhanLan/(\d+)\.html)">\s*'
+                       r'<img src="([^"]+)"\s*/><span>([^<]{3,40})</span></a>', body)
+    out, seen = [], set()
+    for href, _aid, img, snippet in items[:10]:
+        page = fetch(LZ_HOME + href, referer=LZ_LIST)
+        if not page:
+            continue
+        pub = re.search(r"发布时间[：:]\s*(\d{4}-\d{2}-\d{2})", page)
+        if not pub:
+            continue
+        pub = pub.group(1)
+        when = re.search(r"<p[^>]*>\s*(?:展\s*期|展览时间|展览档期|展出时间)"
+                        r"[：:为]\s*([^<]{4,50})</p>", page)
+        if not when:
+            continue
+        when = text_of(when.group(1))
+        if is_permanent(when):
+            continue
+        start, end = parse_range(when, int(pub[:4]))
+        if not start or not end:
+            continue
+        floor = (date.fromisoformat(pub) - timedelta(days=30)).strftime("%Y-%m-%d")
+        if start < floor or start > pub[:4] + "-12-31" or end < today:
+            continue
+        named = re.search(r"<p[^>]*>\s*展览名\s*称[：:]\s*([^<]{3,60})</p>", page)
+        title = text_of(named.group(1)).strip("“”\" ") if named else ""
+        if not title:
+            t = re.search(r"<title>([^<]{3,60}?)-", page)
+            title = text_of(t.group(1)) if t else text_of(snippet)
+        if is_permanent(title):
+            continue
+        place = re.search(r"<p[^>]*>\s*地\s*点[：:]\s*([^<]{2,40})</p>", page)
+        key = title[:12] or start
+        if key in seen:
+            continue
+        seen.add(key)
+        poster = img.strip()
+        if poster.startswith("/"):
+            poster = LZ_HOME + poster
+        out.append(record("杭州", "良渚博物院", title[:40],
+                          text_of(place.group(1))[:30] if place else "良渚博物院",
+                          when[:40], "免费需预约", LZ_HOME + href,
+                          poster if poster.startswith("http") else "", start, end))
+    return out
+
+
 MUSEUM_SOURCES = [("南京博物院", nj_museum), ("上海博物馆", sh_museum),
                   ("苏州博物馆", sz_museum), ("扬州中国大运河博物馆", canal_museum),
                   ("徐州博物馆", xz_museum), ("中国丝绸博物馆", silk_museum),
                   ("温州博物馆", wz_museum), ("江苏省美术馆", js_art_museum),
-                  ("宁波博物院", nb_museum), ("无锡博物院", wx_museum)]
+                  ("宁波博物院", nb_museum), ("无锡博物院", wx_museum),
+                  ("良渚博物院", lz_museum)]
 
 
 # -------------------------------------------------- 国家文物局「看展览」补录源
@@ -632,7 +702,7 @@ def ncha_supplement(log, known_titles: set[str]) -> list[dict]:
 
 def scrape(cache_dir: Path, log=lambda *_: None, offline: bool = False,
            force: bool = False) -> tuple[list[dict], bool]:
-    """抓 10 馆官网 + 文物局补录。返回 (记录, 是否有源失败)。
+    """抓 11 馆官网 + 文物局补录。返回 (记录, 是否有源失败)。
 
     缓存沿用 data/pages/museum_<slug>.json，某馆挂了就用上次抓到的。
     """
