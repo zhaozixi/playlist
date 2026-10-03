@@ -38,6 +38,7 @@ import urllib.request
 from datetime import date, timedelta
 from html import unescape
 from pathlib import Path
+from urllib.parse import quote
 
 SOURCE = "馆方官网"
 NCHA_SOURCE = "文物局展讯"
@@ -199,6 +200,17 @@ def stable_id(*parts: str) -> str:
     return hashlib.md5("|".join(parts).encode("utf-8")).hexdigest()[:10]
 
 
+def poster_url(url: str) -> str:
+    """海报是页面里的热链，这里只做两件事：非 ASCII 路径百分号编码、
+    有缩略图变体的用缩略图（宁波原图 1–12MB，卡片用不着）。"""
+    u = (url or "").strip()
+    if not u.startswith("http"):
+        return ""
+    if "/picture/0/" in u and "/s_" not in u:
+        u = u.replace("/picture/0/", "/picture/0/s_")
+    return quote(u, safe=":/?&=%")
+
+
 def record(city: str, museum: str, title: str, place: str, date_text: str,
            price: str, url: str, poster: str = "", start: str = "", end: str = "",
            source: str = SOURCE) -> dict:
@@ -216,7 +228,7 @@ def record(city: str, museum: str, title: str, place: str, date_text: str,
         "date": start,
         "date_end": end or start,
         "status": "",
-        "poster": poster,
+        "poster": poster_url(poster),
         "price": price,
         "tags": [],
         "url": url,
@@ -396,11 +408,13 @@ def silk_museum(log) -> list[dict]:
     today = date.today()
     floor = (today - timedelta(days=182)).strftime("%Y-%m-%d")
     out = []
+    pages_ok = 0
     for path in ("yz/list_18.aspx", "jzNX/list_19.aspx"):
         body = fetch(f"https://www.chinasilkmuseum.com/{path}",
                      referer="https://www.chinasilkmuseum.com/")
         if not body:
             continue
+        pages_ok += 1
         for href, title, d, place in re.findall(
                 r"<a href='(/(?:yz|jzNX)/info_\d+\.aspx\?itemid=\d+)'>([^<]{3,50})</a>"
                 r".{0,200}?展览时间：([^<]{3,40}).{0,120}?展览地点：([^<]{2,30})", body, re.S):
@@ -414,6 +428,8 @@ def silk_museum(log) -> list[dict]:
                               "免费需预约", "https://www.chinasilkmuseum.com" + href,
                               "", start, start))
         time.sleep(INTERVAL)
+    if not pages_ok:
+        return None          # 两页都没抓到是源挂了，不是「今年真没临展」
     return out
 
 
