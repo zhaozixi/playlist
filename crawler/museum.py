@@ -454,10 +454,13 @@ def js_art_museum(log) -> list[dict]:
     拿不到展期。所以这里不编造日期：date / date_end 一律留空，
     页面上不会出现「剩 N 天」这类假标签，排序也自然垫底——
     相信馆方自己把这条留在「现时」栏，比按发布日硬猜闭幕日更稳。
+
+    「现时」栏里也留着开春的老条目，所以再套一层和丝博一致的 6 个月窗口。
     """
     body = fetch(JS_LIST, referer=JS_LIST)
     if not body:
         return None
+    floor = (date.today() - timedelta(days=182)).strftime("%Y-%m-%d")
     out = []
     seg = body[body.find('zl-box'):] or body
     for href, img, pub, title in re.findall(
@@ -465,7 +468,7 @@ def js_art_museum(log) -> list[dict]:
             r'\s*</div>\s*<p>(\d{4}-\d{2}-\d{2})</p>\s*<h1>(.*?)</h1>', seg, re.S):
         title = text_of(title)
         # 「典藏精品陈列」这类是常设陈列，按口径不收
-        if not title or is_permanent(title) or "典藏" in title:
+        if not title or is_permanent(title) or "典藏" in title or pub < floor:
             continue
         url = href if href.startswith("http") else f"{JS_BASE}/Home/{unescape(href)}"
         poster = img.strip()
@@ -477,45 +480,36 @@ def js_art_museum(log) -> list[dict]:
 
 
 def nb_museum(log) -> list[dict]:
-    """宁波博物院：首页「特别展览」轮播就是馆方认定的在展清单。
+    """宁波博物院：「特别展览」栏目按发布时间筛，近 4 个月内的算在展。
 
-    栏目页 /col/col20679/index.html 留着历届展览且带发布时间（171 条），
-    按发布时间筛会把几年前的旧展捞进来，所以只取轮播那 5 条，
-    再用栏目数据按标题补海报和站内详情页链接。展期同样拿不到 → 留空。
+    踩过的坑：首页「特别展览」轮播**不能**用。它看着像在展清单，实际是常年
+    不撤的宣传位——海报上印的展期是 吉金万里 2025.07.22-10.19、
+    源同流异 2025.04.19-06.22、初渡行记 2025.11.25-2026.03.15、
+    玉见五千年 2025.07.12-10.12，到 2026-10 全部闭展，只有仰望星空还在展。
+
+    栏目页留着历届展览共 171 条，且 2026-01-15 那天一次性录入了 9 条
+    （是迁移日不是开展日），所以窗口不能太宽；近 4 个月这个口径和丝博一致，
+    宁缺毋滥。展期文字在详情页里也没有（正文只有前言），条目日期仍留空。
     """
-    home = fetch(NB_HOME, referer=NB_HOME)
-    if not home:
+    cat = fetch(NB_LIST, referer=NB_HOME)
+    if not cat:
         return None
-    # 只认「特别展览」区块到脚本结束为止，避免抓到别的轮播
-    i = home.find("特别展览")
-    seg = home[i:i + 12000] if i > 0 else home
-    cur = re.findall(r'<div class="image"[^>]*id="image_\d+">.*?<a href="([^"]+)"[^>]*>'
-                     r'<img src="([^"]+)"[^>]*>.*?<h3>([^<]{3,50})</h3>', seg, re.S)
-    if not cur:
-        return None
-    cat = fetch(NB_LIST, referer=NB_HOME) or ""
-    rows = {}
-    for u, t, img in re.findall(r"urls\[i\]='([^']+)';\s*headers\[i\]=\"([^\"]*)\";"
-                               r".*?imgstrs\[i\]='([^']*)'", cat, re.S):
-        rows[text_of(t)] = (u, img.strip())
-    out = []
-    for href, img, title in cur:
-        title = text_of(title)
-        if not title or is_permanent(title):
+    floor = (date.today() - timedelta(days=122)).strftime("%Y-%m-%d")
+    out, seen = [], set()
+    for u, t, y, m, d, img in re.findall(
+            r"urls\[i\]='([^']+)';\s*headers\[i\]=\"([^\"]*)\";\s*"
+            r"year\[i\]='(\d{4})';\s*month\[i\]='(\d{2})';\s*day\[i\]='(\d{2})';\s*"
+            r"imgstrs\[i\]='([^']*)'", cat):
+        title = text_of(t)
+        pub = f"{y}-{m}-{d}"
+        if not title or pub < floor or is_permanent(title) or title in seen:
             continue
-        art, cat_img = rows.get(title, ("", ""))
-        if not art:                       # 标题有空格差异，退一步按前缀对
-            key = title.replace(" ", "")
-            art, cat_img = next(((a, m) for k, (a, m) in rows.items()
-                                 if k.replace(" ", "").startswith(key[:8])), ("", ""))
-        # 轮播里「从紫禁韶华到莫奈之诗」这种合并两条展的标题对不上，
-        # 退到「特别展览」栏目页，至少点开是真实展览清单
-        url = art or (href if href.startswith("http") and "nbmuseum" in href else NB_LIST)
-        poster = (cat_img or img).strip()
+        seen.add(title)
+        poster = img.strip()
         if poster.startswith("/"):
             poster = NB_HOME + poster
         out.append(record("宁波", "宁波博物院", title[:40], "宁波博物院",
-                          "展期以馆方为准", "免费需预约", url,
+                          f"{pub} 开展", "免费需预约", u,
                           poster if poster.startswith("http") else "", "", ""))
     return out
 
