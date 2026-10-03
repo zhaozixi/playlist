@@ -805,9 +805,12 @@ def cz_museum(log) -> list[dict]:
             continue
         poster = (r.get("ex_pic") or "").strip()
         place = text_of(r.get("ex_addr") or "")[:30]
+        # 接口没有票价字段，正文里也不写（我核过三行全都没有）。别学其他馆写
+        # 「免费需预约」——国际大展这类是售票的，谎称免费比不写更糟。
+        # 撞车时 merge_sources 会用票务平台更长的 price 覆盖成真实票价。
         out.append(record("常州", "常州博物馆", title, place,
                           f"{r.get('ex_showtime') or ''}-{r.get('end_time') or ''}".strip("-")[:40],
-                          "免费需预约", f"{CZ_HOME}/exhibition?id={r.get('id')}",
+                          "以馆方为准", f"{CZ_HOME}/exhibition?id={r.get('id')}",
                           poster, start, end))
     return out
 
@@ -891,15 +894,20 @@ def sh_history_museum(log) -> list[dict]:
             continue
         url = SHH_HOME + href.group(1) if href else SHH_LIST
         title = cut
+        price = "以馆方为准"
         page = fetch(url, referer=SHH_LIST) if href else None
         if page:
             seg = page[page.find("EXHIBIT INFORMATION"):] if "EXHIBIT INFORMATION" in page else page
             full = re.search(r"<h1[^>]*>([^<]{4,60})</h1>", seg)
             if full:
                 title = text_of(full.group(1))[:40] or cut
+            # 详情页写「🎫无需预约，免费参观」，逐个展各说各的，就按正文认，
+            # 不像常州那样整栏目一口价（那边的收费特展会被说成免费）。
+            if re.search(r"免费参观|免费开放|无需预约", text_of(page)):
+                price = "免费"
         out.append(record("上海", "上海市历史博物馆", title,
                           (place.group(1).strip()[:30] if place else "上海市历史博物馆"),
-                          when.group(1).strip()[:40], "免费需预约", url,
+                          when.group(1).strip()[:40], price, url,
                           "", start, end))
     return out
 
