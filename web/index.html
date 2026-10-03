@@ -292,7 +292,7 @@
           '<div class="t">' + esc(s.title) + '</div>' +
           '<div class="meta"><span class="date">' + esc(s.date_text || s.date || '档期待定') + '</span>' +
             (s.shop || s.venue ? '<span>' + esc(s.shop || s.venue) + '</span>' : '') +
-            (s.price ? '<span>¥' + esc(s.price) + '</span>' : '') +
+            (s.price ? '<span>' + (/^\d/.test(s.price) ? '¥' + esc(s.price) : esc(s.price)) + '</span>' : '') +
             (s.source ? '<span class="srcs">' + esc(s.source) + '</span>' : '') +
           '</div>' +
           (buy ? '<div class="buy">' + buy + '</div>' : '') +

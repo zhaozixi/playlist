@@ -311,7 +311,7 @@ if __name__ == "__main__":
     s = sc.make_session()
     recs, bad = scrape(sc.DEFAULT_CITIES, sc.CITIES, s,
                        Path(__file__).resolve().parent.parent / "data" / "pages", log,
-                       interval=0.6, museum_cities={"南京", "上海", "苏州", "扬州", "徐州", "杭州"})
+                       interval=0.6, museum_cities=museum.COVERED_CITIES)
     print(f"展览栏合计 {len(recs)} 条，失败={bad}")
     for r in sorted(recs, key=lambda x: (x["kind"], x["city"]))[:10]:
         print(f"  {r['kind']} {r['city']} | {r['title'][:26]} | {r['venue'][:18]} "

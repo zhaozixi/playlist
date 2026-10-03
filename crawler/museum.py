@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """博物馆官网「特展 / 临展」信源（免费展只能逐馆抓，票务平台不收录）。
 
-已实测可用的 6 个馆（2026-10 调研）：
+已实测可用的馆（2026-10 调研）：
   南京博物院      JSON  api/exhibition/list?pageNum=1&pageSize=100
   上海博物馆      JSON  …/pg/display/search-exhibit（接口不含票价，详情页也无票价字段）
   苏州博物馆      HTML  /Exhibition/Temporary?startYear=YYYY
@@ -9,6 +9,13 @@
   徐州博物馆      HTML  /zl_list.aspx?category_id=496（列表无展期，需逐条进详情）
   中国丝绸博物馆  HTML  /yz/list_18.aspx + /jzNX/list_19.aspx
                       注意：它的「在展」页其实是基本陈列，按口径必须跳过
+  温州博物馆      HTML  /Col/Col23/Index.aspx「近期展览」，标题+展期+地点+海报都在
+                      静态 HTML 里；列表页 /Art/Art_23/ 是 403，只有这一栏能用
+  江苏省美术馆    HTML  https://www.jssmsg.cn/Home/exhibit「现时」栏
+                      老域名 jsmsg.com 已 302 到新域名。列表只给发布日，详情页是空壳，
+                      拿不到展期 → date 留空，靠「馆方自己列为现时」这条口径判断在展
+  宁波博物院      HTML  首页「特别展览」轮播 = 馆方认定的在展清单，配合
+                      /col/col20679/index.html 的静态 JS 数据取海报和规范链接
 
 外加国家文物局「看展览｜博物馆展讯速览」做补录源：结构最规整但约每月一期，
 用来兜住那些没有临展接口的馆（例如良渚博物院的特展只出现在新闻稿里）。
@@ -17,6 +24,7 @@
   * 常设展 / 基本陈列一律不收；已闭幕的不收。
   * 只收录上面这些「有官网展讯源」的城市，其余城市在博物馆栏不显示。
   * VR/XR、数字展、沉浸展按内容归「展览」栏，场馆只当地点。
+  * 美术馆按用户口径算艺术展 → 归「展览」栏，不进博物馆栏。
 """
 from __future__ import annotations
 
@@ -32,13 +40,21 @@ from pathlib import Path
 SOURCE = "馆方官网"
 NCHA_SOURCE = "文物局展讯"
 # 有免费展讯源、因此「博物馆」栏单独成表的城市（其余城市的博物馆售票展
-# 按用户口径留在「展览」栏，16 个无源城市不单列）。
+# 按用户口径留在「展览」栏，没有馆方展讯源的城市不单列）。
 # 徐州：官网临展接口可用，只是本轮恰好全展完，coverage 仍算它。
-COVERED_CITIES = {"南京", "上海", "苏州", "扬州", "徐州", "杭州"}
+# 温州 / 宁波：2026-10 新接，馆方只有栏目级清单、拿不到展期，条目日期留空。
+COVERED_CITIES = {"南京", "上海", "苏州", "扬州", "徐州", "杭州", "温州", "宁波"}
 UA_TEXT = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
            "(KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36")
 AJAX_HEADERS = {"Accept": "application/json", "X-Requested-With": "XMLHttpRequest"}
 INTERVAL = 0.8
+
+WZ_HOME = "https://www.wzmuseum.cn"
+WZ_LIST = WZ_HOME + "/Col/Col23/Index.aspx"        # 温州博物馆「近期展览」
+JS_BASE = "https://www.jssmsg.cn"                  # 江苏省美术馆（jsmsg.com 已 302 过来）
+JS_LIST = JS_BASE + "/Home/exhibit"                # 「现时」展览栏
+NB_HOME = "https://www.nbmuseum.cn"
+NB_LIST = NB_HOME + "/col/col20679/index.html"     # 宁波博物院「特别展览」栏目
 
 # 江苏 / 浙江 / 上海 的地级市名，用于从聚合源的文本里认城市
 JZH_CITIES = ("上海", "南京", "苏州", "无锡", "常州", "南通", "扬州", "镇江", "泰州",
@@ -68,6 +84,8 @@ CITY_BY_MUSEUM = {
 VR_WORDS = ("VR", "vr", "XR", "xr", "沉浸式", "沉浸体验", "数字展", "光影", "全息",
             "裸眼3D", "元宇宙", "科创展", "动画", "动漫", "漫画", "潮玩", "手办", "IP")
 PERMANENT_WORDS = ("常设", "基本陈列", "固定陈列", "常驻")
+# 美术馆/艺术馆的展按用户口径是艺术展，进「展览」栏而不是博物馆栏
+ART_VENUE_WORDS = ("美术馆", "艺术馆", "画院")
 
 
 def fetch(url: str, referer: str = "", ajax: bool = False, retries: int = 3) -> str | None:
@@ -145,8 +163,14 @@ def is_permanent(*fields: str) -> bool:
     return any(w in joined for w in PERMANENT_WORDS)
 
 
-def is_vrish(title: str) -> bool:
-    return any(w in title for w in VR_WORDS)
+def is_vrish(title: str, venue: str = "") -> bool:
+    """内容型展览（VR/数字/沉浸）和美术馆的艺展都归「展览」栏。
+
+    场馆维度也要看：江苏省美术馆这类「美术馆」按用户口径算艺术展，
+    不能因为它是免费馆方源就混进博物馆栏。
+    """
+    hay = f"{title} {venue}"
+    return any(w in title for w in VR_WORDS) or any(w in hay for w in ART_VENUE_WORDS)
 
 
 def classify_price(raw: str) -> str:
@@ -175,8 +199,8 @@ def record(city: str, museum: str, title: str, place: str, date_text: str,
     return {
         "id": "mu" + stable_id(museum, title),
         "source": source,
-        # VR/数字/沉浸这类内容型展即使在馆里，也按用户口径归「展览」栏
-        "kind": "展览" if is_vrish(title) else "博物馆",
+        # VR/数字/沉浸这类内容型展、美术馆的艺展即使在馆里，也按用户口径归「展览」栏
+        "kind": "展览" if is_vrish(title, museum) else "博物馆",
         "title": title,
         "venue": museum,
         "shop": museum,
@@ -387,9 +411,114 @@ def silk_museum(log) -> list[dict]:
     return out
 
 
+def wz_museum(log) -> list[dict]:
+    """温州博物馆：「近期展览」栏是静态 HTML，标题+展期+地点+海报一次给全。
+
+    栏目页 /Art/Art_23/ 直接 403，只有 /Col/Col23/Index.aspx 这一栏能用，
+    馆方只在这里挂当期临展（3 条左右），漏展风险由文物局补录源兜。
+    """
+    body = fetch(WZ_LIST, referer=WZ_HOME)
+    if not body:
+        return None
+    today = date.today().strftime("%Y-%m-%d")
+    out = []
+    for href, img, title, when, place in re.findall(
+            r"<a href='([^']+)'>\s*<div><img src='([^']+)'></div>\s*<h2>([^<]{3,60})</h2>"
+            r"\s*<p>展览时间[：:]\s*([^<]{4,40})</p>\s*<p>展览地点[：:]\s*([^<]{2,30})</p>",
+            body, re.S):
+        title, when, place = text_of(title), text_of(when), text_of(place)
+        if not title or is_permanent(title, when):
+            continue
+        start, end = parse_range(when, date.today().year)
+        if end and end < today:
+            continue
+        poster = img.strip()
+        if poster and not poster.startswith("http"):
+            poster = WZ_HOME + poster if poster.startswith("/") else ""
+        out.append(record("温州", "温州博物馆", title[:40], place[:30], when[:40],
+                          "免费需预约", href if href.startswith("http") else WZ_HOME + href,
+                          poster, start, end))
+    return out
+
+
+def js_art_museum(log) -> list[dict]:
+    """江苏省美术馆：老域名 jsmsg.com 已 302 到 jssmsg.cn。
+
+    「现时」栏只给发布日，详情页是空壳（任何 Id 都返回同一份 10KB 页面），
+    拿不到展期。所以这里不编造日期：date / date_end 一律留空，
+    页面上不会出现「剩 N 天」这类假标签，排序也自然垫底——
+    相信馆方自己把这条留在「现时」栏，比按发布日硬猜闭幕日更稳。
+    """
+    body = fetch(JS_LIST, referer=JS_LIST)
+    if not body:
+        return None
+    out = []
+    seg = body[body.find('zl-box'):] or body
+    for href, img, pub, title in re.findall(
+            r'<a href="([^"]+)"[^>]*>\s*<div class="pic">\s*<img src="([^"]*)"[^>]*>'
+            r'\s*</div>\s*<p>(\d{4}-\d{2}-\d{2})</p>\s*<h1>(.*?)</h1>', seg, re.S):
+        title = text_of(title)
+        # 「典藏精品陈列」这类是常设陈列，按口径不收
+        if not title or is_permanent(title) or "典藏" in title:
+            continue
+        url = href if href.startswith("http") else f"{JS_BASE}/Home/{unescape(href)}"
+        poster = img.strip()
+        if poster and not poster.startswith("http"):
+            poster = JS_BASE + poster if poster.startswith("/") else ""
+        out.append(record("南京", "江苏省美术馆", title[:40], "江苏省美术馆",
+                          f"{pub} 开展", "免费需预约", url, poster, "", ""))
+    return out
+
+
+def nb_museum(log) -> list[dict]:
+    """宁波博物院：首页「特别展览」轮播就是馆方认定的在展清单。
+
+    栏目页 /col/col20679/index.html 留着历届展览且带发布时间（171 条），
+    按发布时间筛会把几年前的旧展捞进来，所以只取轮播那 5 条，
+    再用栏目数据按标题补海报和站内详情页链接。展期同样拿不到 → 留空。
+    """
+    home = fetch(NB_HOME, referer=NB_HOME)
+    if not home:
+        return None
+    # 只认「特别展览」区块到脚本结束为止，避免抓到别的轮播
+    i = home.find("特别展览")
+    seg = home[i:i + 12000] if i > 0 else home
+    cur = re.findall(r'<div class="image"[^>]*id="image_\d+">.*?<a href="([^"]+)"[^>]*>'
+                     r'<img src="([^"]+)"[^>]*>.*?<h3>([^<]{3,50})</h3>', seg, re.S)
+    if not cur:
+        return None
+    cat = fetch(NB_LIST, referer=NB_HOME) or ""
+    rows = {}
+    for u, t, img in re.findall(r"urls\[i\]='([^']+)';\s*headers\[i\]=\"([^\"]*)\";"
+                               r".*?imgstrs\[i\]='([^']*)'", cat, re.S):
+        rows[text_of(t)] = (u, img.strip())
+    out = []
+    for href, img, title in cur:
+        title = text_of(title)
+        if not title or is_permanent(title):
+            continue
+        art, cat_img = rows.get(title, ("", ""))
+        if not art:                       # 标题有空格差异，退一步按前缀对
+            key = title.replace(" ", "")
+            art, cat_img = next(((a, m) for k, (a, m) in rows.items()
+                                 if k.replace(" ", "").startswith(key[:8])), ("", ""))
+        # 轮播里「从紫禁韶华到莫奈之诗」这种合并两条展的标题对不上，
+        # 退到「特别展览」栏目页，至少点开是真实展览清单
+        url = art or (href if href.startswith("http") and "nbmuseum" in href else NB_LIST)
+        poster = (cat_img or img).strip()
+        if poster.startswith("/"):
+            poster = NB_HOME + poster
+        out.append(record("宁波", "宁波博物院", title[:40], "宁波博物院",
+                          "展期以馆方为准", "免费需预约", url,
+                          poster if poster.startswith("http") else "", "", ""))
+    return out
+
+
 MUSEUM_SOURCES = [("南京博物院", nj_museum), ("上海博物馆", sh_museum),
                   ("苏州博物馆", sz_museum), ("扬州中国大运河博物馆", canal_museum),
-                  ("徐州博物馆", xz_museum), ("中国丝绸博物馆", silk_museum)]
+                  ("徐州博物馆", xz_museum), ("中国丝绸博物馆", silk_museum),
+                  ("温州博物馆", wz_museum), ("江苏省美术馆", js_art_museum),
+                  ("宁波博物院", nb_museum)]
 
 
 # -------------------------------------------------- 国家文物局「看展览」补录源
@@ -450,7 +579,7 @@ def ncha_supplement(log, known_titles: set[str]) -> list[dict]:
 
 def scrape(cache_dir: Path, log=lambda *_: None, offline: bool = False,
            force: bool = False) -> tuple[list[dict], bool]:
-    """抓 6 馆官网 + 文物局补录。返回 (记录, 是否有源失败)。
+    """抓 9 馆官网 + 文物局补录。返回 (记录, 是否有源失败)。
 
     缓存沿用 data/pages/museum_<slug>.json，某馆挂了就用上次抓到的。
     """
@@ -501,7 +630,7 @@ def scrape(cache_dir: Path, log=lambda *_: None, offline: bool = False,
     records += got
     # 缓存可能是判类口径之前写的，出口统一重算一次
     for r in records:
-        r["kind"] = "展览" if is_vrish(r["title"]) else "博物馆"
+        r["kind"] = "展览" if is_vrish(r["title"], r.get("venue", "")) else "博物馆"
     return records, failed
 
 
