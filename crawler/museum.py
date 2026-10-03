@@ -21,6 +21,17 @@
                       静态展期+地点+海报，写法与苏博同款；域名是 wxmuseum.cn
   良渚博物院      HTML  /YinJinZhanLan/index.html「临展」栏，详情页有「展期」行
                       域名是 lzmuseum.cn（调研时猜的 lzmu.cn 不存在）
+  常州博物馆      JSON  /api/exhibit/achieve_exhibit_category?pid=13「当前展览」
+                      页面是 Vue 空壳，接口要 appkey/nonce/timestamp/sign 签名，
+                      算法与密钥明文都在馆方打包 JS 里（馆方换密钥即失效）
+  南通博物苑      JSON  http://uc.ntmuseum.com/webapi/exhibition/list（免鉴权 GET）
+                      整站只有 HTTP，海报热链会被浏览器按混合内容拦掉 → 不收海报；
+                      馆方数据滞后（最新 end_date 停在 2026-03-18），本轮 0 条属正常
+  上海市历史博物馆 HTML  /historymuseum/…/dqzl/index.html「当前展览」，服务端渲染
+                      区级调研（上海 16 个区）里 12 个区根本没有可静态抓的区级馆
+                      展讯源，只有微信；青浦/奉贤可爬但 HTTP-only 或展期在正文里。
+                      这一家是市级馆，但它是那轮调研唯一干净的静态源，就收了。
+                      它的 /upload/image/ 全部 302 到坏路径 → 无海报
 
 外加国家文物局「看展览｜博物馆展讯速览」做补录源：结构最规整但约每月一期，
 用来兜住那些没有临展接口的馆。
@@ -35,13 +46,14 @@ from __future__ import annotations
 
 import hashlib
 import json
+import random
 import re
 import time
 import urllib.request
 from datetime import date, timedelta
 from html import unescape
 from pathlib import Path
-from urllib.parse import quote
+from urllib.parse import quote, urlencode
 
 SOURCE = "馆方官网"
 NCHA_SOURCE = "文物局展讯"
@@ -49,9 +61,11 @@ NCHA_SOURCE = "文物局展讯"
 # 按用户口径留在「展览」栏，没有馆方展讯源的城市不单列）。
 # 徐州：官网临展接口可用，只是本轮恰好全展完，coverage 仍算它。
 # 温州 / 宁波：2026-10 新接，馆方只有栏目级清单、拿不到展期，条目日期留空。
-# 无锡：官网域名是 wxmuseum.cn，按惯例猜的 wuximuseum.* 根本不存在。
+# 无锡 / 常州 / 良渚：真实域名分别是 wxmuseum.cn、czmuseum.cn、lzmuseum.cn，
+#   按惯例猜的 wuximuseum.* / lzmu.cn 之类根本不存在，曾被误记成「沙箱访问不了」。
+# 南通：接口已接但馆方数据滞后，本轮 0 条 → 运行时不会成表，等它更新。
 COVERED_CITIES = {"南京", "上海", "苏州", "扬州", "徐州", "杭州",
-                  "温州", "宁波", "无锡"}
+                  "温州", "宁波", "无锡", "常州", "南通"}
 UA_TEXT = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
            "(KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36")
 AJAX_HEADERS = {"Accept": "application/json", "X-Requested-With": "XMLHttpRequest"}
@@ -67,6 +81,14 @@ WX_HOME = "https://www.wxmuseum.cn"                # 无锡博物院（不是 wu
 WX_LIST = WX_HOME + "/Exhibition/Temporary/TemporaryExhibition"
 LZ_HOME = "https://www.lzmuseum.cn"                # 良渚博物院（调研里猜的 lzmu.cn 不存在）
 LZ_LIST = LZ_HOME + "/YinJinZhanLan/index.html"    # 「临展」栏，倒序静态列表
+CZ_HOME = "https://www.czmuseum.cn"                # 常州博物馆：Vue 壳，数据在 JSON 接口里
+CZ_API = CZ_HOME + "/api/exhibit/achieve_exhibit_category"
+CZ_PID_CURRENT = "13"                              # 「当前展览」栏目 id（12=常设，14/15=往年）
+CZ_APPKEY = "adi5c90nmp6xwpqw44"                   # 下面两枚密钥是从馆方前端打包 JS
+CZ_SECRET = "55aa969f2468ffd4cd13799bdcf806f7"     # 里抄出来的明文，馆方换密钥这条源就断
+NT_API = "http://uc.ntmuseum.com/webapi/exhibition/list"   # 南通博物苑：整个站只有 http
+SHH_HOME = "https://www.shh-shrhmuseum.org.cn"       # 上海市历史博物馆（市级，非区级）
+SHH_LIST = SHH_HOME + "/historymuseum/historymuseum/zl/zlxx/dqzl/index.html"
 
 # 江苏 / 浙江 / 上海 的地级市名，用于从聚合源的文本里认城市
 JZH_CITIES = ("上海", "南京", "苏州", "无锡", "常州", "南通", "扬州", "镇江", "泰州",
@@ -636,12 +658,162 @@ def lz_museum(log) -> list[dict]:
     return out
 
 
+def cz_museum(log) -> list[dict]:
+    """常州博物馆：页面是 Vue 空壳，但数据在同站 JSON 接口里，签名前端明文可抄。
+
+    接口 /api/exhibit/achieve_exhibit_category 要 appkey + nonce + timestamp + sign，
+    sign = MD5(按 key 排序后所有参数值拼接 + secret).upper()，密钥直接写在他们打包
+    JS 里。这类依赖要留个心眼：馆方哪天换 appkey/secret，这条源立刻 401，
+    届时的表现是「抓取失败改用缓存」，不是静默出 0 条。
+
+    pid 13 是「当前展览」，12 是常设（口径上不收），14/15 是往年回顾（按展期筛
+    就已经过滤掉了，多翻几条也不怕）。字段 ex_showtime / end_time 是
+    「2026年07月12日」这种中文，parse_range 直接可用；end_time 为空的
+    （XR 体验展这类长期项目）按宁波/江苏口径日期留空，不编闭幕日。
+    """
+    nonce = str(random.randint(100_000, 999_999))
+    ts = str(int(time.time()))
+    params = {"appkey": CZ_APPKEY, "terminal": "1", "pid": CZ_PID_CURRENT,
+              "page": "1", "pageSize": "40", "nonce": nonce, "timestamp": ts}
+    joined = "".join(params[k] for k in sorted(params))
+    params["sign"] = hashlib.md5((joined + CZ_SECRET).encode()).hexdigest().upper()
+    url = CZ_API + "?" + urlencode(params)
+    body = fetch(url, referer=CZ_HOME)
+    if not body:
+        return None
+    try:
+        data = json.loads(body)
+    except json.JSONDecodeError:
+        return None
+    if data.get("error_code") != 0:
+        # 签名失效 / 栏目改 id：算源失败，别当成「常州今天没展」
+        log(f"  常州接口返回 error_code={data.get('error_code')} {data.get('error_msg')}")
+        return None
+    rows = (data.get("data") or {}).get("data") or []
+    if not rows:
+        return None
+    today = date.today().strftime("%Y-%m-%d")
+    out = []
+    for r in rows:
+        title = text_of(r.get("ex_title") or "")[:40]
+        if not title or is_permanent(title):
+            continue
+        start, end = parse_range(f"{r.get('ex_showtime') or ''} {r.get('end_time') or ''}"
+                                 .strip(), date.today().year)
+        if not r.get("end_time"):
+            # 只有开展日、没有闭幕日（XR 长期体验项目这类）→ 整条按无展期处理，
+            # 否则 record() 的 end or start 会把它变成「当天闭幕」。
+            start = end = ""
+        elif end and end < today:
+            continue
+        poster = (r.get("ex_pic") or "").strip()
+        place = text_of(r.get("ex_addr") or "")[:30]
+        out.append(record("常州", "常州博物馆", title, place,
+                          f"{r.get('ex_showtime') or ''}-{r.get('end_time') or ''}".strip("-")[:40],
+                          "免费需预约", f"{CZ_HOME}/exhibition?id={r.get('id')}",
+                          poster, start, end))
+    return out
+
+
+def nt_museum(log) -> list[dict]:
+    """南通博物苑：uc.ntmuseum.com/webapi/exhibition/list 是免鉴权 GET，字段规整。
+
+    两个坑：
+      1. 整站只有 HTTP，域名 443 直接连不通。海报热链过来是 http://，我们站点是
+         https，浏览器会把混合内容拦掉 → poster 一律丢掉，只留文字条目。
+      2. 这个接口里 type=1 是常设陈列（不收），type=2 是临展；但它更新滞后，
+         实测最新一条的 end_date 停在 2026-03-18，而馆方国庆已经在办「经世济民」
+         九馆联动展——也就是说按展期筛完这一轮出 0 条是正常的，南通暂不成表。
+         留着这条源是为了下一档展开展当天能抓到，别因为当前 0 条就删掉。
+    """
+    body = fetch(NT_API + "?p=w&language=1&page=1&limit=300", referer="http://www.ntmuseum.com/")
+    if not body:
+        return None
+    try:
+        data = json.loads(body)
+    except json.JSONDecodeError:
+        return None
+    rows = ((data.get("data") or {}).get("list")) or []
+    if not rows:
+        return None
+    today = date.today().strftime("%Y-%m-%d")
+    out = []
+    for r in rows:
+        if str(r.get("type")) != "2":        # 1 = 基本陈列
+            continue
+        title = text_of(r.get("exhibition_name") or "")[:40]
+        if not title or is_permanent(title):
+            continue
+        start, end = (r.get("start_date") or ""), (r.get("end_date") or "")
+        if not start or (end and end < today):
+            continue                          # 没有展期不收
+        if start > (date.today() + timedelta(days=90)).strftime("%Y-%m-%d"):
+            continue                          # 太远的预告也不收
+        out.append(record("南通", "南通博物苑", title,
+                          text_of(r.get("place") or "")[:30],
+                          f"{start} 至 {end}" if end else f"{start} 开展",
+                          "免费需预约", "http://www.ntmuseum.com/pcweb/exhibition",
+                          "", start, end))
+    return out
+
+
+def sh_history_museum(log) -> list[dict]:
+    """上海市历史博物馆：服务端渲染的「当前展览」列表，展期+地点一页给全。
+
+    列表里 <h1> 是新闻稿标题（「新展开幕|…」这种），真正展名在 exbitem-tt，
+    但那个位置是 CSS 截断过的（「…上海·汉堡...」），所以逐条进详情页取 <h1>：
+    详情页在「EXHIBIT INFORMATION」之后的第一个 <h1> 就是完整展名。
+    只有 4 条左右，多 4 个请求换正常标题，值。详情页取不到就退回截断标题，
+    绝不自己补全。
+
+    海报必须留空：站里每张 /upload/image/ 图片都 302 到
+    Location: D:/Myeclipse-workspace/.../page404.html ——馆方自己的 CMS 路径配错了，
+    浏览器里也加载不出来（调研时误判成 HTTPS 直链可用，实测 4 种尺寸都 302）。
+    """
+    body = fetch(SHH_LIST, referer=SHH_HOME)
+    if not body:
+        return None
+    today = date.today().strftime("%Y-%m-%d")
+    out = []
+    for blk in re.findall(r"<li>(.*?)</li>", body, re.S):
+        if "exb-item-cn" not in blk or "时间" not in blk:
+            continue
+        href = re.search(r'href="(/historymuseum/[^"?]+)', blk)
+        name = re.search(r'class="exbitem-tt">(.*?)</div>', blk, re.S)
+        info = re.search(r"<p>(.*?)</p>", blk, re.S)
+        if not (name and info):
+            continue
+        cut = text_of(name.group(1)).rstrip(".。 ")
+        plain = text_of(info.group(1))
+        when = re.search(r"时\s*间[：:]\s*(.+?)(?:地\s*点|$)", plain)
+        place = re.search(r"地\s*点[：:]\s*(.+)$", plain)
+        if not (when and cut):
+            continue
+        start, end = parse_range(when.group(1), date.today().year)
+        if not start or (end and end < today):
+            continue
+        url = SHH_HOME + href.group(1) if href else SHH_LIST
+        title = cut
+        page = fetch(url, referer=SHH_LIST) if href else None
+        if page:
+            seg = page[page.find("EXHIBIT INFORMATION"):] if "EXHIBIT INFORMATION" in page else page
+            full = re.search(r"<h1[^>]*>([^<]{4,60})</h1>", seg)
+            if full:
+                title = text_of(full.group(1))[:40] or cut
+        out.append(record("上海", "上海市历史博物馆", title,
+                          (place.group(1).strip()[:30] if place else "上海市历史博物馆"),
+                          when.group(1).strip()[:40], "免费需预约", url,
+                          "", start, end))
+    return out
+
+
 MUSEUM_SOURCES = [("南京博物院", nj_museum), ("上海博物馆", sh_museum),
                   ("苏州博物馆", sz_museum), ("扬州中国大运河博物馆", canal_museum),
                   ("徐州博物馆", xz_museum), ("中国丝绸博物馆", silk_museum),
                   ("温州博物馆", wz_museum), ("江苏省美术馆", js_art_museum),
                   ("宁波博物院", nb_museum), ("无锡博物院", wx_museum),
-                  ("良渚博物院", lz_museum)]
+                  ("良渚博物院", lz_museum), ("常州博物馆", cz_museum),
+                  ("南通博物苑", nt_museum), ("上海市历史博物馆", sh_history_museum)]
 
 
 # -------------------------------------------------- 国家文物局「看展览」补录源
@@ -702,7 +874,7 @@ def ncha_supplement(log, known_titles: set[str]) -> list[dict]:
 
 def scrape(cache_dir: Path, log=lambda *_: None, offline: bool = False,
            force: bool = False) -> tuple[list[dict], bool]:
-    """抓 11 馆官网 + 文物局补录。返回 (记录, 是否有源失败)。
+    """抓 14 馆官网 + 文物局补录。返回 (记录, 是否有源失败)。
 
     缓存沿用 data/pages/museum_<slug>.json，某馆挂了就用上次抓到的。
     """
