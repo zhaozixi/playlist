@@ -5,40 +5,15 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:江浙沪-音乐剧·话剧·博物馆·展览
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
-UID:theatrewatch-504766@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:【话剧】诗意现实主义原创话剧 《铁月亮》
-DESCRIPTION:话剧｜YOUNG剧场·绿匣子(控江路1155号)｜2026.10.2
- 5 19:30 周日
-LOCATION:YOUNG剧场·绿匣子(控江路1155号)
-URL:https://show.maoyan.com/detail/504766
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-491682@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:【话剧】沉浸式惊悚悬疑音乐话剧《塞壬》
-DESCRIPTION:话剧｜绿洲Oasis 演出现场(瑞金二路街道雁荡路
- 109号INS新乐园B1楼)｜2026.10.25 周日
-LOCATION:绿洲Oasis 演出现场(瑞金二路街道雁荡路109号INS新
- 乐园B1楼)
-URL:https://show.maoyan.com/detail/491682
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:theatrewatch-dm1076890506157@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
 SUMMARY:【话剧】《天黑请闭眼》限量特惠|惊悚爆笑喜剧
  ｜悬疑话剧｜进阶版｜全员恶人｜密室体验｜多重反转
  ｜惊天真相
 DESCRIPTION:话剧｜半笑空间-外滩店1号剧场(上海市黄浦区
- 汉口路398号华盛大厦2楼半笑空间)｜2026.10.25-11.30
+ 汉口路398号华盛大厦2楼半笑空间)｜2026.10.26-11.30
 LOCATION:半笑空间-外滩店1号剧场(上海市黄浦区汉口路398
  号华盛大厦2楼半笑空间)
 URL:https://m.damai.cn/shows/item.html?id=1076890506157
@@ -46,12 +21,12 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1075409586721@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
 SUMMARY:【话剧】音乐剧《西西里的人鱼传说》
 DESCRIPTION:话剧｜上海•时光剧场•大世界2楼C厅(上海市
- 黄浦区西藏南路1号（大世界2楼C厅）)｜2026.10.25-11.30
+ 黄浦区西藏南路1号（大世界2楼C厅）)｜2026.10.26-11.30
 LOCATION:上海•时光剧场•大世界2楼C厅(上海市黄浦区西
  藏南路1号（大世界2楼C厅）)
 URL:https://m.damai.cn/shows/item.html?id=1075409586721
@@ -59,42 +34,29 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1086958014016@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
 SUMMARY:【话剧】《谋杀的艺术》限量特惠丨年度金奖｜
  悬疑爆笑喜剧｜外百老汇名剧｜致命悬案｜女性觉醒｜
- 沉浸式推理话剧
+ 推理话剧
 DESCRIPTION:话剧｜半笑空间-南京东路店(上海市黄浦区九
- 江路501号一楼112号半笑空间)｜2026.10.25-11.30
+ 江路501号一楼112号半笑空间)｜2026.10.26-11.30
 LOCATION:半笑空间-南京东路店(上海市黄浦区九江路501号
  一楼112号半笑空间)
 URL:https://m.damai.cn/shows/item.html?id=1086958014016
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-395150@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:【话剧】惊悚鬼混沉浸式《开关SWITCH》
-DESCRIPTION:话剧｜惊悚鬼混沉浸式笑场《开关SWITCH》(西藏
- 南路1号上海大世界2楼·B厅)｜2026.10.25 - 11.08
-LOCATION:惊悚鬼混沉浸式笑场《开关SWITCH》(西藏南路1号
- 上海大世界2楼·B厅)
-URL:https://show.maoyan.com/detail/395150
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:theatrewatch-dm1088250225524@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
 SUMMARY:【话剧】【环人广】美国百老汇名剧｜厨房保卫
  战 ｜《 沪闹厨房 》｜高口碑热销厨神大作战｜喜人同
  款
 DESCRIPTION:话剧｜半笑空间-人民广场店(上海市黄浦区六
- 合路98号港陆黄浦中心1层102室半笑酒馆)｜2026.10.25-11.20
+ 合路98号港陆黄浦中心1层102室半笑酒馆)｜2026.10.26-11.20
 LOCATION:半笑空间-人民广场店(上海市黄浦区六合路98号港
  陆黄浦中心1层102室半笑酒馆)
 URL:https://m.damai.cn/shows/item.html?id=1088250225524
@@ -102,430 +64,98 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1063415513658@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
 SUMMARY:【话剧】《花见小馆谋杀事件》环人广｜基尼斯
  话剧金榜｜沉浸式悬疑庭审剧｜层层反转｜推理戏剧｜
  超强阵容｜爆笑互动
 DESCRIPTION:话剧｜半笑空间(人民广场仙乐斯店)(南京西路3
- 88号2层208-2、209号铺)｜2026.10.25-11.30
+ 88号2层208-2、209号铺)｜2026.10.26-11.30
 LOCATION:半笑空间(人民广场仙乐斯店)(南京西路388号2层208
  -2、209号铺)
 URL:https://m.damai.cn/shows/item.html?id=1063415513658
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-dm978423153442@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:【话剧】淮海路综艺同款｜喜人乐翻天《超智商
- 犯罪》｜爆款热销｜法外狂徒沉浸式犯罪
-DESCRIPTION:话剧｜阴阳沉浸式戏剧剧场(沉浸式厅)(南昌路1
- 25号（近茂名路）负一层)｜2026.10.25 周日 19:30
-LOCATION:阴阳沉浸式戏剧剧场(沉浸式厅)(南昌路125号（近
- 茂名路）负一层)
-URL:https://m.damai.cn/shows/item.html?id=978423153442
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-dm961157087108@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:【话剧】【 魔都假期必看！】玫瑰奇迹｜近景吧
- 台魔术秀｜ Jason·林冠廷·饼饼·Laurn｜个人专场！
-DESCRIPTION:话剧｜玫瑰奇迹魔术剧场(上海市黄浦区打浦桥
- 街道徐家汇路69号LuOne凯德晶萃广场L5-13玫瑰奇迹魔术剧
- 场)｜2026.10.25-10.30
-LOCATION:玫瑰奇迹魔术剧场(上海市黄浦区打浦桥街道徐家
- 汇路69号LuOne凯德晶萃广场L5-13玫瑰奇迹魔术剧场)
-URL:https://m.damai.cn/shows/item.html?id=961157087108
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:theatrewatch-dm1087774845384@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
 SUMMARY:【话剧】上海·【RAYGAME出品】原创沉浸式光影戏
  剧《红线II Filo Rosso》
 DESCRIPTION:话剧｜PLUTO ROSSO(上海市黄浦区淮海中路 728 号
- 龙凤·PRSCO 五楼 05 室)｜2026.10.25-10.31
+ 龙凤·PRSCO 五楼 05 室)｜2026.10.26-10.31
 LOCATION:PLUTO ROSSO(上海市黄浦区淮海中路 728 号龙凤·PRSCO 
  五楼 05 室)
 URL:https://m.damai.cn/shows/item.html?id=1087774845384
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-dm1027189650001@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:【话剧】【潮流新玩法】第七感爆笑沉浸式互动
- 魔术话剧《梦游记》系列｜第七感魔术剧场·宝山日月
- 光店
-DESCRIPTION:话剧｜第七感魔术剧场·宝山日月光店(宝山日
- 月光店 沪太路1933号宝山日月光1楼E112)｜2026.10.25-11.29
-LOCATION:第七感魔术剧场·宝山日月光店(宝山日月光店 沪
- 太路1933号宝山日月光1楼E112)
-URL:https://m.damai.cn/shows/item.html?id=1027189650001
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-dm1088048021729@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:【话剧】上海·暑期特惠《清洗》海外畅销|心理
- 悬疑|反转反转再反转|猫鼠游戏|灵魂共振|抽丝剥茧|
+UID:theatrewatch-dm1048348173916@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:【话剧】暑期特惠《清洗》海外畅销｜心理悬疑
+ ｜反转反转再反转｜猫鼠游戏｜灵魂共振｜抽丝剥茧｜
 DESCRIPTION:话剧｜加场戏剧(南京东路店)(黄浦区天津路66
- 号百空间108室加场戏剧)｜2026.10.25-10.31
+ 号百空间108室加场戏剧)｜2026.10.26-10.31
 LOCATION:加场戏剧(南京东路店)(黄浦区天津路66号百空间10
  8室加场戏剧)
-URL:https://m.damai.cn/shows/item.html?id=1088048021729
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-509626@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:【音乐剧】原创音乐剧《海的那边还是海》
-DESCRIPTION:音乐剧｜大上海新空间(上海市黄浦区中华路980
- 号)｜2026.10.25 19:30 周日
-LOCATION:大上海新空间(上海市黄浦区中华路980号)
-URL:https://show.maoyan.com/detail/509626
+URL:https://m.damai.cn/shows/item.html?id=1048348173916
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1069460821909@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
 SUMMARY:【音乐剧】第二十五届中国上海国际艺术节参演
  节目 光明致优 尊耀呈现 肖斯塔科维奇交响曲全集——
  瓦莱里·捷杰耶夫与马林斯基交响乐团
 DESCRIPTION:音乐剧｜上海大歌剧院-申厅(世博大道世博文
- 化公园内)｜2026.10.25-10.28
+ 化公园内)｜2026.10.26-10.28
 LOCATION:上海大歌剧院-申厅(世博大道世博文化公园内)
 URL:https://m.damai.cn/shows/item.html?id=1069460821909
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-481997@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:【话剧】爱情罗生门《因为孤单的缘故》零距离
- 沉浸 | 解压爽剧 | 情感反转
-DESCRIPTION:话剧｜南有乔木剧场(太平北路1912街区2号楼2楼
- （小金金手作茶旁二楼）)｜2026.10.25 周日 19:30
-LOCATION:南有乔木剧场(太平北路1912街区2号楼2楼（小金金
- 手作茶旁二楼）)
-URL:https://show.maoyan.com/detail/481997
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-462716@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:【话剧】《越糟糕越快乐》爆款热销口碑剧 | 爆
- 笑感动偷心喜剧
-DESCRIPTION:话剧｜南有乔木剧场(太平北路1912街区2号楼2楼
- （小金金手作茶旁二楼）)｜2026.10.25 周日 19:30
-LOCATION:南有乔木剧场(太平北路1912街区2号楼2楼（小金金
- 手作茶旁二楼）)
-URL:https://show.maoyan.com/detail/462716
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:theatrewatch-dm961240065735@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
 SUMMARY:【话剧】《清洗》海外爆款畅销｜心理悬疑｜反
  转反转再反转｜猫鼠游戏｜灵魂共振｜抽丝剥茧｜
 DESCRIPTION:话剧｜清洗小剧场(新街口建华大厦3楼多园青
- 年旅舍清洗小剧场)｜2026.10.25-11.29
+ 年旅舍清洗小剧场)｜2026.10.26-11.29
 LOCATION:清洗小剧场(新街口建华大厦3楼多园青年旅舍清
  洗小剧场)
 URL:https://m.damai.cn/shows/item.html?id=961240065735
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-dm1051901597600@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:【话剧】纯正近景魔术秀《奇幻秘社》超近距离
- 互动·魔术师个人秀（需预约）
-DESCRIPTION:话剧｜奇幻天台百老汇魔术旮旯俱乐部(长江路
- 101号南京文化艺术中心7楼魔术旮旯俱乐部)｜2026.10.25-10
- .31
-LOCATION:奇幻天台百老汇魔术旮旯俱乐部(长江路101号南京
- 文化艺术中心7楼魔术旮旯俱乐部)
-URL:https://m.damai.cn/shows/item.html?id=1051901597600
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-dm1068394427763@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:【话剧】《游园惊梦》悬疑爆笑互动剧 | 民国探
- 案 | 暗流博弈|人性迷局 | 深渊独白 | 真相潜行
-DESCRIPTION:话剧｜RX剧场(洪武路街道建康路1号水游城4F-L20
- -1)｜2026.10.25-10.31
-LOCATION:RX剧场(洪武路街道建康路1号水游城4F-L20-1)
-URL:https://m.damai.cn/shows/item.html?id=1068394427763
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-dm1079141395065@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:【话剧】《留墨秦淮》沉浸式互动演出
-DESCRIPTION:话剧｜长乐剧场(南京市秦淮区夫子庙街道钞库
- 街21号非遗馆2楼长乐剧场)｜2026.10.25-10.31
-LOCATION:长乐剧场(南京市秦淮区夫子庙街道钞库街21号非
- 遗馆2楼长乐剧场)
-URL:https://m.damai.cn/shows/item.html?id=1079141395065
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-mu92d12b215b@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20260910
-DTEND;VALUE=DATE:20261026
-SUMMARY:【博物馆】九馆联动：“经世济民——上海大都
- 市圈 近代爱国实业家展”
-DESCRIPTION:博物馆｜南通博物苑｜2026-09-10 至 2026-10-25
-LOCATION:南通博物苑
-URL:http://www.ntmuseum.com/pcweb/exhibition
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-500853@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:【话剧】国民现象级IP改编 话剧《父母爱情》-嘉
- 兴站
-DESCRIPTION:话剧｜秀湖音乐厅(秀洲大道870号，嘉兴市文化
- 艺术中心秀湖音乐厅)｜2026.10.25 19:00 周日
-LOCATION:秀湖音乐厅(秀洲大道870号，嘉兴市文化艺术中心
- 秀湖音乐厅)
-URL:https://show.maoyan.com/detail/500853
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-mubed4117d02@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20260619
-DTEND;VALUE=DATE:20261026
-SUMMARY:【博物馆】解密达·芬奇——艺术、自然与科技的
- 对话
-DESCRIPTION:博物馆｜《解密·达芬奇》常州博物馆特展厅(
- 龙城大道1288号常州博物馆一楼特展厅)｜2026年06月19日-2
- 026年10月25日
-LOCATION:《解密·达芬奇》常州博物馆特展厅(龙城大道1288
- 号常州博物馆一楼特展厅)
-URL:https://www.czmuseum.cn/exhibition?id=1119916017863102464
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:theatrewatch-dm944139339003@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
 SUMMARY:【话剧】欢乐相遇《上位游戏》凶手再现｜沉浸
  式互动·悬疑推理·爆笑解压·约会打卡必看
 DESCRIPTION:话剧｜斗萌喜剧·沉浸式演出剧场B厅(西湖银泰
- 店)(杭州市延安路98号西湖银泰负一楼)｜2026.10.25-10.31
+ 店)(杭州市延安路98号西湖银泰负一楼)｜2026.10.26-10.31
 LOCATION:斗萌喜剧·沉浸式演出剧场B厅(西湖银泰店)(杭州
  市延安路98号西湖银泰负一楼)
 URL:https://m.damai.cn/shows/item.html?id=944139339003
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-dm1093335878628@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:【音乐剧】喜剧人狂欢夜线下综艺 | 《嘻湖笑 任
- 逍遥》爆笑解压 |情侣约会| 闺蜜逛街 |网红打卡 |首选
- 必看
-DESCRIPTION:音乐剧｜嘻湖笑沉浸式剧场(杭州市上城区湖滨
- 街道解放路251号2幢一楼B1-19店铺)｜2026.10.25-11.29
-LOCATION:嘻湖笑沉浸式剧场(杭州市上城区湖滨街道解放路
- 251号2幢一楼B1-19店铺)
-URL:https://m.damai.cn/shows/item.html?id=1093335878628
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-dm1067308811925@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:【话剧】《完美的秀》魔术互动喜剧丨爆笑丨合
- 家欢乐丨神奇丨解压
-DESCRIPTION:话剧｜ALL IN空间小剧场(浙江省温州市鹿城区五
- 马街道墨池公园吟谭楼)｜2026.10.25-11.29
-LOCATION:ALL IN空间小剧场(浙江省温州市鹿城区五马街道墨
- 池公园吟谭楼)
-URL:https://m.damai.cn/shows/item.html?id=1067308811925
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-muca2fd93a31@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20260726
-DTEND;VALUE=DATE:20261026
-SUMMARY:【博物馆】鹰徽与月桂：拿破仑与法兰西变革时
- 代
-DESCRIPTION:博物馆｜苏州博物馆｜2026年7月26日（周日） - 
- 10月25日（周日）
-LOCATION:苏州博物馆
-URL:http://www.szmuseum.com/Exhibition/TemporaryDetails/1dac6815-fa42-41fb-a7a7-497a762a0007
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-504732@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:【话剧】吴江文旅集团出品 黄诗扶主唱《入梦》
- 音乐幕剧｜国风古典文学创新舞台
-DESCRIPTION:话剧｜苏州湾大剧院(东太湖大道12000号)｜2026.1
- 0.25 16:30 周日
-LOCATION:苏州湾大剧院(东太湖大道12000号)
-URL:https://show.maoyan.com/detail/504732
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-dm749891840427@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:【话剧】【秒杀19.9】《开放麦吉克-降落计划》魔
- 术版本开放麦•见证未来新星诞生
-DESCRIPTION:话剧｜苏州文化艺术中心-8# 魔术剧场(观枫街1
- 号苏州文化艺术中心-苏艺演艺文化集聚区)｜2026.10.25 
- 周日 17:00
-LOCATION:苏州文化艺术中心-8# 魔术剧场(观枫街1号苏州文
- 化艺术中心-苏艺演艺文化集聚区)
-URL:https://m.damai.cn/shows/item.html?id=749891840427
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-dm735584619067@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:【话剧】【学生特惠】纯正近景魔术秀《奇幻秘
- 社》超近距离互动魔术师个人秀
-DESCRIPTION:话剧｜苏州文化艺术中心-8# 魔术剧场(观枫街1
- 号苏州文化艺术中心-苏艺演艺文化集聚区)｜2026.10.25-11
- .01
-LOCATION:苏州文化艺术中心-8# 魔术剧场(观枫街1号苏州文
- 化艺术中心-苏艺演艺文化集聚区)
-URL:https://m.damai.cn/shows/item.html?id=735584619067
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-dm1034667770439@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:【话剧】【观前街】沉浸式喜剧魔术互动秀《万
- 万没想到》| 爆笑现场+奇妙互动 @开心喜聚精品剧
-DESCRIPTION:话剧｜长歌演艺空间(皮市街9-69号(开元里2楼）
- )｜2026.10.25-12.31
-LOCATION:长歌演艺空间(皮市街9-69号(开元里2楼）)
-URL:https://m.damai.cn/shows/item.html?id=1034667770439
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-dm811618179679@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:【话剧】《只此周庄》行浸式多维空间剧
-DESCRIPTION:话剧｜只此周庄行浸式多维空间剧(江苏省苏州
- 市昆山市周庄镇全福路66号周庄古镇)｜2026.10.25-10.29
-LOCATION:只此周庄行浸式多维空间剧(江苏省苏州市昆山市
- 周庄镇全福路66号周庄古镇)
-URL:https://m.damai.cn/shows/item.html?id=811618179679
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-495000@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261027
-SUMMARY:【话剧】第二十五届中国上海国际艺术节参演剧
- 目 “与国同进 与君同行”国泰海通倾情支持 北京人民
- 艺术剧院 话剧《哈姆雷特》
-DESCRIPTION:话剧｜美琪大戏院(石门二路街道江宁路66号(近
- 奉贤路))｜2026.10.25 周日 19:30
-LOCATION:美琪大戏院(石门二路街道江宁路66号(近奉贤路))
-URL:https://show.maoyan.com/detail/495000
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-501119@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261029
-SUMMARY:【话剧】万人观看《我在人间凑数的日子》爆笑
- 感动反转喜剧
-DESCRIPTION:话剧｜南有乔木剧场(太平北路1912街区2号楼2楼
- （小金金手作茶旁二楼）)｜2026.10.25 周日 19:30
-LOCATION:南有乔木剧场(太平北路1912街区2号楼2楼（小金金
- 手作茶旁二楼）)
-URL:https://show.maoyan.com/detail/501119
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-491631@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261031
-SUMMARY:【话剧】汐空间出品 爆笑沉浸式悬疑互动戏剧杀
- 《富尔摩斯之消失的遗嘱》
-DESCRIPTION:话剧｜酹江月沉浸空间(常州市钟楼区莱蒙都会
- 商业街4号百货大楼5楼)｜2026.10.25 / 10.30
-LOCATION:酹江月沉浸空间(常州市钟楼区莱蒙都会商业街4
- 号百货大楼5楼)
-URL:https://show.maoyan.com/detail/491631
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-391445@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261101
-SUMMARY:【话剧】【年度金奖】高口碑必看!环境式光影艺
- 术悬疑剧《禁忌的色彩》
-DESCRIPTION:话剧｜RAYGAME CLUB·剧场(上海市黄浦区马当路453
- 号L219室)｜2026.10.25 - 10.31
-LOCATION:RAYGAME CLUB·剧场(上海市黄浦区马当路453号L219室)
-URL:https://show.maoyan.com/detail/391445
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:theatrewatch-498406@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】上海外滩爆笑气味戏剧《死无对证》沉
  浸式演出 | 原创经典ip版权
 DESCRIPTION:话剧｜次乐元空间(小东门街道中华路528号3层93
- 09室(黄浦区融创外滩1号汇三楼次乐元空间))｜2026.10.25 -
+ 09室(黄浦区融创外滩1号汇三楼次乐元空间))｜2026.10.26 -
   2026.10.31
 LOCATION:次乐元空间(小东门街道中华路528号3层9309室(黄浦
  区融创外滩1号汇三楼次乐元空间))
@@ -533,130 +163,22 @@ URL:https://show.maoyan.com/detail/498406
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-482688@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261101
-SUMMARY:【话剧】[笑到失控] 爆笑喜剧《连载不要停》｜90
- 分钟事故不断，笑点不断
-DESCRIPTION:话剧｜沉浸式即兴互动喜剧剧场—草台嘻班(四
- 川北路939号滨港商业中心L2层1228单元)｜2026.10.25 - 10.31
-LOCATION:沉浸式即兴互动喜剧剧场—草台嘻班(四川北路939
- 号滨港商业中心L2层1228单元)
-URL:https://show.maoyan.com/detail/482688
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-502747@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261101
-SUMMARY:【话剧】尤里·布图索夫导演逝世周年纪念展演—
- —俄罗斯国立萨蒂利空剧院《海鸥》
-DESCRIPTION:话剧｜大宁剧院(平型关路1222号)｜2026.10.25 - 10.
- 31
-LOCATION:大宁剧院(平型关路1222号)
-URL:https://show.maoyan.com/detail/502747
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-453008@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261101
-SUMMARY:【话剧】【上海】中文版沉浸式游乐剧场《轮盘
- 》
-DESCRIPTION:话剧｜大世界·轮盘剧场(西藏南路1号大世界3
- 楼A1厅轮盘剧场)｜2026.10.25 - 10.31
-LOCATION:大世界·轮盘剧场(西藏南路1号大世界3楼A1厅轮盘
- 剧场)
-URL:https://show.maoyan.com/detail/453008
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-497110@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261101
-SUMMARY:【话剧】上海|史诗独角戏《一个高贵的灵魂》|高
- 口碑剧目-南京东路站
-DESCRIPTION:话剧｜麦乐门剧场(上海市黄浦区南京东路720号
- 第一食品商店4楼A-3笑探情景剧场)｜2026.10.25 / 10.31
-LOCATION:麦乐门剧场(上海市黄浦区南京东路720号第一食品
- 商店4楼A-3笑探情景剧场)
-URL:https://show.maoyan.com/detail/497110
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-495528@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261101
-SUMMARY:【音乐剧】暗域博弈音乐剧《Borderline-边界线》英
- 文版-【缪时客出品】
-DESCRIPTION:音乐剧｜长江剧场-红匣子(上海市黄浦区黄河
- 路35号3F)｜2026.10.25 - 10.31
-LOCATION:长江剧场-红匣子(上海市黄浦区黄河路35号3F)
-URL:https://show.maoyan.com/detail/495528
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-461487@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261101
-SUMMARY:【音乐剧】沉浸式推理音乐剧《小说》-【缪时客
- 出品】
-DESCRIPTION:音乐剧｜十二楼音乐剧之城 -1号剧场【小说编
- 辑部】(南京西路2号-68号新世界城)｜2026.10.25 - 10.31
-LOCATION:十二楼音乐剧之城 -1号剧场【小说编辑部】(南京
- 西路2号-68号新世界城)
-URL:https://show.maoyan.com/detail/461487
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-478113@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261101
-SUMMARY:【音乐剧】〈环人广必吃榜〉浪漫主义青春全女
- 音乐剧《诗与星》
-DESCRIPTION:音乐剧｜星空间408号·她剧场(南京东路街道南
- 京东路800号第一百货C馆7楼)｜2026.10.25 - 10.31
-LOCATION:星空间408号·她剧场(南京东路街道南京东路800号
- 第一百货C馆7楼)
-URL:https://show.maoyan.com/detail/478113
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:theatrewatch-510480@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】南京必看！《神机庙算》爆笑悬疑喜剧
  ｜博弈反转推理｜致命惊悚算计｜智斗骗局谁是赢家？
 DESCRIPTION:话剧｜清洗小剧场(新街口建华大厦3楼多园青
- 年旅舍清洗小剧场)｜2026.10.25 - 10.31
+ 年旅舍清洗小剧场)｜2026.10.26 - 10.31
 LOCATION:清洗小剧场(新街口建华大厦3楼多园青年旅舍清
  洗小剧场)
 URL:https://show.maoyan.com/detail/510480
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-510991@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261101
-SUMMARY:【话剧】爆笑喜剧《白雪公主》
-DESCRIPTION:话剧｜临海紫阳剧场(赤城路与天宁路交叉口南
- 约80米)｜2026.10.25 - 10.31
-LOCATION:临海紫阳剧场(赤城路与天宁路交叉口南约80米)
-URL:https://show.maoyan.com/detail/510991
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:theatrewatch-mu05570b55ea@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20260808
 DTEND;VALUE=DATE:20261101
 SUMMARY:【博物馆】熔颜——朱炳仁、朱军岷 熔铜艺术二
@@ -669,13 +191,13 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-502532@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】情侣约会必看 | 网红打卡｜惊悚悬疑《
  名媛迷案》谋杀审判 | 互动反转 | 爆笑解压
 DESCRIPTION:话剧｜斗萌喜剧·沉浸式演出剧场A厅(西湖银泰
- 店)(杭州市延安路98号西湖银泰负一楼)｜2026.10.25 - 10.31
+ 店)(杭州市延安路98号西湖银泰负一楼)｜2026.10.26 - 10.31
 LOCATION:斗萌喜剧·沉浸式演出剧场A厅(西湖银泰店)(杭州
  市延安路98号西湖银泰负一楼)
 URL:https://show.maoyan.com/detail/502532
@@ -683,38 +205,26 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-504160@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】情侣约会网红打卡｜都市传说《致命诱
  惑》｜惊悚悬疑｜谋杀审判 | 爆笑解压｜全程高能反转
 DESCRIPTION:话剧｜斗萌喜剧·沉浸式演出剧场B厅(西湖银泰
- 店)(杭州市延安路98号西湖银泰负一楼)｜2026.10.25 - 10.31
+ 店)(杭州市延安路98号西湖银泰负一楼)｜2026.10.26 - 10.31
 LOCATION:斗萌喜剧·沉浸式演出剧场B厅(西湖银泰店)(杭州
  市延安路98号西湖银泰负一楼)
 URL:https://show.maoyan.com/detail/504160
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-418764@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261101
-SUMMARY:【话剧】大型原创沉浸式舞台剧《梦寻西施》
-DESCRIPTION:话剧｜梦寻西施(苎罗东路2号西施故里郑氏宗
- 祠内)｜2026.10.25 - 10.31
-LOCATION:梦寻西施(苎罗东路2号西施故里郑氏宗祠内)
-URL:https://show.maoyan.com/detail/418764
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:theatrewatch-493373@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】丝筵·丝路行歌全景沉浸式歌舞餐秀
 DESCRIPTION:话剧｜丝筵·丝路行歌全景沉浸式歌舞餐秀(平
- 江街道人民路1755号13、15号楼丝筵)｜2026.10.25 - 2026.10.31
+ 江街道人民路1755号13、15号楼丝筵)｜2026.10.26 - 2026.10.31
 LOCATION:丝筵·丝路行歌全景沉浸式歌舞餐秀(平江街道人
  民路1755号13、15号楼丝筵)
 URL:https://show.maoyan.com/detail/493373
@@ -722,61 +232,19 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-459574@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261102
 SUMMARY:【音乐剧】音乐剧《红莲》
 DESCRIPTION:音乐剧｜上海共舞台(上海市黄浦区延安东路433
- 号)｜2026.10.25 - 11.01
+ 号)｜2026.10.26 - 11.01
 LOCATION:上海共舞台(上海市黄浦区延安东路433号)
 URL:https://show.maoyan.com/detail/459574
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-381117@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261102
-SUMMARY:【音乐剧】沉浸式惊悚悬疑音乐剧《怪物》
-DESCRIPTION:音乐剧｜原创惊悚悬疑音乐剧《怪物》-星空间
- 18号·谜剧场(九江路663号亚洲大厦2楼星空间18号)｜2026.1
- 0.25 - 11.01
-LOCATION:原创惊悚悬疑音乐剧《怪物》-星空间18号·谜剧
- 场(九江路663号亚洲大厦2楼星空间18号)
-URL:https://show.maoyan.com/detail/381117
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-509382@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261102
-SUMMARY:【话剧】丛生剧团 | 黑色幽默荒诞喜剧《米奇去
- 哪里》｜家庭悬疑｜两性关系｜谎言秘密｜极简舞台
-DESCRIPTION:话剧｜丛生小剧场(石鼓路56号建华大厦3层)｜20
- 26.10.25 - 11.01
-LOCATION:丛生小剧场(石鼓路56号建华大厦3层)
-URL:https://show.maoyan.com/detail/509382
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-509549@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261102
-SUMMARY:【话剧】开心麻花《免死金牌使用指南》｜吴越
- 文化多媒体爆笑沉浸秀
-DESCRIPTION:话剧｜南坛剧院(浙江省杭州市临安区锦城街道
- 钱王街328、338号吴越里商业中心7幢负一楼)｜2026.10.25 - 
- 11.01
-LOCATION:南坛剧院(浙江省杭州市临安区锦城街道钱王街328
- 、338号吴越里商业中心7幢负一楼)
-URL:https://show.maoyan.com/detail/509549
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:theatrewatch-mu6d3bcf15e4@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20261102
 SUMMARY:【博物馆】秋赏——齐云节气生活美学特展
@@ -787,108 +255,23 @@ URL:http://www.szmuseum.com/Exhibition/TemporaryDetails/888a5753-4371-4c26-8e07-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-479823@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261108
-SUMMARY:【话剧】献给不愿平庸生活的你! 浪漫治愈《月亮
- 与六便士》全场半价
-DESCRIPTION:话剧｜浙话艺术剧院·幕光里(湖墅南路138号浙
- 话艺术剧院内4楼·新空间小剧场)｜2026.10.25 / 11.07
-LOCATION:浙话艺术剧院·幕光里(湖墅南路138号浙话艺术剧
- 院内4楼·新空间小剧场)
-URL:https://show.maoyan.com/detail/479823
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-454869@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261109
-SUMMARY:【话剧】《怪谈 2.0》惊悚悬疑沉浸剧场｜灵异｜
- 反转｜校园
-DESCRIPTION:话剧｜佑林高中怪谈剧场(西藏南路1号大世界3
- 楼·B2厅)｜2026.10.25 - 11.08
-LOCATION:佑林高中怪谈剧场(西藏南路1号大世界3楼·B2厅)
-URL:https://show.maoyan.com/detail/454869
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-445843@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261109
-SUMMARY:【话剧】杭州必看【99元起】《维罗妮卡的房间》
- 百老汇经典·沉浸式·实景舞台心理悬疑剧|杭州限定演
- 出
-DESCRIPTION:话剧｜爪马世界(拾久街与亚运村路交叉口亚奥
- 万象天地商场北区2楼L235（裕莲茶楼楼上、近1号门）)
- ｜2026.10.25 - 2026.11.08
-LOCATION:爪马世界(拾久街与亚运村路交叉口亚奥万象天地
- 商场北区2楼L235（裕莲茶楼楼上、近1号门）)
-URL:https://show.maoyan.com/detail/445843
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-503097@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261109
-SUMMARY:【话剧】杭州限定99元起!爆笑·互动「约会必看」
- 《情人请再见》沉浸式荒诞情感喜剧
-DESCRIPTION:话剧｜爪马世界(拾久街与亚运村路交叉口亚奥
- 万象天地商场北区2楼L235（裕莲茶楼楼上、近1号门）)
- ｜2026.10.25 - 11.08
-LOCATION:爪马世界(拾久街与亚运村路交叉口亚奥万象天地
- 商场北区2楼L235（裕莲茶楼楼上、近1号门）)
-URL:https://show.maoyan.com/detail/503097
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-501787@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20260905
-DTEND;VALUE=DATE:20261116
-SUMMARY:【博物馆】宝格丽“Kaleidos万花绮镜：色彩·文化
- ·匠艺”特展
-DESCRIPTION:博物馆｜PSA上海当代艺术博物馆(上海市黄浦区
- 苗江路678号上海当代艺术博物馆3F剧场)｜2026.09.05 - 11.15
-LOCATION:PSA上海当代艺术博物馆(上海市黄浦区苗江路678号
- 上海当代艺术博物馆3F剧场)
-URL:https://show.maoyan.com/detail/501787
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:theatrewatch-505375@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261116
 SUMMARY:【话剧】零距离！互动破案！《暴雨将至2》环境
  式悬疑剧
 DESCRIPTION:话剧｜喜梦盒暴雨将至剧场(上海友邦店)(上海
  市虹口区公平路209号友邦金融中心L3层暴雨将至喜梦盒
- 剧场)｜2026.10.25 - 11.15
+ 剧场)｜2026.10.26 - 11.15
 LOCATION:喜梦盒暴雨将至剧场(上海友邦店)(上海市虹口区
  公平路209号友邦金融中心L3层暴雨将至喜梦盒剧场)
 URL:https://show.maoyan.com/detail/505375
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-484570@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261116
-SUMMARY:【话剧】年度驻演●MR沉浸式戏剧《太虚幻境》
-DESCRIPTION:话剧｜1862时尚艺术中心·一号舱空间(上海市浦
- 东新区滨江大道1777号·1楼)｜2026.10.25 - 11.15
-LOCATION:1862时尚艺术中心·一号舱空间(上海市浦东新区滨
- 江大道1777号·1楼)
-URL:https://show.maoyan.com/detail/484570
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:theatrewatch-mu8de49d2b05@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20260815
 DTEND;VALUE=DATE:20261116
 SUMMARY:【博物馆】云飞扬：西汉广陵漆木器文化与艺术
@@ -899,7 +282,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-488027@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20260712
 DTEND;VALUE=DATE:20261121
 SUMMARY:【话剧】《踏血寻蝶》沉浸悬疑丨犯罪奇幻丨东
@@ -912,39 +295,26 @@ URL:https://show.maoyan.com/detail/488027
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-238668@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261122
-SUMMARY:【话剧】《破笼之宴》2.0重磅回归——大型沉浸
- 式戏剧《新世界庄园》6小时全新晚宴版
-DESCRIPTION:话剧｜大型沉浸式戏剧-《新世界庄园》(车亭
- 公路211号)｜2026.10.25 - 2026.11.21
-LOCATION:大型沉浸式戏剧-《新世界庄园》(车亭公路211号)
-URL:https://show.maoyan.com/detail/238668
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-505021@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
+UID:theatrewatch-508166@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261123
-SUMMARY:【话剧】秦淮有戏·留墨秦淮
-DESCRIPTION:话剧｜秦淮有戏·长乐剧场(夫子庙街道钞库街2
- 1号非遗馆2楼长乐剧场)｜2026.10.25 - 11.22
-LOCATION:秦淮有戏·长乐剧场(夫子庙街道钞库街21号非遗
- 馆2楼长乐剧场)
-URL:https://show.maoyan.com/detail/505021
+SUMMARY:【话剧】彭城诡事之聚羊寨
+DESCRIPTION:话剧｜辣壳恣剧场(江苏省徐州市鼓楼区彭城北
+ 路1号1#楼（彭城壹号1号楼1-4-01）)｜2026.10.26 - 11.22
+LOCATION:辣壳恣剧场(江苏省徐州市鼓楼区彭城北路1号1#楼
+ （彭城壹号1号楼1-4-01）)
+URL:https://show.maoyan.com/detail/508166
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-508218@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261123
 SUMMARY:【话剧】彭城千古行
 DESCRIPTION:话剧｜辣壳恣剧场(江苏省徐州市鼓楼区彭城北
- 路1号1#楼（彭城壹号1号楼1-4-01）)｜2026.10.25 - 11.22
+ 路1号1#楼（彭城壹号1号楼1-4-01）)｜2026.10.26 - 11.22
 LOCATION:辣壳恣剧场(江苏省徐州市鼓楼区彭城北路1号1#楼
  （彭城壹号1号楼1-4-01）)
 URL:https://show.maoyan.com/detail/508218
@@ -952,7 +322,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-mu18a101c211@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20260627
 DTEND;VALUE=DATE:20261123
 SUMMARY:【博物馆】巨兽觉醒——广西恐龙科普大展
@@ -963,26 +333,26 @@ URL:https://www.wxmuseum.cn/Exhibition/TemporaryDetails/b9534c5e-0ab3-4c57-b980-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-451677@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261129
-SUMMARY:【音乐剧】原创沉浸式荒诞音乐剧《破墙》
-DESCRIPTION:音乐剧｜星空间129号·夭蛾剧场(上海市黄浦区
- 西藏南路1号大世界4楼)｜2026.10.25 - 11.28
-LOCATION:星空间129号·夭蛾剧场(上海市黄浦区西藏南路1号
- 大世界4楼)
-URL:https://show.maoyan.com/detail/451677
+UID:theatrewatch-514665@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261127
+SUMMARY:【话剧】爆笑悬疑喜剧《神机庙算》高口碑热销
+ ｜致命惊悚博弈｜智斗骗局谁是赢家？
+DESCRIPTION:话剧｜加场戏剧(外滩街道天津路66号百空间108
+ 室)｜2026.10.26 - 11.26
+LOCATION:加场戏剧(外滩街道天津路66号百空间108室)
+URL:https://show.maoyan.com/detail/514665
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-492067@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261129
 SUMMARY:【音乐剧】双女主环境式悬疑音乐剧《白爪草》
 DESCRIPTION:音乐剧｜ING剧场·一台好戏星空间1739号(南京东
- 路街道西藏中路290号和平影都6楼)｜2026.10.25 - 11.28
+ 路街道西藏中路290号和平影都6楼)｜2026.10.26 - 11.28
 LOCATION:ING剧场·一台好戏星空间1739号(南京东路街道西藏
  中路290号和平影都6楼)
 URL:https://show.maoyan.com/detail/492067
@@ -990,7 +360,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-449425@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261129
 SUMMARY:【话剧】川流有戏丨徐州小剧场丨沉浸观剧丨彭
@@ -1003,143 +373,8 @@ URL:https://show.maoyan.com/detail/449425
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-510396@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261130
-SUMMARY:【话剧】高燃无限流！双女主！原创港风环境式
- 悬疑话剧《天亮之前》
-DESCRIPTION:话剧｜火屿橙剧场(上海市黄浦区中财中心大厦
- 四楼401-403室)｜2026.10.25 - 11.29
-LOCATION:火屿橙剧场(上海市黄浦区中财中心大厦四楼401-40
- 3室)
-URL:https://show.maoyan.com/detail/510396
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-503266@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261130
-SUMMARY:【音乐剧】【精神胜利法正在召唤你】音乐剧《
- 疯子与赞美诗》
-DESCRIPTION:音乐剧｜大世界2楼上海盒子剧场(上海市西藏
- 南路1号上海大世界2楼D厅)｜2026.10.25 - 11.29
-LOCATION:大世界2楼上海盒子剧场(上海市西藏南路1号上海
- 大世界2楼D厅)
-URL:https://show.maoyan.com/detail/503266
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-381094@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261130
-SUMMARY:【音乐剧】环境式驻演原创音乐剧《#0528》
-DESCRIPTION:音乐剧｜《#0528》原创音乐剧(汉口路650亚洲大
- 厦5楼星空间28号·好好有戏小剧场)｜2026.10.25 - 11.29
-LOCATION:《#0528》原创音乐剧(汉口路650亚洲大厦5楼星空间
- 28号·好好有戏小剧场)
-URL:https://show.maoyan.com/detail/381094
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-381120@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261130
-SUMMARY:【音乐剧】环境式驻演原创音乐剧《辛吉路的画
- 材店》
-DESCRIPTION:音乐剧｜原创音乐剧《辛吉路的画材店》(汉口
- 路650号亚洲大厦4楼星空间2号好好有戏剧场)｜2026.10.25 -
-  11.29
-LOCATION:原创音乐剧《辛吉路的画材店》(汉口路650号亚洲
- 大厦4楼星空间2号好好有戏剧场)
-URL:https://show.maoyan.com/detail/381120
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-502071@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261130
-SUMMARY:【音乐剧】环境式驻演音乐剧《阿波罗尼亚》
-DESCRIPTION:音乐剧｜阿波罗尼亚-一台好戏小剧场(汉口路65
- 0号亚洲大厦4楼星空间1号)｜2026.10.25 - 11.29
-LOCATION:阿波罗尼亚-一台好戏小剧场(汉口路650号亚洲大
- 厦4楼星空间1号)
-URL:https://show.maoyan.com/detail/502071
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-502134@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261130
-SUMMARY:【音乐剧】【阿波罗尼亚前传】环境式驻演音乐
- 剧《桑塔露琪亚》
-DESCRIPTION:音乐剧｜星空间6号·一台好戏小剧场(上海市黄
- 浦区九江路663号2楼)｜2026.10.25 - 11.29
-LOCATION:星空间6号·一台好戏小剧场(上海市黄浦区九江路
- 663号2楼)
-URL:https://show.maoyan.com/detail/502134
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-492068@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261130
-SUMMARY:【音乐剧】超燃热血音乐剧《三风一树》
-DESCRIPTION:音乐剧｜ING剧场·一台好戏星空间131号(南京东
- 路街道西藏中路290号和平影都6楼)｜2026.10.25 - 11.29
-LOCATION:ING剧场·一台好戏星空间131号(南京东路街道西藏
- 中路290号和平影都6楼)
-URL:https://show.maoyan.com/detail/492068
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-476266@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261130
-SUMMARY:【音乐剧】沉浸式原创音乐剧《那就返场！》
-DESCRIPTION:音乐剧｜星空间919号·风铃剧场(南京东路街道
- 南京东路829号世茂广场东区L7)｜2026.10.25 - 11.29
-LOCATION:星空间919号·风铃剧场(南京东路街道南京东路829
- 号世茂广场东区L7)
-URL:https://show.maoyan.com/detail/476266
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-463111@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261130
-SUMMARY:【话剧】《南城奇遇记》【秦淮有戏】古建特殊
- 场域戏剧-南京必打卡
-DESCRIPTION:话剧｜金陵往事-南城奇遇记(金沙井36号)｜2026.
- 10.25 - 2026.11.29
-LOCATION:金陵往事-南城奇遇记(金沙井36号)
-URL:https://show.maoyan.com/detail/463111
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-493721@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261130
-SUMMARY:【话剧】衙署奇案
-DESCRIPTION:话剧｜园博园苏韵十三园衙署剧场(汤山街道圣
- 湖路8号江苏园博园内(西侧))｜2026.10.25 - 11.29
-LOCATION:园博园苏韵十三园衙署剧场(汤山街道圣湖路8号
- 江苏园博园内(西侧))
-URL:https://show.maoyan.com/detail/493721
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:theatrewatch-mu5f7b37dad9@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20261130
 SUMMARY:【博物馆】琮谱——良渚遗址发现九十周年特展
@@ -1149,44 +384,16 @@ URL:https://www.lzmuseum.cn/YinJinZhanLan/2026695233690.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-458966@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261130
-SUMMARY:【话剧】【夏日特惠】杭州德寿宫夜游
-DESCRIPTION:话剧｜【官方售票】德寿夜宴·杭州德寿宫夜
- 游(望江路228号南宋德寿宫遗址博物馆)｜2026.10.25 - 2026.1
- 1.29
-LOCATION:【官方售票】德寿夜宴·杭州德寿宫夜游(望江路2
- 28号南宋德寿宫遗址博物馆)
-URL:https://show.maoyan.com/detail/458966
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-510157@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261130
-SUMMARY:【话剧】好戏来了！ 全场半价 浪漫互动成人治愈
- 喜剧《小王子》
-DESCRIPTION:话剧｜浙话艺术剧院·幕光里(湖墅南路138号浙
- 话艺术剧院内4楼·新空间小剧场)｜2026.10.25 - 11.29
-LOCATION:浙话艺术剧院·幕光里(湖墅南路138号浙话艺术剧
- 院内4楼·新空间小剧场)
-URL:https://show.maoyan.com/detail/510157
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:theatrewatch-501018@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261201
 SUMMARY:【话剧】K11万圣节-爆款话剧｜沉浸式悬疑推理《
  致命发布会》高口碑｜一对一审讯｜全员互动｜高能反
  转｜亲自上台调查
 DESCRIPTION:话剧｜上海K11购物艺术中心 @喜剧玩家(上海K11
  购物艺术中心 上海市黄浦区淮海中路300号B3层 The Basemen
- t)｜2026.10.25 - 11.30
+ t)｜2026.10.26 - 11.30
 LOCATION:上海K11购物艺术中心 @喜剧玩家(上海K11购物艺术
  中心 上海市黄浦区淮海中路300号B3层 The Basement)
 URL:https://show.maoyan.com/detail/501018
@@ -1194,40 +401,40 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-510408@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261201
 SUMMARY:【话剧】环人广必看沉浸式戏剧 ｜沪版《胡闹厨
  房 》｜爆款热销｜喜人同款
 DESCRIPTION:话剧｜半笑酒馆(六合路98号港陆黄浦中心1层)
- ｜2026.10.25 - 11.30
+ ｜2026.10.26 - 11.30
 LOCATION:半笑酒馆(六合路98号港陆黄浦中心1层)
 URL:https://show.maoyan.com/detail/510408
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-490431@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261201
 SUMMARY:【话剧】万圣节专场-爆款巡演|烧脑推理沉浸式《
  罪恶滔天》戏剧节金奖|深度互动|高能反转|上台审讯|i
  人友好|团建聚会
 DESCRIPTION:话剧｜喜剧玩家(淮海中路300号B3层喜剧玩家)｜
- 2026.10.25 - 2026.11.30
+ 2026.10.26 - 2026.11.30
 LOCATION:喜剧玩家(淮海中路300号B3层喜剧玩家)
 URL:https://show.maoyan.com/detail/490431
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-507443@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261201
 SUMMARY:【话剧】上海必看环境式悬疑戏剧|《法外狂徒》|
  反转重重|沉浸式观剧|解压神剧不踩雷
 DESCRIPTION:话剧｜阴阳沉浸式戏剧剧场(沉浸式厅)(南昌路1
- 25号（近茂名路）负一层)｜2026.10.25 - 11.30
+ 25号（近茂名路）负一层)｜2026.10.26 - 11.30
 LOCATION:阴阳沉浸式戏剧剧场(沉浸式厅)(南昌路125号（近
  茂名路）负一层)
 URL:https://show.maoyan.com/detail/507443
@@ -1235,13 +442,13 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-496329@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261201
 SUMMARY:【话剧】【年度最佳】高口碑必看！《画画的卑
  鄙》｜｜沉浸式局中剧｜豪华阵容
 DESCRIPTION:话剧｜次乐元空间(小东门街道中华路528号3层93
- 09室(黄浦区融创外滩1号汇三楼次乐元空间))｜2026.10.25 -
+ 09室(黄浦区融创外滩1号汇三楼次乐元空间))｜2026.10.26 -
   2026.11.30
 LOCATION:次乐元空间(小东门街道中华路528号3层9309室(黄浦
  区融创外滩1号汇三楼次乐元空间))
@@ -1250,14 +457,14 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-494055@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261201
 SUMMARY:【话剧】《致命陷阱》国庆特惠|悬疑惊悚|伦敦西
  区名剧｜沉浸式实景轻喜剧｜恐怖来电 |午夜枪声 |原
  名《米歇尔的幽魂》
 DESCRIPTION:话剧｜半笑空间(南京东路街道牛庄路658号中财
- 中心大厦4层东401室)｜2026.10.25 - 2026.11.30
+ 中心大厦4层东401室)｜2026.10.26 - 2026.11.30
 LOCATION:半笑空间(南京东路街道牛庄路658号中财中心大厦
  4层东401室)
 URL:https://show.maoyan.com/detail/494055
@@ -1265,15 +472,15 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-476022@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261201
 SUMMARY:【话剧】南京•《谋杀预告》沉浸式悬疑喜剧丨
  互动叙事丨英式推理&法式心理悬疑丨心理博弈丨爆笑
  反转丨全员恶人炸裂开演
 DESCRIPTION:话剧｜雨花剧院沉浸空间剧场3F(南京市雨花台
  区雨花西路九号3楼（中华门地铁站3号口步行410米）)｜
- 2026.10.25 - 2026.11.30
+ 2026.10.26 - 2026.11.30
 LOCATION:雨花剧院沉浸空间剧场3F(南京市雨花台区雨花西
  路九号3楼（中华门地铁站3号口步行410米）)
 URL:https://show.maoyan.com/detail/476022
@@ -1281,13 +488,13 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-498461@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261201
 SUMMARY:【话剧】玄武湖精品互动戏剧《无人生还》｜悬
  疑惊悚｜百老汇经典戏剧
 DESCRIPTION:话剧｜沉浸式金牌剧场(旗舰总店)(南京市鼓楼
- 区中央路201号金茂览秀城四层L412铺)｜2026.10.25 - 2026.11.3
+ 区中央路201号金茂览秀城四层L412铺)｜2026.10.26 - 2026.11.3
  0
 LOCATION:沉浸式金牌剧场(旗舰总店)(南京市鼓楼区中央路2
  01号金茂览秀城四层L412铺)
@@ -1296,15 +503,15 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-481193@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261201
 SUMMARY:【话剧】南京•《第四封邀请函》创新沉浸式戏
  中戏丨感官升级丨爆笑反转丨人性迷宫丨双子复仇全员
  崩盘
 DESCRIPTION:话剧｜雨花剧院沉浸空间剧场3F(南京市雨花台
  区雨花西路九号3楼（中华门地铁站3号口步行410米）)｜
- 2026.10.25 - 2026.11.30
+ 2026.10.26 - 2026.11.30
 LOCATION:雨花剧院沉浸空间剧场3F(南京市雨花台区雨花西
  路九号3楼（中华门地铁站3号口步行410米）)
 URL:https://show.maoyan.com/detail/481193
@@ -1312,88 +519,21 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-474368@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261201
 SUMMARY:【话剧】杭州沉浸式悬疑戏剧 ｜《法外狂徒》｜
  爆款热销｜谋杀死亡线索｜烧脑反转
 DESCRIPTION:话剧｜合东酒吧沉浸式剧场(长庆街道大福清巷
- 12号201室（人寿保险大厦南侧）)｜2026.10.25 - 2026.11.30
+ 12号201室（人寿保险大厦南侧）)｜2026.10.26 - 2026.11.30
 LOCATION:合东酒吧沉浸式剧场(长庆街道大福清巷12号201室
  （人寿保险大厦南侧）)
 URL:https://show.maoyan.com/detail/474368
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-391978@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261202
-SUMMARY:【音乐剧】沉浸式惊悚悬疑音乐剧《幽灵》
-DESCRIPTION:音乐剧｜沉浸式惊悚悬疑音乐剧《幽灵》(九江
- 路663号亚洲大厦1楼.星空间168号·谜剧场)｜2026.10.25 - 12.
- 01
-LOCATION:沉浸式惊悚悬疑音乐剧《幽灵》(九江路663号亚洲
- 大厦1楼.星空间168号·谜剧场)
-URL:https://show.maoyan.com/detail/391978
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-501047@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261207
-SUMMARY:【音乐剧】沉浸式原创音乐剧《冈格尼尔》
-DESCRIPTION:音乐剧｜星空间25号·临窗小剧场(南京东路街
- 道南京东路800号第一百货C馆7楼)｜2026.10.25 - 12.06
-LOCATION:星空间25号·临窗小剧场(南京东路街道南京东路80
- 0号第一百货C馆7楼)
-URL:https://show.maoyan.com/detail/501047
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-440687@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261207
-SUMMARY:【音乐剧】沉浸式暗黑美学音乐剧《乌鸦》
-DESCRIPTION:音乐剧｜星空间1108号·弹珠汽水小剧场(淮海中
- 路街道兴业路123弄6号5楼1-3单元)｜2026.10.25 - 12.06
-LOCATION:星空间1108号·弹珠汽水小剧场(淮海中路街道兴业
- 路123弄6号5楼1-3单元)
-URL:https://show.maoyan.com/detail/440687
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-410371@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261221
-SUMMARY:【音乐剧】沉浸式原创音乐剧《雕像》
-DESCRIPTION:音乐剧｜星空间1794号·临窗小剧场(上海市黄浦
- 区九江路663号一楼)｜2026.10.25 - 12.20
-LOCATION:星空间1794号·临窗小剧场(上海市黄浦区九江路663
- 号一楼)
-URL:https://show.maoyan.com/detail/410371
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-479752@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261228
-SUMMARY:【音乐剧】原版音乐剧《剧院魅影》四十周年上
- 海告别季
-DESCRIPTION:音乐剧｜上海大剧院(南京东路街道人民大道300
- 号(近人民广场))｜2026.10.25 - 12.27
-LOCATION:上海大剧院(南京东路街道人民大道300号(近人民
- 广场))
-URL:https://show.maoyan.com/detail/479752
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:theatrewatch-416185@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20270101
 SUMMARY:【博物馆】高山鸣泉-华茂典藏三十五周年油画与
@@ -1406,7 +546,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm949327939432@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20270101
 SUMMARY:【博物馆】《高山鸣泉》——华茂典藏三十五周
@@ -1419,7 +559,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-mudc21e6cb55@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20270104
 SUMMARY:【博物馆】景迈回响——人与山的千年契约
@@ -1431,7 +571,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-muf9adb83d49@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270104
 SUMMARY:【博物馆】泉流四海——无锡博物院藏历代金属
@@ -1444,7 +584,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-mud18ff9d230@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270118
 SUMMARY:【博物馆】食趣——江南秋蟹风物展
@@ -1456,7 +596,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-mu3fdb228868@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20270119
 SUMMARY:【博物馆】金冠之下：新罗文物精华展
@@ -1467,7 +607,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-mu9de54414d3@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20260617
 DTEND;VALUE=DATE:20270223
 SUMMARY:【博物馆】暂得之乐：暂得楼捐赠明清瓷器展
@@ -1477,20 +617,8 @@ URL:https://www.shanghaimuseum.net/mu/frontend/pg/article/id/E00004245
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-480069@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20260509
-DTEND;VALUE=DATE:20270403
-SUMMARY:【博物馆】大国造物+童话外的童话 双展
-DESCRIPTION:博物馆｜中国工业设计博物馆(逸仙路3000号3号
- 楼2楼)｜2026.05.09 - 2027.04.02
-LOCATION:中国工业设计博物馆(逸仙路3000号3号楼2楼)
-URL:https://show.maoyan.com/detail/480069
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:theatrewatch-503151@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20270901
 SUMMARY:【博物馆】灵境花园·郭培服装艺术特展
@@ -1503,23 +631,8 @@ URL:https://show.maoyan.com/detail/503151
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-dm1083383396513@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20271031
-SUMMARY:【话剧】沉浸式互动剧【万万没想到】之《错位
- 时空》| 魔术催眠通灵玄幻 | 参与感互动感拉满@开心喜
- 聚精品剧
-DESCRIPTION:话剧｜开心喜聚·脱口秀·喜剧空间-南通店(桃
- 园路10号中南CBD大有境B座4楼)｜2026.10.25-2027.10.30
-LOCATION:开心喜聚·脱口秀·喜剧空间-南通店(桃园路10号
- 中南CBD大有境B座4楼)
-URL:https://m.damai.cn/shows/item.html?id=1083383396513
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:theatrewatch-mu38d2997ce0@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20260709
 DTEND;VALUE=DATE:20271115
 SUMMARY:【博物馆】世界树之巅：美洲古代文明大展
@@ -1529,34 +642,8 @@ URL:https://www.shanghaimuseum.net/mu/frontend/pg/article/id/E00004238
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-508166@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261123
-SUMMARY:【话剧】彭城诡事之聚羊寨
-DESCRIPTION:话剧｜辣壳恣剧场(江苏省徐州市鼓楼区彭城北
- 路1号1#楼（彭城壹号1号楼1-4-01）)｜2026.10.26 - 11.22
-LOCATION:辣壳恣剧场(江苏省徐州市鼓楼区彭城北路1号1#楼
- （彭城壹号1号楼1-4-01）)
-URL:https://show.maoyan.com/detail/508166
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:theatrewatch-514665@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261127
-SUMMARY:【话剧】爆笑悬疑喜剧《神机庙算》高口碑热销
- ｜致命惊悚博弈｜智斗骗局谁是赢家？
-DESCRIPTION:话剧｜加场戏剧(外滩街道天津路66号百空间108
- 室)｜2026.10.26 - 11.26
-LOCATION:加场戏剧(外滩街道天津路66号百空间108室)
-URL:https://show.maoyan.com/detail/514665
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:theatrewatch-dm1093328238360@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 SUMMARY:【话剧】万圣节外滩｜《魔法狂欢派对》交友之
@@ -1570,8 +657,21 @@ URL:https://m.damai.cn/shows/item.html?id=1093328238360
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-dm811618179679@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:【话剧】《只此周庄》行浸式多维空间剧
+DESCRIPTION:话剧｜只此周庄行浸式多维空间剧(江苏省苏州
+ 市昆山市周庄镇全福路66号周庄古镇)｜2026.10.27-10.29
+LOCATION:只此周庄行浸式多维空间剧(江苏省苏州市昆山市
+ 周庄镇全福路66号周庄古镇)
+URL:https://m.damai.cn/shows/item.html?id=811618179679
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-425406@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】上海·爆款!恐怖!解压!《片场3.0》声光电
@@ -1584,8 +684,61 @@ URL:https://show.maoyan.com/detail/425406
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-495528@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261101
+SUMMARY:【音乐剧】暗域博弈音乐剧《Borderline-边界线》英
+ 文版-【缪时客出品】
+DESCRIPTION:音乐剧｜长江剧场-红匣子(上海市黄浦区黄河
+ 路35号3F)｜2026.10.27 - 10.31
+LOCATION:长江剧场-红匣子(上海市黄浦区黄河路35号3F)
+URL:https://show.maoyan.com/detail/495528
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-461487@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261101
+SUMMARY:【音乐剧】沉浸式推理音乐剧《小说》-【缪时客
+ 出品】
+DESCRIPTION:音乐剧｜十二楼音乐剧之城 -1号剧场【小说编
+ 辑部】(南京西路2号-68号新世界城)｜2026.10.27 - 10.31
+LOCATION:十二楼音乐剧之城 -1号剧场【小说编辑部】(南京
+ 西路2号-68号新世界城)
+URL:https://show.maoyan.com/detail/461487
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-478113@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261101
+SUMMARY:【音乐剧】〈环人广必吃榜〉浪漫主义青春全女
+ 音乐剧《诗与星》
+DESCRIPTION:音乐剧｜星空间408号·她剧场(南京东路街道南
+ 京东路800号第一百货C馆7楼)｜2026.10.27 - 10.31
+LOCATION:星空间408号·她剧场(南京东路街道南京东路800号
+ 第一百货C馆7楼)
+URL:https://show.maoyan.com/detail/478113
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-510991@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261101
+SUMMARY:【话剧】爆笑喜剧《白雪公主》
+DESCRIPTION:话剧｜临海紫阳剧场(赤城路与天宁路交叉口南
+ 约80米)｜2026.10.27 - 10.31
+LOCATION:临海紫阳剧场(赤城路与天宁路交叉口南约80米)
+URL:https://show.maoyan.com/detail/510991
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-412671@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】《如梦上塘》古运河沉浸式夜游实景演
@@ -1599,8 +752,20 @@ URL:https://show.maoyan.com/detail/412671
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-418764@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261101
+SUMMARY:【话剧】大型原创沉浸式舞台剧《梦寻西施》
+DESCRIPTION:话剧｜梦寻西施(苎罗东路2号西施故里郑氏宗
+ 祠内)｜2026.10.27 - 10.31
+LOCATION:梦寻西施(苎罗东路2号西施故里郑氏宗祠内)
+URL:https://show.maoyan.com/detail/418764
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-500400@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261102
 SUMMARY:【话剧】舞台剧《天才》 The Talent
@@ -1612,8 +777,22 @@ URL:https://show.maoyan.com/detail/500400
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-510396@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261130
+SUMMARY:【话剧】高燃无限流！双女主！原创港风环境式
+ 悬疑话剧《天亮之前》
+DESCRIPTION:话剧｜火屿橙剧场(上海市黄浦区中财中心大厦
+ 四楼401-403室)｜2026.10.27 - 11.29
+LOCATION:火屿橙剧场(上海市黄浦区中财中心大厦四楼401-40
+ 3室)
+URL:https://show.maoyan.com/detail/510396
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-381122@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261130
 SUMMARY:【音乐剧】[必看爆款]近千场 沉浸式悬疑惊悚音
@@ -1626,8 +805,22 @@ URL:https://show.maoyan.com/detail/381122
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-458966@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261130
+SUMMARY:【话剧】【夏日特惠】杭州德寿宫夜游
+DESCRIPTION:话剧｜【官方售票】德寿夜宴·杭州德寿宫夜
+ 游(望江路228号南宋德寿宫遗址博物馆)｜2026.10.27 - 2026.1
+ 1.29
+LOCATION:【官方售票】德寿夜宴·杭州德寿宫夜游(望江路2
+ 28号南宋德寿宫遗址博物馆)
+URL:https://show.maoyan.com/detail/458966
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-476822@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261201
 SUMMARY:【话剧】《谋杀的艺术》限量特惠丨年度金奖｜
@@ -1640,8 +833,35 @@ URL:https://show.maoyan.com/detail/476822
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-410371@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261221
+SUMMARY:【音乐剧】沉浸式原创音乐剧《雕像》
+DESCRIPTION:音乐剧｜星空间1794号·临窗小剧场(上海市黄浦
+ 区九江路663号一楼)｜2026.10.27 - 12.20
+LOCATION:星空间1794号·临窗小剧场(上海市黄浦区九江路663
+ 号一楼)
+URL:https://show.maoyan.com/detail/410371
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-479752@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261228
+SUMMARY:【音乐剧】原版音乐剧《剧院魅影》四十周年上
+ 海告别季
+DESCRIPTION:音乐剧｜上海大剧院(南京东路街道人民大道300
+ 号(近人民广场))｜2026.10.27 - 12.27
+LOCATION:上海大剧院(南京东路街道人民大道300号(近人民
+ 广场))
+URL:https://show.maoyan.com/detail/479752
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-311602@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20270104
 SUMMARY:【音乐剧】音乐剧《时光代理人》
@@ -1654,8 +874,21 @@ URL:https://show.maoyan.com/detail/311602
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-395150@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:【话剧】惊悚鬼混沉浸式《开关SWITCH》
+DESCRIPTION:话剧｜惊悚鬼混沉浸式笑场《开关SWITCH》(西藏
+ 南路1号上海大世界2楼·B厅)｜2026.10.28 - 11.08
+LOCATION:惊悚鬼混沉浸式笑场《开关SWITCH》(西藏南路1号
+ 上海大世界2楼·B厅)
+URL:https://show.maoyan.com/detail/395150
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-dm1046232011613@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
 SUMMARY:【话剧】沉浸式惊悚悬疑话剧《我记得你杀了人
@@ -1668,22 +901,8 @@ URL:https://m.damai.cn/shows/item.html?id=1046232011613
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-dm1005876483431@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261028
-DTEND;VALUE=DATE:20261029
-SUMMARY:【话剧】《怪谈 2.0》惊悚悬疑沉浸剧场｜灵异｜
- 反转｜校园
-DESCRIPTION:话剧｜佑林高中怪谈剧场(西藏南路1号上海大
- 世界3楼·B2厅)｜2026.10.28-11.08
-LOCATION:佑林高中怪谈剧场(西藏南路1号上海大世界3楼·B2
- 厅)
-URL:https://m.damai.cn/shows/item.html?id=1005876483431
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:theatrewatch-dm897572373286@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
 SUMMARY:【音乐剧】原创环境式音乐剧《流星之绊》改编
@@ -1696,8 +915,35 @@ URL:https://m.damai.cn/shows/item.html?id=897572373286
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-501119@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:【话剧】万人观看《我在人间凑数的日子》爆笑
+ 感动反转喜剧
+DESCRIPTION:话剧｜南有乔木剧场(太平北路1912街区2号楼2楼
+ （小金金手作茶旁二楼）)｜2026.10.28 19:30 周三
+LOCATION:南有乔木剧场(太平北路1912街区2号楼2楼（小金金
+ 手作茶旁二楼）)
+URL:https://show.maoyan.com/detail/501119
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-dm1034667770439@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:【话剧】【观前街】沉浸式喜剧魔术互动秀《万
+ 万没想到》| 爆笑现场+奇妙互动 @开心喜聚精品剧
+DESCRIPTION:话剧｜长歌演艺空间(皮市街9-69号(开元里2楼）
+ )｜2026.10.28-12.31
+LOCATION:长歌演艺空间(皮市街9-69号(开元里2楼）)
+URL:https://m.damai.cn/shows/item.html?id=1034667770439
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-503519@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261030
 SUMMARY:【话剧】国民现象级IP改编 话剧《父母爱情》-苏
@@ -1710,8 +956,35 @@ URL:https://show.maoyan.com/detail/503519
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-391445@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261101
+SUMMARY:【话剧】【年度金奖】高口碑必看!环境式光影艺
+ 术悬疑剧《禁忌的色彩》
+DESCRIPTION:话剧｜RAYGAME CLUB·剧场(上海市黄浦区马当路453
+ 号L219室)｜2026.10.28 - 10.31
+LOCATION:RAYGAME CLUB·剧场(上海市黄浦区马当路453号L219室)
+URL:https://show.maoyan.com/detail/391445
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-482688@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261101
+SUMMARY:【话剧】[笑到失控] 爆笑喜剧《连载不要停》｜90
+ 分钟事故不断，笑点不断
+DESCRIPTION:话剧｜沉浸式即兴互动喜剧剧场—草台嘻班(四
+ 川北路939号滨港商业中心L2层1228单元)｜2026.10.28 - 10.31
+LOCATION:沉浸式即兴互动喜剧剧场—草台嘻班(四川北路939
+ 号滨港商业中心L2层1228单元)
+URL:https://show.maoyan.com/detail/482688
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-510384@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261102
 SUMMARY:【话剧】开心麻花惊怂悬疑喜剧《出马》
@@ -1723,7 +996,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-502676@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261109
 SUMMARY:【话剧】话剧《家客》House Guests
@@ -1735,8 +1008,38 @@ URL:https://show.maoyan.com/detail/502676
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-454869@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261109
+SUMMARY:【话剧】《怪谈 2.0》惊悚悬疑沉浸剧场｜灵异｜
+ 反转｜校园
+DESCRIPTION:话剧｜佑林高中怪谈剧场(西藏南路1号上海大
+ 世界3楼·B2厅)｜2026.10.28 - 11.08
+LOCATION:佑林高中怪谈剧场(西藏南路1号上海大世界3楼·B2
+ 厅)
+URL:https://show.maoyan.com/detail/454869
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-445843@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261109
+SUMMARY:【话剧】杭州必看【99元起】《维罗妮卡的房间》
+ 百老汇经典·沉浸式·实景舞台心理悬疑剧|杭州限定演
+ 出
+DESCRIPTION:话剧｜爪马世界(拾久街与亚运村路交叉口亚奥
+ 万象天地商场北区2楼L235（裕莲茶楼楼上、近1号门）)
+ ｜2026.10.28 - 2026.11.08
+LOCATION:爪马世界(拾久街与亚运村路交叉口亚奥万象天地
+ 商场北区2楼L235（裕莲茶楼楼上、近1号门）)
+URL:https://show.maoyan.com/detail/445843
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-510536@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261116
 SUMMARY:【话剧】【魔都必打卡|五周年庆】开心麻花喜剪
@@ -1750,7 +1053,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-500764@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261123
 SUMMARY:【音乐剧】女性反乌托邦音乐剧《奇美拉》
@@ -1762,7 +1065,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-473475@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261129
 SUMMARY:【音乐剧】环境式驻演原创音乐剧《开膛手杰克
@@ -1776,7 +1079,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-455744@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261130
 SUMMARY:【话剧】[部分场次380起]浸入式音乐秀《双城之战
@@ -1789,8 +1092,76 @@ URL:https://show.maoyan.com/detail/455744
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-381094@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261130
+SUMMARY:【音乐剧】环境式驻演原创音乐剧《#0528》
+DESCRIPTION:音乐剧｜《#0528》原创音乐剧(汉口路650亚洲大
+ 厦5楼星空间28号·好好有戏小剧场)｜2026.10.28 - 11.29
+LOCATION:《#0528》原创音乐剧(汉口路650亚洲大厦5楼星空间
+ 28号·好好有戏小剧场)
+URL:https://show.maoyan.com/detail/381094
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-381120@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261130
+SUMMARY:【音乐剧】环境式驻演原创音乐剧《辛吉路的画
+ 材店》
+DESCRIPTION:音乐剧｜原创音乐剧《辛吉路的画材店》(汉口
+ 路650号亚洲大厦4楼星空间2号好好有戏剧场)｜2026.10.28 -
+  11.29
+LOCATION:原创音乐剧《辛吉路的画材店》(汉口路650号亚洲
+ 大厦4楼星空间2号好好有戏剧场)
+URL:https://show.maoyan.com/detail/381120
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-502071@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261130
+SUMMARY:【音乐剧】环境式驻演音乐剧《阿波罗尼亚》
+DESCRIPTION:音乐剧｜阿波罗尼亚-一台好戏小剧场(汉口路65
+ 0号亚洲大厦4楼星空间1号)｜2026.10.28 - 11.29
+LOCATION:阿波罗尼亚-一台好戏小剧场(汉口路650号亚洲大
+ 厦4楼星空间1号)
+URL:https://show.maoyan.com/detail/502071
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-502134@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261130
+SUMMARY:【音乐剧】【阿波罗尼亚前传】环境式驻演音乐
+ 剧《桑塔露琪亚》
+DESCRIPTION:音乐剧｜星空间6号·一台好戏小剧场(上海市黄
+ 浦区九江路663号2楼)｜2026.10.28 - 11.29
+LOCATION:星空间6号·一台好戏小剧场(上海市黄浦区九江路
+ 663号2楼)
+URL:https://show.maoyan.com/detail/502134
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-492068@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261130
+SUMMARY:【音乐剧】超燃热血音乐剧《三风一树》
+DESCRIPTION:音乐剧｜ING剧场·一台好戏星空间131号(南京东
+ 路街道西藏中路290号和平影都6楼)｜2026.10.28 - 11.29
+LOCATION:ING剧场·一台好戏星空间131号(南京东路街道西藏
+ 中路290号和平影都6楼)
+URL:https://show.maoyan.com/detail/492068
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-395801@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261130
 SUMMARY:【音乐剧】环境式音乐剧《灯塔》
@@ -1802,8 +1173,34 @@ URL:https://show.maoyan.com/detail/395801
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-463111@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261130
+SUMMARY:【话剧】《南城奇遇记》【秦淮有戏】古建特殊
+ 场域戏剧-南京必打卡
+DESCRIPTION:话剧｜金陵往事-南城奇遇记(金沙井36号)｜2026.
+ 10.28 - 2026.11.29
+LOCATION:金陵往事-南城奇遇记(金沙井36号)
+URL:https://show.maoyan.com/detail/463111
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-501047@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261207
+SUMMARY:【音乐剧】沉浸式原创音乐剧《冈格尼尔》
+DESCRIPTION:音乐剧｜星空间25号·临窗小剧场(南京东路街
+ 道南京东路800号第一百货C馆7楼)｜2026.10.28 - 12.06
+LOCATION:星空间25号·临窗小剧场(南京东路街道南京东路80
+ 0号第一百货C馆7楼)
+URL:https://show.maoyan.com/detail/501047
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-481617@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261207
 SUMMARY:【音乐剧】音乐剧《夜雨他时》
@@ -1816,7 +1213,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1091014841247@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
 SUMMARY:【话剧】GALA新星·魔术盲盒拼盘《降落计划》魔
@@ -1831,7 +1228,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1092739633379@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
 SUMMARY:【话剧】话剧(消失在午夜)
@@ -1844,7 +1241,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm939586711430@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
 SUMMARY:【话剧】沉浸式赛博朋克剧场《黑盒游戏》
@@ -1856,8 +1253,23 @@ URL:https://m.damai.cn/shows/item.html?id=939586711430
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-dm735584619067@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:【话剧】【学生特惠】纯正近景魔术秀《奇幻秘
+ 社》超近距离互动魔术师个人秀
+DESCRIPTION:话剧｜苏州文化艺术中心-8# 魔术剧场(观枫街1
+ 号苏州文化艺术中心-苏艺演艺文化集聚区)｜2026.10.29-11
+ .01
+LOCATION:苏州文化艺术中心-8# 魔术剧场(观枫街1号苏州文
+ 化艺术中心-苏艺演艺文化集聚区)
+URL:https://m.damai.cn/shows/item.html?id=735584619067
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-501069@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】话剧《宝岛一村》
@@ -1869,8 +1281,22 @@ URL:https://show.maoyan.com/detail/501069
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-381117@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261102
+SUMMARY:【音乐剧】沉浸式惊悚悬疑音乐剧《怪物》
+DESCRIPTION:音乐剧｜原创惊悚悬疑音乐剧《怪物》-星空间
+ 18号·谜剧场(九江路663号亚洲大厦2楼星空间18号)｜2026.1
+ 0.29 - 11.01
+LOCATION:原创惊悚悬疑音乐剧《怪物》-星空间18号·谜剧
+ 场(九江路663号亚洲大厦2楼星空间18号)
+URL:https://show.maoyan.com/detail/381117
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-473420@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261109
 SUMMARY:【音乐剧】现象级原版音乐剧《SIX》杭州站
@@ -1882,8 +1308,21 @@ URL:https://show.maoyan.com/detail/473420
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-484570@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261116
+SUMMARY:【话剧】年度驻演●MR沉浸式戏剧《太虚幻境》
+DESCRIPTION:话剧｜1862时尚艺术中心·一号舱空间(上海市浦
+ 东新区滨江大道1777号·1楼)｜2026.10.29 - 11.15
+LOCATION:1862时尚艺术中心·一号舱空间(上海市浦东新区滨
+ 江大道1777号·1楼)
+URL:https://show.maoyan.com/detail/484570
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-428876@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261130
 SUMMARY:【音乐剧】环境式原创音乐剧《梅尔泉 Mute Spring
@@ -1897,7 +1336,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-292569@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261130
 SUMMARY:【话剧】《信仰》国内首部影秀剧|360度科技包围
@@ -1910,8 +1349,22 @@ URL:https://show.maoyan.com/detail/292569
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-391978@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261202
+SUMMARY:【音乐剧】沉浸式惊悚悬疑音乐剧《幽灵》
+DESCRIPTION:音乐剧｜沉浸式惊悚悬疑音乐剧《幽灵》(九江
+ 路663号亚洲大厦1楼.星空间168号·谜剧场)｜2026.10.29 - 12.
+ 01
+LOCATION:沉浸式惊悚悬疑音乐剧《幽灵》(九江路663号亚洲
+ 大厦1楼.星空间168号·谜剧场)
+URL:https://show.maoyan.com/detail/391978
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-506314@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:【话剧】机器人戏剧《巨物之城》
@@ -1922,21 +1375,8 @@ URL:https://show.maoyan.com/detail/506314
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-dm1076948014437@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:【话剧】尤里·布图索夫导演逝世周年纪念展演—
- —俄罗斯国立萨蒂利空剧院《海鸥》
-DESCRIPTION:话剧｜大宁剧院(平型关路1222号(近灵石路))｜20
- 26.10.30-10.31
-LOCATION:大宁剧院(平型关路1222号(近灵石路))
-URL:https://m.damai.cn/shows/item.html?id=1076948014437
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:theatrewatch-dm766969174741@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:【话剧】耿子博导演作品 环境式沉浸舞蹈剧场《
@@ -1949,7 +1389,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1089317456567@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:【话剧】荒诞喜剧《黄牛狂想曲》国庆 7 折｜下
@@ -1962,8 +1402,38 @@ URL:https://m.damai.cn/shows/item.html?id=1089317456567
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-dm961157087108@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:【话剧】【 魔都假期必看！】玫瑰奇迹｜近景吧
+ 台魔术秀｜ Jason·林冠廷·饼饼·Laurn｜个人专场！
+DESCRIPTION:话剧｜玫瑰奇迹魔术剧场(上海市黄浦区打浦桥
+ 街道徐家汇路69号LuOne凯德晶萃广场L5-13玫瑰奇迹魔术剧
+ 场)｜2026.10.30 周五 19:30
+LOCATION:玫瑰奇迹魔术剧场(上海市黄浦区打浦桥街道徐家
+ 汇路69号LuOne凯德晶萃广场L5-13玫瑰奇迹魔术剧场)
+URL:https://m.damai.cn/shows/item.html?id=961157087108
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-dm1027189650001@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:【话剧】【潮流新玩法】第七感爆笑沉浸式互动
+ 魔术话剧《梦游记》系列｜第七感魔术剧场·宝山日月
+ 光店
+DESCRIPTION:话剧｜第七感魔术剧场·宝山日月光店(宝山日
+ 月光店 沪太路1933号宝山日月光1楼E112)｜2026.10.30-11.29
+LOCATION:第七感魔术剧场·宝山日月光店(宝山日月光店 沪
+ 太路1933号宝山日月光1楼E112)
+URL:https://m.damai.cn/shows/item.html?id=1027189650001
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-dm777724703871@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:【话剧】【南京必看】《你好鸭》沉浸式互动魔
@@ -1975,8 +1445,34 @@ URL:https://m.damai.cn/shows/item.html?id=777724703871
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-dm1068394427763@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:【话剧】《游园惊梦》悬疑爆笑互动剧 | 民国探
+ 案 | 暗流博弈|人性迷局 | 深渊独白 | 真相潜行
+DESCRIPTION:话剧｜RX剧场(洪武路街道建康路1号水游城4F-L20
+ -1)｜2026.10.30-10.31
+LOCATION:RX剧场(洪武路街道建康路1号水游城4F-L20-1)
+URL:https://m.damai.cn/shows/item.html?id=1068394427763
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-dm1079141395065@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:【话剧】《留墨秦淮》沉浸式互动演出
+DESCRIPTION:话剧｜长乐剧场(南京市秦淮区夫子庙街道钞库
+ 街21号非遗馆2楼长乐剧场)｜2026.10.30-10.31
+LOCATION:长乐剧场(南京市秦淮区夫子庙街道钞库街21号非
+ 遗馆2楼长乐剧场)
+URL:https://m.damai.cn/shows/item.html?id=1079141395065
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-dm1077847116024@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:【话剧】智利爆笑肢体剧《孤而不独》
@@ -1987,8 +1483,22 @@ URL:https://m.damai.cn/shows/item.html?id=1077847116024
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-491631@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:【话剧】汐空间出品 爆笑沉浸式悬疑互动戏剧杀
+ 《富尔摩斯之消失的遗嘱》
+DESCRIPTION:话剧｜酹江月沉浸空间(常州市钟楼区莱蒙都会
+ 商业街4号百货大楼5楼)｜2026.10.30 19:00 周五
+LOCATION:酹江月沉浸空间(常州市钟楼区莱蒙都会商业街4
+ 号百货大楼5楼)
+URL:https://show.maoyan.com/detail/491631
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-dm999333757522@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:【话剧】川流有戏丨徐州小剧场丨沉浸观剧丨彭
@@ -2003,7 +1513,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1067419294847@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:【话剧】民国往事之《绝代风华》丨乱世情缘丨
@@ -2018,7 +1528,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1060942486485@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:【话剧】2026“偶”遇到扬州—国风剧场·《偶韵
@@ -2032,7 +1542,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1094233288646@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:【话剧】《今夜一切正常》沉浸式荒诞喜剧｜互
@@ -2045,7 +1555,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-504601@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:【话剧】曹禺经典话剧《日出》
@@ -2056,24 +1566,8 @@ URL:https://show.maoyan.com/detail/504601
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-dm1079546652120@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:【话剧】杭州限定【99元起】爆笑·互动「约会必
- 看」《情人请再见》沉浸式荒诞情感喜剧
-DESCRIPTION:话剧｜杭州爪马世界1号剧场 (杭州亚奥万象天
- 地店)(浙江省杭州市萧山区盈丰街道杭州木棉花凯悦臻
- 选酒店杭州亚运村)｜2026.10.30-11.08
-LOCATION:杭州爪马世界1号剧场 (杭州亚奥万象天地店)(浙
- 江省杭州市萧山区盈丰街道杭州木棉花凯悦臻选酒店杭
- 州亚运村)
-URL:https://m.damai.cn/shows/item.html?id=1079546652120
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:theatrewatch-dm1078783462448@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:【话剧】太阳魔法剧场/一镜到底《飞纸人生》即
@@ -2088,7 +1582,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1080997933787@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:【话剧】奇幻舞台剧《特雷姆哈》
@@ -2100,7 +1594,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1080028515876@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:【话剧】开业庆【笑工坊】悬疑推理剧•沉浸式
@@ -2113,7 +1607,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm994088537934@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:【音乐剧】海外爆款「治愈都市中的你」超嗨解
@@ -2129,7 +1623,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1055270512824@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:【话剧】温州丨实景话剧《吴家老宅》沉浸式庭
@@ -2144,8 +1638,22 @@ URL:https://m.damai.cn/shows/item.html?id=1055270512824
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-dm1067308811925@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:【话剧】《完美的秀》魔术互动喜剧丨爆笑丨合
+ 家欢乐丨神奇丨解压
+DESCRIPTION:话剧｜ALL IN空间小剧场(浙江省温州市鹿城区五
+ 马街道墨池公园吟谭楼)｜2026.10.30-11.29
+LOCATION:ALL IN空间小剧场(浙江省温州市鹿城区五马街道墨
+ 池公园吟谭楼)
+URL:https://m.damai.cn/shows/item.html?id=1067308811925
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-dm1085546624735@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:【话剧】陕西人艺《平凡的世界》
@@ -2158,7 +1666,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1024963089893@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:【话剧】沉浸式演出《梦回大观园》
@@ -2169,8 +1677,35 @@ URL:https://m.damai.cn/shows/item.html?id=1024963089893
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-502747@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261101
+SUMMARY:【话剧】尤里·布图索夫导演逝世周年纪念展演—
+ —俄罗斯国立萨蒂利空剧院《海鸥》
+DESCRIPTION:话剧｜大宁剧院(平型关路1222号(近灵石路))｜20
+ 26.10.30 / 10.31
+LOCATION:大宁剧院(平型关路1222号(近灵石路))
+URL:https://show.maoyan.com/detail/502747
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-453008@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261101
+SUMMARY:【话剧】【上海】中文版沉浸式游乐剧场《轮盘
+ 》
+DESCRIPTION:话剧｜大世界·轮盘剧场(西藏南路1号大世界3
+ 楼A1厅轮盘剧场)｜2026.10.30 / 10.31
+LOCATION:大世界·轮盘剧场(西藏南路1号大世界3楼A1厅轮盘
+ 剧场)
+URL:https://show.maoyan.com/detail/453008
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-487980@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】老舍经典话剧《骆驼祥子》南京站
@@ -2183,7 +1718,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-499920@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】【2026“茧·声”演出季】金世佳主演话
@@ -2196,7 +1731,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-504978@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】中国国家话剧院 话剧《青蛇》——2026太
@@ -2210,7 +1745,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-508400@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】万圣节暗黑心理剧｜契诃夫经典改编《
@@ -2223,7 +1758,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-506506@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】杨婷执导 黄磊、何炅领衔主演 话剧《农
@@ -2236,7 +1771,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-472391@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261102
 SUMMARY:【话剧】开心麻花首部惊悚爆笑戏剧《开心聊斋·
@@ -2250,7 +1785,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-494152@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261102
 SUMMARY:【话剧】致敬阿加莎·悬疑推理剧《谋杀派对》万
@@ -2264,7 +1799,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-501871@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261102
 SUMMARY:【话剧】德国大嘴突击队《创作（道林·格雷的画
@@ -2278,7 +1813,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-496987@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261102
 SUMMARY:【音乐剧】第二十五届中国上海国际艺术节参演
@@ -2292,7 +1827,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-498214@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261102
 SUMMARY:【话剧】2026江苏大剧院戏剧节——北京人民艺术
@@ -2306,7 +1841,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-459864@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261102
 SUMMARY:【话剧】「宁波必看」《开关SWITCH》惊悚喜剧鬼
@@ -2319,8 +1854,23 @@ URL:https://show.maoyan.com/detail/459864
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-509549@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261102
+SUMMARY:【话剧】开心麻花《免死金牌使用指南》｜吴越
+ 文化多媒体爆笑沉浸秀
+DESCRIPTION:话剧｜南坛剧院(浙江省杭州市临安区锦城街道
+ 钱王街328、338号吴越里商业中心7幢负一楼)｜2026.10.30 - 
+ 11.01
+LOCATION:南坛剧院(浙江省杭州市临安区锦城街道钱王街328
+ 、338号吴越里商业中心7幢负一楼)
+URL:https://show.maoyan.com/detail/509549
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-503425@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261102
 SUMMARY:【话剧】孟京辉导演戏剧作品《仙乐飘飘故事集
@@ -2334,7 +1884,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-504967@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261108
 SUMMARY:【话剧】英国经典惊悚剧《黑衣女人》
@@ -2345,8 +1895,24 @@ URL:https://show.maoyan.com/detail/504967
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-503097@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261109
+SUMMARY:【话剧】杭州限定99元起!爆笑·互动「约会必看」
+ 《情人请再见》沉浸式荒诞情感喜剧
+DESCRIPTION:话剧｜杭州爪马世界1号剧场 (杭州亚奥万象天
+ 地店)(浙江省杭州市萧山区盈丰街道杭州木棉花凯悦臻
+ 选酒店杭州亚运村)｜2026.10.30 - 11.08
+LOCATION:杭州爪马世界1号剧场 (杭州亚奥万象天地店)(浙
+ 江省杭州市萧山区盈丰街道杭州木棉花凯悦臻选酒店杭
+ 州亚运村)
+URL:https://show.maoyan.com/detail/503097
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-510790@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261115
 SUMMARY:【话剧】【秋季约会首选｜900场浪漫降临】开心
@@ -2360,7 +1926,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-481224@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261116
 SUMMARY:【音乐剧】法语原版音乐剧《太阳王》
@@ -2372,7 +1938,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-441354@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261116
 SUMMARY:【话剧】开心麻花歌舞沉浸剧《芝加哥之夜》纸
@@ -2385,7 +1951,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-452964@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261116
 SUMMARY:【话剧】杭州开心麻花喜剪吹沉浸剧场《疯狂理
@@ -2400,7 +1966,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-485613@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261122
 SUMMARY:【话剧】环境式驻演原创独角戏《激流岛》
@@ -2412,8 +1978,21 @@ URL:https://show.maoyan.com/detail/485613
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-505021@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261123
+SUMMARY:【话剧】秦淮有戏·留墨秦淮
+DESCRIPTION:话剧｜秦淮有戏·长乐剧场(夫子庙街道钞库街2
+ 1号非遗馆2楼长乐剧场)｜2026.10.30 - 11.22
+LOCATION:秦淮有戏·长乐剧场(夫子庙街道钞库街21号非遗
+ 馆2楼长乐剧场)
+URL:https://show.maoyan.com/detail/505021
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-481758@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261128
 SUMMARY:【话剧】《巴斯克维尔的猎犬》 福尔摩斯也疯狂
@@ -2427,7 +2006,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-495852@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261128
 SUMMARY:【话剧】民国往事之《1933.高思凡你迟到了》丨乱
@@ -2441,7 +2020,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-397771@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261128
 SUMMARY:【音乐剧】沉浸式·吴歌音乐剧 《新唐伯虎点秋
@@ -2453,8 +2032,21 @@ URL:https://show.maoyan.com/detail/397771
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-451677@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261129
+SUMMARY:【音乐剧】原创沉浸式荒诞音乐剧《破墙》
+DESCRIPTION:音乐剧｜星空间129号·夭蛾剧场(上海市黄浦区
+ 西藏南路1号大世界4楼)｜2026.10.30 - 11.28
+LOCATION:星空间129号·夭蛾剧场(上海市黄浦区西藏南路1号
+ 大世界4楼)
+URL:https://show.maoyan.com/detail/451677
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-449462@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261129
 SUMMARY:【话剧】《浸梦水亭门》沉浸式戏剧
@@ -2466,7 +2058,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-374137@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261130
 SUMMARY:【话剧】沉浸式悬念剧场《9号秘事》
@@ -2479,7 +2071,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-467399@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261130
 SUMMARY:【音乐剧】原创爆笑奇幻音乐剧《邦尼帮你》-来
@@ -2491,8 +2083,22 @@ URL:https://show.maoyan.com/detail/467399
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-503266@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261130
+SUMMARY:【音乐剧】【精神胜利法正在召唤你】音乐剧《
+ 疯子与赞美诗》
+DESCRIPTION:音乐剧｜大世界2楼上海盒子剧场(上海市西藏
+ 南路1号上海大世界2楼D厅)｜2026.10.30 - 11.29
+LOCATION:大世界2楼上海盒子剧场(上海市西藏南路1号上海
+ 大世界2楼D厅)
+URL:https://show.maoyan.com/detail/503266
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-484311@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261130
 SUMMARY:【音乐剧】中文原创音乐剧《入傩》
@@ -2505,7 +2111,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-493664@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261130
 SUMMARY:【音乐剧】环境式驻演原创音乐剧《莫比乌斯》
@@ -2519,22 +2125,22 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-514469@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261130
 SUMMARY:【话剧】喜剧人狂欢夜｜线下综艺 | 《嘻湖笑 任
  逍遥》爆笑解压 | 情侣约会| 闺蜜逛街 | 网红打卡 | 首
  选必看
-DESCRIPTION:话剧｜嘻湖笑沉浸式剧场(湖滨街道解放路251号
- 2幢一楼B1-19店铺)｜2026.10.30 - 11.29
-LOCATION:嘻湖笑沉浸式剧场(湖滨街道解放路251号2幢一楼B1
- -19店铺)
+DESCRIPTION:话剧｜嘻湖笑沉浸式剧场(杭州市上城区湖滨街
+ 道解放路251号2幢一楼B1-19店铺)｜2026.10.30 - 11.29
+LOCATION:嘻湖笑沉浸式剧场(杭州市上城区湖滨街道解放路
+ 251号2幢一楼B1-19店铺)
 URL:https://show.maoyan.com/detail/514469
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-490729@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261130
 SUMMARY:【话剧】[双人特惠99元起] 百老汇沉浸悬疑剧《维
@@ -2549,7 +2155,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-509552@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261227
 SUMMARY:【话剧】百老汇经典惊悚心理悬疑剧《维罗妮卡
@@ -2563,7 +2169,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-488419@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】正版国漫2.5次元真人舞台剧《一人之下
@@ -2576,8 +2182,22 @@ URL:https://show.maoyan.com/detail/488419
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-497110@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:【话剧】上海|史诗独角戏《一个高贵的灵魂》|高
+ 口碑剧目-南京东路站
+DESCRIPTION:话剧｜麦乐门剧场(上海市黄浦区南京东路720号
+ 第一食品商店4楼A-3笑探情景剧场)｜2026.10.31 19:30 周六
+LOCATION:麦乐门剧场(上海市黄浦区南京东路720号第一食品
+ 商店4楼A-3笑探情景剧场)
+URL:https://show.maoyan.com/detail/497110
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-432509@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】五角场｜即兴喜剧互动秀｜新喜剧｜《
@@ -2591,7 +2211,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1055426862096@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】[新店特惠]  | 「超近距离沉浸式互动魔
@@ -2604,21 +2224,22 @@ URL:https://m.damai.cn/shows/item.html?id=1055426862096
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-dm985719431374@local
-DTSTAMP:20261025T165158Z
+UID:theatrewatch-dm1068662595497@local
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
-SUMMARY:【话剧】沉浸式暗黑美学音乐剧《乌鸦》
-DESCRIPTION:话剧｜星空间1108号·弹珠汽水小剧场(上海市黄
- 浦区兴业路123弄6号5楼1-3单元)｜2026.10.31-12.06
-LOCATION:星空间1108号·弹珠汽水小剧场(上海市黄浦区兴业
- 路123弄6号5楼1-3单元)
-URL:https://m.damai.cn/shows/item.html?id=985719431374
+SUMMARY:【话剧】[新店特惠]「沉浸式近景互动魔术秀」《
+ 黑帽之约》 | 绅逗逗奇幻剧场
+DESCRIPTION:话剧｜绅逗逗奇幻剧场(上海市普陀区长寿路155
+ 号巴黎春天5楼004b 绅逗逗奇幻剧场)｜2026.10.31-12.06
+LOCATION:绅逗逗奇幻剧场(上海市普陀区长寿路155号巴黎春
+ 天5楼004b 绅逗逗奇幻剧场)
+URL:https://m.damai.cn/shows/item.html?id=1068662595497
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1078908188839@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】《奇妙博物馆之夜 · 270°沉浸互动版》  
@@ -2632,22 +2253,8 @@ URL:https://m.damai.cn/shows/item.html?id=1078908188839
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-dm1068662595497@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:【话剧】[新店特惠]「沉浸式近景互动魔术秀」《
- 黑帽之约》 | 绅逗逗奇幻剧场
-DESCRIPTION:话剧｜绅逗逗奇幻剧场(上海市普陀区长寿路155
- 号巴黎春天5楼004b 绅逗逗奇幻剧场)｜2026.10.31-12.06
-LOCATION:绅逗逗奇幻剧场(上海市普陀区长寿路155号巴黎春
- 天5楼004b 绅逗逗奇幻剧场)
-URL:https://m.damai.cn/shows/item.html?id=1068662595497
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:theatrewatch-dm1072147563080@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】「亲子魔术」沉浸互动丨爆笑喜剧魔术
@@ -2663,7 +2270,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm846832865431@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】【潮流新玩法】第七感原创沉浸式互动
@@ -2679,7 +2286,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-416095@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【音乐剧】环境式驻演原创音乐剧《亡灵之旅：
@@ -2693,7 +2300,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-426728@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【音乐剧】环境式原创音乐剧《渡河，渡河》
@@ -2706,7 +2313,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-473473@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【音乐剧】音乐剧《新贵》
@@ -2719,7 +2326,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1038022370737@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【音乐剧】谭盾《水乐堂 · 天顶上的一滴水》
@@ -2732,7 +2339,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-499051@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】《戏院伶影》悬疑爆笑互动剧｜民国探
@@ -2744,22 +2351,8 @@ URL:https://show.maoyan.com/detail/499051
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-dm1089037284840@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:【话剧】丛生剧团 | 黑色幽默荒诞喜剧《米奇去
- 哪里》｜家庭悬疑｜两性关系｜谎言秘密｜极简舞台
-DESCRIPTION:话剧｜南京丛生小剧场(秦淮区石鼓路42-9号建
- 华大厦3楼多园青年旅舍)｜2026.10.31-11.01
-LOCATION:南京丛生小剧场(秦淮区石鼓路42-9号建华大厦3楼
- 多园青年旅舍)
-URL:https://m.damai.cn/shows/item.html?id=1089037284840
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:theatrewatch-dm1094335137918@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】《神探》
@@ -2771,7 +2364,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1048683838730@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】互动式沉浸舞台剧《飞吧！阿果》 | RPG |
@@ -2784,7 +2377,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1072469839260@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】大型话剧《思凡·陆小曼》
@@ -2796,7 +2389,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-506412@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】第三届中吴文化戏剧演出季-国际经典剧
@@ -2810,7 +2403,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-510694@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】《戏馆伶影》悬疑爆笑互动剧|民国探案|
@@ -2823,7 +2416,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-510703@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】《老寨迷影》爆笑悬疑互动剧|古寨探险|
@@ -2836,7 +2429,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1075142758327@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【音乐剧】交响乐剧《培尔·金特》
@@ -2848,7 +2441,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-505921@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】「全场半价」| 国际艺术节获奖剧目 | 都
@@ -2864,12 +2457,12 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1055048118105@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】千万巨资|合家欢生态体验剧《洄游》
 DESCRIPTION:话剧｜佳合未来艺术中心(浙江省杭州市西湖区
- 蒋村街道紫金港路21号)｜2026.10.31 周六
+ 蒋村街道紫金港路21号)｜2026.10.31-11.29
 LOCATION:佳合未来艺术中心(浙江省杭州市西湖区蒋村街道
  紫金港路21号)
 URL:https://m.damai.cn/shows/item.html?id=1055048118105
@@ -2877,7 +2470,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1082021450852@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】开业礼【笑工坊】爆笑上头《喜剧人派
@@ -2890,7 +2483,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1005155654982@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】杭州必看【99元起】基尼斯话剧金榜《花
@@ -2906,7 +2499,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1074227061667@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】国风必看!王熹正卿说《大宋洗冤录》新
@@ -2921,7 +2514,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1095145248530@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】德清大剧院|《拖把头白日梦》
@@ -2933,7 +2526,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1092073391947@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】德清大剧院|《谁是厨神？》
@@ -2945,7 +2538,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm848713506399@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】【第二张0元起】开心麻花X黄酒小镇 主
@@ -2959,7 +2552,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1078339078517@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【音乐剧】《双声和鸣·国风诗词与世界歌剧之夜
@@ -2973,7 +2566,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-506311@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】2026第九届上海民营院团优秀剧目赴长三
@@ -2986,8 +2579,23 @@ URL:https://show.maoyan.com/detail/506311
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-dm1092217497664@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:【话剧】【八折优惠】民国荒诞喜剧《劫出人生
+ 》｜沉浸式互动｜VIP可体验换装
+DESCRIPTION:话剧｜苏州文化艺术中心-7# 悬疑剧场(观枫街1
+ 号苏州文化艺术中心-苏艺演艺文化集聚区)｜2026.10.31-11
+ .29
+LOCATION:苏州文化艺术中心-7# 悬疑剧场(观枫街1号苏州文
+ 化艺术中心-苏艺演艺文化集聚区)
+URL:https://m.damai.cn/shows/item.html?id=1092217497664
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-dm710795747126@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】【苏州必看】沉浸式互动魔术剧《一块
@@ -3001,23 +2609,8 @@ URL:https://m.damai.cn/shows/item.html?id=710795747126
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-dm1092217497664@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:【话剧】民国荒诞喜剧《劫出人生》｜沉浸式互
- 动｜VIP可体验换装
-DESCRIPTION:话剧｜苏州文化艺术中心-7# 悬疑剧场(观枫街1
- 号苏州文化艺术中心-苏艺演艺文化集聚区)｜2026.10.31-11
- .29
-LOCATION:苏州文化艺术中心-7# 悬疑剧场(观枫街1号苏州文
- 化艺术中心-苏艺演艺文化集聚区)
-URL:https://m.damai.cn/shows/item.html?id=1092217497664
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:theatrewatch-dm916704265040@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】互动魔术秀《东西派》苏艺国风现·奇幻
@@ -3032,7 +2625,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-503214@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】【衢州】开心麻花爆笑循环大戏《回魂
@@ -3046,7 +2639,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-504591@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:【话剧】【青年舞蹈戏剧节】武汉人艺 曹禺经典
@@ -3059,7 +2652,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-488477@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261102
 SUMMARY:【话剧】【39.9元秒杀】开心麻花爆笑舞台剧《婿
@@ -3073,7 +2666,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-501501@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261102
 SUMMARY:【话剧】阿加莎·克里斯蒂经典喜剧《蛛网》
@@ -3084,8 +2677,22 @@ URL:https://show.maoyan.com/detail/501501
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-509382@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:【话剧】丛生剧团 | 黑色幽默荒诞喜剧《米奇去
+ 哪里》｜家庭悬疑｜两性关系｜谎言秘密｜极简舞台
+DESCRIPTION:话剧｜南京丛生小剧场(秦淮区石鼓路42-9号建
+ 华大厦3楼多园青年旅舍)｜2026.10.31 / 11.01
+LOCATION:南京丛生小剧场(秦淮区石鼓路42-9号建华大厦3楼
+ 多园青年旅舍)
+URL:https://show.maoyan.com/detail/509382
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-491711@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261102
 SUMMARY:【音乐剧】音乐剧《她对此感到厌烦》
@@ -3098,7 +2705,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-392195@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261102
 SUMMARY:【话剧】【杭州必看】惊悚喜剧鬼混剧场《开关SW
@@ -3112,7 +2719,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-480279@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261102
 SUMMARY:【话剧】【金秋特惠七折】超人气古风惊悚喜剧
@@ -3126,7 +2733,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-504386@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261102
 SUMMARY:【话剧】姚晨领衔主演话剧《非穷尽列举》温州
@@ -3140,7 +2747,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-508779@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261108
 SUMMARY:【话剧】【重返青春】开心麻花沉浸式爆笑互动
@@ -3154,7 +2761,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-445876@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261109
 SUMMARY:【话剧】杭州必看【99元起】基尼斯话剧金榜作品
@@ -3170,7 +2777,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-510673@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261116
 SUMMARY:【话剧】【最强经典IP｜重返校园】开心麻花沉浸
@@ -3184,7 +2791,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-473515@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261116
 SUMMARY:【话剧】【5折起】开心麻花西部沉浸式互动喜剧
@@ -3197,8 +2804,21 @@ URL:https://show.maoyan.com/detail/473515
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-238668@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261122
+SUMMARY:【话剧】《破笼之宴》2.0重磅回归——大型沉浸
+ 式戏剧《新世界庄园》6小时全新晚宴版
+DESCRIPTION:话剧｜大型沉浸式戏剧-《新世界庄园》(车亭
+ 公路211号)｜2026.10.31 - 2026.11.21
+LOCATION:大型沉浸式戏剧-《新世界庄园》(车亭公路211号)
+URL:https://show.maoyan.com/detail/238668
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-381116@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261122
 SUMMARY:【话剧】恐怖大师斯蒂芬·金 沉浸式暗黑微恐剧
@@ -3213,7 +2833,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-381083@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261122
 SUMMARY:【话剧】沉浸式治愈话剧《谨遵医嘱》
@@ -3227,7 +2847,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-474834@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261123
 SUMMARY:【话剧】BETTER戏剧 科幻悬疑喜剧《人攻智能》
@@ -3239,7 +2859,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-500528@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261129
 SUMMARY:【话剧】【百联西郊】治愈成长独角戏《一平米
@@ -3254,7 +2874,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-463187@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261129
 SUMMARY:【话剧】南京风起金陵沉浸式喜剧
@@ -3268,7 +2888,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-504305@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261129
 SUMMARY:【话剧】即兴互动|综艺同款|开心麻花即兴戏剧秀
@@ -3282,7 +2902,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-481030@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261130
 SUMMARY:【话剧】年度超口碑黑马·环境式国潮悬疑剧  《
@@ -3297,7 +2917,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-381091@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261130
 SUMMARY:【话剧】【清除脑雾】抽象乌托邦沉浸式喜剧《
@@ -3311,8 +2931,21 @@ URL:https://show.maoyan.com/detail/381091
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-493721@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261130
+SUMMARY:【话剧】衙署奇案
+DESCRIPTION:话剧｜园博园苏韵十三园衙署剧场(汤山街道圣
+ 湖路8号江苏园博园内(西侧))｜2026.10.31 - 11.29
+LOCATION:园博园苏韵十三园衙署剧场(汤山街道圣湖路8号
+ 江苏园博园内(西侧))
+URL:https://show.maoyan.com/detail/493721
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-461300@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261130
 SUMMARY:【音乐剧】【南京】沉浸式悬疑音乐剧《THRILL ME
@@ -3326,7 +2959,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-479809@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261130
 SUMMARY:【话剧】致内心孤单的你! 全场半价! 经典浪漫治
@@ -3339,8 +2972,35 @@ URL:https://show.maoyan.com/detail/479809
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-510157@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261130
+SUMMARY:【话剧】好戏来了！ 全场半价 浪漫互动成人治愈
+ 喜剧《小王子》
+DESCRIPTION:话剧｜浙话艺术剧院·幕光里(湖墅南路138号浙
+ 话艺术剧院内4楼·新空间小剧场)｜2026.10.31 - 11.29
+LOCATION:浙话艺术剧院·幕光里(湖墅南路138号浙话艺术剧
+ 院内4楼·新空间小剧场)
+URL:https://show.maoyan.com/detail/510157
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theatrewatch-440687@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261207
+SUMMARY:【音乐剧】沉浸式暗黑美学音乐剧《乌鸦》
+DESCRIPTION:音乐剧｜星空间1108号·弹珠汽水小剧场(淮海中
+ 路街道兴业路123弄6号5楼1-3单元)｜2026.10.31 - 12.06
+LOCATION:星空间1108号·弹珠汽水小剧场(淮海中路街道兴业
+ 路123弄6号5楼1-3单元)
+URL:https://show.maoyan.com/detail/440687
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-488239@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20270104
 SUMMARY:【音乐剧】原创致郁系暗黑音乐剧《阿尔贝罗》
@@ -3354,7 +3014,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm777831563570@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20280521
 SUMMARY:【话剧】破笼之宴——大型沉浸式戏剧《新世界
@@ -3367,7 +3027,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-502157@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:【话剧】话剧《父母爱情》
@@ -3380,7 +3040,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1081435740162@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:【话剧】智利爆笑肢体剧《孤而不独》
@@ -3393,7 +3053,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-491712@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:【话剧】正版国漫2.5次元真人舞台剧《一人之下
@@ -3406,7 +3066,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-507293@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:【话剧】第三届中吴文化戏剧演出季-千禧悬疑轻
@@ -3420,7 +3080,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1094596252850@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:【话剧】万圣节玄幻主题【万万没想到】之《错
@@ -3436,7 +3096,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-508506@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:【话剧】《待确认谋杀》沉浸式悬疑喜剧
@@ -3448,7 +3108,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-504970@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:【话剧】曹禺经典话剧《日出》
@@ -3460,7 +3120,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1087772416634@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:【话剧】温州·【温州必看演出】《雀起无声》沉
@@ -3476,7 +3136,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm912346659298@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:【话剧】滑稽戏导赏与沉浸式体验——《姑苏笑
@@ -3491,7 +3151,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-509527@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261109
 SUMMARY:【音乐剧】婉平国风音乐剧《双姝》千年万岁椒
@@ -3503,8 +3163,21 @@ URL:https://show.maoyan.com/detail/509527
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-476266@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261130
+SUMMARY:【音乐剧】沉浸式原创音乐剧《那就返场！》
+DESCRIPTION:音乐剧｜星空间919号·风铃剧场(南京东路街道
+ 南京东路829号世茂广场东区L7)｜2026.11.01 - 11.29
+LOCATION:星空间919号·风铃剧场(南京东路街道南京东路829
+ 号世茂广场东区L7)
+URL:https://show.maoyan.com/detail/476266
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-420180@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261130
 SUMMARY:【音乐剧】环境式限时驻演音乐剧《梦微之》
@@ -3517,7 +3190,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-434590@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261130
 SUMMARY:【话剧】『南京方言』国风幽默短剧《阎王烦死
@@ -3530,7 +3203,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-396827@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270104
 SUMMARY:【音乐剧】〈环人广必吃榜〉双女主原创音乐剧
@@ -3544,7 +3217,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-512230@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261201
 SUMMARY:【音乐剧】音乐剧《西西里的人鱼传说》
@@ -3557,7 +3230,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1089299752904@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:【话剧】新国风沉浸式互动喜剧-王熹正卿国风专
@@ -3570,7 +3243,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-506089@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:【话剧】开心麻花爆笑循环大戏《回魂耶》
@@ -3582,7 +3255,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-500350@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:【话剧】陕西人艺话剧《平凡的世界》2026年苏州
@@ -3596,7 +3269,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-493995@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261116
 SUMMARY:【音乐剧】百老汇原版音乐剧《长靴皇后》
@@ -3609,7 +3282,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-513961@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:【音乐剧】第三届钱塘国际戏剧嘉年华 | 国家艺
@@ -3623,7 +3296,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-505284@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:【音乐剧】【衢州】衢州音乐剧“元”年演出季 
@@ -3637,7 +3310,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-451945@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261108
 SUMMARY:【话剧】开心麻花惊悚悬疑沉浸剧《醉后赢家》
@@ -3650,7 +3323,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-504729@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261108
 SUMMARY:【话剧】波兰奥波莱JK剧院 思辨拟真剧场《真实
@@ -3663,7 +3336,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-500037@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261109
 SUMMARY:【话剧】阿加莎推理巨作《捕鼠器》
@@ -3676,7 +3349,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-508024@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261109
 SUMMARY:【音乐剧】百老汇英文原版音乐剧《芝加哥》30周
@@ -3689,7 +3362,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-386082@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261130
 SUMMARY:【音乐剧】环境式驻演音乐剧《去你的夏天》【
@@ -3703,7 +3376,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1092512433345@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:【话剧】刘萧旭 独角戏话剧《Ta跟我开了一个巨
@@ -3716,7 +3389,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1067839278621@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:【话剧】海门大剧院·秋冬演出季 开心麻花爆笑
@@ -3729,7 +3402,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-498583@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:【话剧】2026“姚城好戏”精品戏剧季 曹禺经典话
@@ -3743,7 +3416,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-506392@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:【话剧】第三届中吴文化戏剧演出季-《Wayfinder指
@@ -3756,7 +3429,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1086642262576@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:【话剧】沉浸式悬疑话剧《宋美龄耳环丢了》(返
@@ -3769,7 +3442,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1077803242989@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:【音乐剧】音乐剧《秘密花园》@杭州
@@ -3781,7 +3454,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-510793@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261108
 SUMMARY:【音乐剧】中国上海国际艺术节青少年系列专场 
@@ -3795,7 +3468,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-507406@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261108
 SUMMARY:【话剧】姚晨领衔话剧《非穷尽列举》中文版·宁
@@ -3809,7 +3482,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-509200@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261108
 SUMMARY:【话剧】超现实主义独角戏——《当牛进化论》
@@ -3822,7 +3495,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-499180@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261109
 SUMMARY:【话剧】新加坡华艺酝酿·剧场慢煮 《最后的午
@@ -3835,7 +3508,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-498925@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261109
 SUMMARY:【话剧】荒诞喜剧《黄牛狂想曲》
@@ -3848,7 +3521,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-502015@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261109
 SUMMARY:【话剧】北京人民艺术剧院话剧《哈姆雷特》
@@ -3861,7 +3534,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-504783@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261115
 SUMMARY:【话剧】环境式古装喜剧《刺客风云》
@@ -3874,7 +3547,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-514434@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261129
 SUMMARY:【话剧】《今夜一切正常》沉浸式荒诞喜剧｜互
@@ -3887,7 +3560,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-488204@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261130
 SUMMARY:【音乐剧】沉浸式悬疑音乐剧《FLAMES火焰》-【缪
@@ -3902,7 +3575,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-514234@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20270101
 SUMMARY:【话剧】一场不太正经的调查，一群不太正常的
@@ -3916,7 +3589,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-485355@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:【话剧】曹禺经典话剧《雷雨》
@@ -3930,7 +3603,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-510725@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:【话剧】百老汇喜剧《事实的有效期》
@@ -3942,7 +3615,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1051256420695@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:【音乐剧】原创沉浸式国风音乐剧《椒花颂声》·
@@ -3955,7 +3628,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-495107@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:【话剧】致敬阿加莎·外百老汇悬疑名剧《谋杀派
@@ -3968,7 +3641,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1081736938278@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:【话剧】陕西人艺—话剧《平凡的世界》
@@ -3981,7 +3654,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-507297@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:【话剧】第三届中吴文化戏剧演出季-莎士比亚经
@@ -3994,8 +3667,22 @@ URL:https://show.maoyan.com/detail/507297
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-479823@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:【话剧】献给不愿平庸生活的你! 浪漫治愈《月亮
+ 与六便士》全场半价
+DESCRIPTION:话剧｜浙话艺术剧院·幕光里(湖墅南路138号浙
+ 话艺术剧院内4楼·新空间小剧场)｜2026.11.07 15:00 周六
+LOCATION:浙话艺术剧院·幕光里(湖墅南路138号浙话艺术剧
+ 院内4楼·新空间小剧场)
+URL:https://show.maoyan.com/detail/479823
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-498426@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:【话剧】爆笑反转推理喜剧《半个爱情》泰兴站
@@ -4007,7 +3694,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-512750@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:【音乐剧】音乐剧《闪闪的红星》
@@ -4020,7 +3707,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-509349@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261109
 SUMMARY:【话剧】俄语原版三幕话剧 圣彼得堡马斯特卡雅
@@ -4033,21 +3720,8 @@ URL:https://show.maoyan.com/detail/509349
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-500333@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261109
-SUMMARY:【话剧】话剧《长安十二时辰》第五届长三角城
- 市戏剧季
-DESCRIPTION:话剧｜黄浦文化中心·大上海剧场(中华路968号)
- ｜2026.11.07 / 11.08
-LOCATION:黄浦文化中心·大上海剧场(中华路968号)
-URL:https://show.maoyan.com/detail/500333
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:theatrewatch-495889@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261109
 SUMMARY:【话剧】阿加莎·克里斯蒂唯一喜剧《蛛网》
@@ -4060,7 +3734,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-510628@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261109
 SUMMARY:【话剧】“2026国家艺术基金”资助项目·机器人
@@ -4074,7 +3748,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-510063@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261109
 SUMMARY:【话剧】蒋易主演 爱丁堡艺穗节获奖剧作《驯鹿
@@ -4087,8 +3761,21 @@ URL:https://show.maoyan.com/detail/510063
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-500333@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261109
+SUMMARY:【话剧】话剧《长安十二时辰》第五届长三角城
+ 市戏剧季
+DESCRIPTION:话剧｜黄浦文化中心·大上海剧场(中华路968号)
+ ｜2026.11.07 / 11.08
+LOCATION:黄浦文化中心·大上海剧场(中华路968号)
+URL:https://show.maoyan.com/detail/500333
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-510612@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261109
 SUMMARY:【话剧】喜剧《蒋公的面子》
@@ -4100,7 +3787,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-451946@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261109
 SUMMARY:【话剧】开心麻花《方橙市大侦探》赛博朋克实
@@ -4113,7 +3800,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-506303@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261109
 SUMMARY:【话剧】[宁波古宅新作]浸入式戏剧《雀起无声》
@@ -4127,7 +3814,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-514916@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261109
 SUMMARY:【音乐剧】音乐剧《不负青山》
@@ -4139,7 +3826,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-503271@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261109
 SUMMARY:【音乐剧】中文原创音乐剧《简·爱》
@@ -4151,7 +3838,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-490265@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261109
 SUMMARY:【音乐剧】百老汇经典摇滚音乐剧《HEDWIG》（海
@@ -4164,7 +3851,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-453172@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261115
 SUMMARY:【话剧】沉浸式中式惊悚·恐怖悬疑声演剧《孙美
@@ -4180,7 +3867,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-372730@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261122
 SUMMARY:【话剧】场场爆满！上海开心麻花授权《空降未
@@ -4193,7 +3880,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-461075@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261122
 SUMMARY:【话剧】《聊斋·兰若》中式惊悚爆笑戏剧丨“伶
@@ -4208,7 +3895,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-470861@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261130
 SUMMARY:【话剧】《零肆贰叁》沉浸式民国谍战互动剧
@@ -4221,7 +3908,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-505930@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:【话剧】曹禺经典话剧《雷雨》
@@ -4233,7 +3920,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-500471@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:【话剧】爆笑反转推理喜剧《半个爱情》
@@ -4245,7 +3932,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1080765157212@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:【话剧】“第十一届张家港市戏剧节”系列演出
@@ -4259,7 +3946,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-496970@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261113
 SUMMARY:【音乐剧】柏林国家歌剧院  理查·施特劳斯《玫
@@ -4272,7 +3959,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-502046@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261123
 SUMMARY:【话剧】《聊斋·伶人咒》中式惊悚爆笑戏剧丨沉
@@ -4287,7 +3974,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1075172422824@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:【话剧】海门大剧院·秋冬演出季 陕西人艺“茅
@@ -4300,7 +3987,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-506001@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:【音乐剧】中文原创音乐剧《简·爱》——2026太
@@ -4316,7 +4003,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-500730@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261113
 SUMMARY:【话剧】第二十五届中国上海国际艺术节参演剧
@@ -4329,7 +4016,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-499275@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261123
 SUMMARY:【话剧】脱轨爱情喜剧《先这样吧，爸爸》
@@ -4341,7 +4028,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-511533@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:【音乐剧】【合作】《爱与告别的盛宴》——国
@@ -4354,7 +4041,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-511106@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:【音乐剧】从延安出发-中国歌剧咏叹之夜 · 苏州
@@ -4367,7 +4054,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-512602@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261115
 SUMMARY:【话剧】话剧《赵盼儿风月救风尘》
@@ -4379,7 +4066,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-503406@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261115
 SUMMARY:【音乐剧】音乐剧《秘密花园》苏州站
@@ -4391,7 +4078,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-504218@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261116
 SUMMARY:【话剧】第二十五届中国上海国际艺术节参演剧
@@ -4405,7 +4092,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-480687@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261116
 SUMMARY:【音乐剧】【2026“茧·声”演出季】现象级原版
@@ -4418,7 +4105,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1057649721908@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:【话剧】史诗独角戏《一个人的伊利亚特》
@@ -4430,7 +4117,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1080063744187@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:【音乐剧】海门大剧院·红色经典演出季 从延安
@@ -4443,7 +4130,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-510410@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261115
 SUMMARY:【话剧】心理现实主义戏剧《红玫瑰与白玫瑰》
@@ -4455,7 +4142,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-505353@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261115
 SUMMARY:【话剧】新喜剧秀《爆打人生四格》
@@ -4467,7 +4154,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-503814@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261115
 SUMMARY:【话剧】荒诞喜剧《黄牛狂想曲》
@@ -4479,7 +4166,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-484461@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261115
 SUMMARY:【音乐剧】百老汇经典摇滚 音乐剧《HEDWIG》（海
@@ -4492,7 +4179,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-514566@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261115
 SUMMARY:【话剧】契科夫《蠢货》写于 19 世纪的“荒诞爱
@@ -4506,7 +4193,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-513340@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261115
 SUMMARY:【话剧】话剧《主角》
@@ -4519,7 +4206,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-503786@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261116
 SUMMARY:【音乐剧】第二十五届中国上海国际艺术节参演
@@ -4532,7 +4219,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-509894@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261116
 SUMMARY:【音乐剧】马伯庸经典IP｜国风巨制 原创音乐剧
@@ -4546,7 +4233,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-513041@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261116
 SUMMARY:【话剧】百老汇经典悬疑惊悚剧《维罗妮卡的房
@@ -4560,7 +4247,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-511628@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261123
 SUMMARY:【话剧】林溪儿戏剧作品 独角戏《龙与地铁三号
@@ -4573,7 +4260,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-500399@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261130
 SUMMARY:【话剧】话剧《父亲》Le Père by Florian Zeller
@@ -4586,7 +4273,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-506604@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:【话剧】法国经典喜剧《一个绝望的人》
@@ -4598,7 +4285,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-503669@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:【音乐剧】海上雅乐 喜马拉雅·风信—愈心音乐
@@ -4611,7 +4298,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-507692@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:【话剧】开心麻花爆笑循环大戏《回魂耶》（1米
@@ -4624,7 +4311,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1069215546675@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:【话剧】【南京独家】原创沉浸式互动戏剧《多
@@ -4638,7 +4325,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1076968188709@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:【话剧】南通限定·《通通笑场》新喜剧Sketch专场
@@ -4651,7 +4338,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-506393@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:【话剧】第三届中吴文化戏剧演出季-话剧苏东坡
@@ -4665,7 +4352,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1047809461083@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:【话剧】《游园惊梦》悬疑爆笑丨角色探案互动
@@ -4680,7 +4367,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-511917@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:【音乐剧】[杭州] 杭州青年合唱团原创合唱音乐
@@ -4694,7 +4381,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-499526@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:【话剧】喜剧《蒋公的面子》
@@ -4707,7 +4394,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1089323491360@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:【话剧】意大利欢乐轻喜剧《超级奶妈》
@@ -4720,7 +4407,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-506204@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261116
 SUMMARY:【话剧】华语剧场25周年经典再现 方旭、赵倩主
@@ -4734,7 +4421,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-500731@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261116
 SUMMARY:【话剧】第二十五届中国上海国际艺术节参演剧
@@ -4747,7 +4434,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-505658@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261116
 SUMMARY:【话剧】2026江苏大剧院戏剧节 话剧九人新作《三
@@ -4761,7 +4448,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-505934@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261116
 SUMMARY:【音乐剧】音乐剧《女巫》
@@ -4773,21 +4460,20 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-513553@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261116
 SUMMARY:【话剧】话剧《暗恋桃花源》经典版 | 第三届钱
  塘国际戏剧嘉年华
-DESCRIPTION:话剧｜杭州金沙湖大剧院-歌剧厅(浙江省杭州
- 市钱塘区下沙街道金沙湖大剧院)｜2026.11.14 / 11.15
-LOCATION:杭州金沙湖大剧院-歌剧厅(浙江省杭州市钱塘区
- 下沙街道金沙湖大剧院)
+DESCRIPTION:话剧｜金沙湖大剧院(金沙大道与怀柔巷交叉口
+ )｜2026.11.14 / 11.15
+LOCATION:金沙湖大剧院(金沙大道与怀柔巷交叉口)
 URL:https://show.maoyan.com/detail/513553
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-505361@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261116
 SUMMARY:【话剧】话剧九人民国知识分子戏剧《春逝》
@@ -4799,7 +4485,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-513100@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261116
 SUMMARY:【音乐剧】国家艺术基金资助项目原创音乐剧《
@@ -4812,7 +4498,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-505012@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261116
 SUMMARY:【话剧】中国古典爆笑喜剧《花田错》
@@ -4824,7 +4510,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-502033@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261129
 SUMMARY:【话剧】国风幽默剧《阎王烦死了》徐州站丨轻
@@ -4839,7 +4525,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-443330@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:【话剧】沉浸式互动喜剧《海上大劫》|一场笑浪
@@ -4853,7 +4539,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-513842@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:【话剧】百老汇喜剧《事实的有效期》
@@ -4866,7 +4552,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-509439@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:【话剧】【衢州】年末大戏演出季   陕西人艺《
@@ -4880,7 +4566,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-512462@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261117
 SUMMARY:【话剧】话剧《审头刺汤》
@@ -4892,7 +4578,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1079514604854@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:【话剧】开心麻花爆笑循环大戏《回魂耶》
@@ -4905,7 +4591,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-508346@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261123
 SUMMARY:【音乐剧】百老汇原版音乐剧《长靴皇后》
@@ -4918,7 +4604,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-497725@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:【话剧】“艺彩江南·保利江苏大区名家名剧演出
@@ -4932,7 +4618,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-507883@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261123
 SUMMARY:【音乐剧】中文原创音乐剧《人间失格》 A Ranspace
@@ -4946,7 +4632,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-504445@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:【话剧】中国建设银行嘉定支行艺术普及 善建者
@@ -4960,7 +4646,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-507999@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:【话剧】北仑有戏 | 悬疑话剧《天黑请闭眼》
@@ -4973,7 +4659,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1091255272968@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:【话剧】【慈溪首演】沉浸式悬疑话剧《宋美龄
@@ -4987,7 +4673,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-483730@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:【话剧】老舍经典话剧《骆驼祥子》
@@ -5000,7 +4686,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-509839@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:【话剧】杭州演艺·红星剧院丨话剧《红楼梦》
@@ -5013,7 +4699,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-498911@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:【话剧】第三届钱塘国际戏剧嘉年华 | 爆笑推理
@@ -5028,7 +4714,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-503052@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:【话剧】老舍经典巅峰之作 京味儿大戏话剧《茶
@@ -5041,7 +4727,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-511861@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261122
 SUMMARY:【话剧】话剧《暗恋桃花源》经典版20周年纪念演
@@ -5054,7 +4740,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-510390@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261122
 SUMMARY:【话剧】改编自弗尼吉亚·伍尔芙原著 孟京辉戏
@@ -5067,7 +4753,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-509808@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261122
 SUMMARY:【话剧】百老汇经典悬疑话剧《维罗妮卡的房间
@@ -5081,7 +4767,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-488457@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261122
 SUMMARY:【话剧】【2026“茧·声”演出季】悬疑女王阿加
@@ -5094,7 +4780,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-510399@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261122
 SUMMARY:【话剧】赖声川×王伟忠编导 话剧《宝岛一村》
@@ -5106,7 +4792,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-507597@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261122
 SUMMARY:【音乐剧】第三届钱塘国际戏剧嘉年华 |  音乐剧
@@ -5120,7 +4806,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-500831@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:【音乐剧】粤语音乐剧《边城》
@@ -5133,7 +4819,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-506562@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:【音乐剧】南京市文旅消费政府补贴剧目·2026·南
@@ -5147,7 +4833,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-508075@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:【话剧】沉浸式民国悬疑话剧《宋美龄耳环丢了
@@ -5160,7 +4846,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-512520@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261126
 SUMMARY:【音乐剧】音乐剧《弗拉特尼泰》
@@ -5173,7 +4859,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-512761@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261129
 SUMMARY:【话剧】话剧《娜拉的新衣》|[易卜生《玩偶之家
@@ -5187,7 +4873,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-515110@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261130
 SUMMARY:【话剧】话剧《幺幺洞捌》
@@ -5200,7 +4886,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-503421@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:【话剧】曹禺经典话剧《日出》
@@ -5213,7 +4899,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-513029@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:【话剧】开心麻花爆笑舞台剧《婿事待发》
@@ -5225,7 +4911,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-484548@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:【话剧】老舍经典话剧—《茶馆》升级版
@@ -5238,7 +4924,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-503424@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:【话剧】爆笑反转推理喜剧《半个爱情》
@@ -5250,7 +4936,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-504056@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:【话剧】第三届中吴文化戏剧演出季-超互动荒诞
@@ -5264,7 +4950,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1092358914943@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:【话剧】百老汇喜剧《事实的有效期》
@@ -5277,7 +4963,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-502163@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:【话剧】开心麻花综艺同款原创爆笑新喜剧《鹅
@@ -5291,7 +4977,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1069392242187@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:【话剧】杭州·正版国漫2.5次元舞台剧《狐妖小红
@@ -5304,7 +4990,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-509843@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:【话剧】话剧《长安第二碗》
@@ -5316,7 +5002,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-510714@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:【话剧】上海话剧艺术中心x大麦Mailive联合出品 
@@ -5330,7 +5016,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-504857@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:【话剧】热播动漫改编《成何体统》爆笑反套路
@@ -5344,7 +5030,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1075306055554@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:【话剧】(非自营)致敬阿加莎·外百老汇悬疑名剧
@@ -5358,7 +5044,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-510855@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261123
 SUMMARY:【话剧】【超级奶妈】-意大利家庭轻喜剧
@@ -5371,7 +5057,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-508645@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261123
 SUMMARY:【话剧】话剧九人年度新作《三妇志异》
@@ -5383,7 +5069,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-514423@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261123
 SUMMARY:【音乐剧】音乐剧《不负青山》
@@ -5396,7 +5082,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-505655@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:【话剧】古典新绎  话剧《红楼梦》
@@ -5409,7 +5095,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1076002827465@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:【话剧】话剧《平凡的世界》
@@ -5422,7 +5108,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-506539@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:【话剧】话剧《半个爱情》
@@ -5435,7 +5121,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-448898@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:【话剧】京味儿大戏-老舍经典话剧《茶馆》
@@ -5447,7 +5133,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-508000@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:【话剧】北仑有戏 | 悬疑话剧《米歇尔的幽魂》
@@ -5460,7 +5146,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-501396@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:【话剧】正版国漫首部2.5次元真人舞台剧《狐妖
@@ -5473,7 +5159,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-514043@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:【话剧】话剧《七日告白》
@@ -5486,7 +5172,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-509020@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:【话剧】史诗巨制·文华奖“铁三角”经典家国史
@@ -5499,7 +5185,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-508317@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261127
 SUMMARY:【话剧】《笑忘书》The Nature of Forgetting
@@ -5511,7 +5197,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-513691@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261127
 SUMMARY:【话剧】茅奖改编巨作 杭话建团70周年大戏《南
@@ -5525,7 +5211,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-508870@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261130
 SUMMARY:【话剧】单人话剧《罪与罚：我的1865年》
@@ -5538,7 +5224,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1085142049151@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:【话剧】话剧《平凡的世界》
@@ -5550,7 +5236,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-506281@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261214
 SUMMARY:【话剧】上海话剧艺术中心·后浪新潮演出季  话
@@ -5564,7 +5250,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1091310057147@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:【音乐剧】冬日暖心音乐剧《献给阿尔吉侬的花
@@ -5577,7 +5263,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1093256437255@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:【话剧】老舍经典话剧《茶馆》
@@ -5589,7 +5275,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-502842@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:【话剧】话剧《茶馆》
@@ -5602,7 +5288,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1056045046797@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:【话剧】【常熟】年度京味大戏·老舍经典话剧《
@@ -5616,7 +5302,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-508692@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261129
 SUMMARY:【音乐剧】香港演戏家族原创音乐剧Musical 《玉良
@@ -5629,7 +5315,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-514151@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261129
 SUMMARY:【话剧】北仑有戏 | “百老汇经典悬疑惊悚剧”
@@ -5643,7 +5329,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-504308@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261129
 SUMMARY:【音乐剧】粤语音乐剧《边城》 BORDER TOWN The Musica
@@ -5658,7 +5344,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-506557@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261130
 SUMMARY:【音乐剧】中文原创音乐剧《海上钢琴师》
@@ -5671,7 +5357,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-513397@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261207
 SUMMARY:【音乐剧】开心麻花2027贺岁音乐剧《英雄本色》
@@ -5684,7 +5370,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-508958@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261221
 SUMMARY:【话剧】开心麻花首部惊悚爆笑戏剧《开心聊斋·
@@ -5697,7 +5383,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-475788@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:【话剧】老舍经典话剧《茶馆》专属版
@@ -5710,7 +5396,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-484557@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:【话剧】纪念曹禺诞辰116周年曹禺经典巨作-话剧
@@ -5724,7 +5410,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-509040@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:【话剧】西安话剧院 话剧《长安第二碗》
@@ -5736,7 +5422,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-504839@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:【话剧】话剧苏东坡《乌台》
@@ -5748,7 +5434,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-510744@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:【话剧】【早鸟5折】天津人艺曹禺经典话剧《雷
@@ -5762,7 +5448,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-507828@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:【话剧】开心麻花经典爆笑舞台剧《乌龙山伯爵
@@ -5776,7 +5462,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-488361@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:【话剧】喜剧《蒋公的面子》
@@ -5789,7 +5475,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-512728@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:【话剧】【衢州】年末大戏演出季 话剧《人间正
@@ -5803,7 +5489,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-511692@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261130
 SUMMARY:【话剧】英国音乐肢体剧《笑忘书》
@@ -5815,7 +5501,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-498132@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261130
 SUMMARY:【音乐剧】音乐剧《破墙》镜框版
@@ -5827,7 +5513,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-513609@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261130
 SUMMARY:【话剧】1956星剧场  ·荒诞喜剧《黄牛狂想曲》 | 
@@ -5841,7 +5527,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-504824@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261206
 SUMMARY:【话剧】英国经典惊悚剧《黑衣女人》
@@ -5853,7 +5539,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-437922@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261214
 SUMMARY:【音乐剧】音乐剧《本杰明‧巴顿奇事》
@@ -5865,7 +5551,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-511804@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:【话剧】话剧《思凡·陆小曼》
@@ -5877,7 +5563,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-486481@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:【话剧】[无锡]年度京味大戏·老舍经典话剧《茶
@@ -5891,7 +5577,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1079146025174@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:【话剧】话剧《平凡的世界》
@@ -5904,7 +5590,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-512624@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261204
 SUMMARY:【音乐剧】歌剧《南迁》
@@ -5917,7 +5603,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-493799@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261210
 SUMMARY:【音乐剧】德语原版音乐剧《路德维希二世：国
@@ -5931,7 +5617,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-507214@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261207
 SUMMARY:【话剧】大道文化出品 陈佩斯主演 话剧《惊梦》
@@ -5944,7 +5630,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-510792@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:【话剧】猜不透结尾系列爆笑喜剧《半个爱情》
@@ -5957,7 +5643,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-512910@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:【话剧】古典新绎‌话剧《红楼梦》[台州站]
@@ -5970,7 +5656,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-505770@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:【话剧】曹禺经典话剧《日出》
@@ -5983,7 +5669,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-510663@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:【话剧】蒋易主演 爱丁堡艺穗节获奖剧作《驯鹿
@@ -5998,7 +5684,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-512731@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261206
 SUMMARY:【音乐剧】音乐剧《四大美女》
@@ -6011,7 +5697,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-507817@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261206
 SUMMARY:【话剧】某某某领衔主演舞台剧《大话西游》
@@ -6023,7 +5709,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-495575@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261206
 SUMMARY:【话剧】天津人艺曹禺经典话剧《雷雨》
@@ -6035,7 +5721,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-509456@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261206
 SUMMARY:【话剧】话剧《长安第二碗》
@@ -6048,7 +5734,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-513431@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261206
 SUMMARY:【话剧】（周末必看）荒诞喜剧《黄牛狂想曲》 |
@@ -6062,7 +5748,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-500355@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261207
 SUMMARY:【话剧】柏林剧团 奥利弗·里斯作品 《萨拉》Sara
@@ -6075,7 +5761,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-508326@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261207
 SUMMARY:【音乐剧】2026·南京音乐剧节·“新·国风”音乐
@@ -6089,7 +5775,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-513813@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261207
 SUMMARY:【话剧】百老汇经典悬疑惊悚剧《维罗妮卡的房
@@ -6102,7 +5788,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-489480@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261214
 SUMMARY:【话剧】舞台剧《长恨歌》（上海话版）
@@ -6115,7 +5801,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-489478@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261221
 SUMMARY:【话剧】百老汇喜剧《事实的有效期》The Lifespan o
@@ -6129,7 +5815,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1083088027712@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:【话剧】海派新喜剧《欢乐三抢一》
@@ -6142,7 +5828,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1077966006860@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:【话剧】法国玛素剧团 物件偶剧 《世界头头尾尾
@@ -6155,7 +5841,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1087532722623@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:【话剧】Magic Show《青春魔法学院》
@@ -6167,7 +5853,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1064199752938@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:【音乐剧】古诺歌剧《罗密欧与朱丽叶》
@@ -6179,7 +5865,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-500916@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:【音乐剧】大型音乐剧《阿Q与吴妈》
@@ -6191,7 +5877,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1087436005808@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:【话剧】沉浸式互动悬疑剧《消失的X》
@@ -6204,7 +5890,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1033256814245@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:【话剧】正版国漫首部2.5次元真人舞台剧《一人
@@ -6217,7 +5903,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-506288@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:【话剧】古典新绎话剧《红楼梦》
@@ -6231,7 +5917,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-498912@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:【话剧】致敬阿加莎·外百老汇悬疑名剧《谋杀派
@@ -6244,7 +5930,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-512521@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261207
 SUMMARY:【话剧】话剧九人民国知识分子戏剧《对称性破
@@ -6258,7 +5944,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-498822@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261207
 SUMMARY:【话剧】话剧《呐喊1911》
@@ -6270,7 +5956,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-501394@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261207
 SUMMARY:【音乐剧】音乐剧《破墙》镜框版
@@ -6283,7 +5969,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-502037@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261207
 SUMMARY:【话剧】开心麻花经典爆笑舞台剧《乌龙山伯爵
@@ -6296,7 +5982,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-496824@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:【话剧】正版国漫首部2.5次元真人舞台剧《一人
@@ -6309,7 +5995,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-507974@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:【话剧】【青年舞蹈戏剧节】古典新绎‌话剧《
@@ -6322,7 +6008,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-510401@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261211
 SUMMARY:【音乐剧】中国音乐剧《茉莉花》——2026太湖文
@@ -6337,7 +6023,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-507580@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261214
 SUMMARY:【音乐剧】百老汇原版音乐剧《长靴皇后》
@@ -6350,7 +6036,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-490901@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:【话剧】老舍经典话剧《茶馆》-”年度京味儿大
@@ -6364,7 +6050,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-511975@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:【话剧】悬疑推理极速反转喜剧《夏洛克请别说
@@ -6377,7 +6063,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-513938@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:【话剧】悬疑话剧《天黑请闭眼》
@@ -6390,7 +6076,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1091719864721@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:【话剧】新中式美学经典舞台剧《红楼梦》 ·张
@@ -6404,7 +6090,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-511438@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261213
 SUMMARY:【话剧】【剧在周市】荒诞喜剧《黄牛狂想曲》| 
@@ -6418,7 +6104,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-508246@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261213
 SUMMARY:【音乐剧】“新·国风” 音乐剧《锦衣卫之刀与
@@ -6431,7 +6117,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-514304@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261221
 SUMMARY:【音乐剧】双女主宿命悬疑音乐剧《一万零一夜
@@ -6444,7 +6130,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-506481@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:【话剧】老舍经典话剧《茶馆》-”年度京味儿大
@@ -6458,7 +6144,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-512529@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261214
 SUMMARY:【话剧】话剧九人民国知识分子戏剧《双枰记》
@@ -6471,7 +6157,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-507690@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261214
 SUMMARY:【话剧】《演砸了》
@@ -6484,7 +6170,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-514644@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261214
 SUMMARY:【音乐剧】音乐剧《不负青山》
@@ -6497,7 +6183,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-497030@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261218
 SUMMARY:【音乐剧】德语原版音乐剧《爱因斯坦：时间相
@@ -6511,7 +6197,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-461656@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:【话剧】京味儿大戏-老舍经典话剧《茶馆》
@@ -6523,7 +6209,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-513927@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:【话剧】悬疑话剧《米歇尔的幽魂》
@@ -6536,7 +6222,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-514353@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:【话剧】原创话剧《莫比乌斯环》
@@ -6548,7 +6234,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-477429@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20270104
 SUMMARY:【音乐剧】音乐剧《梦断花都》（电影《红磨坊
@@ -6562,7 +6248,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-505197@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:【话剧】演艺大世界 · 第十二届国际喜剧节参演
@@ -6576,7 +6262,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-512019@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:【话剧】2026南京戏剧节·原创话剧《莫比乌斯环
@@ -6591,7 +6277,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-487295@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261221
 SUMMARY:【话剧】于布王 Ubu Roi
@@ -6603,7 +6289,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-511881@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261221
 SUMMARY:【话剧】英文原版话剧《肖申克的救赎》
@@ -6615,7 +6301,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-512586@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261221
 SUMMARY:【话剧】李霖霏X黎梦鸽双女主主演悬疑暗黑爆笑
@@ -6629,7 +6315,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-502722@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261221
 SUMMARY:【话剧】大道文化出品 陈佩斯主演话剧《惊梦》
@@ -6642,7 +6328,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-509394@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261228
 SUMMARY:【音乐剧】“新·国风”音乐剧《锦衣卫之刀与花
@@ -6656,7 +6342,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1089674610937@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:【话剧】滑稽舞台剧《72国房客》
@@ -6668,7 +6354,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1074254384546@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:【话剧】Sketch漫才荒诞爆笑《新喜剧之超级侦探
@@ -6681,7 +6367,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1081040026766@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:【话剧】“焕”2026大宁剧院秋冬复演季 大宁艺术
@@ -6695,7 +6381,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1064439065353@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:【话剧】文学现场+Sketch+电子游戏！南国剧社获奖
@@ -6709,7 +6395,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-507305@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:【话剧】阿加莎推理悬疑巨作《捕鼠器》-嘉兴站
@@ -6722,7 +6408,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-508478@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261220
 SUMMARY:【话剧】2026江苏大剧院戏剧节 顾雷导演作品 话
@@ -6736,7 +6422,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-509575@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261220
 SUMMARY:【话剧】开心麻花喜剪吹互动喜剧杀《疯狂理发
@@ -6749,7 +6435,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-512751@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261221
 SUMMARY:【话剧】开心麻花王牌喜剧《乌龙山伯爵》
@@ -6761,7 +6447,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-511882@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261221
 SUMMARY:【话剧】孟京辉戏剧作品《西方世界的花花公子
@@ -6775,7 +6461,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-499730@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261221
 SUMMARY:【音乐剧】第三届钱塘国际戏剧嘉年华 | 法语原
@@ -6789,7 +6475,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-512531@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261228
 SUMMARY:【话剧】话剧九人民国知识分子戏剧《春逝》
@@ -6802,7 +6488,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-513480@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20270104
 SUMMARY:【音乐剧】【悬疑巅峰之作】音乐剧《嫌疑人X的
@@ -6815,7 +6501,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-513864@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:【话剧】话剧《孤灯照花海》
@@ -6828,7 +6514,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-508585@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:【话剧】北仑有戏 | 喜剧《蒋公的面子》
@@ -6841,7 +6527,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-511399@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:【话剧】开心麻花爆笑舞台剧《婿事待发》
@@ -6853,7 +6539,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-505968@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:【话剧】阿加莎推理悬疑巨作《捕鼠器》-苏州站
@@ -6866,7 +6552,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-494702@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:【话剧】苏州·正版国漫2.5次元真人舞台剧《一人
@@ -6880,7 +6566,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-508069@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261221
 SUMMARY:【话剧】《尼罗河上的惨案》
@@ -6893,7 +6579,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-505011@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261221
 SUMMARY:【话剧】南京市文旅消费政府补贴剧目话剧《父
@@ -6908,7 +6594,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-515113@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261221
 SUMMARY:【音乐剧】音乐剧《她对此感到厌烦》
@@ -6921,7 +6607,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1083108596692@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:【话剧】焕”2026大宁剧院秋冬复演季 大宁艺术•
@@ -6934,7 +6620,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-496034@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:【话剧】正版国漫2.5次舞台剧《一人之下》第一
@@ -6948,7 +6634,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-514293@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20270104
 SUMMARY:【话剧】《假凤虚凰》The Barber Takes a Wife
@@ -6961,7 +6647,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-512807@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:【话剧】原创话剧《金剑啸》
@@ -6973,7 +6659,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-506358@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20261226
 SUMMARY:【音乐剧】女性反乌托邦音乐剧《奇美拉》
@@ -6985,7 +6671,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-514322@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20261227
 SUMMARY:【音乐剧】法语音乐剧《茶花女》
@@ -6997,7 +6683,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-513409@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20270104
 SUMMARY:【话剧】英国经典闹剧《演砸了》十周年纪念
@@ -7009,7 +6695,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-449224@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20270104
 SUMMARY:【音乐剧】惊悚推理悬疑音乐剧《奥尔菲斯》
@@ -7021,7 +6707,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-509350@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20270104
 SUMMARY:【音乐剧】音乐剧《过去五年》
@@ -7034,7 +6720,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-512210@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20270118
 SUMMARY:【话剧】《一次聚会》 Le Prénom
@@ -7046,22 +6732,8 @@ URL:https://show.maoyan.com/detail/512210
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-dm1084553382946@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261225
-DTEND;VALUE=DATE:20261226
-SUMMARY:【话剧】南京市文旅消费政府补贴剧目·2026·南京
- 戏剧节·大道文化出品 陈佩斯主演话剧《惊梦》
-DESCRIPTION:话剧｜南京保利大剧院大剧场(南京市建邺区邺
- 城路6号（南京国际青年文化中心）)｜2026.12.25-12.27
-LOCATION:南京保利大剧院大剧场(南京市建邺区邺城路6号
- （南京国际青年文化中心）)
-URL:https://m.damai.cn/shows/item.html?id=1084553382946
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:theatrewatch-513925@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:【话剧】悬疑推理爆笑喜剧《升棺发财》恩怨纠
@@ -7075,7 +6747,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-512466@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261227
 SUMMARY:【音乐剧】音乐剧《四大美女》
@@ -7086,8 +6758,22 @@ URL:https://show.maoyan.com/detail/512466
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrewatch-508291@local
+DTSTAMP:20261026T085322Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261228
+SUMMARY:【话剧】南京市文旅消费政府补贴剧目·2026·南京
+ 戏剧节·大道文化出品 陈佩斯主演话剧《惊梦》
+DESCRIPTION:话剧｜南京保利大剧院大剧场(南京市建邺区邺
+ 城路6号（南京国际青年文化中心）)｜2026.12.25 - 12.27
+LOCATION:南京保利大剧院大剧场(南京市建邺区邺城路6号
+ （南京国际青年文化中心）)
+URL:https://show.maoyan.com/detail/508291
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrewatch-502260@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20270104
 SUMMARY:【话剧】《尼罗河上的惨案》
@@ -7099,7 +6785,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-512209@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20270111
 SUMMARY:【话剧】百老汇暗黑讽刺喜剧《小丑盖里》
@@ -7112,7 +6798,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-508941@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20270111
 SUMMARY:【音乐剧】[2026年度巨制]音乐剧《弗兰肯斯坦》
@@ -7125,7 +6811,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-507689@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:【话剧】致敬阿加莎·外百老汇悬疑名剧《谋杀派
@@ -7139,7 +6825,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1078762773171@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:【话剧】（合作项目）默剧《亲子狂欢魔法秀》
@@ -7152,7 +6838,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1085470564956@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:【话剧】无锡·正版国漫首部2.5次元真人舞台剧《
@@ -7166,7 +6852,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-507229@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261228
 SUMMARY:【话剧】椎·剧场｜王学圻、周鸣晗倾情演出国际
@@ -7179,22 +6865,8 @@ URL:https://show.maoyan.com/detail/507229
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:theatrewatch-508291@local
-DTSTAMP:20261025T165158Z
-DTSTART;VALUE=DATE:20261226
-DTEND;VALUE=DATE:20261228
-SUMMARY:【话剧】南京市文旅消费政府补贴剧目·2026·南京
- 戏剧节·大道文化出品 陈佩斯主演话剧《惊梦》
-DESCRIPTION:话剧｜南京保利大剧院(邺城路6号(近青奥文化
- 体育公园))｜2026.12.26 / 12.27
-LOCATION:南京保利大剧院(邺城路6号(近青奥文化体育公园)
- )
-URL:https://show.maoyan.com/detail/508291
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:theatrewatch-505943@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:【话剧】正版国漫首部2.5次元真人舞台剧《一人
@@ -7207,7 +6879,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-514726@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:【话剧】常州·青岛话剧院老舍经典话剧《四世同
@@ -7221,7 +6893,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1092433134432@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
 SUMMARY:【音乐剧】同一个梦想 同一首歌 全球经典华语大
@@ -7234,7 +6906,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-510697@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20270111
 SUMMARY:【音乐剧】音乐剧《碎影录》
@@ -7247,7 +6919,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-501598@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20270111
 SUMMARY:【音乐剧】法语原版音乐剧《莫里哀》
@@ -7260,7 +6932,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-514917@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270102
 SUMMARY:【话剧】黑色荒诞喜剧《大侠吕留良》
@@ -7272,7 +6944,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1090742047409@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270104
 SUMMARY:【话剧】刘萧旭 独角戏话剧《Ta跟我开了一个巨
@@ -7286,7 +6958,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-509787@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270108
 SUMMARY:【音乐剧】中文原创音乐剧《狂飙》Chinese Original 
@@ -7300,7 +6972,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1058232457040@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:【话剧】开心麻花喜剧《春风不可以》
@@ -7312,7 +6984,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-514645@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20270102
 DTEND;VALUE=DATE:20270104
 SUMMARY:【话剧】话剧九人 《三妇志异》SHETOPIA——拿起
@@ -7325,7 +6997,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-512236@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270110
 SUMMARY:【音乐剧】沈从文经典作品改编 粤语音乐剧《边
@@ -7339,7 +7011,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-503291@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270110
 SUMMARY:【音乐剧】原创音乐剧《#0528》镜框版
@@ -7351,7 +7023,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-512070@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270111
 SUMMARY:【音乐剧】北仑有戏 | 音乐剧《破墙》镜框版
@@ -7364,7 +7036,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-512527@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270118
 SUMMARY:【音乐剧】音乐剧《阴天》中文版
@@ -7376,7 +7048,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-504532@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270118
 SUMMARY:【音乐剧】音乐剧《梦断花都》（根据电影《红
@@ -7390,7 +7062,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-501726@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270118
 SUMMARY:【话剧】阿加莎推理剧《黑咖啡》
@@ -7403,7 +7075,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-505926@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270117
 SUMMARY:【音乐剧】2027·南京音乐剧节·音乐剧《粉丝来信
@@ -7417,7 +7089,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-482495@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270117
 SUMMARY:【话剧】老舍经典话剧《骆驼祥子》 巡演 杭州站
@@ -7429,7 +7101,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-506713@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270117
 SUMMARY:【音乐剧】粤语音乐剧《边城》
@@ -7441,7 +7113,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-513763@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270118
 SUMMARY:【音乐剧】俄语原版音乐剧《最后的试炼》
@@ -7454,7 +7126,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1068815229872@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270121
 SUMMARY:【音乐剧】摇滚音乐剧《SHADOW》中文版
@@ -7466,7 +7138,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-508810@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270125
 SUMMARY:【音乐剧】法语原版音乐剧《巴黎圣母院》
@@ -7479,7 +7151,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-514532@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
 SUMMARY:【音乐剧】原创音乐剧《#0528》镜框版-苏州站
@@ -7492,7 +7164,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-503666@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270201
 SUMMARY:【音乐剧】南京市文旅消费政府补贴剧目·2027·南
@@ -7506,7 +7178,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1080066136646@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:【音乐剧】南京市文旅消费政府补贴剧目·2027·南
@@ -7520,7 +7192,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-508080@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:【话剧】老舍经典话剧《骆驼祥子》
@@ -7532,7 +7204,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-512808@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:【话剧】老舍经典话剧《骆驼祥子》
@@ -7545,7 +7217,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-515111@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20270218
 DTEND;VALUE=DATE:20270222
 SUMMARY:【话剧】《暗恋桃花源》纪念版
@@ -7558,7 +7230,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-507119@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270301
 SUMMARY:【话剧】阿加莎推理剧《零时》
@@ -7571,7 +7243,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-515112@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270315
 SUMMARY:【话剧】《暗恋桃花源》专属版
@@ -7584,7 +7256,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-dm1075569428512@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270321
 SUMMARY:【话剧】成何体统真人舞台剧【杭州站】
@@ -7596,7 +7268,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrewatch-508455@local
-DTSTAMP:20261025T165158Z
+DTSTAMP:20261026T085322Z
 DTSTART;VALUE=DATE:20270423
 DTEND;VALUE=DATE:20270425
 SUMMARY:【话剧】陕西人艺“茅奖系列”话剧《主角》—
