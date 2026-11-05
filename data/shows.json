@@ -9,8 +9,8 @@
    "shop": "加场戏剧(南京东路店)",
    "city": "上海",
    "city_id": 1,
-   "date_text": "2026.11.04 - 11.26",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 11.26",
+   "date": "2026-11-05",
    "date_end": "2026-11-26",
    "status": "在售中",
    "poster": "https://p0.pipi.cn/mediaplus/show_business_static/e429586e7f04ea051125cb75725145c9efb00.jpg?imageMogr2/thumbnail/1280x1707%3E",
@@ -35,8 +35,8 @@
    "shop": "上海大剧院-大剧场",
    "city": "上海",
    "city_id": 1,
-   "date_text": "2026.11.04 - 12.27",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 12.27",
+   "date": "2026-11-05",
    "date_end": "2026-12-27",
    "status": "在售中",
    "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01TqBiU02GdSnTmaChT_!!2251059038.jpg",
@@ -113,8 +113,8 @@
    "shop": "疯狂理发店-开心麻花喜剪吹沉浸剧场",
    "city": "上海",
    "city_id": 1,
-   "date_text": "2026.11.04 - 11.15",
-   "date": "2026-11-04",
+   "date_text": "2026.11.06 - 11.15",
+   "date": "2026-11-06",
    "date_end": "2026-11-15",
    "status": "在售中",
    "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN0144aV0fBD8XF24P50_!!2251059038.jpg",
@@ -191,8 +191,8 @@
    "shop": "艺海剧院--小剧场",
    "city": "上海",
    "city_id": 1,
-   "date_text": "2026.11.04 - 11.22",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 11.22",
+   "date": "2026-11-05",
    "date_end": "2026-11-22",
    "status": "在售中",
    "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN01VPfeZFQrukI1chyo_!!2251059038.jpg",
@@ -209,32 +209,6 @@
    "is_new": false
   },
   {
-   "id": "493995",
-   "source": "格瓦拉",
-   "kind": "音乐剧",
-   "title": "百老汇原版音乐剧《长靴皇后》",
-   "venue": "上海西岸大剧院-大剧场(上海市徐汇区龙腾大道2290号)",
-   "shop": "上海西岸大剧院-大剧场",
-   "city": "上海",
-   "city_id": 1,
-   "date_text": "2026.11.04 - 11.15",
-   "date": "2026-11-04",
-   "date_end": "2026-11-15",
-   "status": "在售中",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01e4bytkaINjC24P4m_!!2251059038.jpg",
-   "price": "180-2851.2",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/493995",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/493995"
-    }
-   ],
-   "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
    "id": "501047",
    "source": "格瓦拉",
    "kind": "音乐剧",
@@ -243,8 +217,8 @@
    "shop": "星空间25号·临窗小剧场",
    "city": "上海",
    "city_id": 1,
-   "date_text": "2026.11.04 - 12.06",
-   "date": "2026-11-04",
+   "date_text": "2026.11.06 - 12.06",
+   "date": "2026-11-06",
    "date_end": "2026-12-06",
    "status": "在售中",
    "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN011AojqPf5XdL24P50_!!2251059038.jpg",
@@ -261,52 +235,26 @@
    "is_new": false
   },
   {
-   "id": "510408",
+   "id": "493995",
    "source": "格瓦拉",
-   "kind": "话剧",
-   "title": "环人广必看沉浸式戏剧 ｜沪版《胡闹厨房 》｜爆款热销｜喜人同款",
-   "venue": "半笑酒馆(六合路98号港陆黄浦中心1层)",
-   "shop": "半笑酒馆",
+   "kind": "音乐剧",
+   "title": "百老汇原版音乐剧《长靴皇后》",
+   "venue": "上海西岸大剧院-大剧场(上海市徐汇区龙腾大道2290号)",
+   "shop": "上海西岸大剧院-大剧场",
    "city": "上海",
    "city_id": 1,
-   "date_text": "2026.11.04 - 11.30",
-   "date": "2026-11-04",
-   "date_end": "2026-11-30",
+   "date_text": "2026.11.05 - 11.15",
+   "date": "2026-11-05",
+   "date_end": "2026-11-15",
    "status": "在售中",
-   "poster": "https://p0.pipi.cn/mediaplus/show_business_static/e429589a49405177e193b6522d58134760445.png?imageMogr2/thumbnail/581x784%3E",
-   "price": "188-888",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01e4bytkaINjC24P4m_!!2251059038.jpg",
+   "price": "180-2851.2",
    "tags": [],
-   "url": "https://show.maoyan.com/detail/510408",
+   "url": "https://show.maoyan.com/detail/493995",
    "links": [
     {
      "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/510408"
-    }
-   ],
-   "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
-   "id": "502676",
-   "source": "格瓦拉",
-   "kind": "话剧",
-   "title": "话剧《家客》House Guests",
-   "venue": "上海话剧艺术中心(湖南路街道安福路288号(近武康路))",
-   "shop": "上海话剧艺术中心-艺术剧院",
-   "city": "上海",
-   "city_id": 1,
-   "date_text": "2026.11.04 - 11.08",
-   "date": "2026-11-04",
-   "date_end": "2026-11-08",
-   "status": "在售中",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01fqQbWbqOpzK1qQlJ_!!2251059038.jpg",
-   "price": "180-580",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/502676",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/502676"
+     "url": "https://show.maoyan.com/detail/493995"
     }
    ],
    "first_seen": "2026-09-29",
@@ -321,8 +269,8 @@
    "shop": "邦尼剧场",
    "city": "上海",
    "city_id": 1,
-   "date_text": "2026.11.04 - 11.29",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 11.29",
+   "date": "2026-11-05",
    "date_end": "2026-11-29",
    "status": "在售中",
    "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01Ruq9YX2GdSld44QlH_!!2251059038.jpg",
@@ -333,6 +281,32 @@
     {
      "source": "格瓦拉",
      "url": "https://show.maoyan.com/detail/467399"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
+   "id": "510408",
+   "source": "格瓦拉",
+   "kind": "话剧",
+   "title": "环人广必看沉浸式戏剧 ｜沪版《胡闹厨房 》｜爆款热销｜喜人同款",
+   "venue": "半笑酒馆(六合路98号港陆黄浦中心1层)",
+   "shop": "半笑酒馆",
+   "city": "上海",
+   "city_id": 1,
+   "date_text": "2026.11.05 - 11.30",
+   "date": "2026-11-05",
+   "date_end": "2026-11-30",
+   "status": "在售中",
+   "poster": "https://p0.pipi.cn/mediaplus/show_business_static/e429589a49405177e193b6522d58134760445.png?imageMogr2/thumbnail/581x784%3E",
+   "price": "188-888",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/510408",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/510408"
     }
    ],
    "first_seen": "2026-09-29",
@@ -365,6 +339,32 @@
    "is_new": false
   },
   {
+   "id": "481224",
+   "source": "格瓦拉",
+   "kind": "音乐剧",
+   "title": "法语原版音乐剧《太阳王》",
+   "venue": "上海文化广场主剧场(复兴中路 597号)",
+   "shop": "上海文化广场主剧场",
+   "city": "上海",
+   "city_id": 1,
+   "date_text": "2026.11.05 - 11.15",
+   "date": "2026-11-05",
+   "date_end": "2026-11-15",
+   "status": "在售中",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN0154IkkG2GdSmf1rDra_!!2251059038.jpg",
+   "price": "280-1280",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/481224",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/481224"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
    "id": "472391",
    "source": "格瓦拉",
    "kind": "话剧",
@@ -391,26 +391,52 @@
    "is_new": false
   },
   {
-   "id": "481224",
+   "id": "502676",
    "source": "格瓦拉",
-   "kind": "音乐剧",
-   "title": "法语原版音乐剧《太阳王》",
-   "venue": "上海文化广场主剧场(复兴中路 597号)",
-   "shop": "上海文化广场主剧场",
+   "kind": "话剧",
+   "title": "话剧《家客》House Guests",
+   "venue": "上海话剧艺术中心(湖南路街道安福路288号(近武康路))",
+   "shop": "上海话剧艺术中心-艺术剧院",
    "city": "上海",
    "city_id": 1,
-   "date_text": "2026.11.04 - 11.15",
-   "date": "2026-11-04",
-   "date_end": "2026-11-15",
+   "date_text": "2026.11.05 - 11.08",
+   "date": "2026-11-05",
+   "date_end": "2026-11-08",
    "status": "在售中",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN0154IkkG2GdSmf1rDra_!!2251059038.jpg",
-   "price": "280-1280",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01fqQbWbqOpzK1qQlJ_!!2251059038.jpg",
+   "price": "180-580",
    "tags": [],
-   "url": "https://show.maoyan.com/detail/481224",
+   "url": "https://show.maoyan.com/detail/502676",
    "links": [
     {
      "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/481224"
+     "url": "https://show.maoyan.com/detail/502676"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
+   "id": "391445",
+   "source": "格瓦拉",
+   "kind": "话剧",
+   "title": "【年度金奖】高口碑必看!环境式光影艺术悬疑剧《禁忌的色彩》",
+   "venue": "RAYGAME CLUB·剧场(上海市黄浦区马当路453号L219室)",
+   "shop": "RAYGAME CLUB·剧场",
+   "city": "上海",
+   "city_id": 1,
+   "date_text": "2026.11.06 - 11.15",
+   "date": "2026-11-06",
+   "date_end": "2026-11-15",
+   "status": "在售中",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01bT8TCmrOgPI24P50_!!2251059038.jpg",
+   "price": "188-663.68",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/391445",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/391445"
     }
    ],
    "first_seen": "2026-09-29",
@@ -469,32 +495,6 @@
    "is_new": false
   },
   {
-   "id": "391445",
-   "source": "格瓦拉",
-   "kind": "话剧",
-   "title": "【年度金奖】高口碑必看!环境式光影艺术悬疑剧《禁忌的色彩》",
-   "venue": "RAYGAME CLUB·剧场(上海市黄浦区马当路453号L219室)",
-   "shop": "RAYGAME CLUB·剧场",
-   "city": "上海",
-   "city_id": 1,
-   "date_text": "2026.11.04 - 11.15",
-   "date": "2026-11-04",
-   "date_end": "2026-11-15",
-   "status": "在售中",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01bT8TCmrOgPI24P50_!!2251059038.jpg",
-   "price": "188-663.68",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/391445",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/391445"
-    }
-   ],
-   "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
    "id": "515584",
    "source": "格瓦拉",
    "kind": "音乐剧",
@@ -529,8 +529,8 @@
    "shop": "茉莉花剧场",
    "city": "上海",
    "city_id": 1,
-   "date_text": "2026.11.04 - 11.08",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 11.08",
+   "date": "2026-11-05",
    "date_end": "2026-11-08",
    "status": "在售中",
    "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01JdWiQ574tbF24P4m_!!2251059038.jpg",
@@ -573,6 +573,32 @@
    "is_new": false
   },
   {
+   "id": "455744",
+   "source": "格瓦拉",
+   "kind": "话剧",
+   "title": "[部分场次380起]浸入式音乐秀《双城之战》Immersive Arcane",
+   "venue": "浸入式音乐秀《双城之战》Immersive Arcane(乌鲁木齐北路505号上海宾馆)",
+   "shop": "浸入式音乐秀《双城之战》Immersive Arcane",
+   "city": "上海",
+   "city_id": 1,
+   "date_text": "2026.11.05 - 11.29",
+   "date": "2026-11-05",
+   "date_end": "2026-11-29",
+   "status": "在售中",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01Pd1x7j2GdSlyK05k2_!!2251059038.jpg",
+   "price": "380-688",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/455744",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/455744"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
    "id": "508024",
    "source": "格瓦拉",
    "kind": "音乐剧",
@@ -593,32 +619,6 @@
     {
      "source": "格瓦拉",
      "url": "https://show.maoyan.com/detail/508024"
-    }
-   ],
-   "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
-   "id": "455744",
-   "source": "格瓦拉",
-   "kind": "话剧",
-   "title": "[部分场次380起]浸入式音乐秀《双城之战》Immersive Arcane",
-   "venue": "浸入式音乐秀《双城之战》Immersive Arcane(乌鲁木齐北路505号上海宾馆)",
-   "shop": "浸入式音乐秀《双城之战》Immersive Arcane",
-   "city": "上海",
-   "city_id": 1,
-   "date_text": "2026.11.04 - 11.29",
-   "date": "2026-11-04",
-   "date_end": "2026-11-29",
-   "status": "在售中",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01Pd1x7j2GdSlyK05k2_!!2251059038.jpg",
-   "price": "380-688",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/455744",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/455744"
     }
    ],
    "first_seen": "2026-09-29",
@@ -659,8 +659,8 @@
    "shop": "半笑空间-2号小剧场",
    "city": "上海",
    "city_id": 1,
-   "date_text": "2026.11.04 - 2026.11.30",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 2026.11.30",
+   "date": "2026-11-05",
    "date_end": "2026-11-30",
    "status": "在售中",
    "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01t5l85Q2GdSnK3L3ck_!!2251059038.jpg",
@@ -671,6 +671,136 @@
     {
      "source": "格瓦拉",
      "url": "https://show.maoyan.com/detail/494055"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
+   "id": "481617",
+   "source": "格瓦拉",
+   "kind": "音乐剧",
+   "title": "音乐剧《夜雨他时》",
+   "venue": "星空间611号·禾剧场(南京东路街道南京东路800号第一百货C馆10楼)",
+   "shop": "星空间611号·禾剧场",
+   "city": "上海",
+   "city_id": 1,
+   "date_text": "2026.11.05 - 12.06",
+   "date": "2026-11-05",
+   "date_end": "2026-12-06",
+   "status": "在售中",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN01YnT15V2GdSmeAAHn4_!!2251059038.jpg",
+   "price": "199-399",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/481617",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/481617"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
+   "id": "500037",
+   "source": "格瓦拉",
+   "kind": "话剧",
+   "title": "阿加莎推理巨作《捕鼠器》",
+   "venue": "中国大戏院(南京东路街道牛庄路704号(近广西北路))",
+   "shop": "中国大戏院",
+   "city": "上海",
+   "city_id": 1,
+   "date_text": "2026.11.05 - 11.08",
+   "date": "2026-11-05",
+   "date_end": "2026-11-08",
+   "status": "在售中",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01R0F6iaIYK9D24P50_!!2251059038.jpg",
+   "price": "80-580",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/500037",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/500037"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
+   "id": "410371",
+   "source": "格瓦拉",
+   "kind": "音乐剧",
+   "title": "沉浸式原创音乐剧《雕像》",
+   "venue": "星空间1794号·临窗小剧场(上海市黄浦区九江路663号一楼)",
+   "shop": "星空间1794号·临窗小剧场",
+   "city": "上海",
+   "city_id": 1,
+   "date_text": "2026.11.05 - 12.20",
+   "date": "2026-11-05",
+   "date_end": "2026-12-20",
+   "status": "在售中",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01cV7J15f1c6G24P50_!!2251059038.jpg",
+   "price": "199-399",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/410371",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/410371"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
+   "id": "512230",
+   "source": "格瓦拉",
+   "kind": "音乐剧",
+   "title": "音乐剧《西西里的人鱼传说》",
+   "venue": "上海•时光剧场•大世界2楼C厅(上海市黄浦区西藏南路1号（大世界2楼C厅）)",
+   "shop": "上海•时光剧场•大世界2楼C厅",
+   "city": "上海",
+   "city_id": 1,
+   "date_text": "2026.11.05 - 11.30",
+   "date": "2026-11-05",
+   "date_end": "2026-11-30",
+   "status": "在售中",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01qGj7PhDXQjC24P4m_!!2251059038.jpg",
+   "price": "198-428",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/512230",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/512230"
+    }
+   ],
+   "first_seen": "2026-10-13",
+   "is_new": false
+  },
+  {
+   "id": "507214",
+   "source": "格瓦拉",
+   "kind": "话剧",
+   "title": "大道文化出品 陈佩斯主演 话剧《惊梦》",
+   "venue": "上海西岸大剧院-大剧场(上海市徐汇区龙腾大道2290号)",
+   "shop": "上海西岸大剧院-大剧场",
+   "city": "上海",
+   "city_id": 1,
+   "date_text": "2026.12.03 - 12.06",
+   "date": "2026-12-03",
+   "date_end": "2026-12-06",
+   "status": "在售中",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01Dl61nchwH3L0gnh0_!!2251059038.png",
+   "price": "180-1080",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/507214",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/507214"
     }
    ],
    "first_seen": "2026-09-29",
@@ -703,32 +833,6 @@
    "is_new": false
   },
   {
-   "id": "500037",
-   "source": "格瓦拉",
-   "kind": "话剧",
-   "title": "阿加莎推理巨作《捕鼠器》",
-   "venue": "中国大戏院(南京东路街道牛庄路704号(近广西北路))",
-   "shop": "中国大戏院",
-   "city": "上海",
-   "city_id": 1,
-   "date_text": "2026.11.05 - 11.08",
-   "date": "2026-11-05",
-   "date_end": "2026-11-08",
-   "status": "在售中",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01R0F6iaIYK9D24P50_!!2251059038.jpg",
-   "price": "80-580",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/500037",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/500037"
-    }
-   ],
-   "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
    "id": "381120",
    "source": "格瓦拉",
    "kind": "音乐剧",
@@ -737,8 +841,8 @@
    "shop": "原创音乐剧《辛吉路的画材店》",
    "city": "上海",
    "city_id": 1,
-   "date_text": "2026.11.04 - 11.29",
-   "date": "2026-11-04",
+   "date_text": "2026.11.06 - 11.29",
+   "date": "2026-11-06",
    "date_end": "2026-11-29",
    "status": "在售中",
    "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01YdsTwDuHvsD24P50_!!2251059038.jpg",
@@ -749,6 +853,32 @@
     {
      "source": "格瓦拉",
      "url": "https://show.maoyan.com/detail/381120"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
+   "id": "238668",
+   "source": "格瓦拉",
+   "kind": "话剧",
+   "title": "《破笼之宴》2.0重磅回归——大型沉浸式戏剧《新世界庄园》6小时全新晚宴版",
+   "venue": "大型沉浸式戏剧-《新世界庄园》(车亭公路211号)",
+   "shop": "大型沉浸式戏剧-《新世界庄园》",
+   "city": "上海",
+   "city_id": 1,
+   "date_text": "2026.11.07 - 2026.11.29",
+   "date": "2026-11-07",
+   "date_end": "2026-11-29",
+   "status": "在售中",
+   "poster": "https://p0.meituan.net/myvideodistribute/944b36677e9d0ae2b0c7a7938dd76c4d111244.jpg",
+   "price": "888",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/238668",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/238668"
     }
    ],
    "first_seen": "2026-09-29",
@@ -781,84 +911,6 @@
    "is_new": false
   },
   {
-   "id": "481617",
-   "source": "格瓦拉",
-   "kind": "音乐剧",
-   "title": "音乐剧《夜雨他时》",
-   "venue": "星空间611号·禾剧场(南京东路街道南京东路800号第一百货C馆10楼)",
-   "shop": "星空间611号·禾剧场",
-   "city": "上海",
-   "city_id": 1,
-   "date_text": "2026.11.04 - 12.06",
-   "date": "2026-11-04",
-   "date_end": "2026-12-06",
-   "status": "在售中",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN01YnT15V2GdSmeAAHn4_!!2251059038.jpg",
-   "price": "199-399",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/481617",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/481617"
-    }
-   ],
-   "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
-   "id": "410371",
-   "source": "格瓦拉",
-   "kind": "音乐剧",
-   "title": "沉浸式原创音乐剧《雕像》",
-   "venue": "星空间1794号·临窗小剧场(上海市黄浦区九江路663号一楼)",
-   "shop": "星空间1794号·临窗小剧场",
-   "city": "上海",
-   "city_id": 1,
-   "date_text": "2026.11.04 - 12.20",
-   "date": "2026-11-04",
-   "date_end": "2026-12-20",
-   "status": "在售中",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01cV7J15f1c6G24P50_!!2251059038.jpg",
-   "price": "199-399",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/410371",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/410371"
-    }
-   ],
-   "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
-   "id": "507214",
-   "source": "格瓦拉",
-   "kind": "话剧",
-   "title": "大道文化出品 陈佩斯主演 话剧《惊梦》",
-   "venue": "上海西岸大剧院-大剧场(上海市徐汇区龙腾大道2290号)",
-   "shop": "上海西岸大剧院-大剧场",
-   "city": "上海",
-   "city_id": 1,
-   "date_text": "2026.12.03 - 12.06",
-   "date": "2026-12-03",
-   "date_end": "2026-12-06",
-   "status": "在售中",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01Dl61nchwH3L0gnh0_!!2251059038.png",
-   "price": "180-1080",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/507214",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/507214"
-    }
-   ],
-   "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
    "id": "502260",
    "source": "格瓦拉",
    "kind": "话剧",
@@ -882,32 +934,6 @@
     }
    ],
    "first_seen": "2026-10-12",
-   "is_new": false
-  },
-  {
-   "id": "512230",
-   "source": "格瓦拉",
-   "kind": "音乐剧",
-   "title": "音乐剧《西西里的人鱼传说》",
-   "venue": "上海•时光剧场•大世界2楼C厅(上海市黄浦区西藏南路1号（大世界2楼C厅）)",
-   "shop": "上海•时光剧场•大世界2楼C厅",
-   "city": "上海",
-   "city_id": 1,
-   "date_text": "2026.11.04 - 11.30",
-   "date": "2026-11-04",
-   "date_end": "2026-11-30",
-   "status": "在售中",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01qGj7PhDXQjC24P4m_!!2251059038.jpg",
-   "price": "198-428",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/512230",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/512230"
-    }
-   ],
-   "first_seen": "2026-10-13",
    "is_new": false
   },
   {
@@ -963,29 +989,29 @@
    "is_new": false
   },
   {
-   "id": "238668",
+   "id": "488204",
    "source": "格瓦拉",
-   "kind": "话剧",
-   "title": "《破笼之宴》2.0重磅回归——大型沉浸式戏剧《新世界庄园》6小时全新晚宴版",
-   "venue": "大型沉浸式戏剧-《新世界庄园》(车亭公路211号)",
-   "shop": "大型沉浸式戏剧-《新世界庄园》",
+   "kind": "音乐剧",
+   "title": "沉浸式悬疑音乐剧《FLAMES火焰》-【缪时客出品】",
+   "venue": "缪时客·月光下小剧场(南京东路街道南京东路558号一楼103号(哈根达斯侧商场入口到底))",
+   "shop": "缪时客·月光下小剧场",
    "city": "上海",
    "city_id": 1,
-   "date_text": "2026.11.07 - 2026.11.29",
-   "date": "2026-11-07",
-   "date_end": "2026-11-29",
+   "date_text": "2026.11.06 - 12.09",
+   "date": "2026-11-06",
+   "date_end": "2026-12-09",
    "status": "在售中",
-   "poster": "https://p0.meituan.net/myvideodistribute/944b36677e9d0ae2b0c7a7938dd76c4d111244.jpg",
-   "price": "888",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN01KoJ2kLFa6xC24P50_!!2251059038.jpg",
+   "price": "199-399",
    "tags": [],
-   "url": "https://show.maoyan.com/detail/238668",
+   "url": "https://show.maoyan.com/detail/488204",
    "links": [
     {
      "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/238668"
+     "url": "https://show.maoyan.com/detail/488204"
     }
    ],
-   "first_seen": "2026-09-29",
+   "first_seen": "2026-10-13",
    "is_new": false
   },
   {
@@ -1015,6 +1041,32 @@
    "is_new": false
   },
   {
+   "id": "509349",
+   "source": "格瓦拉",
+   "kind": "话剧",
+   "title": "俄语原版三幕话剧 圣彼得堡马斯特卡雅剧院 《卡拉马佐夫兄弟》",
+   "venue": "交通银行前滩31演艺中心 · 大剧场(浦东新区高青西路777号)",
+   "shop": "交通银行前滩31演艺中心 · 大剧场",
+   "city": "上海",
+   "city_id": 1,
+   "date_text": "2026.11.07 / 11.08",
+   "date": "2026-11-07",
+   "date_end": "2026-11-08",
+   "status": "在售中",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01zs2zpy9jycL0gnh0_!!2251059038.jpg",
+   "price": "280-1080",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/509349",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/509349"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
    "id": "391978",
    "source": "格瓦拉",
    "kind": "音乐剧",
@@ -1023,8 +1075,8 @@
    "shop": "沉浸式惊悚悬疑音乐剧《幽灵》",
    "city": "上海",
    "city_id": 1,
-   "date_text": "2026.11.04 - 12.01",
-   "date": "2026-11-04",
+   "date_text": "2026.11.06 - 12.01",
+   "date": "2026-11-06",
    "date_end": "2026-12-01",
    "status": "在售中",
    "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN01IjJU072GdSgOGw0S1_!!2251059038.png",
@@ -1035,6 +1087,32 @@
     {
      "source": "格瓦拉",
      "url": "https://show.maoyan.com/detail/391978"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
+   "id": "381094",
+   "source": "格瓦拉",
+   "kind": "音乐剧",
+   "title": "环境式驻演原创音乐剧《#0528》",
+   "venue": "《#0528》原创音乐剧(汉口路650亚洲大厦5楼星空间28号·好好有戏小剧场)",
+   "shop": "星空间28号·好好有戏小剧场",
+   "city": "上海",
+   "city_id": 1,
+   "date_text": "2026.11.05 - 11.29",
+   "date": "2026-11-05",
+   "date_end": "2026-11-29",
+   "status": "在售中",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01AaYO4Z2GdSX4saO0n_!!2251059038.png",
+   "price": "199-399",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/381094",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/381094"
     }
    ],
    "first_seen": "2026-09-29",
@@ -1067,32 +1145,6 @@
    "is_new": false
   },
   {
-   "id": "509349",
-   "source": "格瓦拉",
-   "kind": "话剧",
-   "title": "俄语原版三幕话剧 圣彼得堡马斯特卡雅剧院 《卡拉马佐夫兄弟》",
-   "venue": "交通银行前滩31演艺中心 · 大剧场(浦东新区高青西路777号)",
-   "shop": "交通银行前滩31演艺中心 · 大剧场",
-   "city": "上海",
-   "city_id": 1,
-   "date_text": "2026.11.07 / 11.08",
-   "date": "2026-11-07",
-   "date_end": "2026-11-08",
-   "status": "在售中",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01zs2zpy9jycL0gnh0_!!2251059038.jpg",
-   "price": "280-1080",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/509349",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/509349"
-    }
-   ],
-   "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
    "id": "501018",
    "source": "格瓦拉",
    "kind": "话剧",
@@ -1101,8 +1153,8 @@
    "shop": "上海K11购物艺术中心 @喜剧玩家",
    "city": "上海",
    "city_id": 1,
-   "date_text": "2026.11.04 - 12.13",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 12.13",
+   "date": "2026-11-05",
    "date_end": "2026-12-13",
    "status": "在售中",
    "poster": "https://p0.pipi.cn/mediaplus/show_business_static/e429589a494e324ea9ea40aa34ff86fce9a26.png?imageMogr2/thumbnail/847x1129%3E",
@@ -1116,32 +1168,6 @@
     }
    ],
    "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
-   "id": "488204",
-   "source": "格瓦拉",
-   "kind": "音乐剧",
-   "title": "沉浸式悬疑音乐剧《FLAMES火焰》-【缪时客出品】",
-   "venue": "缪时客·月光下小剧场(南京东路街道南京东路558号一楼103号(哈根达斯侧商场入口到底))",
-   "shop": "缪时客·月光下小剧场",
-   "city": "上海",
-   "city_id": 1,
-   "date_text": "2026.11.06 - 12.09",
-   "date": "2026-11-06",
-   "date_end": "2026-12-09",
-   "status": "在售中",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN01KoJ2kLFa6xC24P50_!!2251059038.jpg",
-   "price": "199-399",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/488204",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/488204"
-    }
-   ],
-   "first_seen": "2026-10-13",
    "is_new": false
   },
   {
@@ -1301,32 +1327,6 @@
    "is_new": false
   },
   {
-   "id": "381094",
-   "source": "格瓦拉",
-   "kind": "音乐剧",
-   "title": "环境式驻演原创音乐剧《#0528》",
-   "venue": "《#0528》原创音乐剧(汉口路650亚洲大厦5楼星空间28号·好好有戏小剧场)",
-   "shop": "星空间28号·好好有戏小剧场",
-   "city": "上海",
-   "city_id": 1,
-   "date_text": "2026.11.04 - 11.29",
-   "date": "2026-11-04",
-   "date_end": "2026-11-29",
-   "status": "在售中",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01AaYO4Z2GdSX4saO0n_!!2251059038.png",
-   "price": "199-399",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/381094",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/381094"
-    }
-   ],
-   "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
    "id": "481030",
    "source": "格瓦拉",
    "kind": "话剧",
@@ -1347,6 +1347,32 @@
     {
      "source": "格瓦拉",
      "url": "https://show.maoyan.com/detail/481030"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
+   "id": "507443",
+   "source": "格瓦拉",
+   "kind": "话剧",
+   "title": "上海必看环境式悬疑戏剧|《法外狂徒》|反转重重|沉浸式观剧|解压神剧不踩雷",
+   "venue": "阴阳沉浸式戏剧剧场(沉浸式厅)(南昌路125号（近茂名路）负一层)",
+   "shop": "阴阳沉浸式戏剧剧场(沉浸式厅)",
+   "city": "上海",
+   "city_id": 1,
+   "date_text": "2026.11.05 - 11.30",
+   "date": "2026-11-05",
+   "date_end": "2026-11-30",
+   "status": "在售中",
+   "poster": "https://p0.pipi.cn/mediaplus/show_business_static/e429589a0515c293b64a18f37d6d42539d188.png?imageMogr2/thumbnail/1020x1360%3E",
+   "price": "216-834",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/507443",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/507443"
     }
    ],
    "first_seen": "2026-09-29",
@@ -1379,32 +1405,6 @@
    "is_new": false
   },
   {
-   "id": "507443",
-   "source": "格瓦拉",
-   "kind": "话剧",
-   "title": "上海必看环境式悬疑戏剧|《法外狂徒》|反转重重|沉浸式观剧|解压神剧不踩雷",
-   "venue": "阴阳沉浸式戏剧剧场(沉浸式厅)(南昌路125号（近茂名路）负一层)",
-   "shop": "阴阳沉浸式戏剧剧场(沉浸式厅)",
-   "city": "上海",
-   "city_id": 1,
-   "date_text": "2026.11.04 - 11.30",
-   "date": "2026-11-04",
-   "date_end": "2026-11-30",
-   "status": "在售中",
-   "poster": "https://p0.pipi.cn/mediaplus/show_business_static/e429589a0515c293b64a18f37d6d42539d188.png?imageMogr2/thumbnail/1020x1360%3E",
-   "price": "216-834",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/507443",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/507443"
-    }
-   ],
-   "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
    "id": "381117",
    "source": "格瓦拉",
    "kind": "音乐剧",
@@ -1425,6 +1425,32 @@
     {
      "source": "格瓦拉",
      "url": "https://show.maoyan.com/detail/381117"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
+   "id": "496329",
+   "source": "格瓦拉",
+   "kind": "话剧",
+   "title": "【年度最佳】高口碑必看！《死无对证》｜｜沉浸式局中剧｜豪华阵容",
+   "venue": "次乐元空间(小东门街道中华路528号3层9309室(黄浦区融创外滩1号汇三楼次乐元空间))",
+   "shop": "次乐元空间(上海外滩店)",
+   "city": "上海",
+   "city_id": 1,
+   "date_text": "2026.11.05 - 2026.11.30",
+   "date": "2026-11-05",
+   "date_end": "2026-11-30",
+   "status": "在售中",
+   "poster": "https://img.alicdn.com/bao/uploaded/i3/2251059038/O1CN01kygGls51oQG1wqmG_!!4611686018427383646-2-item_pic.png",
+   "price": "30-980",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/496329",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/496329"
     }
    ],
    "first_seen": "2026-09-29",
@@ -1483,6 +1509,32 @@
    "is_new": false
   },
   {
+   "id": "516691",
+   "source": "格瓦拉",
+   "kind": "音乐剧",
+   "title": "【写给妈妈】全女班温情治愈音乐剧《最美的一天》",
+   "venue": "TX淮海星空间·中剧场(上海市黄浦区淮海中路523号TX淮海5楼)",
+   "shop": "TX淮海星空间·中剧场",
+   "city": "上海",
+   "city_id": 1,
+   "date_text": "2026.12.25 - 2027.01.02",
+   "date": "2026-12-25",
+   "date_end": "2027-01-02",
+   "status": "在售中",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01o3TtyDA7z4D24P50_!!2251059038.jpg",
+   "price": "199-499",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/516691",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/516691"
+    }
+   ],
+   "first_seen": "2026-11-03",
+   "is_new": false
+  },
+  {
    "id": "512531",
    "source": "格瓦拉",
    "kind": "话剧",
@@ -1509,32 +1561,6 @@
    "is_new": false
   },
   {
-   "id": "496329",
-   "source": "格瓦拉",
-   "kind": "话剧",
-   "title": "【年度最佳】高口碑必看！《画画的卑鄙》｜｜沉浸式局中剧｜豪华阵容",
-   "venue": "次乐元空间(小东门街道中华路528号3层9309室(黄浦区融创外滩1号汇三楼次乐元空间))",
-   "shop": "次乐元空间",
-   "city": "上海",
-   "city_id": 1,
-   "date_text": "2026.11.04 - 2026.11.30",
-   "date": "2026-11-04",
-   "date_end": "2026-11-30",
-   "status": "在售中",
-   "poster": "https://p0.meituan.net/myvideodistribute/68a957bbe5c15a50fa92afb22e1ff2f1939387.png",
-   "price": "30-980",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/496329",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/496329"
-    }
-   ],
-   "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
    "id": "488239",
    "source": "格瓦拉",
    "kind": "音乐剧",
@@ -1543,8 +1569,8 @@
    "shop": "星空间322号 TAKE ONE 剧场",
    "city": "上海",
    "city_id": 1,
-   "date_text": "2026.11.04 - 2027.01.03",
-   "date": "2026-11-04",
+   "date_text": "2026.11.07 - 2027.01.03",
+   "date": "2026-11-07",
    "date_end": "2027-01-03",
    "status": "在售中",
    "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01rN54Ft2GdSnUJO71w_!!2251059038.jpg",
@@ -1569,8 +1595,8 @@
    "shop": "沉浸式即兴互动喜剧剧场—草台嘻班",
    "city": "上海",
    "city_id": 1,
-   "date_text": "2026.11.04 - 11.29",
-   "date": "2026-11-04",
+   "date_text": "2026.11.06 - 11.29",
+   "date": "2026-11-06",
    "date_end": "2026-11-29",
    "status": "在售中",
    "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN01fauHVn2GdSn4WDJ31_!!2251059038.jpg",
@@ -1584,32 +1610,6 @@
     }
    ],
    "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
-   "id": "516691",
-   "source": "格瓦拉",
-   "kind": "音乐剧",
-   "title": "【写给妈妈】全女班温情治愈音乐剧《最美的一天》",
-   "venue": "TX淮海星空间·中剧场(上海市黄浦区淮海中路523号TX淮海5楼)",
-   "shop": "TX淮海星空间·中剧场",
-   "city": "上海",
-   "city_id": 1,
-   "date_text": "2026.12.25 - 2027.01.02",
-   "date": "2026-12-25",
-   "date_end": "2027-01-02",
-   "status": "在售中",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01o3TtyDA7z4D24P50_!!2251059038.jpg",
-   "price": "199-499",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/516691",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/516691"
-    }
-   ],
-   "first_seen": "2026-11-03",
    "is_new": false
   },
   {
@@ -1691,6 +1691,58 @@
    "is_new": false
   },
   {
+   "id": "492067",
+   "source": "格瓦拉",
+   "kind": "音乐剧",
+   "title": "双女主环境式悬疑音乐剧《白爪草》",
+   "venue": "ING剧场·一台好戏星空间1739号(南京东路街道西藏中路290号和平影都6楼)",
+   "shop": "ING剧场·一台好戏星空间1739号",
+   "city": "上海",
+   "city_id": 1,
+   "date_text": "2026.11.06 - 11.28",
+   "date": "2026-11-06",
+   "date_end": "2026-11-28",
+   "status": "在售中",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01MU3bkT2GdSmxMV6y3_!!2251059038.jpg",
+   "price": "199-399",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/492067",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/492067"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
+   "id": "477429",
+   "source": "格瓦拉",
+   "kind": "音乐剧",
+   "title": "音乐剧《梦断花都》（电影《红磨坊》改编）Moulin Rouge！The Musical",
+   "venue": "交通银行前滩31演艺中心 · 大剧场(浦东新区高青西路777号)",
+   "shop": "交通银行前滩31演艺中心 · 大剧场",
+   "city": "上海",
+   "city_id": 1,
+   "date_text": "2026.12.15 - 2027.01.03",
+   "date": "2026-12-15",
+   "date_end": "2027-01-03",
+   "status": "在售中",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN01SsjL99HARRK0gnh0_!!2251059038.png",
+   "price": "180-1480",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/477429",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/477429"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
    "id": "473475",
    "source": "格瓦拉",
    "kind": "音乐剧",
@@ -1699,8 +1751,8 @@
    "shop": "星空间82号·好剧场",
    "city": "上海",
    "city_id": 1,
-   "date_text": "2026.11.04 - 11.28",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 11.28",
+   "date": "2026-11-05",
    "date_end": "2026-11-28",
    "status": "在售中",
    "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01UU6ECZ2GdSm1cbvpZ_!!2251059038.jpg",
@@ -1847,32 +1899,6 @@
    "is_new": false
   },
   {
-   "id": "492067",
-   "source": "格瓦拉",
-   "kind": "音乐剧",
-   "title": "双女主环境式悬疑音乐剧《白爪草》",
-   "venue": "ING剧场·一台好戏星空间1739号(南京东路街道西藏中路290号和平影都6楼)",
-   "shop": "ING剧场·一台好戏星空间1739号",
-   "city": "上海",
-   "city_id": 1,
-   "date_text": "2026.11.06 - 11.28",
-   "date": "2026-11-06",
-   "date_end": "2026-11-28",
-   "status": "在售中",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01MU3bkT2GdSmxMV6y3_!!2251059038.jpg",
-   "price": "199-399",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/492067",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/492067"
-    }
-   ],
-   "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
    "id": "490431",
    "source": "格瓦拉",
    "kind": "话剧",
@@ -1881,8 +1907,8 @@
    "shop": "喜剧玩家",
    "city": "上海",
    "city_id": 1,
-   "date_text": "2026.11.04 - 2026.12.13",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 2026.12.13",
+   "date": "2026-11-05",
    "date_end": "2026-12-13",
    "status": "在售中",
    "poster": "https://p0.meituan.net/myvideodistribute/df64d8757630b9213cc5396d9e870c7c813984.jpg",
@@ -1919,32 +1945,6 @@
     {
      "source": "格瓦拉",
      "url": "https://show.maoyan.com/detail/484311"
-    }
-   ],
-   "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
-   "id": "477429",
-   "source": "格瓦拉",
-   "kind": "音乐剧",
-   "title": "音乐剧《梦断花都》（电影《红磨坊》改编）Moulin Rouge！The Musical",
-   "venue": "交通银行前滩31演艺中心 · 大剧场(浦东新区高青西路777号)",
-   "shop": "交通银行前滩31演艺中心 · 大剧场",
-   "city": "上海",
-   "city_id": 1,
-   "date_text": "2026.12.15 - 2027.01.03",
-   "date": "2026-12-15",
-   "date_end": "2027-01-03",
-   "status": "在售中",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN01SsjL99HARRK0gnh0_!!2251059038.png",
-   "price": "180-1480",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/477429",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/477429"
     }
    ],
    "first_seen": "2026-09-29",
@@ -2049,6 +2049,32 @@
     {
      "source": "格瓦拉",
      "url": "https://show.maoyan.com/detail/506557"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
+   "id": "503421",
+   "source": "格瓦拉",
+   "kind": "话剧",
+   "title": "曹禺经典话剧《日出》",
+   "venue": "保利上海城市剧院(都市路4889号(莘庄地铁站南广场))",
+   "shop": "保利上海城市剧院",
+   "city": "上海",
+   "city_id": 1,
+   "date_text": "2026.11.21 19:30 周六",
+   "date": "2026-11-21",
+   "date_end": "2026-11-21",
+   "status": "在售中",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN0146WHaqA5jvB0gnh0_!!2251059038.png",
+   "price": "80-380",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/503421",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/503421"
     }
    ],
    "first_seen": "2026-09-29",
@@ -2237,29 +2263,29 @@
    "is_new": false
   },
   {
-   "id": "503421",
+   "id": "416095",
    "source": "格瓦拉",
-   "kind": "话剧",
-   "title": "曹禺经典话剧《日出》",
-   "venue": "保利上海城市剧院(都市路4889号(莘庄地铁站南广场))",
-   "shop": "保利上海城市剧院",
+   "kind": "音乐剧",
+   "title": "环境式驻演原创音乐剧《亡灵之旅：冥犬与少年》",
+   "venue": "星空间55号·五十五剧场(上海市黄浦区汉口路650号亚洲大厦7楼)",
+   "shop": "星空间55号·五十五剧场",
    "city": "上海",
    "city_id": 1,
-   "date_text": "2026.11.21 19:30 周六",
-   "date": "2026-11-21",
-   "date_end": "2026-11-21",
+   "date_text": "2026.12.06 - 12.31",
+   "date": "2026-12-06",
+   "date_end": "2026-12-31",
    "status": "在售中",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN0146WHaqA5jvB0gnh0_!!2251059038.png",
-   "price": "80-380",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01mxxO4d2GdShwLF3dr_!!2251059038.png",
+   "price": "299-399",
    "tags": [],
-   "url": "https://show.maoyan.com/detail/503421",
+   "url": "https://show.maoyan.com/detail/416095",
    "links": [
     {
      "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/503421"
+     "url": "https://show.maoyan.com/detail/416095"
     }
    ],
-   "first_seen": "2026-09-29",
+   "first_seen": "2026-11-03",
    "is_new": false
   },
   {
@@ -2271,8 +2297,8 @@
    "shop": "桑塔露琪亚-一台好戏小剧场",
    "city": "上海",
    "city_id": 1,
-   "date_text": "2026.11.04 - 11.29",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 11.29",
+   "date": "2026-11-05",
    "date_end": "2026-11-29",
    "status": "在售中",
    "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01RhvE1OOCUtF24P50_!!2251059038.jpg",
@@ -2312,32 +2338,6 @@
     }
    ],
    "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
-   "id": "498406",
-   "source": "格瓦拉",
-   "kind": "话剧",
-   "title": "上海外滩爆笑气味戏剧《死无对证》沉浸式演出 | 原创经典ip版权",
-   "venue": "次乐元空间(小东门街道中华路528号3层9309室(黄浦区融创外滩1号汇三楼次乐元空间))",
-   "shop": "次乐元空间(上海外滩店)",
-   "city": "上海",
-   "city_id": 1,
-   "date_text": "2026.11.04 - 2026.11.30",
-   "date": "2026-11-04",
-   "date_end": "2026-11-30",
-   "status": "在售中",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01TqNXjtGRD2J1wqmG_!!2251059038.png",
-   "price": "30-980",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/498406",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/498406"
-    }
-   ],
-   "first_seen": "2026-10-29",
    "is_new": false
   },
   {
@@ -2390,32 +2390,6 @@
     }
    ],
    "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
-   "id": "416095",
-   "source": "格瓦拉",
-   "kind": "音乐剧",
-   "title": "环境式驻演原创音乐剧《亡灵之旅：冥犬与少年》",
-   "venue": "星空间55号·五十五剧场(上海市黄浦区汉口路650号亚洲大厦7楼)",
-   "shop": "星空间55号·五十五剧场",
-   "city": "上海",
-   "city_id": 1,
-   "date_text": "2026.12.06 - 12.31",
-   "date": "2026-12-06",
-   "date_end": "2026-12-31",
-   "status": "在售中",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01mxxO4d2GdShwLF3dr_!!2251059038.png",
-   "price": "299-399",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/416095",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/416095"
-    }
-   ],
-   "first_seen": "2026-11-03",
    "is_new": false
   },
   {
@@ -2743,7 +2717,7 @@
    "date": "2026-12-31",
    "date_end": "2027-01-07",
    "status": "在售中",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01WW1UqZ94bCC0gnh0_!!2251059038.png",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN01ngOzn1YanfE0gnh0_!!2251059038.png",
    "price": "180-1372.8",
    "tags": [],
    "url": "https://show.maoyan.com/detail/509787",
@@ -2777,6 +2751,32 @@
     {
      "source": "格瓦拉",
      "url": "https://show.maoyan.com/detail/508941"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
+   "id": "508692",
+   "source": "格瓦拉",
+   "kind": "音乐剧",
+   "title": "香港演戏家族原创音乐剧Musical 《玉良》Pan Yu Lin 2026秋是国际戏剧季Autumn IS",
+   "venue": "YOUNG剧场·主剧场(上海市杨浦区控江路1155号)",
+   "shop": "YOUNG剧场·主剧场",
+   "city": "上海",
+   "city_id": 1,
+   "date_text": "2026.11.27 / 11.28",
+   "date": "2026-11-27",
+   "date_end": "2026-11-28",
+   "status": "在售中",
+   "poster": "https://img.alicdn.com/bao/uploaded/i1/2251059038/O1CN01GSF2yUmEawD0gnh0_!!4611686018427383646-2-item_pic.png",
+   "price": "180-480",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/508692",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/508692"
     }
    ],
    "first_seen": "2026-09-29",
@@ -3233,8 +3233,8 @@
    "shop": "火屿橙剧场",
    "city": "上海",
    "city_id": 1,
-   "date_text": "2026.11.04 - 11.29",
-   "date": "2026-11-04",
+   "date_text": "2026.11.06 - 11.29",
+   "date": "2026-11-06",
    "date_end": "2026-11-29",
    "status": "在售中",
    "poster": "https://p0.pipi.cn/mediaplus/show_business_static/e429589ad8a77e5b2801e86bc41157772c9f7.png?imageMogr2/thumbnail/208x276%3E",
@@ -3245,32 +3245,6 @@
     {
      "source": "格瓦拉",
      "url": "https://show.maoyan.com/detail/510396"
-    }
-   ],
-   "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
-   "id": "508692",
-   "source": "格瓦拉",
-   "kind": "音乐剧",
-   "title": "香港演戏家族原创音乐剧Musical 《玉良》Pan Yu Lin 2026秋是国际戏剧季Autumn IS",
-   "venue": "YOUNG剧场·主剧场(上海市杨浦区控江路1155号)",
-   "shop": "YOUNG剧场·主剧场",
-   "city": "上海",
-   "city_id": 1,
-   "date_text": "2026.11.27 / 11.28",
-   "date": "2026-11-27",
-   "date_end": "2026-11-28",
-   "status": "在售中",
-   "poster": "https://img.alicdn.com/bao/uploaded/i1/2251059038/O1CN01GSF2yUmEawD0gnh0_!!4611686018427383646-2-item_pic.png",
-   "price": "180-480",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/508692",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/508692"
     }
    ],
    "first_seen": "2026-09-29",
@@ -4377,8 +4351,8 @@
    "shop": "ING剧场·一台好戏星空间131号",
    "city": "上海",
    "city_id": 1,
-   "date_text": "2026.11.04 - 11.29",
-   "date": "2026-11-04",
+   "date_text": "2026.11.06 - 11.29",
+   "date": "2026-11-06",
    "date_end": "2026-11-29",
    "status": "在售中",
    "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01McwJNv2GdSmxt3gx8_!!2251059038.jpg",
@@ -4473,6 +4447,84 @@
    "is_new": false
   },
   {
+   "id": "452968",
+   "source": "格瓦拉",
+   "kind": "话剧",
+   "title": "【魔都必打卡|五周年庆】四周年狂欢5折起！开心麻花喜剪吹沉浸剧场《疯狂理发店》",
+   "venue": "疯狂理发店-开心麻花喜剪吹沉浸剧场(瑞虹路188号5层503室)",
+   "shop": "疯狂理发店-开心麻花喜剪吹沉浸剧场",
+   "city": "上海",
+   "city_id": 1,
+   "date_text": "2026.11.18 - 11.29",
+   "date": "2026-11-18",
+   "date_end": "2026-11-29",
+   "status": "在售中",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN01TIrTY0KoJtE24P50_!!2251059038.jpg",
+   "price": "180-520",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/452968",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/452968"
+    }
+   ],
+   "first_seen": "2026-11-05",
+   "is_new": true
+  },
+  {
+   "id": "452967",
+   "source": "格瓦拉",
+   "kind": "话剧",
+   "title": "【颜值剧场|周末好去处】开心麻花超养眼爆笑喜剧《空降未婚妻》",
+   "venue": "开心麻花L空间(翔殷路1099号合生汇综合广场B1城市集市)",
+   "shop": "开心麻花L空间",
+   "city": "上海",
+   "city_id": 1,
+   "date_text": "2026.11.20 - 11.28",
+   "date": "2026-11-20",
+   "date_end": "2026-11-28",
+   "status": "在售中",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01QDiluxEt3oK24P50_!!2251059038.jpg",
+   "price": "99-459",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/452967",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/452967"
+    }
+   ],
+   "first_seen": "2026-11-05",
+   "is_new": true
+  },
+  {
+   "id": "452966",
+   "source": "格瓦拉",
+   "kind": "话剧",
+   "title": "【年度爆笑重生｜笑回学生时代】开心麻花沉浸式复古爆笑互动喜剧《夏洛特烦恼》之逆转未来【10.11】",
+   "venue": "开心麻花U剧场(上海市杨浦区翔殷路 1099 号合生汇 B1)",
+   "shop": "开心麻花U空间",
+   "city": "上海",
+   "city_id": 1,
+   "date_text": "2026.11.21 - 11.29",
+   "date": "2026-11-21",
+   "date_end": "2026-11-29",
+   "status": "在售中",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN018S5fL52GdSmEerUzM_!!2251059038.jpg",
+   "price": "99-399",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/452966",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/452966"
+    }
+   ],
+   "first_seen": "2026-11-05",
+   "is_new": true
+  },
+  {
    "id": "420180",
    "source": "格瓦拉",
    "kind": "音乐剧",
@@ -4559,18 +4611,44 @@
    "shop": "杭州爪马世界3号剧场(杭州亚奥万象天地店)",
    "city": "杭州",
    "city_id": 3,
-   "date_text": "2026.11.04 - 2026.11.29",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 2026.11.29",
+   "date": "2026-11-05",
    "date_end": "2026-11-29",
    "status": "在售中",
    "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN01vv8tiP2GdSmI7w8ED_!!2251059038.jpg",
-   "price": "99-387.4",
+   "price": "99-298",
    "tags": [],
    "url": "https://show.maoyan.com/detail/445843",
    "links": [
     {
      "source": "格瓦拉",
      "url": "https://show.maoyan.com/detail/445843"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
+   "id": "473420",
+   "source": "格瓦拉",
+   "kind": "音乐剧",
+   "title": "现象级原版音乐剧《SIX》杭州站",
+   "venue": "杭州大剧院-歌剧院(杭州市上城区钱江新城新业路39号)",
+   "shop": "杭州大剧院-歌剧院",
+   "city": "杭州",
+   "city_id": 3,
+   "date_text": "2026.11.05 - 11.08",
+   "date": "2026-11-05",
+   "date_end": "2026-11-08",
+   "status": "在售中",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01peAEAX2GdSmUyOp53_!!2251059038.jpg",
+   "price": "280-888",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/473420",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/473420"
     }
    ],
    "first_seen": "2026-09-29",
@@ -4603,32 +4681,6 @@
    "is_new": false
   },
   {
-   "id": "473420",
-   "source": "格瓦拉",
-   "kind": "音乐剧",
-   "title": "现象级原版音乐剧《SIX》杭州站",
-   "venue": "杭州大剧院-歌剧院(杭州市上城区钱江新城新业路39号)",
-   "shop": "杭州大剧院-歌剧院",
-   "city": "杭州",
-   "city_id": 3,
-   "date_text": "2026.11.04 - 11.08",
-   "date": "2026-11-04",
-   "date_end": "2026-11-08",
-   "status": "在售中",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01peAEAX2GdSmUyOp53_!!2251059038.jpg",
-   "price": "280-888",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/473420",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/473420"
-    }
-   ],
-   "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
    "id": "452964",
    "source": "格瓦拉",
    "kind": "话剧",
@@ -4655,6 +4707,32 @@
    "is_new": false
   },
   {
+   "id": "474368",
+   "source": "格瓦拉",
+   "kind": "话剧",
+   "title": "杭州沉浸式悬疑戏剧 ｜《无人生还》｜爆款热销｜谋杀死亡线索｜烧脑反转",
+   "venue": "合东酒吧沉浸式剧场(长庆街道大福清巷12号201室（人寿保险大厦南侧）)",
+   "shop": "杭州环境式沉浸式剧场(西湖店)",
+   "city": "杭州",
+   "city_id": 3,
+   "date_text": "2026.11.05 - 2026.11.30",
+   "date": "2026-11-05",
+   "date_end": "2026-11-30",
+   "status": "在售中",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN01XIYlNmXEbHL24P50_!!2251059038.jpg",
+   "price": "30-946",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/474368",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/474368"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
    "id": "445876",
    "source": "格瓦拉",
    "kind": "话剧",
@@ -4668,39 +4746,13 @@
    "date_end": "2026-11-29",
    "status": "在售中",
    "poster": "https://p1.meituan.net/myvideodistribute/5e67070e10d1ba6158fcf345183e79c11224903.jpg",
-   "price": "99-388.7",
+   "price": "99-299",
    "tags": [],
    "url": "https://show.maoyan.com/detail/445876",
    "links": [
     {
      "source": "格瓦拉",
      "url": "https://show.maoyan.com/detail/445876"
-    }
-   ],
-   "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
-   "id": "474368",
-   "source": "格瓦拉",
-   "kind": "话剧",
-   "title": "杭州沉浸式悬疑戏剧 ｜《无人生还》｜爆款热销｜谋杀死亡线索｜烧脑反转",
-   "venue": "合东酒吧沉浸式剧场(长庆街道大福清巷12号201室（人寿保险大厦南侧）)",
-   "shop": "杭州环境式沉浸式剧场(西湖店)",
-   "city": "杭州",
-   "city_id": 3,
-   "date_text": "2026.11.04 - 2026.11.30",
-   "date": "2026-11-04",
-   "date_end": "2026-11-30",
-   "status": "在售中",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN01XIYlNmXEbHL24P50_!!2251059038.jpg",
-   "price": "30-946",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/474368",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/474368"
     }
    ],
    "first_seen": "2026-09-29",
@@ -5001,8 +5053,8 @@
    "shop": "斗萌喜剧·沉浸式演出剧场A厅(西湖银泰店)",
    "city": "杭州",
    "city_id": 3,
-   "date_text": "2026.11.04 - 11.30",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 11.30",
+   "date": "2026-11-05",
    "date_end": "2026-11-30",
    "status": "在售中",
    "poster": "https://p0.pipi.cn/mediaplus/show_business_static/e42958bfb81529bd6d25ce452180796f56559.png?imageMogr2/thumbnail/1020x1360%3E",
@@ -5016,32 +5068,6 @@
     }
    ],
    "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
-   "id": "513961",
-   "source": "格瓦拉",
-   "kind": "音乐剧",
-   "title": "第三届钱塘国际戏剧嘉年华 | 国家艺术基金2026年度资助项目一音乐剧《不负青山》",
-   "venue": "杭州金沙湖大剧院-歌剧厅(浙江省杭州市钱塘区下沙街道金沙湖大剧院)",
-   "shop": "杭州金沙湖大剧院-歌剧厅",
-   "city": "杭州",
-   "city_id": 3,
-   "date_text": "2026.11.04 19:30 周三",
-   "date": "2026-11-04",
-   "date_end": "2026-11-04",
-   "status": "在售中",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN019QlGjIT2pcE0gnh0_!!2251059038.png",
-   "price": "80-280",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/513961",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/513961"
-    }
-   ],
-   "first_seen": "2026-10-20",
    "is_new": false
   },
   {
@@ -5079,8 +5105,8 @@
    "shop": "斗萌喜剧·沉浸式演出剧场B厅(西湖银泰店)",
    "city": "杭州",
    "city_id": 3,
-   "date_text": "2026.11.04 - 11.30",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 11.30",
+   "date": "2026-11-05",
    "date_end": "2026-11-30",
    "status": "在售中",
    "poster": "https://p0.pipi.cn/mediaplus/show_business_static/e429586e8b077e5be7d8a1f5fcf12aec2598c.jpg?imageMogr2/thumbnail/1280x1723%3E",
@@ -5183,8 +5209,8 @@
    "shop": "【官方售票】德寿夜宴·杭州德寿宫夜游",
    "city": "杭州",
    "city_id": 3,
-   "date_text": "2026.11.04 - 2026.11.29",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 2026.11.29",
+   "date": "2026-11-05",
    "date_end": "2026-11-29",
    "status": "在售中",
    "poster": "https://p0.pipi.cn/mediaplus/fantasy_perform_fe/e42958bff874a1494815d5b69f0ed188002ff.jpg?imageMogr2/quality/80",
@@ -5209,8 +5235,8 @@
    "shop": "【演出售票】如梦上塘·古运河沉浸式夜游实景演艺",
    "city": "杭州",
    "city_id": 3,
-   "date_text": "2026.11.04 - 2026.11.30",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 2026.11.30",
+   "date": "2026-11-05",
    "date_end": "2026-11-30",
    "status": "在售中",
    "poster": "https://p1.meituan.net/myvideodistribute/da4b408b308699a514e2075634f85fd4507071.jpg",
@@ -5413,8 +5439,8 @@
    "source": "格瓦拉",
    "kind": "话剧",
    "title": "「杭州必看」｜《谁在说谎》沉浸交互式悬疑都市轻喜剧  反转｜黑色幽默｜下班必看！！！",
-   "venue": "相信有戏剧场(原开心麻花疯狂星有团)(天水街道武林广场11号 杭州大厦中央商城B1层)",
-   "shop": "相信有戏剧场(原开心麻花疯狂星有团)",
+   "venue": "相信有戏小剧场(天水街道武林广场11号B1层B155)",
+   "shop": "相信有戏小剧场",
    "city": "杭州",
    "city_id": 3,
    "date_text": "2026.11.06 - 12.31",
@@ -6089,7 +6115,7 @@
    "source": "格瓦拉",
    "kind": "音乐剧",
    "title": "百老汇经典摇滚 音乐剧《HEDWIG》（海德薇）中文版",
-   "venue": "宁波大剧院(浙江省宁波市江北区大闸路1号)",
+   "venue": "宁波大剧院(大闸路1号(近永丰北路))",
    "shop": "宁波大剧院",
    "city": "宁波",
    "city_id": 11,
@@ -6461,7 +6487,7 @@
    "date": "2026-11-20",
    "date_end": "2026-11-21",
    "status": "在售中",
-   "poster": "http://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN015VPpYrClUHL241f7_!!2251059038.jpg",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN015VPpYrClUHL241f7_!!2251059038.jpg",
    "price": "180-680",
    "tags": [],
    "url": "https://show.maoyan.com/detail/488457",
@@ -6631,6 +6657,32 @@
    "is_new": false
   },
   {
+   "id": "502015",
+   "source": "格瓦拉",
+   "kind": "话剧",
+   "title": "北京人民艺术剧院话剧《哈姆雷特》",
+   "venue": "苏州文化艺术中心-大剧院(观枫街1号(近现代大道))",
+   "shop": "苏州文化艺术中心-大剧院",
+   "city": "苏州",
+   "city_id": 6,
+   "date_text": "2026.11.06 - 11.08",
+   "date": "2026-11-06",
+   "date_end": "2026-11-08",
+   "status": "在售中",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01YclbjXmi2iG24P50_!!2251059038.jpg",
+   "price": "180-882",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/502015",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/502015"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
    "id": "511106",
    "source": "格瓦拉",
    "kind": "音乐剧",
@@ -6677,32 +6729,6 @@
     {
      "source": "格瓦拉",
      "url": "https://show.maoyan.com/detail/504532"
-    }
-   ],
-   "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
-   "id": "502015",
-   "source": "格瓦拉",
-   "kind": "话剧",
-   "title": "北京人民艺术剧院话剧《哈姆雷特》",
-   "venue": "苏州文化艺术中心-大剧院(观枫街1号(近现代大道))",
-   "shop": "苏州文化艺术中心-大剧院",
-   "city": "苏州",
-   "city_id": 6,
-   "date_text": "2026.11.06 - 11.08",
-   "date": "2026-11-06",
-   "date_end": "2026-11-08",
-   "status": "在售中",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01YclbjXmi2iG24P50_!!2251059038.jpg",
-   "price": "180-882",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/502015",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/502015"
     }
    ],
    "first_seen": "2026-09-29",
@@ -6863,6 +6889,32 @@
    ],
    "first_seen": "2026-09-29",
    "is_new": false
+  },
+  {
+   "id": "517432",
+   "source": "格瓦拉",
+   "kind": "话剧",
+   "title": "刘晓庆主演 传奇话剧《武则天》十周年纪念版",
+   "venue": "苏州文化艺术中心(观枫街1号)",
+   "shop": "苏州文化艺术中心",
+   "city": "苏州",
+   "city_id": 6,
+   "date_text": "2027.01.06 19:30 周三",
+   "date": "2027-01-06",
+   "date_end": "2027-01-06",
+   "status": "即将开售",
+   "poster": "https://p0.pipi.cn/mediaplus/fantasy_perform_fe/e429585c3d6e3272a96e38f894e9489a0e874.png?imageMogr2/quality/80",
+   "price": "162-792",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/517432",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/517432"
+    }
+   ],
+   "first_seen": "2026-11-05",
+   "is_new": true
   },
   {
    "id": "514532",
@@ -7081,8 +7133,8 @@
    "shop": "清洗小剧场",
    "city": "南京",
    "city_id": 5,
-   "date_text": "2026.11.04 - 11.30",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 11.30",
+   "date": "2026-11-05",
    "date_end": "2026-11-30",
    "status": "在售中",
    "poster": "https://p0.pipi.cn/mediaplus/show_business_static/e429586e3e76e3b8191faeb797d9c4328a355.jpg?imageMogr2/thumbnail/1280x1707%3E",
@@ -7211,8 +7263,8 @@
    "shop": "沉浸式金牌剧场(旗舰总店)",
    "city": "南京",
    "city_id": 5,
-   "date_text": "2026.11.04 - 2026.11.30",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 2026.11.30",
+   "date": "2026-11-05",
    "date_end": "2026-11-30",
    "status": "在售中",
    "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01X9BnIZtKVoK24P50_!!2251059038.jpg",
@@ -7237,8 +7289,8 @@
    "shop": "金陵往事-南城奇遇记",
    "city": "南京",
    "city_id": 5,
-   "date_text": "2026.11.04 - 2026.11.29",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 2026.11.29",
+   "date": "2026-11-05",
    "date_end": "2026-11-29",
    "status": "在售中",
    "poster": "https://p0.meituan.net/myvideodistribute/4d15dedf2f1220cb14a91a2db54d041c1731202.jpg",
@@ -7263,8 +7315,8 @@
    "shop": "雨花剧院沉浸空间剧场3F",
    "city": "南京",
    "city_id": 5,
-   "date_text": "2026.11.04 - 2026.11.30",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 2026.11.30",
+   "date": "2026-11-05",
    "date_end": "2026-11-30",
    "status": "在售中",
    "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN01kGJYlqRKYcF24P50_!!2251059038.jpg",
@@ -8043,8 +8095,8 @@
    "shop": "雨花剧院沉浸空间剧场3F",
    "city": "南京",
    "city_id": 5,
-   "date_text": "2026.11.04 - 2026.11.30",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 2026.11.30",
+   "date": "2026-11-05",
    "date_end": "2026-11-30",
    "status": "在售中",
    "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01iP9eVx2GdSmg0EBSJ_!!2251059038.jpg",
@@ -8448,7 +8500,7 @@
     }
    ],
    "first_seen": "2026-11-04",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "517124",
@@ -8474,7 +8526,7 @@
     }
    ],
    "first_seen": "2026-11-04",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "516818",
@@ -8607,6 +8659,32 @@
    "is_new": false
   },
   {
+   "id": "506392",
+   "source": "格瓦拉",
+   "kind": "话剧",
+   "title": "第三届中吴文化戏剧演出季-《Wayfinder指路者ꈜꂘꊿ》彝族舞蹈肢体戏剧",
+   "venue": "常州工人文化宫剧场(延陵西路2号工人文化宫2楼)",
+   "shop": "常州工人文化宫剧场",
+   "city": "常州",
+   "city_id": 93,
+   "date_text": "2026.11.06 19:30 周五",
+   "date": "2026-11-06",
+   "date_end": "2026-11-06",
+   "status": "在售中",
+   "poster": "https://p0.pipi.cn/mediaplus/fantasy_perform_fe/e429589a6e34a14a1872a9289940a3a84ffbf.jpg?imageMogr2/quality/80",
+   "price": "50-188",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/506392",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/506392"
+    }
+   ],
+   "first_seen": "2026-10-09",
+   "is_new": false
+  },
+  {
    "id": "504056",
    "source": "格瓦拉",
    "kind": "话剧",
@@ -8637,7 +8715,7 @@
    "source": "格瓦拉",
    "kind": "话剧",
    "title": "常州·青岛话剧院老舍经典话剧《四世同堂》薪传版",
-   "venue": "常州工人文化宫剧场(延陵西路2号工人文化宫2楼)",
+   "venue": "常州工人文化宫剧场(常州市天宁区延陵西路2号(文化宫地铁站11号口旁))",
    "shop": "常州工人文化宫剧场",
    "city": "常州",
    "city_id": 93,
@@ -8646,7 +8724,7 @@
    "date_end": "2026-12-27",
    "status": "在售中",
    "poster": "https://p0.pipi.cn/mediaplus/fantasy_perform_fe/e429585c3d65c28b07a2196ff47d9377415e8.png?imageMogr2/quality/80",
-   "price": "90-290",
+   "price": "180-580",
    "tags": [],
    "url": "https://show.maoyan.com/detail/517235",
    "links": [
@@ -8656,7 +8734,7 @@
     }
    ],
    "first_seen": "2026-11-04",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "515733",
@@ -8789,32 +8867,6 @@
    "is_new": false
   },
   {
-   "id": "506392",
-   "source": "格瓦拉",
-   "kind": "话剧",
-   "title": "第三届中吴文化戏剧演出季-《Wayfinder指路者ꈜꂘꊿ》彝族舞蹈肢体戏剧",
-   "venue": "常州工人文化宫剧场(延陵西路2号工人文化宫2楼)",
-   "shop": "常州工人文化宫剧场",
-   "city": "常州",
-   "city_id": 93,
-   "date_text": "2026.11.06 19:30 周五",
-   "date": "2026-11-06",
-   "date_end": "2026-11-06",
-   "status": "在售中",
-   "poster": "https://p0.pipi.cn/mediaplus/fantasy_perform_fe/e429589a6e34a14a1872a9289940a3a84ffbf.jpg?imageMogr2/quality/80",
-   "price": "50-188",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/506392",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/506392"
-    }
-   ],
-   "first_seen": "2026-10-09",
-   "is_new": false
-  },
-  {
    "id": "497725",
    "source": "格瓦拉",
    "kind": "话剧",
@@ -8893,6 +8945,32 @@
    "is_new": false
   },
   {
+   "id": "505930",
+   "source": "格瓦拉",
+   "kind": "话剧",
+   "title": "曹禺经典话剧《雷雨》",
+   "venue": "南通大剧院-歌剧厅(南通市湖东路68号)",
+   "shop": "南通大剧院-歌剧厅",
+   "city": "南通",
+   "city_id": 94,
+   "date_text": "2026.11.08 19:30 周日",
+   "date": "2026-11-08",
+   "date_end": "2026-11-08",
+   "status": "在售中",
+   "poster": "https://p0.pipi.cn/mediaplus/fantasy_perform_fe/e429589a9a16e33d693d691073bc6b93d69d5.jpg?imageMogr2/quality/80",
+   "price": "80-288",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/505930",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/505930"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
    "id": "511692",
    "source": "格瓦拉",
    "kind": "话剧",
@@ -8965,32 +9043,6 @@
     {
      "source": "格瓦拉",
      "url": "https://show.maoyan.com/detail/505943"
-    }
-   ],
-   "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
-   "id": "505930",
-   "source": "格瓦拉",
-   "kind": "话剧",
-   "title": "曹禺经典话剧《雷雨》",
-   "venue": "南通大剧院-歌剧厅(南通市湖东路68号)",
-   "shop": "南通大剧院-歌剧厅",
-   "city": "南通",
-   "city_id": 94,
-   "date_text": "2026.11.08 19:30 周日",
-   "date": "2026-11-08",
-   "date_end": "2026-11-08",
-   "status": "在售中",
-   "poster": "https://p0.pipi.cn/mediaplus/fantasy_perform_fe/e429589a9a16e33d693d691073bc6b93d69d5.jpg?imageMogr2/quality/80",
-   "price": "80-288",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/505930",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/505930"
     }
    ],
    "first_seen": "2026-09-29",
@@ -9317,8 +9369,8 @@
    "shop": "梦寻西施",
    "city": "绍兴",
    "city_id": 104,
-   "date_text": "2026.11.04 - 11.29",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 11.29",
+   "date": "2026-11-05",
    "date_end": "2026-11-29",
    "status": "在售中",
    "poster": "https://p0.pipi.cn/mediaplus/fantasy_perform_fe/0fa334b7bf88d3fa463f67a42b3a8a51ad978.png?imageMogr2/quality/80",
@@ -9837,8 +9889,8 @@
    "shop": "辣壳恣剧场",
    "city": "徐州",
    "city_id": 92,
-   "date_text": "2026.11.04 - 11.22",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 11.22",
+   "date": "2026-11-05",
    "date_end": "2026-11-22",
    "status": "在售中",
    "poster": "https://p0.pipi.cn/mediaplus/show_business_static/e429586e3d6b817048bd6df6139903c78556f.png?imageMogr2/thumbnail/1086x1448%3E",
@@ -9985,6 +10037,32 @@
    "is_new": false
   },
   {
+   "id": "461075",
+   "source": "格瓦拉",
+   "kind": "话剧",
+   "title": "《聊斋·兰若》中式惊悚爆笑戏剧丨“伶人咒”前篇丨方寸万相丨彭城有戏",
+   "venue": "川流艺术空间(老东门店)(江苏省徐州市云龙区淮海东路104号老东门今雨天地2号楼副楼2-1)",
+   "shop": "川流艺术空间(老东门店)",
+   "city": "徐州",
+   "city_id": 92,
+   "date_text": "2026.11.07 / 11.21",
+   "date": "2026-11-07",
+   "date_end": "2026-11-21",
+   "status": "在售中",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01iXvv99usckF24P50_!!2251059038.jpg",
+   "price": "78-198",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/461075",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/461075"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
    "id": "516759",
    "source": "格瓦拉",
    "kind": "话剧",
@@ -10057,32 +10135,6 @@
     {
      "source": "格瓦拉",
      "url": "https://show.maoyan.com/detail/488027"
-    }
-   ],
-   "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
-   "id": "461075",
-   "source": "格瓦拉",
-   "kind": "话剧",
-   "title": "《聊斋·兰若》中式惊悚爆笑戏剧丨“伶人咒”前篇丨方寸万相丨彭城有戏",
-   "venue": "川流艺术空间(老东门店)(江苏省徐州市云龙区淮海东路104号老东门今雨天地2号楼副楼2-1)",
-   "shop": "川流艺术空间(老东门店)",
-   "city": "徐州",
-   "city_id": 92,
-   "date_text": "2026.11.07 / 11.21",
-   "date": "2026-11-07",
-   "date_end": "2026-11-21",
-   "status": "在售中",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01iXvv99usckF24P50_!!2251059038.jpg",
-   "price": "78-198",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/461075",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/461075"
     }
    ],
    "first_seen": "2026-09-29",
@@ -10349,32 +10401,6 @@
    "is_new": false
   },
   {
-   "id": "505284",
-   "source": "格瓦拉",
-   "kind": "音乐剧",
-   "title": "【衢州】衢州音乐剧“元”年演出季 中文原创音乐剧《简·爱》",
-   "venue": "衢州保利大剧院(白云街道三江东路26号C座衢州保利大剧院)",
-   "shop": "衢州保利大剧院大剧场",
-   "city": "衢州",
-   "city_id": 106,
-   "date_text": "2026.11.04 19:00 周三",
-   "date": "2026-11-04",
-   "date_end": "2026-11-04",
-   "status": "在售中",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01iLeV5K0YgWJ0gnh0_!!2251059038.jpg",
-   "price": "50-680",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/505284",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/505284"
-    }
-   ],
-   "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
    "id": "499526",
    "source": "格瓦拉",
    "kind": "话剧",
@@ -10503,6 +10529,32 @@
    ],
    "first_seen": "2026-10-15",
    "is_new": false
+  },
+  {
+   "id": "510991",
+   "source": "格瓦拉",
+   "kind": "话剧",
+   "title": "爆笑喜剧《白雪公主》",
+   "venue": "临海紫阳剧场(赤城路与天宁路交叉口南约80米)",
+   "shop": "临海紫阳剧场",
+   "city": "台州",
+   "city_id": 108,
+   "date_text": "2026.11.05 - 11.08",
+   "date": "2026-11-05",
+   "date_end": "2026-11-08",
+   "status": "在售中",
+   "poster": "https://p0.pipi.cn/mediaplus/fantasy_perform_fe/e429586ebf86e377e18b071d3249b7e805f79.jpg?imageMogr2/quality/80",
+   "price": "58",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/510991",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/510991"
+    }
+   ],
+   "first_seen": "2026-11-05",
+   "is_new": true
   },
   {
    "id": "516708",
@@ -10641,9 +10693,9 @@
    "venue": "半笑空间-外滩店1号剧场(上海市黄浦区汉口路398号华盛大厦2楼半笑空间)",
    "shop": "半笑空间-外滩店1号剧场",
    "city": "上海",
-   "date_text": "2026.11.04-11.30",
-   "date": "2026-11-04",
-   "date_end": "2026-11-04",
+   "date_text": "2026.11.05-11.30",
+   "date": "2026-11-05",
+   "date_end": "2026-11-05",
    "status": "去购票",
    "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01hYHcQdsoegG24P50_!!2251059038.jpg",
    "price": "59-780",
@@ -10666,9 +10718,9 @@
    "venue": "半笑空间-人民广场店(上海市黄浦区六合路98号港陆黄浦中心1层102室半笑酒馆)",
    "shop": "半笑空间-人民广场店",
    "city": "上海",
-   "date_text": "2026.11.04-11.30",
-   "date": "2026-11-04",
-   "date_end": "2026-11-04",
+   "date_text": "2026.11.05-11.30",
+   "date": "2026-11-05",
+   "date_end": "2026-11-05",
    "status": "去购票",
    "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01A19bdPneBEC24P50_!!2251059038.jpg",
    "price": "35-888",
@@ -10709,31 +10761,6 @@
    "is_new": false
   },
   {
-   "id": "dm766969174741",
-   "source": "大麦",
-   "kind": "话剧",
-   "title": "耿子博导演作品 环境式沉浸舞蹈剧场《九尾古董店》",
-   "venue": "星空间108号·山眠剧场II(汉口路650号亚洲大厦1楼)",
-   "shop": "星空间108号·山眠剧场II",
-   "city": "上海",
-   "date_text": "2026.11.04-11.22",
-   "date": "2026-11-04",
-   "date_end": "2026-11-04",
-   "status": "去购票",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01usgBk72GdSZA1NenJ_!!2251059038.png",
-   "price": "200-399",
-   "tags": [],
-   "url": "https://m.damai.cn/shows/item.html?id=766969174741",
-   "links": [
-    {
-     "source": "大麦",
-     "url": "https://m.damai.cn/shows/item.html?id=766969174741"
-    }
-   ],
-   "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
    "id": "dm1068815229872",
    "source": "大麦",
    "kind": "音乐剧",
@@ -10753,31 +10780,6 @@
     {
      "source": "大麦",
      "url": "https://m.damai.cn/shows/item.html?id=1068815229872"
-    }
-   ],
-   "first_seen": "2026-09-29",
-   "is_new": false
-  },
-  {
-   "id": "dm1051256420695",
-   "source": "大麦",
-   "kind": "音乐剧",
-   "title": "原创沉浸式国风音乐剧《椒花颂声》·曌剧场",
-   "venue": "曌剧场(上生新所15号楼401曌剧场)",
-   "shop": "曌剧场",
-   "city": "上海",
-   "date_text": "2026.11.07-11.29",
-   "date": "2026-11-07",
-   "date_end": "2026-11-07",
-   "status": "去购票",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01nX3msP2GdSmX9zgjv_!!2251059038.jpg",
-   "price": "199-999",
-   "tags": [],
-   "url": "https://m.damai.cn/shows/item.html?id=1051256420695",
-   "links": [
-    {
-     "source": "大麦",
-     "url": "https://m.damai.cn/shows/item.html?id=1051256420695"
     }
    ],
    "first_seen": "2026-09-29",
@@ -10831,6 +10833,56 @@
     }
    ],
    "first_seen": "2026-10-12",
+   "is_new": false
+  },
+  {
+   "id": "dm1051256420695",
+   "source": "大麦",
+   "kind": "音乐剧",
+   "title": "原创沉浸式国风音乐剧《椒花颂声》·曌剧场",
+   "venue": "曌剧场(上生新所15号楼401曌剧场)",
+   "shop": "曌剧场",
+   "city": "上海",
+   "date_text": "2026.11.07-11.29",
+   "date": "2026-11-07",
+   "date_end": "2026-11-07",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01nX3msP2GdSmX9zgjv_!!2251059038.jpg",
+   "price": "199-999",
+   "tags": [],
+   "url": "https://m.damai.cn/shows/item.html?id=1051256420695",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=1051256420695"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
+   "id": "dm766969174741",
+   "source": "大麦",
+   "kind": "话剧",
+   "title": "耿子博导演作品 环境式沉浸舞蹈剧场《九尾古董店》",
+   "venue": "星空间108号·山眠剧场II(汉口路650号亚洲大厦1楼)",
+   "shop": "星空间108号·山眠剧场II",
+   "city": "上海",
+   "date_text": "2026.11.07-11.22",
+   "date": "2026-11-07",
+   "date_end": "2026-11-07",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01usgBk72GdSZA1NenJ_!!2251059038.png",
+   "price": "200-399",
+   "tags": [],
+   "url": "https://m.damai.cn/shows/item.html?id=766969174741",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=766969174741"
+    }
+   ],
+   "first_seen": "2026-09-29",
    "is_new": false
   },
   {
@@ -10891,9 +10943,9 @@
    "venue": "半笑空间(人民广场仙乐斯店)(南京西路388号2层208-2、209号铺)",
    "shop": "半笑空间(人民广场仙乐斯店)",
    "city": "上海",
-   "date_text": "2026.11.04-11.30",
-   "date": "2026-11-04",
-   "date_end": "2026-11-04",
+   "date_text": "2026.11.06-11.30",
+   "date": "2026-11-06",
+   "date_end": "2026-11-06",
    "status": "去购票",
    "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01DEgGh92GdSnI9xjj1_!!2251059038.jpg",
    "price": "99-388",
@@ -10941,9 +10993,9 @@
    "venue": "惊悚鬼混沉浸式笑场《开关SWITCH》(西藏南路1号上海大世界2楼·B厅)",
    "shop": "惊悚鬼混沉浸式笑场《开关SWITCH》",
    "city": "上海",
-   "date_text": "2026.11.04 - 11.22",
-   "date": "2026-11-04",
-   "date_end": "2026-11-04",
+   "date_text": "2026.11.06 - 11.22",
+   "date": "2026-11-06",
+   "date_end": "2026-11-06",
    "status": "去购票",
    "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01ojJuP82GdSkKbbAF5_!!2251059038.jpg",
    "price": "98-349",
@@ -11038,6 +11090,31 @@
    "is_new": false
   },
   {
+   "id": "dm1072147563080",
+   "source": "大麦",
+   "kind": "话剧",
+   "title": "「亲子魔术」沉浸互动丨爆笑喜剧魔术丨淮海路必看亲子剧《幻梦奇缘》陪Ta走进童话丨亲子魔术秀",
+   "venue": "上海K11购物艺术中心 @喜剧玩家(上海K11购物艺术中心 上海市黄浦区淮海中路300号B3层 The Basement)",
+   "shop": "上海K11购物艺术中心 @喜剧玩家",
+   "city": "上海",
+   "date_text": "2026.11.07-12.27",
+   "date": "2026-11-07",
+   "date_end": "2026-11-07",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01ixCKbR7iBtH24P50_!!2251059038.jpg",
+   "price": "29-243",
+   "tags": [],
+   "url": "https://m.damai.cn/shows/item.html?id=1072147563080",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=1072147563080"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
    "id": "dm1055426862096",
    "source": "大麦",
    "kind": "话剧",
@@ -11085,6 +11162,31 @@
     }
    ],
    "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
+   "id": "dm1002955281508",
+   "source": "大麦",
+   "kind": "话剧",
+   "title": "【必玩史诗】王者荣耀沉浸游戏剧场《长安秘卷》——【英雄NPC】【海量自由支线】【震撼压轴大戏】",
+   "venue": "王者荣耀X暴风岛沉浸式实景游戏剧场(世纪大道1217号百联世纪购物中心B1层)",
+   "shop": "王者荣耀X暴风岛沉浸式实景游戏剧场",
+   "city": "上海",
+   "date_text": "2026.11.05-11.28",
+   "date": "2026-11-05",
+   "date_end": "2026-11-05",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/i4/2251059038/O1CN01NwHGZ94otXD23tr8_!!4611686018427383646-0-item_pic.jpg",
+   "price": "199-398",
+   "tags": [],
+   "url": "https://m.damai.cn/shows/item.html?id=1002955281508",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=1002955281508"
+    }
+   ],
+   "first_seen": "2026-10-27",
    "is_new": false
   },
   {
@@ -11163,31 +11265,6 @@
    "is_new": false
   },
   {
-   "id": "dm1089299752904",
-   "source": "大麦",
-   "kind": "话剧",
-   "title": "新国风沉浸式互动喜剧-王熹正卿国风专场",
-   "venue": "松江大世界聚场(上海市松江区文汇路258号2层)",
-   "shop": "松江大世界聚场",
-   "city": "上海",
-   "date_text": "2026.11.10-12.30",
-   "date": "2026-11-10",
-   "date_end": "2026-11-10",
-   "status": "去购票",
-   "poster": "https://img.alicdn.com/bao/uploaded/i1/2251059038/O1CN01smAvQ1sHByI24P50_!!4611686018427383646-0-item_pic.jpg",
-   "price": "28-138",
-   "tags": [],
-   "url": "https://m.damai.cn/shows/item.html?id=1089299752904",
-   "links": [
-    {
-     "source": "大麦",
-     "url": "https://m.damai.cn/shows/item.html?id=1089299752904"
-    }
-   ],
-   "first_seen": "2026-10-01",
-   "is_new": false
-  },
-  {
    "id": "dm1074254384546",
    "source": "大麦",
    "kind": "话剧",
@@ -11213,28 +11290,28 @@
    "is_new": false
   },
   {
-   "id": "dm1002955281508",
+   "id": "dm1089299752904",
    "source": "大麦",
    "kind": "话剧",
-   "title": "【必玩史诗】王者荣耀沉浸游戏剧场《长安秘卷》——【英雄NPC】【海量自由支线】【震撼压轴大戏】",
-   "venue": "王者荣耀X暴风岛沉浸式实景游戏剧场(世纪大道1217号百联世纪购物中心B1层)",
-   "shop": "王者荣耀X暴风岛沉浸式实景游戏剧场",
+   "title": "新国风沉浸式互动喜剧-王熹正卿国风专场",
+   "venue": "松江大世界聚场(上海市松江区文汇路258号2层)",
+   "shop": "松江大世界聚场",
    "city": "上海",
-   "date_text": "2026.11.04-11.28",
-   "date": "2026-11-04",
-   "date_end": "2026-11-04",
+   "date_text": "2026.11.10-12.30",
+   "date": "2026-11-10",
+   "date_end": "2026-11-10",
    "status": "去购票",
-   "poster": "https://img.alicdn.com/bao/uploaded/i4/2251059038/O1CN01NwHGZ94otXD23tr8_!!4611686018427383646-0-item_pic.jpg",
-   "price": "199-398",
+   "poster": "https://img.alicdn.com/bao/uploaded/i1/2251059038/O1CN01smAvQ1sHByI24P50_!!4611686018427383646-0-item_pic.jpg",
+   "price": "28-138",
    "tags": [],
-   "url": "https://m.damai.cn/shows/item.html?id=1002955281508",
+   "url": "https://m.damai.cn/shows/item.html?id=1089299752904",
    "links": [
     {
      "source": "大麦",
-     "url": "https://m.damai.cn/shows/item.html?id=1002955281508"
+     "url": "https://m.damai.cn/shows/item.html?id=1089299752904"
     }
    ],
-   "first_seen": "2026-10-27",
+   "first_seen": "2026-10-01",
    "is_new": false
   },
   {
@@ -11260,31 +11337,6 @@
     }
    ],
    "first_seen": "2026-10-02",
-   "is_new": false
-  },
-  {
-   "id": "dm1072147563080",
-   "source": "大麦",
-   "kind": "话剧",
-   "title": "「亲子魔术」沉浸互动丨爆笑喜剧魔术丨淮海路必看亲子剧《幻梦奇缘》陪Ta走进童话丨亲子魔术秀",
-   "venue": "上海K11购物艺术中心 @喜剧玩家(上海K11购物艺术中心 上海市黄浦区淮海中路300号B3层 The Basement)",
-   "shop": "上海K11购物艺术中心 @喜剧玩家",
-   "city": "上海",
-   "date_text": "2026.11.07-12.27",
-   "date": "2026-11-07",
-   "date_end": "2026-11-07",
-   "status": "去购票",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01ixCKbR7iBtH24P50_!!2251059038.jpg",
-   "price": "29-243",
-   "tags": [],
-   "url": "https://m.damai.cn/shows/item.html?id=1072147563080",
-   "links": [
-    {
-     "source": "大麦",
-     "url": "https://m.damai.cn/shows/item.html?id=1072147563080"
-    }
-   ],
-   "first_seen": "2026-09-29",
    "is_new": false
   },
   {
@@ -11463,6 +11515,31 @@
    "is_new": false
   },
   {
+   "id": "dm1095343993186",
+   "source": "大麦",
+   "kind": "话剧",
+   "title": "[杭州必看]｜《谁在说谎》沉浸交互式悬疑都市轻喜剧 反转｜黑色幽默｜下班必看！！！",
+   "venue": "相信有戏剧场(原开心麻花疯狂星有团)(天水街道武林广场11号 杭州大厦中央商城B1层)",
+   "shop": "相信有戏剧场(原开心麻花疯狂星有团)",
+   "city": "杭州",
+   "date_text": "2026.11.09-12.31",
+   "date": "2026-11-09",
+   "date_end": "2026-11-09",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01nvSZCufqMWD24P50_!!2251059038.jpg",
+   "price": "199-778",
+   "tags": [],
+   "url": "https://m.damai.cn/shows/item.html?id=1095343993186",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=1095343993186"
+    }
+   ],
+   "first_seen": "2026-11-05",
+   "is_new": true
+  },
+  {
    "id": "dm1082021450852",
    "source": "大麦",
    "kind": "话剧",
@@ -11538,31 +11615,6 @@
    "is_new": false
   },
   {
-   "id": "dm1095038981540",
-   "source": "大麦",
-   "kind": "音乐剧",
-   "title": "原创R&B视觉音乐剧《XXII：命运》",
-   "venue": "佳合未来艺术中心(浙江省杭州市西湖区蒋村街道紫金港路21号)",
-   "shop": "佳合未来艺术中心",
-   "city": "杭州",
-   "date_text": "2026.11.14-11.29",
-   "date": "2026-11-14",
-   "date_end": "2026-11-14",
-   "status": "去购票",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN010j9FcrhefQI24P4m_!!2251059038.png",
-   "price": "66.3-458",
-   "tags": [],
-   "url": "https://m.damai.cn/shows/item.html?id=1095038981540",
-   "links": [
-    {
-     "source": "大麦",
-     "url": "https://m.damai.cn/shows/item.html?id=1095038981540"
-    }
-   ],
-   "first_seen": "2026-10-29",
-   "is_new": false
-  },
-  {
    "id": "dm1080028515876",
    "source": "大麦",
    "kind": "话剧",
@@ -11582,6 +11634,31 @@
     {
      "source": "大麦",
      "url": "https://m.damai.cn/shows/item.html?id=1080028515876"
+    }
+   ],
+   "first_seen": "2026-09-29",
+   "is_new": false
+  },
+  {
+   "id": "dm1055048118105",
+   "source": "大麦",
+   "kind": "话剧",
+   "title": "千万巨资|合家欢生态体验剧《洄游》",
+   "venue": "佳合未来艺术中心(浙江省杭州市西湖区蒋村街道紫金港路21号)",
+   "shop": "佳合未来艺术中心",
+   "city": "杭州",
+   "date_text": "2026.11.07-11.29",
+   "date": "2026-11-07",
+   "date_end": "2026-11-07",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01Cl7sir2GdSnKpUnTa_!!2251059038.jpg",
+   "price": "98-118",
+   "tags": [],
+   "url": "https://m.damai.cn/shows/item.html?id=1055048118105",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=1055048118105"
     }
    ],
    "first_seen": "2026-09-29",
@@ -11638,28 +11715,28 @@
    "is_new": false
   },
   {
-   "id": "dm1055048118105",
+   "id": "dm1095038981540",
    "source": "大麦",
-   "kind": "话剧",
-   "title": "千万巨资|合家欢生态体验剧《洄游》",
+   "kind": "音乐剧",
+   "title": "原创R&B视觉音乐剧《XXII：命运》",
    "venue": "佳合未来艺术中心(浙江省杭州市西湖区蒋村街道紫金港路21号)",
    "shop": "佳合未来艺术中心",
    "city": "杭州",
-   "date_text": "2026.11.07-11.29",
-   "date": "2026-11-07",
-   "date_end": "2026-11-07",
+   "date_text": "2026.11.14-11.29",
+   "date": "2026-11-14",
+   "date_end": "2026-11-14",
    "status": "去购票",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01Cl7sir2GdSnKpUnTa_!!2251059038.jpg",
-   "price": "98-118",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN010j9FcrhefQI24P4m_!!2251059038.png",
+   "price": "66.3-458",
    "tags": [],
-   "url": "https://m.damai.cn/shows/item.html?id=1055048118105",
+   "url": "https://m.damai.cn/shows/item.html?id=1095038981540",
    "links": [
     {
      "source": "大麦",
-     "url": "https://m.damai.cn/shows/item.html?id=1055048118105"
+     "url": "https://m.damai.cn/shows/item.html?id=1095038981540"
     }
    ],
-   "first_seen": "2026-09-29",
+   "first_seen": "2026-10-29",
    "is_new": false
   },
   {
@@ -11711,6 +11788,31 @@
    ],
    "first_seen": "2026-11-01",
    "is_new": false
+  },
+  {
+   "id": "dm944139339003",
+   "source": "大麦",
+   "kind": "话剧",
+   "title": "欢乐相遇《上位游戏》凶手再现｜沉浸式互动·悬疑推理·爆笑解压·约会打卡必看",
+   "venue": "斗萌喜剧·沉浸式演出剧场B厅(西湖银泰店)(杭州市延安路98号西湖银泰负一楼)",
+   "shop": "斗萌喜剧·沉浸式演出剧场B厅(西湖银泰店)",
+   "city": "杭州",
+   "date_text": "2026.11.05-11.30",
+   "date": "2026-11-05",
+   "date_end": "2026-11-05",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01je6GBm2GdSmLK2pba_!!2251059038.jpg",
+   "price": "29-698",
+   "tags": [],
+   "url": "https://m.damai.cn/shows/item.html?id=944139339003",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=944139339003"
+    }
+   ],
+   "first_seen": "2026-11-05",
+   "is_new": true
   },
   {
    "id": "dm1079514604854",
@@ -11838,25 +11940,25 @@
    "is_new": false
   },
   {
-   "id": "dm1034667770439",
+   "id": "dm1056045046797",
    "source": "大麦",
    "kind": "话剧",
-   "title": "【观前街】沉浸式喜剧魔术互动秀《万万没想到》| 爆笑现场+奇妙互动 @开心喜聚精品剧",
-   "venue": "长歌演艺空间(皮市街9-69号(开元里2楼）)",
-   "shop": "长歌演艺空间",
+   "title": "【常熟】年度京味大戏·老舍经典话剧《茶馆》专属版",
+   "venue": "常熟大剧院-大剧场(江苏省苏州市常熟市虞山镇竞文路8号)",
+   "shop": "常熟大剧院-大剧场",
    "city": "苏州",
-   "date_text": "2026.11.04-12.31",
-   "date": "2026-11-04",
-   "date_end": "2026-11-04",
+   "date_text": "2026.11.27 周五 19:30",
+   "date": "2026-11-27",
+   "date_end": "2026-11-27",
    "status": "去购票",
-   "poster": "https://img.alicdn.com/bao/uploaded/i1/2251059038/O1CN01NuUKP6RBzkL24P4m_!!4611686018427383646-2-item_pic.png",
-   "price": "68-208",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN01DqwOf22GdSmsybi8s_!!2251059038.jpg",
+   "price": "100-480",
    "tags": [],
-   "url": "https://m.damai.cn/shows/item.html?id=1034667770439",
+   "url": "https://m.damai.cn/shows/item.html?id=1056045046797",
    "links": [
     {
      "source": "大麦",
-     "url": "https://m.damai.cn/shows/item.html?id=1034667770439"
+     "url": "https://m.damai.cn/shows/item.html?id=1056045046797"
     }
    ],
    "first_seen": "2026-09-29",
@@ -11885,31 +11987,6 @@
     }
    ],
    "first_seen": "2026-10-16",
-   "is_new": false
-  },
-  {
-   "id": "dm1056045046797",
-   "source": "大麦",
-   "kind": "话剧",
-   "title": "【常熟】年度京味大戏·老舍经典话剧《茶馆》专属版",
-   "venue": "常熟大剧院-大剧场(江苏省苏州市常熟市虞山镇竞文路8号)",
-   "shop": "常熟大剧院-大剧场",
-   "city": "苏州",
-   "date_text": "2026.11.27 周五 19:30",
-   "date": "2026-11-27",
-   "date_end": "2026-11-27",
-   "status": "去购票",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN01DqwOf22GdSmsybi8s_!!2251059038.jpg",
-   "price": "100-480",
-   "tags": [],
-   "url": "https://m.damai.cn/shows/item.html?id=1056045046797",
-   "links": [
-    {
-     "source": "大麦",
-     "url": "https://m.damai.cn/shows/item.html?id=1056045046797"
-    }
-   ],
-   "first_seen": "2026-09-29",
    "is_new": false
   },
   {
@@ -11970,9 +12047,9 @@
    "venue": "苏州文化艺术中心-8# 魔术剧场(观枫街1号苏州文化艺术中心-苏艺演艺文化集聚区)",
    "shop": "苏州文化艺术中心-8# 魔术剧场",
    "city": "苏州",
-   "date_text": "2026.11.05-11.29",
-   "date": "2026-11-05",
-   "date_end": "2026-11-05",
+   "date_text": "2026.11.06-11.29",
+   "date": "2026-11-06",
+   "date_end": "2026-11-06",
    "status": "去购票",
    "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN01GXpVvcHK3WG24P50_!!2251059038.jpg",
    "price": "118-298",
@@ -12010,6 +12087,31 @@
     }
    ],
    "first_seen": "2026-10-14",
+   "is_new": false
+  },
+  {
+   "id": "dm1034667770439",
+   "source": "大麦",
+   "kind": "话剧",
+   "title": "【观前街】沉浸式喜剧魔术互动秀《万万没想到》| 爆笑现场+奇妙互动 @开心喜聚精品剧",
+   "venue": "长歌演艺空间(皮市街9-69号(开元里2楼）)",
+   "shop": "长歌演艺空间",
+   "city": "苏州",
+   "date_text": "2026.11.05-12.31",
+   "date": "2026-11-05",
+   "date_end": "2026-11-05",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/i1/2251059038/O1CN01NuUKP6RBzkL24P4m_!!4611686018427383646-2-item_pic.png",
+   "price": "68-208",
+   "tags": [],
+   "url": "https://m.damai.cn/shows/item.html?id=1034667770439",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=1034667770439"
+    }
+   ],
+   "first_seen": "2026-09-29",
    "is_new": false
   },
   {
@@ -12160,7 +12262,7 @@
     }
    ],
    "first_seen": "2026-11-04",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "dm1093256437255",
@@ -12195,9 +12297,9 @@
    "venue": "沉浸式金牌剧场(旗舰总店)(南京市鼓楼区中央路201号金茂览秀城四层L412铺)",
    "shop": "沉浸式金牌剧场(旗舰总店)",
    "city": "南京",
-   "date_text": "2026.11.04-11.30",
-   "date": "2026-11-04",
-   "date_end": "2026-11-04",
+   "date_text": "2026.11.05-11.30",
+   "date": "2026-11-05",
+   "date_end": "2026-11-05",
    "status": "去购票",
    "poster": "https://img.alicdn.com/bao/uploaded/i4/2251059038/O1CN01qVn00UK0pwE24P50_!!4611686018427383646-0-item_pic.jpg",
    "price": "35-956",
@@ -12285,6 +12387,31 @@
     }
    ],
    "first_seen": "2026-11-02",
+   "is_new": false
+  },
+  {
+   "id": "dm1069215546675",
+   "source": "大麦",
+   "kind": "话剧",
+   "title": "【南京独家】原创沉浸式互动戏剧《多见一面》爆笑x温情x反转 | 音乐x魔术跨界 | 王君睿王瑞岩高欣",
+   "venue": "凝固时间沉浸剧场(南京市玄武区长江路101号7层)",
+   "shop": "凝固时间沉浸剧场",
+   "city": "南京",
+   "date_text": "2026.11.14-11.28",
+   "date": "2026-11-14",
+   "date_end": "2026-11-14",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/i3/2251059038/O1CN01lR1CuB2ZrqE24P4m_!!4611686018427383646-2-item_pic.png",
+   "price": "108-168",
+   "tags": [],
+   "url": "https://m.damai.cn/shows/item.html?id=1069215546675",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=1069215546675"
+    }
+   ],
+   "first_seen": "2026-10-19",
    "is_new": false
   },
   {
@@ -12438,31 +12565,6 @@
    "is_new": false
   },
   {
-   "id": "dm1069215546675",
-   "source": "大麦",
-   "kind": "话剧",
-   "title": "【南京独家】原创沉浸式互动戏剧《多见一面》爆笑x温情x反转 | 音乐x魔术跨界 | 王君睿王瑞岩高欣",
-   "venue": "凝固时间沉浸剧场(南京市玄武区长江路101号7层)",
-   "shop": "凝固时间沉浸剧场",
-   "city": "南京",
-   "date_text": "2026.11.14-11.28",
-   "date": "2026-11-14",
-   "date_end": "2026-11-14",
-   "status": "去购票",
-   "poster": "https://img.alicdn.com/bao/uploaded/i3/2251059038/O1CN01lR1CuB2ZrqE24P4m_!!4611686018427383646-2-item_pic.png",
-   "price": "108-168",
-   "tags": [],
-   "url": "https://m.damai.cn/shows/item.html?id=1069215546675",
-   "links": [
-    {
-     "source": "大麦",
-     "url": "https://m.damai.cn/shows/item.html?id=1069215546675"
-    }
-   ],
-   "first_seen": "2026-10-19",
-   "is_new": false
-  },
-  {
    "id": "dm1079141395065",
    "source": "大麦",
    "kind": "话剧",
@@ -12560,7 +12662,7 @@
     }
    ],
    "first_seen": "2026-11-04",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "dm1094596252850",
@@ -12895,9 +12997,9 @@
    "venue": "吴家老宅庭院剧场(浙江省温州市鹿城区五马街道鼓楼社区纱帽河六十八弄6号吴百亨故居A 区 A1 庭院空地)",
    "shop": "吴家老宅庭院剧场",
    "city": "温州",
-   "date_text": "2026.11.04-11.21",
-   "date": "2026-11-04",
-   "date_end": "2026-11-04",
+   "date_text": "2026.11.07-11.21",
+   "date": "2026-11-07",
+   "date_end": "2026-11-07",
    "status": "去购票",
    "poster": "https://img.alicdn.com/bao/uploaded/i2/2251059038/O1CN018r59ZebCn7L24P4m_!!4611686018427383646-0-item_pic.jpg",
    "price": "158-598",
@@ -13085,7 +13187,7 @@
     }
    ],
    "first_seen": "2026-11-04",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "dm1095145248530",
@@ -13145,9 +13247,9 @@
    "venue": "《印象普陀》演出(舟山市朱家尖印象普陀剧场（原观音文化苑）)",
    "shop": "《印象普陀》演出",
    "city": "舟山",
-   "date_text": "2026.11.04-11.30",
-   "date": "2026-11-04",
-   "date_end": "2026-11-04",
+   "date_text": "2026.11.05-11.30",
+   "date": "2026-11-05",
+   "date_end": "2026-11-05",
    "status": "去购票",
    "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01LN9AZY2GdScIhKiig_!!2251059038.png",
    "price": "70-368",
@@ -13821,8 +13923,8 @@
    "shop": "新世纪福音战士·30周年纪念活动-上海新世界E展空间",
    "place": "",
    "city": "上海",
-   "date_text": "2026.11.04 - 2027.01.03",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 2027.01.03",
+   "date": "2026-11-05",
    "date_end": "2027-01-03",
    "status": "",
    "poster": "https://p1.pipi.cn/mediaplus/fantasy_perform_fe/e42958bf7f05c2fa46b24eab349439751574c.png?imageMogr2/quality/80",
@@ -13873,8 +13975,8 @@
    "shop": "上海新世界城11楼 E展空间",
    "place": "",
    "city": "上海",
-   "date_text": "2026.11.04 - 11.15",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 11.15",
+   "date": "2026-11-05",
    "date_end": "2026-11-15",
    "status": "去购票",
    "poster": "https://p0.pipi.cn/mediaplus/fantasy_perform_fe/e429589a05177e6b1b4ea9557cbac10c53fe8.png?imageMogr2/quality/80",
@@ -13969,32 +14071,6 @@
    "is_new": false
   },
   {
-   "id": "502108",
-   "source": "格瓦拉",
-   "kind": "展览",
-   "title": "《花砖街 11 号》黄油小熊艺术展・全球首站",
-   "venue": "花砖街11号-黄油小熊艺术展·全球首站(淮海中路街道淮海中路300号K11购物艺术中心)",
-   "shop": "花砖街11号-黄油小熊艺术展·全球首站",
-   "place": "",
-   "city": "上海",
-   "date_text": "2026.09.24 - 2027.01.24",
-   "date": "2026-09-24",
-   "date_end": "2027-01-24",
-   "status": "",
-   "poster": "https://p0.pipi.cn/mediaplus/fantasy_perform_fe/e429586ef876e39fd1f87b43944ff7f2c28a6.jpg?imageMogr2/quality/80",
-   "price": "39-78",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/502108",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/502108"
-    }
-   ],
-   "first_seen": "2026-10-01",
-   "is_new": false
-  },
-  {
    "id": "491107",
    "source": "格瓦拉",
    "kind": "展览",
@@ -14015,6 +14091,32 @@
     {
      "source": "格瓦拉",
      "url": "https://show.maoyan.com/detail/491107"
+    }
+   ],
+   "first_seen": "2026-10-01",
+   "is_new": false
+  },
+  {
+   "id": "502108",
+   "source": "格瓦拉",
+   "kind": "展览",
+   "title": "《花砖街 11 号》黄油小熊艺术展・全球首站",
+   "venue": "花砖街11号-黄油小熊艺术展·全球首站(淮海中路街道淮海中路300号K11购物艺术中心)",
+   "shop": "花砖街11号-黄油小熊艺术展·全球首站",
+   "place": "",
+   "city": "上海",
+   "date_text": "2026.09.24 - 2027.01.24",
+   "date": "2026-09-24",
+   "date_end": "2027-01-24",
+   "status": "",
+   "poster": "https://p0.pipi.cn/mediaplus/fantasy_perform_fe/e429586ef876e39fd1f87b43944ff7f2c28a6.jpg?imageMogr2/quality/80",
+   "price": "39-78",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/502108",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/502108"
     }
    ],
    "first_seen": "2026-10-01",
@@ -14099,6 +14201,32 @@
    "is_new": false
   },
   {
+   "id": "515579",
+   "source": "格瓦拉",
+   "kind": "展览",
+   "title": "2026西岸艺术与设计博览会 | 参观券",
+   "venue": "西岸国际会展中心(徐家汇街道云绣路200号)",
+   "shop": "西岸国际会展中心(上海)",
+   "place": "",
+   "city": "上海",
+   "date_text": "2026.11.12 - 11.15",
+   "date": "2026-11-12",
+   "date_end": "2026-11-15",
+   "status": "去购票",
+   "poster": "https://p0.meituan.net/moviesh/201d48d49136a4f1d6bf4318c75e6521141500.jpg",
+   "price": "200",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/515579",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/515579"
+    }
+   ],
+   "first_seen": "2026-10-27",
+   "is_new": false
+  },
+  {
    "id": "514577",
    "source": "格瓦拉",
    "kind": "展览",
@@ -14151,32 +14279,6 @@
    "is_new": false
   },
   {
-   "id": "515579",
-   "source": "格瓦拉",
-   "kind": "展览",
-   "title": "2026西岸艺术与设计博览会 | 参观券",
-   "venue": "西岸国际会展中心(徐家汇街道云绣路200号)",
-   "shop": "西岸国际会展中心(上海)",
-   "place": "",
-   "city": "上海",
-   "date_text": "2026.11.12 - 11.15",
-   "date": "2026-11-12",
-   "date_end": "2026-11-15",
-   "status": "去购票",
-   "poster": "https://p0.meituan.net/moviesh/201d48d49136a4f1d6bf4318c75e6521141500.jpg",
-   "price": "200",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/515579",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/515579"
-    }
-   ],
-   "first_seen": "2026-10-27",
-   "is_new": false
-  },
-  {
    "id": "502841",
    "source": "格瓦拉",
    "kind": "展览",
@@ -14203,32 +14305,6 @@
    "is_new": false
   },
   {
-   "id": "490302",
-   "source": "格瓦拉",
-   "kind": "展览",
-   "title": "《史前星球：恐龙篇》沉浸式巨幕体验",
-   "venue": "史前星球：恐龙篇沉浸式巨幕体验(龙腾大道2600号西岸美术馆B1智造展厅)",
-   "shop": "史前星球：恐龙篇沉浸式巨幕体验",
-   "place": "",
-   "city": "上海",
-   "date_text": "2026.06.27 - 2027.01.17",
-   "date": "2026-06-27",
-   "date_end": "2027-01-17",
-   "status": "去购票",
-   "poster": "https://p0.meituan.net/myvideodistribute/249583662130b01ebf9c7b34fdffedae110740.jpg",
-   "price": "58-188",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/490302",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/490302"
-    }
-   ],
-   "first_seen": "2026-10-01",
-   "is_new": false
-  },
-  {
    "id": "495880",
    "source": "格瓦拉",
    "kind": "展览",
@@ -14249,6 +14325,32 @@
     {
      "source": "格瓦拉",
      "url": "https://show.maoyan.com/detail/495880"
+    }
+   ],
+   "first_seen": "2026-10-01",
+   "is_new": false
+  },
+  {
+   "id": "490302",
+   "source": "格瓦拉",
+   "kind": "展览",
+   "title": "《史前星球：恐龙篇》沉浸式巨幕体验",
+   "venue": "史前星球：恐龙篇沉浸式巨幕体验(龙腾大道2600号西岸美术馆B1智造展厅)",
+   "shop": "史前星球：恐龙篇沉浸式巨幕体验",
+   "place": "",
+   "city": "上海",
+   "date_text": "2026.06.27 - 2027.01.17",
+   "date": "2026-06-27",
+   "date_end": "2027-01-17",
+   "status": "去购票",
+   "poster": "https://p0.meituan.net/myvideodistribute/249583662130b01ebf9c7b34fdffedae110740.jpg",
+   "price": "58-188",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/490302",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/490302"
     }
    ],
    "first_seen": "2026-10-01",
@@ -14315,8 +14417,8 @@
    "shop": "e展空间",
    "place": "",
    "city": "上海",
-   "date_text": "2026.11.04 - 2027.01.03",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 2027.01.03",
+   "date": "2026-11-05",
    "date_end": "2027-01-03",
    "status": "",
    "poster": "https://p0.pipi.cn/mediaplus/fantasy_perform_fe/e429585c4ea77eb78680143e268bd126661cb.jpg?imageMogr2/quality/80",
@@ -14330,7 +14432,7 @@
     }
    ],
    "first_seen": "2026-11-04",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "513791",
@@ -14705,8 +14807,8 @@
    "shop": "暴风岛沉浸式体验馆-打浦桥店",
    "place": "",
    "city": "上海",
-   "date_text": "2026.11.04 - 2026.12.31",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 2026.12.31",
+   "date": "2026-11-05",
    "date_end": "2026-12-31",
    "status": "",
    "poster": "https://p0.meituan.net/myvideodistribute/a6a8a12d2b8f6688e71128a39f738a50243814.jpg",
@@ -14965,8 +15067,8 @@
    "shop": "Fotografiska影像艺术中心单日通票",
    "place": "",
    "city": "上海",
-   "date_text": "2026.11.04 - 2026.11.25",
-   "date": "2026-11-04",
+   "date_text": "2026.11.11 - 2026.11.25",
+   "date": "2026-11-11",
    "date_end": "2026-11-25",
    "status": "",
    "poster": "https://p0.meituan.net/myvideodistribute/ba16f7b00154d19c2e9c306906a716b4341963.jpg",
@@ -15006,7 +15108,7 @@
     }
    ],
    "first_seen": "2026-11-04",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "516979",
@@ -15433,8 +15535,8 @@
    "shop": "乐合喜剧 快乐剧场-南京东路店",
    "place": "",
    "city": "上海",
-   "date_text": "2026.11.04 - 11.30",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 11.30",
+   "date": "2026-11-05",
    "date_end": "2026-11-30",
    "status": "",
    "poster": "https://p0.pipi.cn/mediaplus/show_business_static/e429589a15d051f87b8d3efa001dcd1f49a44.png?imageMogr2/thumbnail/860x1157%3E",
@@ -15485,8 +15587,8 @@
    "shop": "古北99艺术中心",
    "place": "",
    "city": "上海",
-   "date_text": "2026.11.04 - 2026.11.15",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 2026.11.15",
+   "date": "2026-11-05",
    "date_end": "2026-11-15",
    "status": "去购票",
    "poster": "https://p1.meituan.net/myvideodistribute/45b648492d84be28cbbf94cd5b78a7a4627768.jpg",
@@ -16343,8 +16445,8 @@
    "shop": "暴风岛沉浸式体验馆-打浦桥店",
    "place": "",
    "city": "上海",
-   "date_text": "2026.11.04 - 2026.12.31",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 2026.12.31",
+   "date": "2026-11-05",
    "date_end": "2026-12-31",
    "status": "",
    "poster": "https://p0.meituan.net/myvideodistribute/a48010a425437e6b7a2415bad800fa7f876754.jpg",
@@ -16369,8 +16471,8 @@
    "shop": "暴风岛沉浸式体验馆-打浦桥店",
    "place": "",
    "city": "上海",
-   "date_text": "2026.11.04 - 2026.12.31",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 2026.12.31",
+   "date": "2026-11-05",
    "date_end": "2026-12-31",
    "status": "去购票",
    "poster": "https://p1.meituan.net/myvideodistribute/ce7202b8bd5bd9025f5d38e1a302c4b9327144.jpg",
@@ -16395,8 +16497,8 @@
    "shop": "暴风岛沉浸式体验馆-百联世纪店",
    "place": "",
    "city": "上海",
-   "date_text": "2026.11.04 - 2026.12.17",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 2026.12.17",
+   "date": "2026-11-05",
    "date_end": "2026-12-17",
    "status": "去购票",
    "poster": "https://p1.meituan.net/myvideodistribute/1437c9b471e060d73ad1890847d38a791127536.jpg",
@@ -17461,8 +17563,8 @@
    "shop": "深空未来·8K超‘高清沉浸探索空间-杭州店",
    "place": "",
    "city": "杭州",
-   "date_text": "2026.11.04 - 11.29",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 11.29",
+   "date": "2026-11-05",
    "date_end": "2026-11-29",
    "status": "去购票",
    "poster": "https://p0.pipi.cn/mediaplus/show_business_static/e429589ad8ac8b72a9bf88258280773ecf332.jpg?imageMogr2/thumbnail/1167x1150%3E",
@@ -17554,7 +17656,7 @@
     }
    ],
    "first_seen": "2026-11-04",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "517272",
@@ -17580,7 +17682,7 @@
     }
    ],
    "first_seen": "2026-11-04",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "516727",
@@ -17606,7 +17708,7 @@
     }
    ],
    "first_seen": "2026-11-04",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "516433",
@@ -17669,10 +17771,10 @@
    "shop": "深空未来·8K超‘高清沉浸探索空间-杭州店",
    "place": "",
    "city": "杭州",
-   "date_text": "2026.11.04 - 11.29",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05 - 11.29",
+   "date": "2026-11-05",
    "date_end": "2026-11-29",
-   "status": "",
+   "status": "去购票",
    "poster": "https://p0.pipi.cn/mediaplus/show_business_static/e429589ad8a051ce6370487b33995668c85dd.jpg?imageMogr2/thumbnail/798x787%3E",
    "price": "69-108",
    "tags": [],
@@ -18211,32 +18313,6 @@
    "is_new": false
   },
   {
-   "id": "495453",
-   "source": "格瓦拉",
-   "kind": "展览",
-   "title": "IAM 双展联看：《界面：2049》《刺猬的优雅》",
-   "venue": "虹·美术馆(四季路李公堤四期17幢  虹·美术馆)",
-   "shop": "虹·美术馆",
-   "place": "",
-   "city": "苏州",
-   "date_text": "2026.07.26 - 11.22",
-   "date": "2026-07-26",
-   "date_end": "2026-11-22",
-   "status": "",
-   "poster": "https://p0.pipi.cn/mediaplus/show_business_static/e42958b7e326e3529449486cb3e5c85bad9e6.jpg?imageMogr2/thumbnail/1417x1908%3E",
-   "price": "34-156",
-   "tags": [],
-   "url": "https://show.maoyan.com/detail/495453",
-   "links": [
-    {
-     "source": "格瓦拉",
-     "url": "https://show.maoyan.com/detail/495453"
-    }
-   ],
-   "first_seen": "2026-10-01",
-   "is_new": false
-  },
-  {
    "id": "515414",
    "source": "格瓦拉",
    "kind": "展览",
@@ -18260,6 +18336,32 @@
     }
    ],
    "first_seen": "2026-10-27",
+   "is_new": false
+  },
+  {
+   "id": "495453",
+   "source": "格瓦拉",
+   "kind": "展览",
+   "title": "IAM 双展联看：《界面：2049》《刺猬的优雅》",
+   "venue": "虹·美术馆(四季路李公堤四期17幢  虹·美术馆)",
+   "shop": "虹·美术馆",
+   "place": "",
+   "city": "苏州",
+   "date_text": "2026.07.26 - 11.22",
+   "date": "2026-07-26",
+   "date_end": "2026-11-22",
+   "status": "",
+   "poster": "https://p0.pipi.cn/mediaplus/show_business_static/e42958b7e326e3529449486cb3e5c85bad9e6.jpg?imageMogr2/thumbnail/1417x1908%3E",
+   "price": "34-156",
+   "tags": [],
+   "url": "https://show.maoyan.com/detail/495453",
+   "links": [
+    {
+     "source": "格瓦拉",
+     "url": "https://show.maoyan.com/detail/495453"
+    }
+   ],
+   "first_seen": "2026-10-01",
    "is_new": false
   },
   {
@@ -18905,8 +19007,8 @@
    "shop": "上海新世界城11楼 E展空间",
    "place": "",
    "city": "上海",
-   "date_text": "2026.11.04-2027.01.03",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05-2027.01.03",
+   "date": "2026-11-05",
    "date_end": "2027-01-03",
    "status": "去购票",
    "poster": "https://img.alicdn.com/bao/uploaded/i4/2251059038/O1CN01Jwox366ElaE1R7vI_!!4611686018427383646-2-item_pic.png",
@@ -18933,8 +19035,8 @@
    "shop": "上海温室花园",
    "place": "",
    "city": "上海",
-   "date_text": "2026.11.04-12.31",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05-12.31",
+   "date": "2026-11-05",
    "date_end": "2026-12-31",
    "status": "去购票",
    "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01xHptS0mdynK1pvXl_!!2251059038.jpg",
@@ -19017,8 +19119,8 @@
    "shop": "HERO DOME·上海英雄外滩国际演艺中心",
    "place": "",
    "city": "上海",
-   "date_text": "2026.11.04-11.10",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05-11.10",
+   "date": "2026-11-05",
    "date_end": "2026-11-10",
    "status": "去购票",
    "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01wKptZjwwCWD1Ctxd_!!2251059038.png",
@@ -19034,34 +19136,6 @@
     }
    ],
    "first_seen": "2026-11-04",
-   "is_new": false
-  },
-  {
-   "id": "dm1059701715292",
-   "source": "大麦",
-   "kind": "展览",
-   "title": "「2026版」中国国家地理·探索 极致发现科学艺术影像展",
-   "venue": "上海晶耀虹桥艺术光圈 Aperture(上海市长宁区天山路688号晶耀虹桥艺术光圈 Aperture (电梯至三层艺术光圈，位于T1T2T6中间）)",
-   "shop": "上海晶耀虹桥艺术光圈 Aperture",
-   "place": "",
-   "city": "上海",
-   "date_text": "2026.07.01-2027.01.03",
-   "date": "2026-07-01",
-   "date_end": "2027-01-03",
-   "status": "去购票",
-   "poster": "https://img.alicdn.com/bao/uploaded/i4/2251059038/O1CN01HcPfL32GdSn7g1ovV_!!4611686018427383646-2-item_pic.png",
-   "price": "18-58",
-   "tags": [
-    "艺术展"
-   ],
-   "url": "https://m.damai.cn/shows/item.html?id=1059701715292",
-   "links": [
-    {
-     "source": "大麦",
-     "url": "https://m.damai.cn/shows/item.html?id=1059701715292"
-    }
-   ],
-   "first_seen": "2026-10-01",
    "is_new": false
   },
   {
@@ -19121,6 +19195,34 @@
    "is_new": false
   },
   {
+   "id": "dm1059701715292",
+   "source": "大麦",
+   "kind": "展览",
+   "title": "「2026版」中国国家地理·探索 极致发现科学艺术影像展",
+   "venue": "上海晶耀虹桥艺术光圈 Aperture(上海市长宁区天山路688号晶耀虹桥艺术光圈 Aperture (电梯至三层艺术光圈，位于T1T2T6中间）)",
+   "shop": "上海晶耀虹桥艺术光圈 Aperture",
+   "place": "",
+   "city": "上海",
+   "date_text": "2026.07.01-2027.01.03",
+   "date": "2026-07-01",
+   "date_end": "2027-01-03",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/i4/2251059038/O1CN01HcPfL32GdSn7g1ovV_!!4611686018427383646-2-item_pic.png",
+   "price": "18-58",
+   "tags": [
+    "艺术展"
+   ],
+   "url": "https://m.damai.cn/shows/item.html?id=1059701715292",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=1059701715292"
+    }
+   ],
+   "first_seen": "2026-10-01",
+   "is_new": false
+  },
+  {
    "id": "dm861119115832",
    "source": "大麦",
    "kind": "展览",
@@ -19143,34 +19245,6 @@
     {
      "source": "大麦",
      "url": "https://m.damai.cn/shows/item.html?id=861119115832"
-    }
-   ],
-   "first_seen": "2026-10-01",
-   "is_new": false
-  },
-  {
-   "id": "dm890075869279",
-   "source": "大麦",
-   "kind": "展览",
-   "title": "[周三爵士与鸡尾酒之夜] Fotografiska展览+爵士之夜通票",
-   "venue": "Fotografiska影像艺术中心(光复路127号)",
-   "shop": "Fotografiska影像艺术中心",
-   "place": "",
-   "city": "上海",
-   "date_text": "2026.11.04 周三 10:30",
-   "date": "2026-11-04",
-   "date_end": "2026-11-04",
-   "status": "去购票",
-   "poster": "https://img.alicdn.com/bao/uploaded/i4/2251059038/O1CN01k4i0eolNZZG24P4m_!!4611686018427383646-2-item_pic.png",
-   "price": "50-80",
-   "tags": [
-    "艺术展"
-   ],
-   "url": "https://m.damai.cn/shows/item.html?id=890075869279",
-   "links": [
-    {
-     "source": "大麦",
-     "url": "https://m.damai.cn/shows/item.html?id=890075869279"
     }
    ],
    "first_seen": "2026-10-01",
@@ -19261,6 +19335,62 @@
    "is_new": false
   },
   {
+   "id": "dm1041553501167",
+   "source": "大麦",
+   "kind": "展览",
+   "title": "「消失的法老II：建造者之谜」沉浸式探索体验",
+   "venue": "博新全宇宙The VERS沉浸式探索中心(静安区南京西路789号兴业太古汇LG2层LG216)",
+   "shop": "博新全宇宙The VERS沉浸式探索中心",
+   "place": "",
+   "city": "上海",
+   "date_text": "2026.04.25-2027.04.30",
+   "date": "2026-04-25",
+   "date_end": "2027-04-30",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01ws2Cyk2GdSm7i22xz_!!2251059038.png",
+   "price": "198-558",
+   "tags": [
+    "VR"
+   ],
+   "url": "https://m.damai.cn/shows/item.html?id=1041553501167",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=1041553501167"
+    }
+   ],
+   "first_seen": "2026-11-05",
+   "is_new": true
+  },
+  {
+   "id": "dm1002081295275",
+   "source": "大麦",
+   "kind": "展览",
+   "title": "中国音数协游戏博物馆 常设展门票",
+   "venue": "中国音数协游戏博物馆(桂箐路65号新研大厦B座3层)",
+   "shop": "中国音数协游戏博物馆",
+   "place": "",
+   "city": "上海",
+   "date_text": "2026.11.05-11.08",
+   "date": "2026-11-05",
+   "date_end": "2026-11-08",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/i1/2251059038/O1CN01E8vifNCrJwC21lAi_!!4611686018427383646-0-item_pic.jpg",
+   "price": "19-88",
+   "tags": [
+    "展览展会"
+   ],
+   "url": "https://m.damai.cn/shows/item.html?id=1002081295275",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=1002081295275"
+    }
+   ],
+   "first_seen": "2026-10-27",
+   "is_new": false
+  },
+  {
    "id": "dm1002787842796",
    "source": "大麦",
    "kind": "展览",
@@ -19314,34 +19444,6 @@
     }
    ],
    "first_seen": "2026-10-01",
-   "is_new": false
-  },
-  {
-   "id": "dm1002081295275",
-   "source": "大麦",
-   "kind": "展览",
-   "title": "中国音数协游戏博物馆 常设展门票",
-   "venue": "中国音数协游戏博物馆(桂箐路65号新研大厦B座3层)",
-   "shop": "中国音数协游戏博物馆",
-   "place": "",
-   "city": "上海",
-   "date_text": "2026.11.04-11.08",
-   "date": "2026-11-04",
-   "date_end": "2026-11-08",
-   "status": "去购票",
-   "poster": "https://img.alicdn.com/bao/uploaded/i1/2251059038/O1CN01E8vifNCrJwC21lAi_!!4611686018427383646-0-item_pic.jpg",
-   "price": "19-88",
-   "tags": [
-    "展览展会"
-   ],
-   "url": "https://m.damai.cn/shows/item.html?id=1002081295275",
-   "links": [
-    {
-     "source": "大麦",
-     "url": "https://m.damai.cn/shows/item.html?id=1002081295275"
-    }
-   ],
-   "first_seen": "2026-10-27",
    "is_new": false
   },
   {
@@ -19513,6 +19615,34 @@
    "is_new": false
   },
   {
+   "id": "dm969971719630",
+   "source": "大麦",
+   "kind": "展览",
+   "title": "科幻巨制《太空奥德赛》VR沉浸式体验--致敬经典电影《侏罗纪世界重生》",
+   "venue": "滨港商业中心-曜时空VR影乐园(L7)(四川北路939号)",
+   "shop": "滨港商业中心-曜时空VR影乐园(L7)",
+   "place": "",
+   "city": "上海",
+   "date_text": "2026.10.11-11.30",
+   "date": "2026-10-11",
+   "date_end": "2026-11-30",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01a5SGei2GdSiJQhYvI_!!2251059038.jpg",
+   "price": "129-399",
+   "tags": [
+    "VR"
+   ],
+   "url": "https://m.damai.cn/shows/item.html?id=969971719630",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=969971719630"
+    }
+   ],
+   "first_seen": "2026-11-05",
+   "is_new": true
+  },
+  {
    "id": "dm1019825389709",
    "source": "大麦",
    "kind": "展览",
@@ -19567,6 +19697,34 @@
    ],
    "first_seen": "2026-10-30",
    "is_new": false
+  },
+  {
+   "id": "dm1050796491075",
+   "source": "大麦",
+   "kind": "展览",
+   "title": "AI火星农场·MR火星奇旅 | 通票",
+   "venue": "滨港商业中心-曜时空VR影乐园(L7)(四川北路939号)",
+   "shop": "滨港商业中心-曜时空VR影乐园(L7)",
+   "place": "",
+   "city": "上海",
+   "date_text": "2026.10.11-11.30",
+   "date": "2026-10-11",
+   "date_end": "2026-11-30",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01AgMIDQ2GdSmkxVI5C_!!2251059038.png",
+   "price": "59-89",
+   "tags": [
+    "VR"
+   ],
+   "url": "https://m.damai.cn/shows/item.html?id=1050796491075",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=1050796491075"
+    }
+   ],
+   "first_seen": "2026-11-05",
+   "is_new": true
   },
   {
    "id": "dm1065705078363",
@@ -19877,6 +20035,34 @@
    "is_new": false
   },
   {
+   "id": "dm960106082544",
+   "source": "大麦",
+   "kind": "展览",
+   "title": "「消失的法老」胡夫金字塔沉浸式探索体验（兴业太古汇）",
+   "venue": "博新全宇宙The VERS沉浸式探索中心(静安区南京西路789号兴业太古汇LG2层LG216)",
+   "shop": "博新全宇宙The VERS沉浸式探索中心",
+   "place": "",
+   "city": "上海",
+   "date_text": "2025.08.18-2027.05.31",
+   "date": "2025-08-18",
+   "date_end": "2027-05-31",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01Rol8Ns2GdSiolUV5K_!!2251059038.png",
+   "price": "198-558",
+   "tags": [
+    "VR"
+   ],
+   "url": "https://m.damai.cn/shows/item.html?id=960106082544",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=960106082544"
+    }
+   ],
+   "first_seen": "2026-11-05",
+   "is_new": true
+  },
+  {
    "id": "dm1089579987179",
    "source": "大麦",
    "kind": "展览",
@@ -19961,6 +20147,34 @@
    "is_new": false
   },
   {
+   "id": "dm1068123666465",
+   "source": "大麦",
+   "kind": "展览",
+   "title": "《大圣崛起之万妖神游》(上篇或下篇单片二选一)",
+   "venue": "滨港商业中心-曜时空VR影乐园(L7)(四川北路939号)",
+   "shop": "滨港商业中心-曜时空VR影乐园(L7)",
+   "place": "",
+   "city": "上海",
+   "date_text": "2026.07.28-11.30",
+   "date": "2026-07-28",
+   "date_end": "2026-11-30",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN011k2JyH2GdSnTevDFS_!!2251059038.png",
+   "price": "69-128",
+   "tags": [
+    "VR"
+   ],
+   "url": "https://m.damai.cn/shows/item.html?id=1068123666465",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=1068123666465"
+    }
+   ],
+   "first_seen": "2026-11-05",
+   "is_new": true
+  },
+  {
    "id": "dm987325546651",
    "source": "大麦",
    "kind": "展览",
@@ -19989,6 +20203,34 @@
    "is_new": false
   },
   {
+   "id": "dm950674764694",
+   "source": "大麦",
+   "kind": "展览",
+   "title": "「永恒的巴黎圣母院」沉浸式探索体验",
+   "venue": "博新全宇宙The VERS沉浸式探索中心(静安区南京西路789号兴业太古汇LG2层LG216)",
+   "shop": "博新全宇宙The VERS沉浸式探索中心",
+   "place": "",
+   "city": "上海",
+   "date_text": "2025.07.10-2027.09.30",
+   "date": "2025-07-10",
+   "date_end": "2027-09-30",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN01gaBNInnhPgF1qB76_!!2251059038.png",
+   "price": "198-558",
+   "tags": [
+    "VR"
+   ],
+   "url": "https://m.damai.cn/shows/item.html?id=950674764694",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=950674764694"
+    }
+   ],
+   "first_seen": "2026-11-05",
+   "is_new": true
+  },
+  {
    "id": "dm1086923670585",
    "source": "大麦",
    "kind": "展览",
@@ -20015,6 +20257,34 @@
    ],
    "first_seen": "2026-10-01",
    "is_new": false
+  },
+  {
+   "id": "dm958595277988",
+   "source": "大麦",
+   "kind": "展览",
+   "title": "「要塞1304：卡尔卡松的荣耀」沉浸式探索体验（兴业太古汇）",
+   "venue": "博新全宇宙The VERS沉浸式探索中心(静安区南京西路789号兴业太古汇LG2层LG216)",
+   "shop": "博新全宇宙The VERS沉浸式探索中心",
+   "place": "",
+   "city": "上海",
+   "date_text": "2025.08.01-2027.05.31",
+   "date": "2025-08-01",
+   "date_end": "2027-05-31",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01knYVzw2GdSiiLYiMp_!!2251059038.png",
+   "price": "198-558",
+   "tags": [
+    "VR"
+   ],
+   "url": "https://m.damai.cn/shows/item.html?id=958595277988",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=958595277988"
+    }
+   ],
+   "first_seen": "2026-11-05",
+   "is_new": true
   },
   {
    "id": "dm1044967839998",
@@ -20241,6 +20511,34 @@
    "is_new": false
   },
   {
+   "id": "dm929513535904",
+   "source": "大麦",
+   "kind": "展览",
+   "title": "「巴黎1874·印象派之夜」沉浸式探索体验（兴业太古汇）",
+   "venue": "博新全宇宙The VERS沉浸式探索中心(静安区南京西路789号兴业太古汇LG2层LG216)",
+   "shop": "博新全宇宙The VERS沉浸式探索中心",
+   "place": "",
+   "city": "上海",
+   "date_text": "2025.07.15-2027.05.31",
+   "date": "2025-07-15",
+   "date_end": "2027-05-31",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01tAdOgV2GdShWmZC6C_!!2251059038.png",
+   "price": "198-558",
+   "tags": [
+    "VR"
+   ],
+   "url": "https://m.damai.cn/shows/item.html?id=929513535904",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=929513535904"
+    }
+   ],
+   "first_seen": "2026-11-05",
+   "is_new": true
+  },
+  {
    "id": "dm1087747505267",
    "source": "大麦",
    "kind": "展览",
@@ -20267,6 +20565,34 @@
    ],
    "first_seen": "2026-10-01",
    "is_new": false
+  },
+  {
+   "id": "dm977880928530",
+   "source": "大麦",
+   "kind": "展览",
+   "title": "《浪浪山小妖怪：妖你同行XR》通票|节假日通用",
+   "venue": "滨港商业中心-曜时空VR影乐园(L7)(四川北路939号)",
+   "shop": "滨港商业中心-曜时空VR影乐园(L7)",
+   "place": "",
+   "city": "上海",
+   "date_text": "2026.10.11-11.30",
+   "date": "2026-10-11",
+   "date_end": "2026-11-30",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01d5rI782GdSjMFhMJ3_!!2251059038.jpg",
+   "price": "68-229",
+   "tags": [
+    "VR"
+   ],
+   "url": "https://m.damai.cn/shows/item.html?id=977880928530",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=977880928530"
+    }
+   ],
+   "first_seen": "2026-11-05",
+   "is_new": true
   },
   {
    "id": "dm1090366549203",
@@ -20379,6 +20705,174 @@
    ],
    "first_seen": "2026-10-01",
    "is_new": false
+  },
+  {
+   "id": "dm1089292458721",
+   "source": "大麦",
+   "kind": "展览",
+   "title": "VR沉浸式体验--《时空谜局恐龙危机通票》| 节假日可用",
+   "venue": "滨港商业中心-曜时空VR影乐园(L7)(四川北路939号)",
+   "shop": "滨港商业中心-曜时空VR影乐园(L7)",
+   "place": "",
+   "city": "上海",
+   "date_text": "2026.10.11-11.30",
+   "date": "2026-10-11",
+   "date_end": "2026-11-30",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01IkUKJz2GdSgtLIQQn_!!2251059038.png",
+   "price": "88-299",
+   "tags": [
+    "VR"
+   ],
+   "url": "https://m.damai.cn/shows/item.html?id=1089292458721",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=1089292458721"
+    }
+   ],
+   "first_seen": "2026-11-05",
+   "is_new": true
+  },
+  {
+   "id": "dm1088382295206",
+   "source": "大麦",
+   "kind": "展览",
+   "title": "小时代·假面灯火XR电影",
+   "venue": "滨港商业中心-曜时空VR影乐园(L7)(四川北路939号)",
+   "shop": "滨港商业中心-曜时空VR影乐园(L7)",
+   "place": "",
+   "city": "上海",
+   "date_text": "2026.10.11-11.30",
+   "date": "2026-10-11",
+   "date_end": "2026-11-30",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN01qsKKv82GdSnYYLaFx_!!2251059038.jpg",
+   "price": "69-238",
+   "tags": [
+    "VR"
+   ],
+   "url": "https://m.damai.cn/shows/item.html?id=1088382295206",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=1088382295206"
+    }
+   ],
+   "first_seen": "2026-11-05",
+   "is_new": true
+  },
+  {
+   "id": "dm1089289746187",
+   "source": "大麦",
+   "kind": "展览",
+   "title": "《地心游记》VR沉浸式体验|致敬科幻小说之父”凡尔纳",
+   "venue": "滨港商业中心-曜时空VR影乐园(L7)(四川北路939号)",
+   "shop": "滨港商业中心-曜时空VR影乐园(L7)",
+   "place": "",
+   "city": "上海",
+   "date_text": "2026.10.11-11.30",
+   "date": "2026-10-11",
+   "date_end": "2026-11-30",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN0128Hzqd2GdSnYliJL5_!!2251059038.jpg",
+   "price": "129-399",
+   "tags": [
+    "VR"
+   ],
+   "url": "https://m.damai.cn/shows/item.html?id=1089289746187",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=1089289746187"
+    }
+   ],
+   "first_seen": "2026-11-05",
+   "is_new": true
+  },
+  {
+   "id": "dm1091421964564",
+   "source": "大麦",
+   "kind": "展览",
+   "title": "《鬼吹灯精绝古城》XR沉浸式体验",
+   "venue": "滨港商业中心-曜时空VR影乐园(L7)(四川北路939号)",
+   "shop": "滨港商业中心-曜时空VR影乐园(L7)",
+   "place": "",
+   "city": "上海",
+   "date_text": "2026.10.11-11.30",
+   "date": "2026-10-11",
+   "date_end": "2026-11-30",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN017gfg8e2GdSnVV7PCu_!!2251059038.png",
+   "price": "148-276",
+   "tags": [
+    "VR"
+   ],
+   "url": "https://m.damai.cn/shows/item.html?id=1091421964564",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=1091421964564"
+    }
+   ],
+   "first_seen": "2026-11-05",
+   "is_new": true
+  },
+  {
+   "id": "dm1090372881881",
+   "source": "大麦",
+   "kind": "展览",
+   "title": "《诗词盛会》VR沉浸式体验",
+   "venue": "滨港商业中心-曜时空VR影乐园(L7)(四川北路939号)",
+   "shop": "滨港商业中心-曜时空VR影乐园(L7)",
+   "place": "",
+   "city": "上海",
+   "date_text": "2026.10.11-11.30",
+   "date": "2026-10-11",
+   "date_end": "2026-11-30",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN012bLgs62GdSlROyixo_!!2251059038.jpg",
+   "price": "88-158",
+   "tags": [
+    "VR"
+   ],
+   "url": "https://m.damai.cn/shows/item.html?id=1090372881881",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=1090372881881"
+    }
+   ],
+   "first_seen": "2026-11-05",
+   "is_new": true
+  },
+  {
+   "id": "dm950058529191",
+   "source": "大麦",
+   "kind": "展览",
+   "title": "「生命的纪元 Life Chronicles」沉浸式探索体验（兴业太古汇）",
+   "venue": "博新全宇宙The VERS沉浸式探索中心(静安区南京西路789号兴业太古汇LG2层LG216)",
+   "shop": "博新全宇宙The VERS沉浸式探索中心",
+   "place": "",
+   "city": "上海",
+   "date_text": "2025.07.10-2027.05.31",
+   "date": "2025-07-10",
+   "date_end": "2027-05-31",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN013Amq2p2GdSiDQJAXt_!!2251059038.png",
+   "price": "198-558",
+   "tags": [
+    "VR"
+   ],
+   "url": "https://m.damai.cn/shows/item.html?id=950058529191",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=950058529191"
+    }
+   ],
+   "first_seen": "2026-11-05",
+   "is_new": true
   },
   {
    "id": "dm1082653501939",
@@ -20633,34 +21127,6 @@
    "is_new": false
   },
   {
-   "id": "dm1018996551284",
-   "source": "大麦",
-   "kind": "展览",
-   "title": "杭州·《神工伞匠》沉浸式XR体验空间",
-   "venue": "杭州工美XR体验空间(小河路336号中国刀剪剑博物馆大厅正大门入口边（服务台对面）)",
-   "shop": "杭州工美XR体验空间",
-   "place": "",
-   "city": "杭州",
-   "date_text": "2026.04.04-12.31",
-   "date": "2026-04-04",
-   "date_end": "2026-12-31",
-   "status": "去购票",
-   "poster": "https://img.alicdn.com/bao/uploaded/i2/2251059038/O1CN01IEyfqa2GdSmDE6Ukz_!!4611686018427383646-0-item_pic.jpg",
-   "price": "58-118",
-   "tags": [
-    "实景互动"
-   ],
-   "url": "https://m.damai.cn/shows/item.html?id=1018996551284",
-   "links": [
-    {
-     "source": "大麦",
-     "url": "https://m.damai.cn/shows/item.html?id=1018996551284"
-    }
-   ],
-   "first_seen": "2026-10-01",
-   "is_new": false
-  },
-  {
    "id": "dm1091261157315",
    "source": "大麦",
    "kind": "展览",
@@ -20687,34 +21153,6 @@
    ],
    "first_seen": "2026-10-13",
    "is_new": false
-  },
-  {
-   "id": "dm1097007104377",
-   "source": "大麦",
-   "kind": "展览",
-   "title": "杭州·中国皮影《一梦华胥》沉浸式光影展",
-   "venue": "M511光影汇1号厅(浙江省杭州市西湖区M511光影汇2号楼2楼1号厅)",
-   "shop": "M511光影汇1号厅",
-   "place": "",
-   "city": "杭州",
-   "date_text": "2026.11.05-11.29",
-   "date": "2026-11-05",
-   "date_end": "2026-11-29",
-   "status": "去购票",
-   "poster": "https://img.alicdn.com/bao/uploaded/i3/2251059038/O1CN01NStqeOOZqxH1CGw5_!!4611686018427383646-0-item_pic.jpg",
-   "price": "69-108",
-   "tags": [
-    "展览活动"
-   ],
-   "url": "https://m.damai.cn/shows/item.html?id=1097007104377",
-   "links": [
-    {
-     "source": "大麦",
-     "url": "https://m.damai.cn/shows/item.html?id=1097007104377"
-    }
-   ],
-   "first_seen": "2026-11-04",
-   "is_new": true
   },
   {
    "id": "dm1092244556238",
@@ -20773,6 +21211,34 @@
    "is_new": false
   },
   {
+   "id": "dm1018996551284",
+   "source": "大麦",
+   "kind": "展览",
+   "title": "杭州·《神工伞匠》沉浸式XR体验空间",
+   "venue": "杭州工美XR体验空间(小河路336号中国刀剪剑博物馆大厅正大门入口边（服务台对面）)",
+   "shop": "杭州工美XR体验空间",
+   "place": "",
+   "city": "杭州",
+   "date_text": "2026.04.04-12.31",
+   "date": "2026-04-04",
+   "date_end": "2026-12-31",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/i2/2251059038/O1CN01IEyfqa2GdSmDE6Ukz_!!4611686018427383646-0-item_pic.jpg",
+   "price": "58-118",
+   "tags": [
+    "实景互动"
+   ],
+   "url": "https://m.damai.cn/shows/item.html?id=1018996551284",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=1018996551284"
+    }
+   ],
+   "first_seen": "2026-10-01",
+   "is_new": false
+  },
+  {
    "id": "dm1079988635455",
    "source": "大麦",
    "kind": "展览",
@@ -20798,34 +21264,6 @@
     }
    ],
    "first_seen": "2026-10-16",
-   "is_new": false
-  },
-  {
-   "id": "dm1059631825238",
-   "source": "大麦",
-   "kind": "展览",
-   "title": "《灰色博物馆一让情绪被看见》沉浸式心灵治愈展",
-   "venue": "灰色博物馆(杭州西湖店)(浙江省杭州市上城区解百A座五楼灰色博物馆（杭州西湖店）)",
-   "shop": "灰色博物馆(杭州西湖店)",
-   "place": "",
-   "city": "杭州",
-   "date_text": "2026.06.17-12.31",
-   "date": "2026-06-17",
-   "date_end": "2026-12-31",
-   "status": "去购票",
-   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01bkwgCI2GdSn2B2iDe_!!2251059038.jpg",
-   "price": "29.9-89.7",
-   "tags": [
-    "展览展会"
-   ],
-   "url": "https://m.damai.cn/shows/item.html?id=1059631825238",
-   "links": [
-    {
-     "source": "大麦",
-     "url": "https://m.damai.cn/shows/item.html?id=1059631825238"
-    }
-   ],
-   "first_seen": "2026-10-01",
    "is_new": false
   },
   {
@@ -20857,6 +21295,34 @@
    "is_new": false
   },
   {
+   "id": "dm1059631825238",
+   "source": "大麦",
+   "kind": "展览",
+   "title": "《灰色博物馆一让情绪被看见》沉浸式心灵治愈展",
+   "venue": "灰色博物馆(杭州西湖店)(浙江省杭州市上城区解百A座五楼灰色博物馆（杭州西湖店）)",
+   "shop": "灰色博物馆(杭州西湖店)",
+   "place": "",
+   "city": "杭州",
+   "date_text": "2026.06.17-12.31",
+   "date": "2026-06-17",
+   "date_end": "2026-12-31",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01bkwgCI2GdSn2B2iDe_!!2251059038.jpg",
+   "price": "29.9-89.7",
+   "tags": [
+    "展览展会"
+   ],
+   "url": "https://m.damai.cn/shows/item.html?id=1059631825238",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=1059631825238"
+    }
+   ],
+   "first_seen": "2026-10-01",
+   "is_new": false
+  },
+  {
    "id": "dm1092102422123",
    "source": "大麦",
    "kind": "展览",
@@ -20882,34 +21348,6 @@
     }
    ],
    "first_seen": "2026-10-19",
-   "is_new": false
-  },
-  {
-   "id": "dm1063868132386",
-   "source": "大麦",
-   "kind": "展览",
-   "title": "《星空下的花海》沉浸式光影大展｜单人票",
-   "venue": "杭州西湖星空艺术馆(杭州市上城区解百A座5楼)",
-   "shop": "杭州西湖星空艺术馆",
-   "place": "",
-   "city": "杭州",
-   "date_text": "2026.07.01-2027.08.31",
-   "date": "2026-07-01",
-   "date_end": "2027-08-31",
-   "status": "去购票",
-   "poster": "https://img.alicdn.com/bao/uploaded/i4/2251059038/O1CN01sF9LyB2GdSnCRFnCD_!!4611686018427383646-2-item_pic.png",
-   "price": "39.9",
-   "tags": [
-    "潮流展"
-   ],
-   "url": "https://m.damai.cn/shows/item.html?id=1063868132386",
-   "links": [
-    {
-     "source": "大麦",
-     "url": "https://m.damai.cn/shows/item.html?id=1063868132386"
-    }
-   ],
-   "first_seen": "2026-10-01",
    "is_new": false
   },
   {
@@ -20966,6 +21404,34 @@
     }
    ],
    "first_seen": "2026-10-19",
+   "is_new": false
+  },
+  {
+   "id": "dm1063868132386",
+   "source": "大麦",
+   "kind": "展览",
+   "title": "《星空下的花海》沉浸式光影大展｜单人票",
+   "venue": "杭州西湖星空艺术馆(杭州市上城区解百A座5楼)",
+   "shop": "杭州西湖星空艺术馆",
+   "place": "",
+   "city": "杭州",
+   "date_text": "2026.07.01-2027.08.31",
+   "date": "2026-07-01",
+   "date_end": "2027-08-31",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/i4/2251059038/O1CN01sF9LyB2GdSnCRFnCD_!!4611686018427383646-2-item_pic.png",
+   "price": "39.9",
+   "tags": [
+    "潮流展"
+   ],
+   "url": "https://m.damai.cn/shows/item.html?id=1063868132386",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=1063868132386"
+    }
+   ],
+   "first_seen": "2026-10-01",
    "is_new": false
   },
   {
@@ -21106,7 +21572,7 @@
     }
    ],
    "first_seen": "2026-11-04",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "dm1097561301025",
@@ -21134,7 +21600,7 @@
     }
    ],
    "first_seen": "2026-11-04",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "dm1095524939321",
@@ -21162,6 +21628,34 @@
     }
    ],
    "first_seen": "2026-11-04",
+   "is_new": false
+  },
+  {
+   "id": "dm1095259091410",
+   "source": "大麦",
+   "kind": "展览",
+   "title": "《寻窟XUNKU》沉浸体验数字艺术展｜全景沉浸电影 数字生命 交互装置",
+   "venue": "白马湖国际会展中心A馆(长江路336号)",
+   "shop": "白马湖国际会展中心A馆",
+   "place": "",
+   "city": "杭州",
+   "date_text": "2026.11.05-11.09",
+   "date": "2026-11-05",
+   "date_end": "2026-11-09",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/i4/2251059038/O1CN01O6PFmwOGiIJ1Rkwp_!!4611686018427383646-0-item_pic.jpg",
+   "price": "49-188",
+   "tags": [
+    "艺术展"
+   ],
+   "url": "https://m.damai.cn/shows/item.html?id=1095259091410",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=1095259091410"
+    }
+   ],
+   "first_seen": "2026-11-05",
    "is_new": true
   },
   {
@@ -21246,6 +21740,34 @@
     }
    ],
    "first_seen": "2026-11-04",
+   "is_new": false
+  },
+  {
+   "id": "dm1095475611126",
+   "source": "大麦",
+   "kind": "展览",
+   "title": "2027余姚出口跨境电商产业及配套博览会",
+   "venue": "中塑国际会展中心(舜达西路188号)",
+   "shop": "中塑国际会展中心",
+   "place": "",
+   "city": "宁波",
+   "date_text": "2027.05.27-05.30",
+   "date": "2027-05-27",
+   "date_end": "2027-05-30",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01VhZGD4JI2BE24P4m_!!2251059038.png",
+   "price": "1.99-39.9",
+   "tags": [
+    "展览展会"
+   ],
+   "url": "https://m.damai.cn/shows/item.html?id=1095475611126",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=1095475611126"
+    }
+   ],
+   "first_seen": "2026-11-05",
    "is_new": true
   },
   {
@@ -21333,34 +21855,6 @@
    "is_new": false
   },
   {
-   "id": "dm1066495030570",
-   "source": "大麦",
-   "kind": "展览",
-   "title": "IAM 双展联看：《界面：2049》《刺猬的优雅》",
-   "venue": "虹·美术馆(苏州工业园区四季路1号李公堤四期17号)",
-   "shop": "虹·美术馆",
-   "place": "",
-   "city": "苏州",
-   "date_text": "2026.10.23-11.22",
-   "date": "2026-10-23",
-   "date_end": "2026-11-22",
-   "status": "去购票",
-   "poster": "https://img.alicdn.com/bao/uploaded/i1/2251059038/O1CN01FmePmGu9cVG2VLLD_!!4611686018427383646-2-item_pic.png",
-   "price": "34-156",
-   "tags": [
-    "艺术展"
-   ],
-   "url": "https://m.damai.cn/shows/item.html?id=1066495030570",
-   "links": [
-    {
-     "source": "大麦",
-     "url": "https://m.damai.cn/shows/item.html?id=1066495030570"
-    }
-   ],
-   "first_seen": "2026-10-22",
-   "is_new": false
-  },
-  {
    "id": "dm1095207334404",
    "source": "大麦",
    "kind": "展览",
@@ -21414,6 +21908,34 @@
     }
    ],
    "first_seen": "2026-10-08",
+   "is_new": false
+  },
+  {
+   "id": "dm1066495030570",
+   "source": "大麦",
+   "kind": "展览",
+   "title": "IAM 双展联看：《界面：2049》《刺猬的优雅》",
+   "venue": "虹·美术馆(苏州工业园区四季路1号李公堤四期17号)",
+   "shop": "虹·美术馆",
+   "place": "",
+   "city": "苏州",
+   "date_text": "2026.10.23-11.22",
+   "date": "2026-10-23",
+   "date_end": "2026-11-22",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/i1/2251059038/O1CN01FmePmGu9cVG2VLLD_!!4611686018427383646-2-item_pic.png",
+   "price": "34-156",
+   "tags": [
+    "艺术展"
+   ],
+   "url": "https://m.damai.cn/shows/item.html?id=1066495030570",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=1066495030570"
+    }
+   ],
+   "first_seen": "2026-10-22",
    "is_new": false
   },
   {
@@ -21499,6 +22021,34 @@
    ],
    "first_seen": "2026-11-03",
    "is_new": false
+  },
+  {
+   "id": "dm1098317944380",
+   "source": "大麦",
+   "kind": "展览",
+   "title": "张杰 未•LIVE -「开往1982」沉浸VR Show",
+   "venue": "南京百丽宫影城(CINITY LED国金中心店)(南京市建邺区江东中路345号国金中心商场3楼)",
+   "shop": "南京百丽宫影城(CINITY LED国金中心店)",
+   "place": "",
+   "city": "南京",
+   "date_text": "2026.11.13-11.22",
+   "date": "2026-11-13",
+   "date_end": "2026-11-22",
+   "status": "去购票",
+   "poster": "https://img.alicdn.com/bao/uploaded/i4/2251059038/O1CN01g3GbTa1IgFG48o9Y_!!4611686018427383646-0-item_pic.jpg",
+   "price": "179",
+   "tags": [
+    "VR"
+   ],
+   "url": "https://m.damai.cn/shows/item.html?id=1098317944380",
+   "links": [
+    {
+     "source": "大麦",
+     "url": "https://m.damai.cn/shows/item.html?id=1098317944380"
+    }
+   ],
+   "first_seen": "2026-11-05",
+   "is_new": true
   },
   {
    "id": "dm1092088706334",
@@ -21901,8 +22451,8 @@
    "shop": "濮院时尚古镇",
    "place": "",
    "city": "嘉兴",
-   "date_text": "2026.11.04-11.08",
-   "date": "2026-11-04",
+   "date_text": "2026.11.05-11.08",
+   "date": "2026-11-05",
    "date_end": "2026-11-08",
    "status": "去购票",
    "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01w3T6853UaMF24P4m_!!2251059038.jpg",
@@ -21946,7 +22496,7 @@
     }
    ],
    "first_seen": "2026-11-04",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "dm1088737151739",
